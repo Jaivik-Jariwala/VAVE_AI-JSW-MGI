@@ -1,12 +1,15 @@
-flask==2.3.3
-pandas==2.2.2
-numpy==1.26.4
-torch==2.4.0
-transformers==4.44.2
-gTTS==2.5.1
-python-pptx==1.0.2
-markdown==3.7
-beautifulsoup4==4.12.3
-flask-cors==4.0.1
-sentence-transformers==3.0.1
-faiss-cpu==1.8.0
+
+# Other required libraries
+flask
+flask-cors
+pandas
+numpy
+openpyxl
+gtts
+markdown
+beautifulsoup4
+faiss-cpu
+transformers
+sentence-transformers
+python-pptx
+concurrent-log-handler

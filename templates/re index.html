@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAVE-AI Cost Reduction Analysis</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>VAVE-AI Cost Reduction Analysis</h1>
+    </header>
+    <main class="container">
+        <section class="stats">
+            <div class="stat-box">
+                <h3>Total Ideas</h3>
+                <p id="total-ideas">Loading...</p>
+            </div>
+            <div class="stat-box">
+                <h3>Total Savings</h3>
+                <p id="total-savings">Loading...</p>
+            </div>
+            <div class="stat-box">
+                <h3>Approved (OK)</h3>
+                <p id="ok-count">Loading...</p>
+            </div>
+            <div class="stat-box">
+                <h3>In Review (TBD)</h3>
+                <p id="tbd-count">Loading...</p>
+            </div>
+            <div class="stat-box">
+                <h3>Rejected (NG)</h3>
+                <p id="ng-count">Loading...</p>
+            </div>
+        </section>
+        <section class="input-area">
+            <input type="text" id="userInput" placeholder="Enter your query (e.g., 'cost reduction ideas for brakes')">
+            <input type="file" id="imageInput" accept="image/*">
+            <img id="preview" src="" alt="Image Preview">
+            <div class="buttons">
+                <button id="chat-btn">Send Query</button>
+                <button id="upload-btn">Upload Image</button>
+            </div>
+        </section>
+        <section id="result"></section>
+    </main>
+    <div id="notification"></div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
