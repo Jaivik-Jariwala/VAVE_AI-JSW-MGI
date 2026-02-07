@@ -1,0 +1,127 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg cost of PC-ABS = INR 311.17
+2. The Per Kg cost of ABS = INR 165.45
+3. The Per Sq.M cost of chrome plating = INR 129.14
+4. The weight saved de-contenting the holder trim = 39.16g
+5. The cost saved = INR 12.18
+6. The estimated weight of the proposed edge trim = 15g
+7. The estimated cost = INR 2.48
+8. The estimated surface area = 0.00249755 m2
+9. The Chrome Plating cost = INR 0.32
+
+10. The estimated weight saved = 39.16 - 15 = 24.16g
+11. The estimated cost saved = 12.18 - (2.48 + 0.32) = 12.18 - 2.8 = INR 9.38",nan,INR 132.0,0.02,TBD,nan,nan,2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",nan,INR 132.0,nan,nan
+2311-IT-ID-22,Replace PP-T20 used in the manufacture of the Third Row LH & RH Cup Holders with PP,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 - INR 200
+2. Per Kg rate of PP - INR 180
+3. The current weight of the LH trim - 343g
+4. The estimated weight of the trim proposed - 328.5g
+5. The estimated weight saved = 343 - 328.5 = 14.5g
+6. The current weight of the RH trim - 379g
+7. The estimated weight of the trim proposed - 363g
+8. The estimated weight saved = 379 - 363 = 16g
+9. The current cost of the LH trim - INR 68.6
+10. The estimated cost of the trim proposed - INR 59.13
+11. The estimated cost saved = 68.6 - 59.13 = INR 9.47
+12. The current cost of the RH trim - INR 75.8
+13. The estimated cost of the trim proposed - INR 65.34
+14. The estimated cost saved on both ends = 75.8 - 65.34 = INR 10.46
+
+15. The total weight saved = 14.5 + 16 = 30.5g
+16. The total cost saved = 9.47 + 10.46 = INR 19.93",nan,INR 42.0,0.03,TBD,nan,nan,2311-IT-ID-22,Replace PP-T20 used in the manufacture of the Third Row LH & RH Cup Holders with PP,nan,INR 42.0,nan,nan
+2311-IP-ID-04,Replace ABS with PP-T20 in the manufacture of the Front-Row Handrest Rear Trim,NaN,INR 11.39,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the trim - 140g
+4. The estimated weight of the proposed trim - 143.96g
+5. The estimated weight saved - Nil
+6. The current cost of the trim - INR 42
+7. The estimated cost of the proposed trim - INR 28.6
+8. The estimated weight saved = 42 - 28.6 = INR 13.4 - 15% tolerance = INR 11.39",nan,INR 87.0,0.00,NG,nan,LC,2311-IP-ID-04,Replace ABS with PP-T20 in the manufacture of the Front-Row Handrest Rear Trim,nan,INR 87.0,nan,nan
+2311-SS-ID-04,Substitute the leather upholstery on the left-hand (LH) and right-hand (RH) sides of the third-row seat bases with the same fabric utilized on the LH and RH sides of the corresponding backrests,NaN,INR 0.0,Check for combined business case,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M price of leather - INR 250 (assumed)
+2. Per Sq.M price of fabric (polyester) - INR 160 (assumed)
+3. Surface Area of the piece - 0.033M^2
+4. The current weight of the piece - 60g (assumed)
+5. The estimated weight of the proposed piece - 35g (assumed)
+6. The estimated weight saved = 25*2 (LH&RH) = 50g
+7. The current cost of the piece - INR 8.25
+8. The estimated cost of the proposed piece - INR 5.28
+9. The estimated cost saved = 2.97*2 (LH&RH) = INR 5.94",nan,INR 48.0,0.05,NG,Finance,LC,2311-SS-ID-04,Substitute the leather upholstery on the left-hand (LH) and right-hand (RH) sides of the third-row seat bases with the same fabric utilized on the LH and RH sides of the corresponding backrests,Check for combined business case,INR 48.0,Kalp,2023-11-10 00:00:00
+2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the LHS Trim - 152.7g
+4. The estimated weight of the proposed trim - 147.09g
+5. The current weight of the RHS Trim - 393.4g
+6. The estimated weight of the proposed trim - 378.9g
+7. The total weight saved = (152.7 - 147.09) + (393.4 + 378.9) = 5.61 + 14.5 = 20.11g
+8. The current cost of the LHS Trim - INR 47.51
+9. The estimated cost of the proposed trim - INR 24.33
+10. The current cost of the RHS Trim - INR 122.41
+11. The estimated cost of the proposed trim - INR 62.68
+12. The total cost saved = (47.51 - 24.33) + (122.41 - 62.68) = 23.18 + 59.73 = INR 82.91 - 15% tolerance = INR 70.47",nan,INR 60.0,0.02,TBD,Finance,KD,2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 60.0,Kalp,nan
+2311-IP-ID-02,Replace PC+ABS/TPU used in the manufacture of the Centre Console Bottle Holder Trim with PP,NaN,INR 0.0,Supplier evalutiaon,"The evaluation is done before teardown, the values will change after the costing,
+Considering TPU as the rubber-like components covering the holder which could be kept on,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of PP - INR 130.35
+3. The current weight of the holder - 100g
+4. The estimated weight of the proposed holder - 86.36g
+5. The estimated weight saved = 100 - 86.36 = 13.64g
+6. The current cost of the holder - INR 31.11
+4. The estimated cost of the proposed holder - INR 11.25
+5. The estimated cost saved = 31.11 - 11.25 = INR 19.86",nan,INR 87.0,0.01,TBD,PE,KD,2311-IP-ID-02,Replace PC+ABS/TPU used in the manufacture of the Centre Console Bottle Holder Trim with PP,Supplier evalutiaon,INR 87.0,Narendra,2024-02-22 00:00:00
+2311-EL-ID-17,Replace the oxygen sensors used in MGI with the oxygen sensors used in KIA,NaN,INR 0.0,"Homeroom ideas to be bunched up and taken up for implementation at program level
+","The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the current oxygen sensors - INR 897.19
+2. The current weight - 100g
+3. The cost of the proposed oxygen sensors - INR 785.22
+4. The estimated weight - 91g
+
+5. The estimated cost saved on a pair = 897.19 - 785.22 = 111.97*2 = (223.94 - 15% tolerance) = INR 190.34
+6. The estimated weight saved on a pair = 100 - 91 = 9*2 = 18g",nan,INR 139.0,0.02,Hold,PE,KD,2311-EL-ID-17,Replace the oxygen sensors used in MGI with the oxygen sensors used in KIA,"Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 139.0,Manish Jaju,2024-02-20 00:00:00
+2311-DA-ID-34,Replace the Door Lock Request Sensor Assemblies used in MGI with the one used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the sensor assembly from 'SAIC GM WULING AUTOMOBILE CO LIMITED' - INR 278.86
+2. The current weight - 25.74g
+3. The cost of the horn system from 'HYUNDAI GLOVIS CO LIMITED' - INR 181.71
+4. The estimated weight - 30.01g
+
+5. The estimated cost saved on a pair = 278.86 - 181.71 = 97.15*2 = INR 194.3 - 15% tolerance = INR 165.15
+6. The estimated weight saved - Nil",nan,INR 100.0,0.00,TBD,nan,nan,2311-DA-ID-34,Replace the Door Lock Request Sensor Assemblies used in MGI with the one used in KIA,nan,INR 100.0,nan,nan
+2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,NaN,INR 91.35,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the front trim - 290.06g
+4. The estimated weight of the proposed front trim - 263.4g
+5. The estimated weight savings on both front trims = 290.06 - 263.4 = 26.6*2 = 53.32g
+6. The current weight of the rear trim - 292.86g
+7. The estimated weight of the proposed rear trim - 266.01g
+8. The estimated weight savings on both rear trims = 292.86 - 266.01 = 26.85*2 = 53.7g
+9. The cost of the front trim = INR 87.01
+10. The estimated cost of the proposed front trim = INR 58.01
+11. The estimated cost savings on both front trims = 87.01 - 58.01 = 29*2 = INR 58
+12. The cost of the rear trim = INR 87.85
+13. The estimated cost of the proposed rear trim = INR 58.57
+14. The estimated cost savings on both rear trims = 87.8 - 58.57 = 29.23*2 = INR 58.4
+
+15. The estimated weight savings in total = 53.32 + 53.7 = 107g
+16. The estimated cost savings in total = 58 + 58.4 = INR 116.4
+17. Flaming Process Cost - INR 5 should be considered for each part
+18. Cost saved - 116.4 - 5*4 = INR 96.4",nan,INR 147.0,0.11,NG,nan,LC,2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,nan,INR 147.0,nan,nan
+2311-IP-ID-12,Replace PC-ABS used in the manufacture of Cup Holder Cover Mounts LH & RH within the IP assembly of MGI with standard ABS,NaN,INR 0.0,Supplier evalutiaon,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 91g
+4. The estimated weight of the proposed trim = 87.66g
+5. The estimated weight savings on both sides = 91 - 87.66 = 3.34*2 = 6.68g
+6. The current cost of the trim = INR 28.31
+7. The estimated cost of the proposed trim = INR 14.50
+8. The estimated cost savings on both sides = 28.31 - 14.50 = 13.81*2 = INR 27.62",nan,INR 76.0,0.01,TBD,PE,KD,2311-IP-ID-12,Replace PC-ABS used in the manufacture of Cup Holder Cover Mounts LH & RH within the IP assembly of MGI with standard ABS,Supplier evalutiaon,INR 76.0,Narendra,2024-02-22 00:00:00

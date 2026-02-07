@@ -1,0 +1,144 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-WT-ID-03,De-content the spare wheel provided with the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The combined weight of both the systems = 22380g (Including both the wheel and the holding mechanism)
+2. The estimated weight saved = 22380g
+3. The total combined cost of the assembly = INR 4635.84 (Including both the wheel and the holding mechanism)
+4. The estimated cost saved = INR 4635.84 - 15% tolerance = INR 3940.46",nan,INR 57.0,22.38,TBD,nan,nan,2311-WT-ID-03,De-content the spare wheel provided with the vehicle,nan,INR 57.0,nan,nan
+2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,NaN,INR 0.0,Confirm business case for 20mm reduction,"The cost savings will be updated once the costing is done.
+Cost savings : carpet
+1. Length of carpet = 1000mm (length will not change)
+2. Width of carpet to be reduce = 120mm (including front & rear sides) 
+3. Area of carpet to be reduce =  120000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 12
+Cost savings : fiberboard
+1. Length of fiberboard = 1000mm (length will not change)
+2. Width of fiberboard to be reduce = 60mm
+3. Area of fiberboard to be reduce =  60000mm2
+4. Cost per meter square of fiberboard = 150 INR/m2 (Assumption)
+5. Cost saving for fiberboard  = INR 9
+Total estimated cost saving = 12 + 9 = INR 21 (will be updated once costing is done)
+Tot estimated weight saving = 80 + 50 = 130 g (will be updated once TD is done)",nan,INR 89.0,0.09,TBD,Finance,KD,2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,Confirm business case for 20mm reduction,INR 89.0,Kalp,2024-02-14 00:00:00
+2311-PRODUCT-ID-23,Redesign the Tailgate Bumper Stops in MGI into an 'L' shape reducing the length from 74mm to 40mm,NaN,INR 0.0,"1. Confirm with homeroom
+2. Confirm for cost saving and tooling requirement.Homeroom ideas to be bunched up and taken up for implementation at program level
+","The evaluation is done before teardown, the values will change after the costing
+1. Per Kg rate of PA-66 - INR 450 (assumed)
+2. Current weight of the bumper stop - body frame - 99g
+3. Current cost of the bumper stop - INR 44.55
+4. Assumed weight of the proposed bumper stop - 70g
+5. The cost of the proposed bumper stop - INR 31.5
+6. The estimated weight saved - 99-70 = 29*2 = 58g (both ends)
+7. The estimated cost saved - 44.55 - 31.5 = 13.05*2 = INR 26.1 (both ends)
+
+8. Per Kg rate of bolts - INR 150
+9. Assumed weight of the proposed M4 bolts - 5*4 = 20g
+10. The estimated cost of the bolts - 0.75*4 = INR 3
+
+11. The total weight saved = 58 - 20 = 38g
+12. The total cost saved =  26.1 - 3 = INR 23.1",nan,INR 71.0,0.04,NG,PE/ Finance,KD,2311-PRODUCT-ID-23,Redesign the Tailgate Bumper Stops in MGI into an 'L' shape reducing the length from 74mm to 40mm,"1. Confirm with homeroom
+2. Confirm for cost saving and tooling requirement.Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 71.0,"1.Himanshu
+2. Sruhti",nan
+2311-ST-ID-06,Reduce the overall length and width of the rubber boots in MGI to match the dimensions of the similar rubber boots used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of EPDM - INR 500 (assumed)
+2. The current weight of the boot - 64g
+3. The estimated weight of the proposed boot - 48g
+4. The estimated weight saved = 64 - 48 = 16*2 = 24g
+5. The current cost of the boot - INR 32
+6. The estimated cost of the proposed boot - INR 24
+7. The estimated cost saved = 32 - 24 = 8*2 = INR 16",nan,INR 97.0,0.02,NG,nan,KD,2311-ST-ID-06,Reduce the overall length and width of the rubber boots in MGI to match the dimensions of the similar rubber boots used in KIA,nan,INR 97.0,nan,nan
+2311-PRODUCT-ID-07,De-content the plastic trims found protecting the top tethers from both sides of the seat as the tethers could be placed within the seat fabric itself and a slit on the same could facilitate easy access,NaN,INR 0.0,Confirm on no part nuber change to avoid homologation cost,"The evaluation is done before teardown, the values will change after costing.
+1. Per Kg cost of PC ABS - INR 311.17 (Material and cost assumed)
+2. Assumed weight of the trim - 42g 
+3. The estimated cost of the trim = INR 13.06
+4. Total weight of both the trims on LHS and RHS - 42*2 = 84g
+5. Total cost of both the trims - 13.06*2 = INR 26.13
+
+6. The estimated weight savings on both sides = 84g
+7. The estimated cost savings on both sides = INR 26.13",nan,INR 115.0,0.08,OK,PE,LC,2311-PRODUCT-ID-07,De-content the plastic trims found protecting the top tethers from both sides of the seat as the tethers could be placed within the seat fabric itself and a slit on the same could facilitate easy access,Confirm on no part nuber change to avoid homologation cost,INR 115.0,Nishant,2024-06-17 00:00:00
+2311-PRODUCT-ID-16,Replace fiberboard with velcro tape and carpet in the assembly,NaN,INR 0.0,Check for loss in functionality,"The cost savings will be updated once the costing is done.
+Cost savings: carpet
+1. Length of carpet = 1000mm 
+2. Width of carpet to be reduced = 170mm (rear side of board) 
+3. Area of carpet to be reduced = 170000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 17
+Cost savings: Fiberboard
+1. Length of fiberboard = 1000mm
+2. Width of fiberboard to be eliminated = 170mm
+3. Area of fiberboard to be eliminated = 170000mm2
+4. Cost per meter square of fiberboard = 150 INR/m2 (Assumption)
+5. Cost saving for fiberboard  = INR 25.5
+Costing saving: springs
+1. Weight of springs (3) = 8g
+2. Peg Kg cost of steel = INR 180 (assumption)
+3. The estimated cost saving = INR 1.44
+
+The cost for velcro tape needs to add:
+1. Length of velcro needed = 1000mm
+2. Cost per meter square of velcro tape = INR 20 (assumption)
+
+Total estimated cost saving = (17 + 25.5 + 1.44) - 20 = INR 23.94 (This will be updated once costing is done)
+Tot estimated weight saving = (30 + 120 +8) - 20 = 138 g (This will be updated once TD is done)",nan,INR 64.0,0.14,TBD,PE,KD,2311-PRODUCT-ID-16,Replace fiberboard with velcro tape and carpet in the assembly,Check for loss in functionality,INR 64.0,Narendra,2024-02-22 00:00:00
+2311-ET-ID-16,Reduce the wall thickness of the Front Wheel Arch Liners present on both LH and RH sides from 1.6mm to 1.4mm,NaN,INR 31.3,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP - INR 130.35
+2. The current weight of the front trim - 858g
+3. The estimated weight of the proposed front trim - 738g
+4. The estimated weight saved = 858 - 738 = 120*2 = 240g
+5. The current cost of the front trim - INR 111.84
+6. The estimated cost of the proposed front trim - INR 96.19
+7. The estimated cost saved = 111.84 - 96.19 = 15.65*2 = INR 31.3",nan,INR 92.0,0.24,NG,nan,LC,2311-ET-ID-16,Reduce the wall thickness of the Front Wheel Arch Liners present on both LH and RH sides from 1.6mm to 1.4mm,nan,INR 92.0,nan,nan
+2311-SP-ID-01,"1. Reduce the overall wall thickness of the Brake Dust Cover Plates present on all four wheel hubs of the vehicles from 1mm to 0.8mm
+2. Reduce the paint coating thickness on each side of all four plates from 56 microns to 27.8 microns",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of Steel - INR 80 (assumed)
+2. The current weight of the front LH & RH dust cover plates - 383g
+3. The estimated weight of the proposed plates - 260g (assumed)
+4. The estimated weight saved on both ends - 123*2 = 246g
+5. The current weight of the rear LH & RH dust cover plates - 391g
+6. The estimated weight of the proposed plates - 264g (assumed)
+7. The estimated weight saved on both ends - 127*2 = 254g
+8. The current cost of the front LH & RH dust cover plates - INR 30.6
+9. The estimated cost of the proposed plates - INR 20.8
+10. The estimated cost saved on both ends - 9.8*2 = INR 19.6
+11. The current cost of the rear LH & RH dust cover plates - INR 31.2
+12. The estimated cost of the proposed plates - INR 21.12
+13. The estimated cost saved on both ends - 10.08*2 = INR 20.16
+14. The total weight saved - 246 + 254 = 500g (assumed)
+15. The total cost saved - 19.6 + 20.16 = INR 39.32 (assumed)
+
+16. Coating Surface Area of Plate 1 (Front) - 120640mm2 - 0.12m2
+17. Coating Surface Area of Plate 2 (Rear) - 118048mm2 - 0.118m2
+18. Per Sq.M rate of 50-micron paint coating - INR 29.57
+19. Per Sq.M rate of 35-micron paint coating - INR 21.57
+20. The current coating cost for front plates = 3.54*2 = INR 7.09
+21. The coating cost for the proposed thickness = 2.58*2 = INR 5.17
+22. The current coating cost for rear plates = 3.48*2 = INR 6.97
+23. The coating cost for the proposed thickness = 2.54*2 = INR 5.09
+24. The estimated cost savings on the front and rear ends = (7.09 - 5.17) + (6.97 - 5.09) = INR 3.8
+
+25. The total cost saved = 39.32 + 3.8 = INR 43.12",nan,INR 57.0,0.50,NG,nan,LC,2311-SP-ID-01,"1. Reduce the overall wall thickness of the Brake Dust Cover Plates present on all four wheel hubs of the vehicles from 1mm to 0.8mm
+2. Reduce the paint coating thickness on each side of all four plates from 56 microns to 27.8 microns",nan,INR 57.0,nan,nan
+2311-ST-ID-02,Replace PC-ABS with ABS in the manufacture of the Steering Wheel Top Trim 2 since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 46.21g
+4. The estimated weight = 44.1g
+5. The estimated weight saved = 46.21 - 44.1 = 2.1g
+6. The current cost of the trim = INR 14.37
+7. The estimated cost = INR 7.29
+8. The estimated cost saved = 14.37 - 7.29 = INR 7.08",nan,INR 98.0,0.00,TBD,nan,nan,2311-ST-ID-02,Replace PC-ABS with ABS in the manufacture of the Steering Wheel Top Trim 2 since the finish could be achieved on ABS-made trims as well,nan,INR 98.0,nan,nan
+2311-ST-ID-04,"Reduce the length of the Iron Castings from 175mm to 110mm and Increase the length of the Rods to compensate instead, similar to the setup employed in KIA",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of Cast Iron - INR 180 (assumed)
+2. Per Kg rate of Steel - INR 180 (assumed)
+3. The current weight of the cast = 250g
+4. The estimated weight of the proposed cast = 150g
+5. The estimated weight saved = 250 - 150 = 100*2 (LH & RH) = 200g
+6. The current cost of the cast = INR 45
+7. The estimated cost of the proposed cast = INR 27
+8. The estimated cost saved = 45 - 27 = INR 18
+
+9. The estimated weight added on by the rod = 41.8g
+10. The estimated cost added on = INR 7.52
+
+11. The total weight saved = 100 - 41.8 = 58.2g
+12. The total cost saved = 18 - 7.52 = INR 10.48",nan,INR 122.0,0.06,NG,nan,KD,2311-ST-ID-04,"Reduce the length of the Iron Castings from 175mm to 110mm and Increase the length of the Rods to compensate instead, similar to the setup employed in KIA",nan,INR 122.0,nan,nan

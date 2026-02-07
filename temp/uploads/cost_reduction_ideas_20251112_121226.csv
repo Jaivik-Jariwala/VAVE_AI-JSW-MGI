@@ -1,0 +1,109 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-EL-ID-19,Replace PP-GF30 with standard PP in the manufacture of the Amplifier Cover present mounted onto the amplifier of the vehicle.,182.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-GF30 - INR 210 (assumed)
+2. Per Kg rate of PP - INR 180 (assumed)
+3. The current weight of the trim - 133.81g
+4. The estimated weight of the proposed trim - 110.6g
+5. The estimated weight saved = 133.81 - 110.6 = 23.21g
+6. The current cost of the trim - INR 28.10
+7. The estimated cost of the proposed trim - INR 19.90
+8. The estimated cost saved = 28.10 - 19.90 = INR 8.19",nan,INR 50.0,0.02,TBD,nan,nan,2311-EL-ID-19,Replace PP-GF30 with standard PP in the manufacture of the Amplifier Cover present mounted onto the amplifier of the vehicle.,nan,INR 50.0,nan,nan
+VAVE-SWI-081,2nd row 60% seat - Rear outer side plastic cover deletion (Small part),None,INR 5.0,nan,None,None,INR 0.0,0.00,NG,nan,"KD/LC    LC
+KD/LC    LC
+Name: 44, dtype: object",VAVE-SWI-081,2nd row 60% seat - Rear outer side plastic cover deletion (Small part),nan,INR 0.0,nan,nan
+2311-IP-ID-19,Replace the Thinsulate Acoustic Insulation used within the Dashboard and Control Panel for NVH restriction within MGI with Noiselite PP-PET Insulation as used in KIA,46.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Noiselite per square meter - INR 155.49
+3. The surface area of the control panel thinsulate - 0.226m2
+4. The current cost = INR 46.10
+5. The estimated cost after using noiselite instead = INR 35.14
+6. Total cost saved on both LH and RH sides = 46.10 - 35.14 = 10.96*2 (LH & RH) = INR 21.92
+7. The surface area of the dashboard panel thinsulate - 0.193m2
+8. The current cost = INR 39.37
+9. The estimated cost after using noiselite instead = INR 30
+10. Total cost saved = 39.37 - 30 = INR 9.37
+
+11. The total cost savings = 21.92 + 9.37 = INR 31.29
+12. The total weight savings = Nil",nan,INR 85.0,0.00,TBD,nan,nan,2311-IP-ID-19,Replace the Thinsulate Acoustic Insulation used within the Dashboard and Control Panel for NVH restriction within MGI with Noiselite PP-PET Insulation as used in KIA,nan,INR 85.0,nan,nan
+VAVE-SWI-068,Foam dual hardness to single hardness ,None,INR 0.0,nan,None,None,INR 0.0,0.00,NG,nan,"KD/LC    LC
+KD/LC    LC
+Name: 31, dtype: object",VAVE-SWI-068,Foam dual hardness to single hardness ,nan,INR 0.0,nan,nan
+2311-EL-ID-16,Replace the Keyless Entry Sensor Module from Continental used in MGI with the one used in KIA,18.jpg,INR 0.0,Confirm with homeroom on technical feasibility,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the antenna module from 'Continental' - INR 136.14
+2. The current weight - 48.5g
+3. The cost of the antenna module used in KIA - INR 74.68
+4. The estimated weight - 45.6g
+
+5. The estimated cost saved on three modules = 136.14 - 74.68 = 61.46*3 = INR 184.38 - 15% tolerance = INR 156.7
+6. The estimated weight saved on three modules = 48.5 - 45.6 = 2.9*3 = 8.7g",nan,INR 126.0,0.01,TBD,PE,KD,2311-EL-ID-16,Replace the Keyless Entry Sensor Module from Continental used in MGI with the one used in KIA,Confirm with homeroom on technical feasibility,INR 126.0,Ojaswini,TBC
+2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,109.jpg,INR 0.0,Confirm business case for 20mm reduction,"The cost savings will be updated once the costing is done.
+Cost savings : carpet
+1. Length of carpet = 1000mm (length will not change)
+2. Width of carpet to be reduce = 120mm (including front & rear sides) 
+3. Area of carpet to be reduce =  120000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 12
+Cost savings : fiberboard
+1. Length of fiberboard = 1000mm (length will not change)
+2. Width of fiberboard to be reduce = 60mm
+3. Area of fiberboard to be reduce =  60000mm2
+4. Cost per meter square of fiberboard = 150 INR/m2 (Assumption)
+5. Cost saving for fiberboard  = INR 9
+Total estimated cost saving = 12 + 9 = INR 21 (will be updated once costing is done)
+Tot estimated weight saving = 80 + 50 = 130 g (will be updated once TD is done)",nan,INR 89.0,0.09,TBD,Finance,KD,2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,Confirm business case for 20mm reduction,INR 89.0,Kalp,2024-02-14 00:00:00
+2311-ET-ID-02,Replace TPV (Thermoplastic Vulcanizate) with PE+HD (High-Density Polyethylene) in the manufacture of Wheel Well Deflectors mounted onto the wheel guards in MGI,19.jpg,INR 10.26,Check Feasibility,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of TPV = INR 300 (assumed)
+2. Per Kg rate of PE+HD = INR 200 (assumed)
+3. The current weight of the Deflector Trim - 45g
+4. The estimated weight of the proposed trim  - 41.85g
+5. The estimated weight saved on both LH & RH sides = 45 - 41.85 = 3.15*2 = 6.3g
+6. The current cost of the Deflector Trim - INR 13.5
+7. The estimated cost of the proposed trim  - INR 8.37
+8. The estimated cost saved on both LH & RH sides = 13.5 - 8.37 = 5.13*2 = INR 10.26",nan,INR 108.0,0.01,NG,PE/ Purchase,LC,2311-ET-ID-02,Replace TPV (Thermoplastic Vulcanizate) with PE+HD (High-Density Polyethylene) in the manufacture of Wheel Well Deflectors mounted onto the wheel guards in MGI,Check Feasibility,INR 108.0,Vikrant/Chirag,2023-11-10 00:00:00
+2311-PRODUCT-ID-12,Decrease the width of the carpet by 100mm from the lower edge on the rear side of the trunk liner flap.,11.jpg,INR 0.0,Confirm supplier feasibility in LC part for 5 seater,"The cost savings will be updated once the costing is done.
+Cost savings : carpet
+1. Total length of carpet = 1000mm
+2. Width of carpet to be reduce = 100mm
+3. Area of carpet to be reduce =  100000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 10
+
+Total estimated cost saving = INR 10 (will be updated once costing is done)
+Tot estimated weight saving = 40 = 40 g (will be updated once TD is done)",nan,INR 90.0,0.08,TBD,PSCM,LC,2311-PRODUCT-ID-12,Decrease the width of the carpet by 100mm from the lower edge on the rear side of the trunk liner flap.,Confirm supplier feasibility in LC part for 5 seater,INR 90.0,Akhil,2024-06-28 00:00:00
+2311-EL-ID-22,Replace the Closed (Mini) Fuses used within the Driver-Side Fuse Box of the vehicle with Open (Mini) Fuses,185.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per piece rate of 10Amp Closed Fuses = INR 69.48
+2. The per piece rate of 15Amp Closed Fuses = INR 76.38
+3. The per piece rate of 20Amp Closed Fuses = INR 82.30
+4. The per piece rate of 25Amp Closed Fuses = INR 77.01
+5. The per piece rate of 30Amp Closed Fuses = INR 81.24
+6. The per piece rate of 10Amp Open Fuses = INR 20.52
+7. The per piece rate of 15Amp Open Fuses = INR 19.10
+8. The per piece rate of 20Amp Open Fuses = INR 19.77
+9. The per piece rate of 25Amp Open Fuses = INR 25.27
+10. The per piece rate of 30Amp Open Fuses = INR 21.79
+11. The current total cost of the 10Amp Fuses = INR 1042.2
+12. The estimated total cost of the proposed 10Amp Fuses = INR 307.8
+13. The estimated cost saved = 1042.2 - 307.8 = INR 734.4 - 30% Tolerance = INR 514.08
+14. The current total cost of the 15Amp Fuses = INR 687.42
+15. The estimated total cost of the proposed 15Amp Fuses = INR 171.9
+16. The estimated cost saved = 687.42 - 171.9 = INR 515.52 - 30% Tolerance = INR 360.68
+17. The current total cost of the 20Amp Fuses = INR 82.30
+18. The estimated total cost of the proposed 20Amp Fuses = INR 19.77
+19. The estimated cost saved = 82.30 - 19.77 = INR 62.53 - 30% Tolerance = INR 43.77
+20. The current total cost of the 25Amp Fuses = INR 77.01
+21. The estimated total cost of the proposed 25Amp Fuses = INR 25.27
+22. The estimated cost saved = 77.01 - 25.27 = INR 51.74 - 30% Tolerance = INR 36.21
+23. The current total cost of the 30Amp Fuses = INR 162.48
+24. The estimated total cost of the proposed 30Amp Fuses = INR 43.58
+25. The estimated cost saved = 162.48 - 43.58 = INR 118.9 - 30% Tolerance = INR 83.23
+
+26. The estimated weight saved = 0.61 - 0.54 = 0.07*28 = 1.96g
+27. The estimated cost saved = 514.08 + 360.68 + 43.77 + 36.21 + 83.23 = INR 1037.97",nan,INR 111.0,0.00,TBD,nan,nan,2311-EL-ID-22,Replace the Closed (Mini) Fuses used within the Driver-Side Fuse Box of the vehicle with Open (Mini) Fuses,nan,INR 111.0,nan,nan
+2311-EL-ID-01,Replace the 16-pin connector set used on the IRVM assembly with an 8-pin connector set.,168.jpg,INR 0.0,Confirm on 10 pin connector availability with supplier (similar to Kia),"The evaluation is done before teardown, the values will change after the costing.
+1. Current weight of the connector set - 8 + 6 = 14g (assumed)
+2. The estimated weight of the proposed set - 5 + 4 = 9g (assumed)
+3. Current cost of the connector set - 20 + 20 = INR 40 (assumed)
+4. The estimated cost of the proposed set  - 12 + 12 = INR 24 (assumed)
+
+5. The weight saved on the replacement = 14 - 9 = 5g
+6. The cost saved on the replacement = 40 - 24 = INR 16",nan,INR 142.0,0.01,NG,PE,LC,2311-EL-ID-01,Replace the 16-pin connector set used on the IRVM assembly with an 8-pin connector set.,Confirm on 10 pin connector availability with supplier (similar to Kia),INR 142.0,Narendra,2023-11-24 00:00:00

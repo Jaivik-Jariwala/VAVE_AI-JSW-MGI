@@ -1,0 +1,109 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-IP-ID-19,Replace the Thinsulate Acoustic Insulation used within the Dashboard and Control Panel for NVH restriction within MGI with Noiselite PP-PET Insulation as used in KIA,46.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Noiselite per square meter - INR 155.49
+3. The surface area of the control panel thinsulate - 0.226m2
+4. The current cost = INR 46.10
+5. The estimated cost after using noiselite instead = INR 35.14
+6. Total cost saved on both LH and RH sides = 46.10 - 35.14 = 10.96*2 (LH & RH) = INR 21.92
+7. The surface area of the dashboard panel thinsulate - 0.193m2
+8. The current cost = INR 39.37
+9. The estimated cost after using noiselite instead = INR 30
+10. Total cost saved = 39.37 - 30 = INR 9.37
+
+11. The total cost savings = 21.92 + 9.37 = INR 31.29
+12. The total weight savings = Nil",nan,INR 85.0,0.00,TBD,nan,nan,2311-IP-ID-19,Replace the Thinsulate Acoustic Insulation used within the Dashboard and Control Panel for NVH restriction within MGI with Noiselite PP-PET Insulation as used in KIA,nan,INR 85.0,nan,nan
+VAVE-SWI-062,Map pocket A surface trim PVC trim laminated foam thickness change from 3mm to 1mm.,None,INR 3.0,"1) Confirm on sample availability dates
+2) Confirm feasibility with Mayur",None,None,INR 3.0,0.00,OK,"1) PSCM
+2) PE","KD/LC    LC
+KD/LC    LC
+Name: 25, dtype: object",VAVE-SWI-062,Map pocket A surface trim PVC trim laminated foam thickness change from 3mm to 1mm.,"1) Confirm on sample availability dates
+2) Confirm feasibility with Mayur",INR 3.0,"1) Akhil
+2) Narendra",2024-06-15 00:00:00
+2311-IP-ID-12,Replace PC-ABS used in the manufacture of Cup Holder Cover Mounts LH & RH within the IP assembly of MGI with standard ABS,4.jpg,INR 0.0,Supplier evalutiaon,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 91g
+4. The estimated weight of the proposed trim = 87.66g
+5. The estimated weight savings on both sides = 91 - 87.66 = 3.34*2 = 6.68g
+6. The current cost of the trim = INR 28.31
+7. The estimated cost of the proposed trim = INR 14.50
+8. The estimated cost savings on both sides = 28.31 - 14.50 = 13.81*2 = INR 27.62",nan,INR 76.0,0.01,TBD,PE,KD,2311-IP-ID-12,Replace PC-ABS used in the manufacture of Cup Holder Cover Mounts LH & RH within the IP assembly of MGI with standard ABS,Supplier evalutiaon,INR 76.0,Narendra,2024-02-22 00:00:00
+VAVE-SWI-046,Cluster Bezel Ring Platin to Painting ,None,INR 0.0,nan,None,None,INR 0.0,0.00,NG,nan,"KD/LC    KD
+KD/LC    KD
+Name: 2, dtype: object",VAVE-SWI-046,Cluster Bezel Ring Platin to Painting ,nan,INR 0.0,nan,nan
+VAVE-SWI-039,Tyre - proivision of temp tyre in spare,None,INR 0.0,Confirm on savings for . Feedback to be concluded by 24-May-24,None,None,INR 0.0,0.00,TBD,PSCM,"KD/LC    LC
+KD/LC    LC
+Name: 53, dtype: object",VAVE-SWI-039,Tyre - proivision of temp tyre in spare,Confirm on savings for . Feedback to be concluded by 24-May-24,INR 0.0,Archan,2024-05-24 00:00:00
+2311-DA-ID-12,Replace ABS with PP-GF 15 in the manufacture of the LH and RH Side Spoiler Inner Trims,144.jpg,INR 5.42,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS = INR 300 (assumed)
+2. Per Kg rate of PP-GF 15 = INR 245 (assumed)
+3. The current weight of the trim - 70.7g
+4. The estimated weight of the proposed trim - 77.12g
+5. The estimated weight savings on both the LH and RH ends = 0g
+6. The current cost of the trim = INR 21.21
+7. The estimated cost of the proposed trim = INR 18.50
+8. The estimated cost savings on both the LH and RH ends = 21.21-18.50 = 2.71*2 = INR 5.42",nan,INR 131.0,0.00,NG,nan,LC,2311-DA-ID-12,Replace ABS with PP-GF 15 in the manufacture of the LH and RH Side Spoiler Inner Trims,nan,INR 131.0,nan,nan
+2311-ET-ID-21,Replace PC-ABS/ with PP-T20 in the manufacture of the Front Number Plate Mounting Trim,201.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of PC-ABS - INR 311.17
+2. The per Kg rate of ABS - INR 165.45
+2. The per Kg rate of PP-T20 - INR 125.71
+Scenario - 1
+3. The current weight of the trim - 336g
+4. The estimated weight of the proposed trim - 320g
+5. the estimated weight saved = 336 - 320 = 16g
+6. The current cost of the trim - INR 104.5
+7. The estimated cost of the proposed trim - INR 40.22
+8. the estimated cost saved = 104.5 - 40.2 = INR 64.3 - 15% tolerance = INR 54.6
+Scenario - 2
+3. The current weight of the trim - 336g
+4. The estimated weight of the proposed trim - 320g
+5. the estimated weight saved = 336 - 320 = 16g
+6. The current cost of the trim - INR 55.59
+7. The estimated cost of the proposed trim - INR 40.22
+8. the estimated cost saved = 104.5 - 40.2 = INR 15.37 - 15% tolerance = INR 14.52",nan,INR 75.0,0.02,TBD,nan,nan,2311-ET-ID-21,Replace PC-ABS/ with PP-T20 in the manufacture of the Front Number Plate Mounting Trim,nan,INR 75.0,nan,nan
+2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,156.jpg,INR 91.35,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the front trim - 290.06g
+4. The estimated weight of the proposed front trim - 263.4g
+5. The estimated weight savings on both front trims = 290.06 - 263.4 = 26.6*2 = 53.32g
+6. The current weight of the rear trim - 292.86g
+7. The estimated weight of the proposed rear trim - 266.01g
+8. The estimated weight savings on both rear trims = 292.86 - 266.01 = 26.85*2 = 53.7g
+9. The cost of the front trim = INR 87.01
+10. The estimated cost of the proposed front trim = INR 58.01
+11. The estimated cost savings on both front trims = 87.01 - 58.01 = 29*2 = INR 58
+12. The cost of the rear trim = INR 87.85
+13. The estimated cost of the proposed rear trim = INR 58.57
+14. The estimated cost savings on both rear trims = 87.8 - 58.57 = 29.23*2 = INR 58.4
+
+15. The estimated weight savings in total = 53.32 + 53.7 = 107g
+16. The estimated cost savings in total = 58 + 58.4 = INR 116.4
+17. Flaming Process Cost - INR 5 should be considered for each part
+18. Cost saved - 116.4 - 5*4 = INR 96.4",nan,INR 147.0,0.11,NG,nan,LC,2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,nan,INR 147.0,nan,nan
+2311-PRODUCT-ID-08,Use adhesives to glue the NVH Foam onto the engine cover instead of using steel holders on provisions,106.jpg,INR 0.0,nan,"Estimated Cost Savings, (accurate costing would be completed after vehicle teardown)
+1. Per Kg cost of steel holders - INR 160
+2. Per Kg cost of plastic - INR 450
+3. Assumed weight of a steel holder - 2g
+4. Estimated cost of a steel holder - INR 0.32
+5. Assumed weight of a provision - 3g
+6. Estimated cost of a provision - INR 1.35
+7. Total weight saved removing steel holders - 2*8 = 16g
+8. Total cost saved - 0.32*8 = INR 2.56
+9. Total weight saved removing provisions - 3*8 = 24g
+10. Total cost saved - 1.35*8 = INR 10.8
+
+11. Total weight saved - 16 + 24 = 40g
+12. Total cost saved - 2.56 + 10.8 = INR 13.36
+
+13. Per Litre cost of adhesive required - INR 1000 (assumed)
+14. Adhesive required - 10ml
+15. Estimated cost of the adhesive required = INR 10
+16. Weight of the adhesive used in grams - 23.3g (ml to g conversion)
+
+17. Estimated weight savings after redesigning - 40 - 23.3 = 16.7g
+18. Estimated cost savings after redesigning - 13.36 - 10 = INR 3.36",nan,INR 99.0,0.02,NG,nan,KD,2311-PRODUCT-ID-08,Use adhesives to glue the NVH Foam onto the engine cover instead of using steel holders on provisions,nan,INR 99.0,nan,nan
+VAVE-SWI-076,Delete ventilation feature from LV3,None,INR 0.0,Prepare one-pager,None,None,INR 0.0,0.00,TBD,VAVE,"KD/LC     LC
+KD/LC    NaN
+Name: 39, dtype: object",VAVE-SWI-076,Delete ventilation feature from LV3,Prepare one-pager,INR 0.0,Ratnadeep,2024-06-18 00:00:00

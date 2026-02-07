@@ -1,0 +1,152 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-BIW-ID-03,Reduce the Paint Coating Thicknesses of the highlighted Front Fender and Rear Quarter Panel BiW Panels from 120 - 130μm to 85 - 95μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (80 - 90μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The combined surface area of the Front Fenders = 0.366*2 = 0.733m2
+4. The current cost to paint the structure = INR 75.94
+5. The estimated cost = INR 46.5
+6. The estimated cost saved = 75.94 - 46.5 = INR 28.89
+7. The combined surface area of the Front Fenders = 0.291*2 = 0.583m2
+8. The current cost to paint the structure = INR 60.38
+9. The estimated cost = INR 36.96
+10. The estimated cost saved = 60.38 - 36.96 = INR 23.42
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 28.89 + 23.42 = INR 52.31",nan,INR 122.0,0.00,TBD,nan,nan,2311-BIW-ID-03,Reduce the Paint Coating Thicknesses of the highlighted Front Fender and Rear Quarter Panel BiW Panels from 120 - 130μm to 85 - 95μm,nan,INR 122.0,nan,nan
+2311-PRODUCT-ID-03,Replace the rubber bushes used on the wiper blade mounting bolts with the plastic protective cap.,NaN,INR 2.86,nan,"The cost savings will be updated once the costing is done.
+1. Per Kg cost of EPDM - INR 500 (assumptions)
+2. Current weight of a single bushing used in MGI - 4.07g
+3. Current cost of a bushing - INR 2.03
+4. Per Kg cost of POM - INR 200 (assumptions)
+5. Weight of the proposed cap - 3g
+6. Cost of the caps proposed - INR 0.6
+7. The estimated cost savings on a bushing - 2.03 - 0.6 = INR 1.43
+8. The estimated weight saved on a bushing - 4.07 - 3 = 1.07g
+
+9. Total cost saved - 1.43*2 = INR 2.86
+10. Total weight saved = 1.07*2 = 2.14g",nan,INR 126.0,0.02,NG,nan,LC,2311-PRODUCT-ID-03,Replace the rubber bushes used on the wiper blade mounting bolts with the plastic protective cap.,nan,INR 126.0,nan,nan
+2311-SP-ID-01,"1. Reduce the overall wall thickness of the Brake Dust Cover Plates present on all four wheel hubs of the vehicles from 1mm to 0.8mm
+2. Reduce the paint coating thickness on each side of all four plates from 56 microns to 27.8 microns",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of Steel - INR 80 (assumed)
+2. The current weight of the front LH & RH dust cover plates - 383g
+3. The estimated weight of the proposed plates - 260g (assumed)
+4. The estimated weight saved on both ends - 123*2 = 246g
+5. The current weight of the rear LH & RH dust cover plates - 391g
+6. The estimated weight of the proposed plates - 264g (assumed)
+7. The estimated weight saved on both ends - 127*2 = 254g
+8. The current cost of the front LH & RH dust cover plates - INR 30.6
+9. The estimated cost of the proposed plates - INR 20.8
+10. The estimated cost saved on both ends - 9.8*2 = INR 19.6
+11. The current cost of the rear LH & RH dust cover plates - INR 31.2
+12. The estimated cost of the proposed plates - INR 21.12
+13. The estimated cost saved on both ends - 10.08*2 = INR 20.16
+14. The total weight saved - 246 + 254 = 500g (assumed)
+15. The total cost saved - 19.6 + 20.16 = INR 39.32 (assumed)
+
+16. Coating Surface Area of Plate 1 (Front) - 120640mm2 - 0.12m2
+17. Coating Surface Area of Plate 2 (Rear) - 118048mm2 - 0.118m2
+18. Per Sq.M rate of 50-micron paint coating - INR 29.57
+19. Per Sq.M rate of 35-micron paint coating - INR 21.57
+20. The current coating cost for front plates = 3.54*2 = INR 7.09
+21. The coating cost for the proposed thickness = 2.58*2 = INR 5.17
+22. The current coating cost for rear plates = 3.48*2 = INR 6.97
+23. The coating cost for the proposed thickness = 2.54*2 = INR 5.09
+24. The estimated cost savings on the front and rear ends = (7.09 - 5.17) + (6.97 - 5.09) = INR 3.8
+
+25. The total cost saved = 39.32 + 3.8 = INR 43.12",nan,INR 57.0,0.50,NG,nan,LC,2311-SP-ID-01,"1. Reduce the overall wall thickness of the Brake Dust Cover Plates present on all four wheel hubs of the vehicles from 1mm to 0.8mm
+2. Reduce the paint coating thickness on each side of all four plates from 56 microns to 27.8 microns",nan,INR 57.0,nan,nan
+2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (160 - 170μm) - INR 129.78 (assumed)
+3. The surface area of the Front Hood = 1.456m2
+4. The current cost to paint the structure = INR 188.95
+5. The estimated cost = INR 115.02
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 188.95 - 115.02 = INR 73.92",nan,INR 82.0,0.00,TBD,nan,nan,2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,nan,INR 82.0,nan,nan
+2311-IT-ID-02,Eliminate the seal belt webbing used at the co-driver side and use the plastic push clip used at the driver seat belt webbing,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after costing.
+1. Length of the separate webbing to be eliminated = 120mm
+2. Per meter cost of seat belt webbing = INR 70 (assumed)
+3. Estimated cost of the separate webbing = INR 8.4
+4. Estimated weight of the separate webbing = 16 g (assumed)
+5. Cost of plastic push clip to be added = INR 1 (assumed)
+Total estimated cost saving = INR 7.4
+Total estimated weight saving = 16 g",nan,INR 81.0,0.02,NG,nan,KD,2311-IT-ID-02,Eliminate the seal belt webbing used at the co-driver side and use the plastic push clip used at the driver seat belt webbing,nan,INR 81.0,nan,nan
+2311-BIW-ID-04,Reduce the Paint Coating Thicknesses of the highlighted Front and Rear Door BiW Panels from 115 - 125μm to 80 - 90μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (80 - 90μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The combined surface area of the Front Doors = 0.864*2 = 1.728m2
+4. The current cost to paint the structure = INR 178.91
+5. The estimated cost = INR 109.55
+6. The estimated cost saved = 178.91 - 109.55 = INR 69.35
+7. The combined surface area of the Rear Doors = 0.661*2 = 1.322m2
+8. The current cost to paint the structure = INR 137.01
+9. The estimated cost = INR 83.81
+10. The estimated cost saved = 137.01 - 83.81 = INR 53.19
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 69.35 + 53.19 = INR 122.54",nan,INR 84.0,0.00,TBD,nan,nan,2311-BIW-ID-04,Reduce the Paint Coating Thicknesses of the highlighted Front and Rear Door BiW Panels from 115 - 125μm to 80 - 90μm,nan,INR 84.0,nan,nan
+2311-IT-ID-21,"Process Deletion,
+Remove the Black Painting done on the LH & RH Sunroof Frame Mounts (Sunroof Mount 1, Sunroof Mount 2, Sunroof BIW-Airbag Mount)",NaN,INR 0.0,Confirm homeroom feasibility,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Black Paint Coating- INR 47.8 (assumed)
+2. The surface area of a Mount 1 = 0.095m2
+3. The cost to paint Mount 1 = INR 4.54
+4. The estimated cost saved on LH & RH sides = 4.54*2 = INR 9.08
+5. The surface area of a Mount 2 = 0.059m2
+6. The cost to paint Mount 2 = INR 2.82
+7. The estimated cost saved on LH & RH sides = 2.82*2 = INR 5.64
+8. The surface area of a Sunroof BIW-Airbag Mount = 0.023m2
+9. The cost to paint Mount 2 = INR 1
+10. The estimated cost saved on LH & RH sides = 1*2 = INR 2
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 9 + 5.64 + 2 = INR 16.64",nan,INR 125.0,0.00,Hold,PE,KD,2311-IT-ID-21,"Process Deletion,
+Remove the Black Painting done on the LH & RH Sunroof Frame Mounts (Sunroof Mount 1, Sunroof Mount 2, Sunroof BIW-Airbag Mount)",Confirm homeroom feasibility,INR 125.0,Manish,TBD
+2311-ET-ID-07,Reduce the wall thickness of the Front and Rear Fender Garnishes present on both LH and RH sides from 3.2mm to 2.8mm,NaN,INR 43.06,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T30 - INR 220 (assumed)
+2. The current weight of the front trim - 534g
+3. The estimated weight of the proposed front trim - 471g
+4. The estimated weight saved = 534 - 471 = 63*2 = 126g
+5. The current weight of the rear trim - 599g
+6. The estimated weight of the proposed rear trim - 506g
+7. The estimated weight saved = 599 - 506 = 93*2 = 186g
+8. The weight saved in total = 186 + 126 = 312g (assumption)
+9. The current cost of the front trim - INR 117.48
+10. The estimated cost of the proposed front trim - 103.62
+11. The estimated cost saved = 117.48 - 103.62 = 13.86*2 = INR 27.72
+12. The current cost of the rear trim - INR 131.78
+13. The estimated cost of the proposed rear trim - INR 111.32
+14. The estimated cost saved = 131.78 - 111.32 = 20.46*2 = 40.92
+15. The cost saved in total = 27.72 + 40.92 = INR 68.64 (assumption)",nan,INR 133.0,0.31,NG,nan,LC,2311-ET-ID-07,Reduce the wall thickness of the Front and Rear Fender Garnishes present on both LH and RH sides from 3.2mm to 2.8mm,nan,INR 133.0,nan,nan
+2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the LHS Trim - 152.7g
+4. The estimated weight of the proposed trim - 147.09g
+5. The current weight of the RHS Trim - 393.4g
+6. The estimated weight of the proposed trim - 378.9g
+7. The total weight saved = (152.7 - 147.09) + (393.4 + 378.9) = 5.61 + 14.5 = 20.11g
+8. The current cost of the LHS Trim - INR 47.51
+9. The estimated cost of the proposed trim - INR 24.33
+10. The current cost of the RHS Trim - INR 122.41
+11. The estimated cost of the proposed trim - INR 62.68
+12. The total cost saved = (47.51 - 24.33) + (122.41 - 62.68) = 23.18 + 59.73 = INR 82.91 - 15% tolerance = INR 70.47",nan,INR 60.0,0.02,TBD,Finance,KD,2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 60.0,Kalp,nan
+2311-IT-ID-13,Reduce the wall thickness of the Sunroof Drain Hoses in MGI from 2mm to 1.5mm,NaN,INR 0.0,"Homeroom ideas to be bunched up and taken up for implementation at program level
+","The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of the current PVC tubes - INR 250 (assumed)
+2. The current weight of the tubes on the front - 152g
+3. The estimated weight of the proposed tubes - 118g
+4. The estimated weight saved on the front = 34*2 = 68g
+5. The current weight of the tubes on the rear - 177g
+6. The estimated weight of the proposed tubes - 137g
+7. The estimated weight saved on the rear = 40*2 = 80g
+8. The current cost of the tubes on the front - INR 38
+9. The estimated cost of the proposed tubes - INR 29.5
+10. The estimated cost saved on the front = 8.5*2 = INR 17
+11. The current cost of the tubes on the rear - INR 44.25
+12. The estimated cost of the proposed tubes - INR 34.25
+13. The estimated cost saved on the rear = 10*2 = INR 20
+
+14. The total weight saved = 68 + 80 = 148g
+15. The total cost saved = 17 + 20 = INR 37",nan,INR 45.0,0.15,Hold,PE,KD,2311-IT-ID-13,Reduce the wall thickness of the Sunroof Drain Hoses in MGI from 2mm to 1.5mm,"Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 45.0,Manish Jaju,TBC

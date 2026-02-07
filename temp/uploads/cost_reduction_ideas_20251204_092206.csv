@@ -1,0 +1,133 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-DA-ID-35,Replace PBT-GF30 with PA6-GF30 in the manufacture of the gear casings.,NaN,INR 0.0,Consider in homeroom bucket,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of PBT-GF30 = INR 108.79
+2. The per Kg rate of PA6-GF30 = INR 101.20
+3. The current weight of the casings on the front doors = 82.84g
+4. The estimated weight of the proposed = 70.54g
+5. The estimated weight saved = 82.84 - 70.54 = 12.3*2 = 24.6g
+6. The current weight of the casings on the rear doors = 75.53g
+7. The estimated weight of the proposed = 64.32g
+8. The estimated weight saved = 75.53 - 64.32 = 11.21*2 = 22.4g
+9. The current cost of the casings on the front doors = INR 9.01
+10. The estimated cost of the proposed = INR 7.13
+11. The estimated cost saved = 9.01 - 7.13 = 1.88*2 = INR 3.76
+12. The current cost of the casings on the rear doors = INR 8.21
+13. The estimated cost of the proposed = INR 6.50
+14. The estimated cost saved = 8.21 - 6.50 = 1.71*2 = INR 3.42
+
+15. The total weight saved = 24.6 + 22.4 = 47g
+16. The total cost saved = 3.76 + 3.42 = INR 7.18",nan,INR 147.0,0.05,Hold,VAVE,KD,2311-DA-ID-35,Replace PBT-GF30 with PA6-GF30 in the manufacture of the gear casings.,Consider in homeroom bucket,INR 147.0,Ratnadeep,TBC
+2311-IP-ID-02,Replace PC+ABS/TPU used in the manufacture of the Centre Console Bottle Holder Trim with PP,NaN,INR 0.0,Supplier evalutiaon,"The evaluation is done before teardown, the values will change after the costing,
+Considering TPU as the rubber-like components covering the holder which could be kept on,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of PP - INR 130.35
+3. The current weight of the holder - 100g
+4. The estimated weight of the proposed holder - 86.36g
+5. The estimated weight saved = 100 - 86.36 = 13.64g
+6. The current cost of the holder - INR 31.11
+4. The estimated cost of the proposed holder - INR 11.25
+5. The estimated cost saved = 31.11 - 11.25 = INR 19.86",nan,INR 87.0,0.01,TBD,PE,KD,2311-IP-ID-02,Replace PC+ABS/TPU used in the manufacture of the Centre Console Bottle Holder Trim with PP,Supplier evalutiaon,INR 87.0,Narendra,2024-02-22 00:00:00
+2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,NaN,INR 0.0,Confirm business case for 20mm reduction,"The cost savings will be updated once the costing is done.
+Cost savings : carpet
+1. Length of carpet = 1000mm (length will not change)
+2. Width of carpet to be reduce = 120mm (including front & rear sides) 
+3. Area of carpet to be reduce =  120000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 12
+Cost savings : fiberboard
+1. Length of fiberboard = 1000mm (length will not change)
+2. Width of fiberboard to be reduce = 60mm
+3. Area of fiberboard to be reduce =  60000mm2
+4. Cost per meter square of fiberboard = 150 INR/m2 (Assumption)
+5. Cost saving for fiberboard  = INR 9
+Total estimated cost saving = 12 + 9 = INR 21 (will be updated once costing is done)
+Tot estimated weight saving = 80 + 50 = 130 g (will be updated once TD is done)",nan,INR 89.0,0.09,TBD,Finance,KD,2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,Confirm business case for 20mm reduction,INR 89.0,Kalp,2024-02-14 00:00:00
+2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the LHS Trim - 152.7g
+4. The estimated weight of the proposed trim - 147.09g
+5. The current weight of the RHS Trim - 393.4g
+6. The estimated weight of the proposed trim - 378.9g
+7. The total weight saved = (152.7 - 147.09) + (393.4 + 378.9) = 5.61 + 14.5 = 20.11g
+8. The current cost of the LHS Trim - INR 47.51
+9. The estimated cost of the proposed trim - INR 24.33
+10. The current cost of the RHS Trim - INR 122.41
+11. The estimated cost of the proposed trim - INR 62.68
+12. The total cost saved = (47.51 - 24.33) + (122.41 - 62.68) = 23.18 + 59.73 = INR 82.91 - 15% tolerance = INR 70.47",nan,INR 60.0,0.02,TBD,Finance,KD,2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 60.0,Kalp,nan
+2311-SS-ID-04,Substitute the leather upholstery on the left-hand (LH) and right-hand (RH) sides of the third-row seat bases with the same fabric utilized on the LH and RH sides of the corresponding backrests,NaN,INR 0.0,Check for combined business case,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M price of leather - INR 250 (assumed)
+2. Per Sq.M price of fabric (polyester) - INR 160 (assumed)
+3. Surface Area of the piece - 0.033M^2
+4. The current weight of the piece - 60g (assumed)
+5. The estimated weight of the proposed piece - 35g (assumed)
+6. The estimated weight saved = 25*2 (LH&RH) = 50g
+7. The current cost of the piece - INR 8.25
+8. The estimated cost of the proposed piece - INR 5.28
+9. The estimated cost saved = 2.97*2 (LH&RH) = INR 5.94",nan,INR 48.0,0.05,NG,Finance,LC,2311-SS-ID-04,Substitute the leather upholstery on the left-hand (LH) and right-hand (RH) sides of the third-row seat bases with the same fabric utilized on the LH and RH sides of the corresponding backrests,Check for combined business case,INR 48.0,Kalp,2023-11-10 00:00:00
+2311-FS-ID-01,Remove the Neoprene Foam Sheaths present on the fuel lines and the fuel inlet hose of MGI,NaN,INR 6.0,Confirm Kia routing photos for analysis with ASI,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of Neoprene Foam - INR 150 (assumed)
+2. The overall surface area = 89058mm2 = 0.089m2
+3. Average wall thickness - 3mm
+4. Assumed weight - 40g (Density 150Kg/m3)
+5. Overall cost of the sheaths used = INR 6
+
+6. The estimated weight saved = 40g
+7. The estimated cost saved = INR 6",nan,INR 142.0,40.00,NG,VAVE,LC,2311-FS-ID-01,Remove the Neoprene Foam Sheaths present on the fuel lines and the fuel inlet hose of MGI,Confirm Kia routing photos for analysis with ASI,INR 142.0,Ratnadeep,2024-02-12 00:00:00
+2311-HV-ID-04,Replace PC-ABS with PP-TD40 in the manufacture of the Second and Third-Row Air Vent Casings in MGI,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of PP-TD40 - INR 170 (assumed)
+3. The current weight of the second-row vent - 86.37g
+4. The estimated weight of the proposed trim - 75.27g
+5. The estimated weight saved = 86.37 - 75.27 = 11.1g
+6. The current weight of the third-row LH vent - 46.5g
+7. The estimated weight of the proposed trim - 40.5g
+8. The current weight of the third-row RH vent - 45.9g
+9. The estimated weight of the proposed trim - 40g
+10. The estimated weight saved on both LH and RH sides = 46.5 - 40.5 + 45.9 - 40 = 6 + 5.9 = 11.9g
+11. The current cost of the second-row vent - INR 26.86
+12. The estimated cost of the proposed trim - INR 12.79
+13. The estimated cost saved = 26.86 - 12.79 = INR 14.06
+14. The current cost of the third-row LH vent - INR 14.4
+15. The estimated cost of the proposed trim - INR 6.8
+16. The current cost of the third-row RH vent - INR 14.28
+17. The estimated cost of the proposed trim - INR 6.8
+18. The estimated cost saved on both LH and RH sides = 14.4 - 6.8 + 14.28 - 6.8 = 7.6 + 7.48 = INR 15.08
+
+19. Total weight saved = 11.1 + 11.9 = 23g
+20. Total cost saved = 14.06 + 15.08 = INR 29.14",nan,INR 123.0,0.02,TBD,Finance,KD,2311-HV-ID-04,Replace PC-ABS with PP-TD40 in the manufacture of the Second and Third-Row Air Vent Casings in MGI,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 123.0,Kalp,nan
+2311-DA-ID-14,De-content the Coasters/Inserts from the Door Recess Trims and the second-row AC Vent Bottom Storage Area,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of TPE - INR 300 (assumed)
+2. The current combined weight of the coasters/inserts =14.21*2 + 9.47*2 + 39.93 = 87.29g
+3. The total weight saved = 87.29g
+4. The current combined cost of the coasters/inserts - INR 26.18
+5. The total cost saved = INR 26.18",nan,INR 75.0,0.09,TBD,nan,nan,2311-DA-ID-14,De-content the Coasters/Inserts from the Door Recess Trims and the second-row AC Vent Bottom Storage Area,nan,INR 75.0,nan,nan
+2311-DA-ID-27,Replace ABS+PVC+PU with PP+PE-TD14 in the manufacture of both Front and Rear Passenger Armrest Trims of MGI,NaN,INR 109.3,New tooling cost from YFI to be confirmed for business case calculations,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS+PVC+PU blend - INR 310 (assumed)
+2. Per Kg rate of PP+PE-TD14 - INR 250 (assumed)
+3. The current weight of the front trim - 322.05g
+4. The estimated weight of the proposed front trim - 268.37g
+5. The estimated weight savings on both front trims = 322.05 - 268.37 = 53.68*2 = 107.36g
+6. The current weight of the rear trim - 284g
+7. The estimated weight of the proposed rear trim - 236.6g
+8. The estimated weight savings on both rear trims = 284 - 236.6 = 47.4*2 = 94.8g
+9. The cost of the front trim = INR 99.82
+10. The estimated cost of the proposed front trim = INR 67.07
+11. The estimated cost savings on both front trims = 99.82 - 67.07 = 32.73*2 = INR 65.46
+12. The cost of the rear trim = INR 88.04
+13. The estimated cost of the proposed rear trim = INR 59.15
+14. The estimated cost savings on both rear trims = 88.04 - 59.15 = 28.89*2 = INR 
+
+15. The estimated weight savings in total = 107.36 + 94.8 = 202.16g
+16. The estimated cost savings in total = 65.46 + 57.78 = INR 123.24",nan,INR 126.0,0.20,NG,Purchase,LC,2311-DA-ID-27,Replace ABS+PVC+PU with PP+PE-TD14 in the manufacture of both Front and Rear Passenger Armrest Trims of MGI,New tooling cost from YFI to be confirmed for business case calculations,INR 126.0,Akhil,2024-02-12 00:00:00
+2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",NaN,INR 0.0,nan,"The estimated cost saving will be updated once the costing is done.
+1. Per Kg cost of PC- ABS - INR 311.17
+2. Weight of the Type 1 cap used in MGI - 1.39g
+3. Weight of the Type 2 cap used in MGI - 1.14g
+4. Cost of the Type 1 caps - 0.43*4 = INR 1.73
+5. Cost of the Type 2 caps - 0.35*10 = INR 3.5
+6. Weight of the proposed stickers - 0.2g
+7. Per Kg cost of adhesive stickers - INR 250 (assumption)
+8. Cost of a single sticker - INR 0.05
+9. The estimated cost saving on caps = (3.5 + 1.73) - (0.05*14) = 5.23 - 0.7 = INR 4.53
+10. The estimated weight saving on caps = ((1.39*4) + (1.14*10)) - (0.2*14) = 16.96 - 2.8 = 14.16g",nan,INR 130.0,0.02,NG,nan,KD,2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",nan,INR 130.0,nan,nan

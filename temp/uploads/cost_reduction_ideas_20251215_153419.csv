@@ -1,0 +1,4 @@
+Idea Id,Cost Reduction Idea,Saving Value (INR),Weight Saving (Kg),Status,Dept,Way Forward,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+AI-GEN-01,Optimize Door Panel topology to reduce mass by 12%,INR 0.00,0.85,Concept,N/A,Run CAE analysis on Door Panel structure,AI-GEN-01,Optimize Door Panel topology to reduce mass by 12%,Run CAE analysis on Door Panel structure,INR 0.00,N/A,N/A
+AI-GEN-02,Consolidate Door Panel sub-parts using unified molding,INR 0.00,0.45,Concept,N/A,Check tooling feasibility,AI-GEN-02,Consolidate Door Panel sub-parts using unified molding,Check tooling feasibility,INR 0.00,N/A,N/A
+AI-GEN-03,Use modular Door Panel design to enable part sharing across variants,INR 0.00,0.35,Concept,N/A,Verify interface constraints and supplier capability,AI-GEN-03,Use modular Door Panel design to enable part sharing across variants,Verify interface constraints and supplier capability,INR 0.00,N/A,N/A

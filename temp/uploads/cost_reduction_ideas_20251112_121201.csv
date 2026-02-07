@@ -1,0 +1,105 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-IP-ID-02,Replace PC+ABS/TPU used in the manufacture of the Centre Console Bottle Holder Trim with PP,30.jpg,INR 0.0,Supplier evalutiaon,"The evaluation is done before teardown, the values will change after the costing,
+Considering TPU as the rubber-like components covering the holder which could be kept on,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of PP - INR 130.35
+3. The current weight of the holder - 100g
+4. The estimated weight of the proposed holder - 86.36g
+5. The estimated weight saved = 100 - 86.36 = 13.64g
+6. The current cost of the holder - INR 31.11
+4. The estimated cost of the proposed holder - INR 11.25
+5. The estimated cost saved = 31.11 - 11.25 = INR 19.86",nan,INR 87.0,0.01,TBD,PE,KD,2311-IP-ID-02,Replace PC+ABS/TPU used in the manufacture of the Centre Console Bottle Holder Trim with PP,Supplier evalutiaon,INR 87.0,Narendra,2024-02-22 00:00:00
+VAVE-SWI-047,Hydrography to painting,None,"INR 1,104.0",Confirm on plate availability for appearnace approval,None,None,INR 0.0,0.00,OK,PE,"KD/LC    KD
+KD/LC    KD
+Name: 3, dtype: object",VAVE-SWI-047,Hydrography to painting,Confirm on plate availability for appearnace approval,INR 0.0,Narendra,2024-06-15 00:00:00
+VAVE-SWI-049,Console Side Panel wrapping to MIC/Painting,None,INR 168.0,Confirm with supplier on 93lakh investment requirement,None,None,INR 0.0,0.00,NG,PSCM,"KD/LC    LC
+KD/LC    LC
+Name: 5, dtype: object",VAVE-SWI-049,Console Side Panel wrapping to MIC/Painting,Confirm with supplier on 93lakh investment requirement,INR 0.0,Akhil,2024-06-15 00:00:00
+2311-PRODUCT-ID-06,"Change the design of the lug nut used in MGI with the design of the lug nut used in KIA.
+Wheel lug nut in MGI-
+Overall length - 31.3mm
+Thread length - 27.95mm
+Wheel lug nut in KIA-
+Overall length - 27.5mm
+Thread length - 15mm",104.jpg,INR 0.0,nan,"The cost savings will be updated once the costing is done.
+1. Per Kg cost of lug nuts - INR 220 (assumption)
+2. Weight of a single lug nut in MGI - 55.47g (0.055Kg)
+3. Cost of a lug nut - INR 12.20
+4. Weight of the proposed lug nut -34.41g (0.034Kg)
+5. Cost of a lug nut - INR 7.5
+6. The estimated weight savings on a nut - 55.47 - 34.41 = 21.06g
+7. The estimated cost savings on a nut - 12.20 - 7.5 = INR 4.7
+
+8. Total weight saved - 21.06*20 = 421.2g
+9. Total cost saved - 4.7*20 = INR 94",nan,INR 50.0,0.42,NG,nan,KD,2311-PRODUCT-ID-06,"Change the design of the lug nut used in MGI with the design of the lug nut used in KIA.
+Wheel lug nut in MGI-
+Overall length - 31.3mm
+Thread length - 27.95mm
+Wheel lug nut in KIA-
+Overall length - 27.5mm
+Thread length - 15mm",nan,INR 50.0,nan,nan
+2311-ET-ID-21,Replace PC-ABS/ with PP-T20 in the manufacture of the Front Number Plate Mounting Trim,201.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of PC-ABS - INR 311.17
+2. The per Kg rate of ABS - INR 165.45
+2. The per Kg rate of PP-T20 - INR 125.71
+Scenario - 1
+3. The current weight of the trim - 336g
+4. The estimated weight of the proposed trim - 320g
+5. the estimated weight saved = 336 - 320 = 16g
+6. The current cost of the trim - INR 104.5
+7. The estimated cost of the proposed trim - INR 40.22
+8. the estimated cost saved = 104.5 - 40.2 = INR 64.3 - 15% tolerance = INR 54.6
+Scenario - 2
+3. The current weight of the trim - 336g
+4. The estimated weight of the proposed trim - 320g
+5. the estimated weight saved = 336 - 320 = 16g
+6. The current cost of the trim - INR 55.59
+7. The estimated cost of the proposed trim - INR 40.22
+8. the estimated cost saved = 104.5 - 40.2 = INR 15.37 - 15% tolerance = INR 14.52",nan,INR 75.0,0.02,TBD,nan,nan,2311-ET-ID-21,Replace PC-ABS/ with PP-T20 in the manufacture of the Front Number Plate Mounting Trim,nan,INR 75.0,nan,nan
+VAVE-SWI-003,Use of local guide rod instead of KD.  No change in material soecs. (Applicable for model K),None,INR 0.6,Complete Technical discussion with supplier,None,None,INR 0.0,0.00,OK,PE,"KD/LC    LC
+KD/LC    LC
+Name: 49, dtype: object",VAVE-SWI-003,Use of local guide rod instead of KD.  No change in material soecs. (Applicable for model K),Complete Technical discussion with supplier,INR 0.0,Manish Jaju,2024-06-15 00:00:00
+2311-IP-ID-03,Replace PC-ABS with ABS in the manufacture of Centre Console LH and RH Garnish Trims and the Infotainment Screen Garnish Trim present within the interior of the vehicle,31.jpg,INR 0.17,Supplier evalutiaon,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of ABS - INR 165.45
+3. The weight of the current Centre Console Garnish Trim - 50g (assumed)
+4. The estimated weight of the proposed trim - 49g
+5. The estimated weight saved on both ends = 50 - 49 = 1*2 = 2g
+6. The weight of the current Infotainment Screen Garnish Trim - 30g
+7. The estimated weight of the proposed trim - 29.17g
+8. The estimated weight saved on both ends = 30 - 29.17 = 0.83g
+9. Total weight saved = 2 + 0.83 = 2.83g
+10. The cost of the current Centre Console Garnish Trim - INR 15.55
+11. The estimated cost of the proposed trim - INR 8.10
+12. The estimated cost saved on both ends = 15.55 - 8.10 = 7.44*2 = INR 14.88
+13. The cost of the current Infotainment Screen Garnish Trim - INR 9.33
+14. The estimated cost of the proposed trim - INR 4.82
+15. The estimated cost saved on both ends = 9.33 - 4.82 = INR 4.50
+16. Total cost saved = 14.88 + 4.50 = INR 19.38",nan,INR 72.0,0.00,NG,PE,LC,2311-IP-ID-03,Replace PC-ABS with ABS in the manufacture of Centre Console LH and RH Garnish Trims and the Infotainment Screen Garnish Trim present within the interior of the vehicle,Supplier evalutiaon,INR 72.0,Narendra,nan
+2311-PRODUCT-ID-07,De-content the plastic trims found protecting the top tethers from both sides of the seat as the tethers could be placed within the seat fabric itself and a slit on the same could facilitate easy access,105.jpg,INR 0.0,Confirm on no part nuber change to avoid homologation cost,"The evaluation is done before teardown, the values will change after costing.
+1. Per Kg cost of PC ABS - INR 311.17 (Material and cost assumed)
+2. Assumed weight of the trim - 42g 
+3. The estimated cost of the trim = INR 13.06
+4. Total weight of both the trims on LHS and RHS - 42*2 = 84g
+5. Total cost of both the trims - 13.06*2 = INR 26.13
+
+6. The estimated weight savings on both sides = 84g
+7. The estimated cost savings on both sides = INR 26.13",nan,INR 115.0,0.08,OK,PE,LC,2311-PRODUCT-ID-07,De-content the plastic trims found protecting the top tethers from both sides of the seat as the tethers could be placed within the seat fabric itself and a slit on the same could facilitate easy access,Confirm on no part nuber change to avoid homologation cost,INR 115.0,Nishant,2024-06-17 00:00:00
+2311-IP-ID-07,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard middle trim of the vehicle,35.jpg,INR 0.0,To be considered for new project,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP+T20 - INR 200 (assumed)
+2. Per Kg rate of PP+EPDM-T20 - INR 250 (assumed)
+3. The current weight of the trim - 1600g
+4. The estimated weight of the proposed trim - 1381g
+5. The estimated weight saved = 1600 - 1381 = 219g
+6. The current cost of the trim - INR 400
+7. The estimated cost of the proposed trim - INR 276.2
+8. The estimated cost saved = 400 - 276.2 = INR 123.8 - 15% tolerance = INR 105.23",nan,INR 59.0,0.22,NG,nan,nan,2311-IP-ID-07,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard middle trim of the vehicle,To be considered for new project,INR 59.0,Ratnadeep,nan
+2311-IP-ID-06,Replace PC-ABS with ABS in the manufacture of the Front-Row Armrest Base in MGI,34.jpg,INR 32.71,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 251.23g
+4. The estimated weight of the proposed trim = 244.3g
+5. The estimated weight saved = 251.23 - 244.3 = 6.93g
+6. The current cost of the trim = INR 78.17
+7. The estimated cost of the proposed trim = INR 40.41
+8. The estimated cost saved = 78.17 - 40.41 = INR 37.76 - 15% tolerance = INR 32.1",nan,INR 126.0,0.01,NG,nan,LC,2311-IP-ID-06,Replace PC-ABS with ABS in the manufacture of the Front-Row Armrest Base in MGI,nan,INR 126.0,nan,nan

@@ -1,0 +1,27 @@
+[Unit]
+Description=VAVE AI - JSW MGI Application
+After=network.target postgresql.service
+Requires=postgresql.service
+
+[Service]
+Type=notify
+User=vave
+Group=vave
+WorkingDirectory=/opt/vave-ai
+Environment="PATH=/opt/vave-ai/venv/bin"
+EnvironmentFile=/opt/vave-ai/.env
+ExecStart=/opt/vave-ai/venv/bin/gunicorn \
+    --workers 4 \
+    --bind 127.0.0.1:5000 \
+    --timeout 120 \
+    --access-logfile /opt/vave-ai/logs/access.log \
+    --error-logfile /opt/vave-ai/logs/error.log \
+    --log-level info \
+    app:app
+ExecReload=/bin/kill -s HUP $MAINPID
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+

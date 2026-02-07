@@ -1,0 +1,146 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (70 - 80μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The surface area of the Roof Panel = 2.330m2
+4. The current cost to paint the structure = INR 241.24
+5. The estimated cost = INR 147.72
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 241.24 - 147.72 = INR 93.52",nan,INR 135.0,0.00,TBD,nan,nan,2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,nan,INR 135.0,nan,nan
+2311-DA-ID-12,Replace ABS with PP-GF 15 in the manufacture of the LH and RH Side Spoiler Inner Trims,NaN,INR 5.42,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS = INR 300 (assumed)
+2. Per Kg rate of PP-GF 15 = INR 245 (assumed)
+3. The current weight of the trim - 70.7g
+4. The estimated weight of the proposed trim - 77.12g
+5. The estimated weight savings on both the LH and RH ends = 0g
+6. The current cost of the trim = INR 21.21
+7. The estimated cost of the proposed trim = INR 18.50
+8. The estimated cost savings on both the LH and RH ends = 21.21-18.50 = 2.71*2 = INR 5.42",nan,INR 131.0,0.00,NG,nan,LC,2311-DA-ID-12,Replace ABS with PP-GF 15 in the manufacture of the LH and RH Side Spoiler Inner Trims,nan,INR 131.0,nan,nan
+2311-IP-ID-16,Replace PC-ABS with ABS in the manufacture of both Instrument Cluster Fascia Decorative Trim and the IP LHS & RHS Decorative Trims since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current combined weight - 80.19g
+4. The estimated combined weight - 77.16g
+5. The estimated weight saved = 80.19 - 77.16 = 3.03g
+6. The current combined cost - INR 24.95
+7. The estimated combined cost - INR 12.76
+8. The estimated cost saved = 24.95 - 12.76 = INR 12.19 ",nan,INR 140.0,0.00,TBD,Finance,KD,2311-IP-ID-16,Replace PC-ABS with ABS in the manufacture of both Instrument Cluster Fascia Decorative Trim and the IP LHS & RHS Decorative Trims since the finish could be achieved on ABS-made trims as well,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 140.0,Kalp ,nan
+2311-IT-ID-16,Replace PP+PE-T10 used in the manufacture of the Front A-Pillar Interior Trims in MGI with standard PP+PE,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP+PE-T10 - INR 240 (assumed)
+2. Per Kg rate of PP+PE - INR 215 (assumed))
+3. The current weight of the trim piece - 249g
+4. The estimated weight of the proposed trim piece - 241.13g (assumed using mass, volume, and density relation)
+5. The estimated weight saved = 249 - 241.13 = 7.87*2 = 15.74g
+6. The current cost of the trim piece = INR 59.76
+7. The estimated cost of the proposed trim piece = INR 51.84
+8. The estimated cost saved = 59 - 51.84 = 7.2*2 = INR 14.4",nan,INR 145.0,0.02,NG,nan,LC,2311-IT-ID-16,Replace PP+PE-T10 used in the manufacture of the Front A-Pillar Interior Trims in MGI with standard PP+PE,nan,INR 145.0,nan,nan
+2311-ET-ID-07,Reduce the wall thickness of the Front and Rear Fender Garnishes present on both LH and RH sides from 3.2mm to 2.8mm,NaN,INR 43.06,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T30 - INR 220 (assumed)
+2. The current weight of the front trim - 534g
+3. The estimated weight of the proposed front trim - 471g
+4. The estimated weight saved = 534 - 471 = 63*2 = 126g
+5. The current weight of the rear trim - 599g
+6. The estimated weight of the proposed rear trim - 506g
+7. The estimated weight saved = 599 - 506 = 93*2 = 186g
+8. The weight saved in total = 186 + 126 = 312g (assumption)
+9. The current cost of the front trim - INR 117.48
+10. The estimated cost of the proposed front trim - 103.62
+11. The estimated cost saved = 117.48 - 103.62 = 13.86*2 = INR 27.72
+12. The current cost of the rear trim - INR 131.78
+13. The estimated cost of the proposed rear trim - INR 111.32
+14. The estimated cost saved = 131.78 - 111.32 = 20.46*2 = 40.92
+15. The cost saved in total = 27.72 + 40.92 = INR 68.64 (assumption)",nan,INR 133.0,0.31,NG,nan,LC,2311-ET-ID-07,Reduce the wall thickness of the Front and Rear Fender Garnishes present on both LH and RH sides from 3.2mm to 2.8mm,nan,INR 133.0,nan,nan
+2311-DA-ID-25,Replace PP-T20 used in the manufacture of the Door Panel Interior Main Trims 2 of MGI with PP-E/P-TD10,NaN,INR 0.0,Business case to be evaluated (combined for DA-ID-24 & 25),"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 - INR 200 (assumed)
+2. Per Kg rate of PP-E/P-TD10 - INR 190 (assumed)
+3. The current weight of the front trim - 864g
+4. The estimated weight of the proposed front trim - 792.6g
+5. The estimated weight savings on both front trims = 864 - 792.6 = 71.4*2 = 142.8g
+6. The current weight of the rear trim - 610g
+7. The estimated weight of the proposed rear trim - 559.6g
+8. The estimated weight savings on both rear trims = 610 - 559.6 = 50.4*2 = 100.8g
+9. The cost of the front trim = INR 172.8
+10. The estimated cost of the proposed front trim = INR 150.59
+11. The estimated cost savings on both front trims = 172.8 - 150.59 = 22.21*2 = INR 44.42
+12. The cost of the rear trim = INR 122
+13. The estimated cost of the proposed rear trim = INR 106.32
+14. The estimated cost savings on both rear trims = 122 - 106.32 = 15.68*2 = INR 31.36
+
+15. The estimated weight savings in total = 142.8 + 100.8 = 243.6g
+16. The estimated cost savings in total = 44.42 + 31.36 = INR 75.78",nan,INR 134.0,0.24,NG,Finance,LC,2311-DA-ID-25,Replace PP-T20 used in the manufacture of the Door Panel Interior Main Trims 2 of MGI with PP-E/P-TD10,Business case to be evaluated (combined for DA-ID-24 & 25),INR 134.0,Kalp,2023-11-24 00:00:00
+2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg cost of PC-ABS = INR 311.17
+2. The Per Kg cost of ABS = INR 165.45
+3. The Per Sq.M cost of chrome plating = INR 129.14
+4. The weight saved de-contenting the holder trim = 39.16g
+5. The cost saved = INR 12.18
+6. The estimated weight of the proposed edge trim = 15g
+7. The estimated cost = INR 2.48
+8. The estimated surface area = 0.00249755 m2
+9. The Chrome Plating cost = INR 0.32
+
+10. The estimated weight saved = 39.16 - 15 = 24.16g
+11. The estimated cost saved = 12.18 - (2.48 + 0.32) = 12.18 - 2.8 = INR 9.38",nan,INR 132.0,0.02,TBD,nan,nan,2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",nan,INR 132.0,nan,nan
+2311-SS-ID-10,Replace PP+EPDM-T20 used in the manufacture of the Second-Row Seat Bottom Cover and Cushion Cover Trims of MGI with standard PP,NaN,INR 0.0,All trims foam & cover idea will be again checked for feasibility with supplier & BC evaluation.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP - INR 180 (assumed)
+2. Per Kg rate of PP+EPDM-T20 - INR 250 (assumed)
+3. The current weight of the Bottom Cover 40% = 829.59g
+4. The estimated weight of the proposed trim = 692.59g
+5. The estimated weight saved = 829.59 - 692.59 = 137g
+6. The current weight of the Cushion Cover 40% = 484.4g
+7. The estimated weight of the proposed trim = 404.40g
+8. The estimated weight saved = 484.4 - 404.40 = 80g
+9. The current weight of the Bottom Cover 60% = 1192g
+10. The estimated weight of the proposed trim = 995g
+11. The estimated weight saved = 1192 - 995 = 197g
+12. The current weight of the Cushion Cover 60% = 631g
+13. The estimated weight of the proposed trim = 526.7g
+14. The estimated weight saved = 631 - 526.7 = 104.3g
+15. The current cost of the Bottom Cover 40% = INR 207.39
+16. The estimated cost of the proposed trim = INR 124.6
+17. The estimated cost saved = 207.39 - 124.6 = INR 82.79
+18. The current cost of the Cushion Cover 40% = INR 121.1
+19. The estimated cost of the proposed trim = INR 72.79
+20. The estimated cost saved = 121.1 - 72.79 = INR 48.2
+21. The current cost of the Bottom Cover 60% = INR 298
+22. The estimated cost of the proposed trim = INR 179.1
+23. The estimated cost saved = 298 - 179.1 = INR 118.9
+24. The current cost of the Cushion Cover 60% = INR 157.75
+25. The estimated cost of the proposed trim = INR 94.80
+26. The estimated cost saved = INR 62.95
+
+27. The total weight saved = 517.3g
+28. The total cost saved = INR 312.84",nan,INR 147.0,0.52,NG,PE/ Finance,LC,2311-SS-ID-10,Replace PP+EPDM-T20 used in the manufacture of the Second-Row Seat Bottom Cover and Cushion Cover Trims of MGI with standard PP,All trims foam & cover idea will be again checked for feasibility with supplier & BC evaluation.,INR 147.0,Kalp/Nishant,2023-12-31 00:00:00
+2311-SS-ID-01,Reduce the width from the upper edge of the PVC panel of seat vent by 90mm.,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing
+1. Area of the PVC panel to be reduced = 37350 mm2
+2. Estimated weight of the PVC panel to be reduced =  30 g (assumed)
+3. Per kg cost of PVC = INR 150 (assumed)
+4. Estimated cost of PVC panel to be reduced = INR 4.5
+
+Estimated cost saving = INR 4.5
+Estimated weight saving = 30 g",nan,INR 144.0,0.03,NG,nan,LC,2311-SS-ID-01,Reduce the width from the upper edge of the PVC panel of seat vent by 90mm.,nan,INR 144.0,nan,nan
+2311-DA-ID-35,Replace PBT-GF30 with PA6-GF30 in the manufacture of the gear casings.,NaN,INR 0.0,Consider in homeroom bucket,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of PBT-GF30 = INR 108.79
+2. The per Kg rate of PA6-GF30 = INR 101.20
+3. The current weight of the casings on the front doors = 82.84g
+4. The estimated weight of the proposed = 70.54g
+5. The estimated weight saved = 82.84 - 70.54 = 12.3*2 = 24.6g
+6. The current weight of the casings on the rear doors = 75.53g
+7. The estimated weight of the proposed = 64.32g
+8. The estimated weight saved = 75.53 - 64.32 = 11.21*2 = 22.4g
+9. The current cost of the casings on the front doors = INR 9.01
+10. The estimated cost of the proposed = INR 7.13
+11. The estimated cost saved = 9.01 - 7.13 = 1.88*2 = INR 3.76
+12. The current cost of the casings on the rear doors = INR 8.21
+13. The estimated cost of the proposed = INR 6.50
+14. The estimated cost saved = 8.21 - 6.50 = 1.71*2 = INR 3.42
+
+15. The total weight saved = 24.6 + 22.4 = 47g
+16. The total cost saved = 3.76 + 3.42 = INR 7.18",nan,INR 147.0,0.05,Hold,VAVE,KD,2311-DA-ID-35,Replace PBT-GF30 with PA6-GF30 in the manufacture of the gear casings.,Consider in homeroom bucket,INR 147.0,Ratnadeep,TBC

@@ -1,0 +1,68 @@
+{
+  "project_metadata": {
+    "project_name": "VAVE Cost Reduction Initiative",
+    "car_model": "MG Hector Plus",
+    "target_savings": 50000,
+    "presenter": "Senior Engineering Team",
+    "date": "2024-12-24"
+  },
+  "ideas": [
+    {
+      "title": "Replace 450GSM PES-PU Foam with 350GSM Alternative",
+      "raw_description": "Reduce foam density in battery insulation cover from 450GSM to 350GSM PES-PU foam while maintaining thermal performance",
+      "saving_amount": 61.0,
+      "origin": "Existing DB",
+      "idea_id": "2311-EL-ID-10"
+    },
+    {
+      "title": "Optimize Battery Mounting Technique",
+      "raw_description": "Update battery mounting technique to align with KIA methodology, including redesign of battery-securing enclosure",
+      "saving_amount": 135.0,
+      "origin": "Existing DB",
+      "idea_id": "2311-EL-ID-08"
+    },
+    {
+      "title": "Remove Paint Coating from Mounts and Brackets",
+      "raw_description": "Eliminate paint coating process from non-visible mounting brackets and structural components",
+      "saving_amount": 250.0,
+      "origin": "AI Generated",
+      "idea_id": "AI-001"
+    },
+    {
+      "title": "Substitute PC-ABS with Standard ABS",
+      "raw_description": "Replace PC-ABS material with standard ABS in non-critical interior components where impact resistance is not required",
+      "saving_amount": 180.0,
+      "origin": "AI Generated",
+      "idea_id": "AI-002"
+    },
+    {
+      "title": "Use Galvanized Steel for Window Regulators",
+      "raw_description": "Switch from stainless steel to galvanized steel for window regulator mechanisms to reduce material cost",
+      "saving_amount": 320.0,
+      "origin": "Existing DB",
+      "idea_id": "2311-ME-ID-15"
+    },
+    {
+      "title": "Optimize Seat Frame Welding Process",
+      "raw_description": "Reduce number of weld points in seat frame assembly through design optimization and process improvement",
+      "saving_amount": 95.0,
+      "origin": "AI Generated",
+      "idea_id": "AI-003"
+    },
+    {
+      "title": "Replace Leather with Synthetic Alternative",
+      "raw_description": "Substitute genuine leather with high-quality synthetic leather in non-premium trim levels",
+      "saving_amount": 450.0,
+      "origin": "Existing DB",
+      "idea_id": "2311-TR-ID-22"
+    },
+    {
+      "title": "Reduce Door Panel Thickness",
+      "raw_description": "Optimize door panel material thickness from 3.5mm to 3.0mm through structural analysis and material property validation",
+      "saving_amount": 125.0,
+      "origin": "AI Generated",
+      "idea_id": "AI-004"
+    }
+  ]
+}
+

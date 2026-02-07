@@ -1,0 +1,160 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-PRODUCT-ID-03,Replace the rubber bushes used on the wiper blade mounting bolts with the plastic protective cap.,NaN,INR 2.86,nan,"The cost savings will be updated once the costing is done.
+1. Per Kg cost of EPDM - INR 500 (assumptions)
+2. Current weight of a single bushing used in MGI - 4.07g
+3. Current cost of a bushing - INR 2.03
+4. Per Kg cost of POM - INR 200 (assumptions)
+5. Weight of the proposed cap - 3g
+6. Cost of the caps proposed - INR 0.6
+7. The estimated cost savings on a bushing - 2.03 - 0.6 = INR 1.43
+8. The estimated weight saved on a bushing - 4.07 - 3 = 1.07g
+
+9. Total cost saved - 1.43*2 = INR 2.86
+10. Total weight saved = 1.07*2 = 2.14g",nan,INR 126.0,0.02,NG,nan,LC,2311-PRODUCT-ID-03,Replace the rubber bushes used on the wiper blade mounting bolts with the plastic protective cap.,nan,INR 126.0,nan,nan
+2311-ET-ID-11,"1. Remove the Foam inserts from both the LH and RH sides of MGI and use plastic trims instead as employed in KIA
+2. Thinsulate could be used if required",NaN,INR 266.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of the Insulating foam - INR 400 (assumed)
+2. The Per Kg rate of PP - INR 180 (assumed)
+3. The current weight of the LH side foam - 613g
+4. The estimated weight of the proposed trim - 76g
+5. The estimated weight saved - 537g
+6. The current weight of the LH side foam - 612g
+7. The estimated weight of the proposed trim - 75g
+8. The estimated weight saved - 537g
+9.  The current cost of the LH side foam - INR 245.2
+10. The estimated cost of the proposed trim - INR 13.68
+11. The estimated cost saved - 245.2 - 13.68 = INR 231.52
+12. The current cost of the LH side foam - INR 244.8
+13. The estimated cost of the proposed trim - INR 13.5
+14. The estimated cost saved - 244.8 - 13.5 = INR 231.3
+
+15. The total weight saved on LH & RH sides = 537*2 = 1074g
+16. The total cost saved on LH & RH sides = 231.5 + 231.3 = INR 462.8
+
+With Thinsulate,
+1. The per sq.M rate of Thinsulate - INR 204
+2. Area of the trim - 95904mm2
+3. Cost of the Thinsulate sheet required - INR 19.5
+4. Total cost for LH & RH sides = 19.5*2 = INR 39
+5. The estimated cost saved if Thinsulate is used = 462.8 - 39 = INR 423.8",nan,INR 131.0,1.07,NG,nan,LC,2311-ET-ID-11,"1. Remove the Foam inserts from both the LH and RH sides of MGI and use plastic trims instead as employed in KIA
+2. Thinsulate could be used if required",nan,INR 131.0,nan,nan
+2311-ST-ID-05,Redesign the current Steering Column to Steering Rack Linkage Plastic Trim and the Rubber Bush associated with a smaller setup as employed in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of EPDM - INR 500 (assumed)
+2. The per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the plastic trim = 83.54g
+4. The estimated weight = 49.60g
+5. The estimated weight saved = 83.54 - 49.60 = 33.94g
+6. The current cost of the plastic trim = INR 16.70
+7. The estimated cost = INR 9.92
+8. The estimated cost saved = 16.70 - 9.92 = INR 6.78
+9. The current weight of the rubber bush = 143.01g
+10. The estimated weight = 49.60g
+11. The estimated weight saved = 143.01 - 49.60 = 93.41g
+12. The current cost of the rubber bush = INR 71.50
+13. The estimated cost = INR 24.8
+14. The estimated cost saved = 71.50 - 24.8 = INR 46.7
+
+15. The total weight saved = 33.94 + 93.41 = 127.35g
+16. The total cost saved = 6.78 + 46.7 = INR 53.48",nan,INR 98.0,0.13,NG,nan,KD,2311-ST-ID-05,Redesign the current Steering Column to Steering Rack Linkage Plastic Trim and the Rubber Bush associated with a smaller setup as employed in KIA,nan,INR 98.0,nan,nan
+2311-FS-ID-01,Remove the Neoprene Foam Sheaths present on the fuel lines and the fuel inlet hose of MGI,NaN,INR 6.0,Confirm Kia routing photos for analysis with ASI,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of Neoprene Foam - INR 150 (assumed)
+2. The overall surface area = 89058mm2 = 0.089m2
+3. Average wall thickness - 3mm
+4. Assumed weight - 40g (Density 150Kg/m3)
+5. Overall cost of the sheaths used = INR 6
+
+6. The estimated weight saved = 40g
+7. The estimated cost saved = INR 6",nan,INR 142.0,40.00,NG,VAVE,LC,2311-FS-ID-01,Remove the Neoprene Foam Sheaths present on the fuel lines and the fuel inlet hose of MGI,Confirm Kia routing photos for analysis with ASI,INR 142.0,Ratnadeep,2024-02-12 00:00:00
+2311-ST-ID-06,Reduce the overall length and width of the rubber boots in MGI to match the dimensions of the similar rubber boots used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of EPDM - INR 500 (assumed)
+2. The current weight of the boot - 64g
+3. The estimated weight of the proposed boot - 48g
+4. The estimated weight saved = 64 - 48 = 16*2 = 24g
+5. The current cost of the boot - INR 32
+6. The estimated cost of the proposed boot - INR 24
+7. The estimated cost saved = 32 - 24 = 8*2 = INR 16",nan,INR 97.0,0.02,NG,nan,KD,2311-ST-ID-06,Reduce the overall length and width of the rubber boots in MGI to match the dimensions of the similar rubber boots used in KIA,nan,INR 97.0,nan,nan
+2311-PRODUCT-ID-15,De-content the rubber seal provided on the roller arm of each door,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after costing.
+1. Weight of rubber seal = 1.99g
+2. Per kg cost of rubber = INR 300 (assumption)
+3. Estimated cost saving = INR 0.59
+4. Total estimated cost saving = INR 2.36
+5. Total weight saving = 7.96 g",nan,INR 122.0,0.01,NG,nan,KD,2311-PRODUCT-ID-15,De-content the rubber seal provided on the roller arm of each door,nan,INR 122.0,nan,nan
+2311-ET-ID-28,"Redesign the current Door Panel Exterior LH & RH Main Trims to a similar setup as employed in KIA,
+1. Employ separate LH and RH Side Claddings (PP-T30) as in KIA
+2. Reduce the current width of the Front and Rear Door Panel Exterior LH & RH Main Trims by 80mm and de-content the rubber seals used on all four doors",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of EPDM - INR 500 (assumed)
+2. The per Kg rate of PP-T30 - INR 190 (assumed)
+3. The per Kg rate of Steel (painted) - INR 230 (assumed)
+4. The current weight of the rubber beadings on the front LH & RH sides = 335.51g
+5. The estimated weight saved on both sides after de-contenting = 335.51*2 = 671g
+6. The current weight of the rubber beadings on the rear LH & RH sides = 330.53g
+7. The estimated weight saved on both sides after de-contenting = 330.53*2 = 661g
+8. The estimated weight saved from the current front door panel exterior LH & RH main trims = 176*2 = 352g (assumed using mass, volume and density relations)
+9. The estimated weight saved from the current rear door panel exterior LH & RH main trims = 148*2 = 296g (assumed using mass, volume and density relations)
+10. The estimated weight saved from the provisions made on the BiW panels on both LH & RH sides = 3.2*11 = 35.2g
+11. The estimated weight of the proposed LH & RH Side Claddings = 1641*2 = 3282g (assumed using mass, volume and density relations)
+12. The estimated weight of the push-clips to be used = 1.8*11 = 19.8g
+13. The estimated weight of the fasteners to be used = 4*12 = 48g
+14. The current cost of the rubber beadings on the front LH & RH sides = INR 167.75
+15. The estimated cost saved on both sides after de-contenting = 167.75*2 = INR 335.51
+16. The current cost of the rubber beadings on the rear LH & RH sides = INR 165.26
+17. The estimated cost saved on both sides after de-contenting = 165.26*2 = INR 330.53
+18. The estimated cost saved from the current front door panel exterior LH & RH main trims = 33.44*2 = INR 66.88
+19. The estimated cost saved from the current rear door panel exterior LH & RH main trims = 28.12*2 = INR 56.24
+20. The estimated cost saved from the provisions made on the BiW panels on both LH & RH sides = 0.73*11 = INR 8.09
+21. The estimated cost of the proposed LH & RH Side Claddings = 311.79*2 = INR 623.58
+22. The estimated cost of the push-clips to be used = 0.32*11 = INR 3.56
+23. The estimated cost of the fasteners to be used = 0.72*12 = INR 8.64
+
+24. The total estimated weight saved = (671 + 661 + 352 + 296 + 35.2) - (3282 + 19.8 + 48) = 2015.2 - 3349.8 = Nil
+25. The total estimated cost saved = (335.51 + 330.53 + 66.88 + 56.24 + 8.09) - (623.58 + 3.56 + 8.64) = 797.25 - 635.78 = INR 161.47",nan,INR 105.0,0.00,TBD,nan,nan,2311-ET-ID-28,"Redesign the current Door Panel Exterior LH & RH Main Trims to a similar setup as employed in KIA,
+1. Employ separate LH and RH Side Claddings (PP-T30) as in KIA
+2. Reduce the current width of the Front and Rear Door Panel Exterior LH & RH Main Trims by 80mm and de-content the rubber seals used on all four doors",nan,INR 105.0,nan,nan
+2311-DA-ID-01,Reduce the overall width of the black vinyl pasted on the B-pillar from 70mm to 25mm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Square Meter cost of vinyl = INR 100 (assumed)
+2. The current weight = 10g (assumed)
+3. The estimated weight of the proposed design = 4g (assumed)
+4. The cost of the current design = INR 3.4
+5. The estimated cost of the proposed design = INR 1.2
+
+6. The estimated weight saved on both sides = 10 - 4 = 6*2 = 12g
+7. The estimated cost saved on both sides = 3.4 - 1.2 = 2.2*2 = INR 4.4",nan,INR 84.0,0.01,NG,nan,LC,2311-DA-ID-01,Reduce the overall width of the black vinyl pasted on the B-pillar from 70mm to 25mm,nan,INR 84.0,nan,nan
+2311-SS-ID-05,"1. Replace the leather upholstery on the flaps located at the bottom of MGI's front-row seats with fabric
+2. Use the same fabric (polyester) used to upholster the unexposed seat sides within MGI",NaN,INR 0.0,one-pager for PP approval,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M price of leather - INR 250 (assumed)
+2. Per Sq.M price of fabric (polyester) - INR 160 (assumed)
+3. Surface Area of the piece - 0.091M^2
+4. The current weight of the piece - 40g (assumed)
+5. The estimated weight of the proposed piece - 25g (assumed)
+6. The estimated weight saved = 15*2 (LH&RH) = 30g
+7. The current cost of the piece - INR 22.75
+8. The estimated cost of the proposed piece - INR 14.56
+9. The estimated cost saved = 8.19*2 (LH&RH) = INR 16.38",nan,INR 113.0,0.03,NG,VAVE,LC,2311-SS-ID-05,"1. Replace the leather upholstery on the flaps located at the bottom of MGI's front-row seats with fabric
+2. Use the same fabric (polyester) used to upholster the unexposed seat sides within MGI",one-pager for PP approval,INR 113.0,Ratnadeep,2023-11-20 00:00:00
+2311-DA-ID-17,"Instead of using Thinsulate within the door assemblies, Felt could be utilized",NaN,INR 137.9,Confirm on part availability,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Felt per square meter - INR 50 (assumption)
+3. Surface area of the front door Thinsulate 1 - 0.26m2
+4. The current cost = INR 53.04
+5. The estimated cost after using Felt instead = INR 13
+6. Total cost saved on both doors = 53.04 - 13 = 40.04*2 (LH&RH) = INR 80.08
+7. Surface area of the front door Thinsulate 2 - 0.071m2
+8. The current cost = INR 14.4
+9. The estimated cost after using Felt instead = INR 3.55
+10. Total cost saved on both doors = 14.4 - 3.55 = 10.85*2 (LH&RH) = INR 21.7
+11. Surface area of the rear door Thinsulate 1 - 0.22m2
+12. The current cost = INR 44.88
+13. The estimated cost after using Felt instead = INR 11
+14. Total cost saved on both doors = 44.88 - 11 = 33.88*2 (LH&RH) = INR 67.76
+15. Surface area of the rear door Thinsulate 2 - 0.10m2
+16. The current cost = INR 20.4
+17. The estimated cost after using Felt instead = INR 5
+18. Total cost saved on both doors = 20.4 - 5 = 15.4*2 (LH&RH) = INR 30.8
+19. Surface area of the tailgate Thinsulate - 0.49m2
+20. The current cost = INR 99.96
+21. The estimated cost after using Felt instead = INR 24.5
+22. The cost saved on the tailgate = 99.96 - 24.5 = INR 75.46
+
+23. The estimated cost saved in total = 80.08 + 21.7 + 67.76 + 30.8 + 75.46 = INR 275.8
+24. The estimated weight saved in total = No Weight Savings",nan,INR 78.0,0.00,TBD,PE/ Purchase,LC,2311-DA-ID-17,"Instead of using Thinsulate within the door assemblies, Felt could be utilized",Confirm on part availability,INR 78.0,Akhil/ Narendra,"29-Mar-24
+16-Feb-24"

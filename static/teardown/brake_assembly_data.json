@@ -1,0 +1,3897 @@
+{
+  "metadata": {
+    "system": "Brake Assembly",
+    "mg_vehicle": "Hector Plus",
+    "comp_vehicle": "Kia Seltos"
+  },
+  "comparisons": [
+    {
+      "part_name": "BRAKE ASSEMBLY",
+      "mg_data": {
+        "part_name": "BRAKE ASSEMBLY",
+        "part_number": "2311-BA-A",
+        "material": "nan",
+        "weight_g": 63557.0,
+        "cost_inr": 26779.22,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row2_2.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row2_3.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "BRAKE ASSEMBLY",
+        "part_number": "2312-BA-A",
+        "material": "nan",
+        "weight_g": 53718.0,
+        "cost_inr": 16669.19,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row2_2.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row2_3.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 9839.0,
+      "cost_diff": 10110.030000000002
+    },
+    {
+      "part_name": "Brake Booster Assembly",
+      "mg_data": {
+        "part_name": "Brake Booster Assembly",
+        "part_number": "2311-BA-01-A",
+        "material": "nan",
+        "weight_g": 4626.339999999999,
+        "cost_inr": 1247.33,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row3_4.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row3_5.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Assembly",
+        "part_number": "2312-BA-01-A",
+        "material": "nan",
+        "weight_g": 3147.2,
+        "cost_inr": 980.68,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row3_4.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row3_5.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 1479.1399999999994,
+      "cost_diff": 266.65
+    },
+    {
+      "part_name": "Reservoir-Master CYL",
+      "mg_data": {
+        "part_name": "Reservoir-Master CYL",
+        "part_number": "2311-BA-01-01-A",
+        "material": "PL-PP,\nPL-PPPlastic-ASI,MAGNET-ASI",
+        "weight_g": 213.51,
+        "cost_inr": 58.54,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row4_6.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row4_7.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Reservoir-Master CYL Cap",
+      "mg_data": {
+        "part_name": "Reservoir-Master CYL Cap",
+        "part_number": "2311-BA-01-02",
+        "material": "Plastic-ASI",
+        "weight_g": 7.97,
+        "cost_inr": 1.43,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row5_8.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row5_9.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Reservoir-Master CYL Cap",
+        "part_number": "2312-BA-01-02",
+        "material": "Plastic-ASI",
+        "weight_g": 12.99,
+        "cost_inr": 2.34,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row5_8.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row5_9.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -5.0200000000000005,
+      "cost_diff": -0.9099999999999999
+    },
+    {
+      "part_name": "Reservior Oil Level Sensor",
+      "mg_data": {
+        "part_name": "Reservior Oil Level Sensor",
+        "part_number": "2311-BA-01-03-A",
+        "material": "PCB-BOARD,Sensor,EL-CONNECTOR-ASI,EL-CONNECTOR-ASI,RUBBER-ASI,RUBBER-ASI,Plastic-ASI",
+        "weight_g": 5.99,
+        "cost_inr": 62.27,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row6_10.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row6_11.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Reservior Oil Level Sensor",
+        "part_number": "2312-BA-01-03-A",
+        "material": "EH-Wire-Dia 0.61 (23 SWG)Plastic-ASI,Plastic-ASI,pcb board,Sensor,CONNECTOR 3,CONNECTOR 3,CONNECTOR 3,CONNECTOR 3,Epoxy-ASI,Plastic-ASI",
+        "weight_g": 13.83,
+        "cost_inr": 118.81,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row6_10.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row6_11.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -7.84,
+      "cost_diff": -56.54
+    },
+    {
+      "part_name": "Reservoir to Master Cylinder Bolt",
+      "mg_data": {
+        "part_name": "Reservoir to Master Cylinder Bolt",
+        "part_number": "2311-BA-01-04",
+        "material": "ASI-BOLT",
+        "weight_g": 10.99,
+        "cost_inr": 1.65,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row7_12.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row7_13.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Master Cylinder Bush",
+      "mg_data": {
+        "part_name": "Master Cylinder Bush",
+        "part_number": "2311-BA-01-05",
+        "material": "Bush-ASI",
+        "weight_g": 2.545,
+        "cost_inr": 1.27,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row8_14.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row8_15.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Master Cylinder Bush",
+        "part_number": "2312-BA-01-06",
+        "material": "BUSH-ASI",
+        "weight_g": 2.1,
+        "cost_inr": 1.05,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row9_16.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row9_17.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.44499999999999984,
+      "cost_diff": 0.21999999999999997
+    },
+    {
+      "part_name": "Master Cylinder O-ring",
+      "mg_data": {
+        "part_name": "Master Cylinder O-ring",
+        "part_number": "2311-BA-01-06",
+        "material": "Rubber-ASI",
+        "weight_g": 0.91,
+        "cost_inr": 0.46,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row9_16.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row9_17.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Master Cylinder O-ring",
+        "part_number": "2312-BA-01-07",
+        "material": "O-RINGS",
+        "weight_g": 1.29,
+        "cost_inr": 0.65,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row10_18.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row10_19.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -0.38,
+      "cost_diff": -0.19
+    },
+    {
+      "part_name": "Master Cylinder O-ring Seal",
+      "mg_data": {
+        "part_name": "Master Cylinder O-ring Seal",
+        "part_number": "2311-BA-01-07",
+        "material": "RUBBER-ASI",
+        "weight_g": 0.86,
+        "cost_inr": 0.43,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row10_18.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row10_19.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Master Cylinder Piston Spring",
+      "mg_data": {
+        "part_name": "Master Cylinder Piston Spring",
+        "part_number": "2311-BA-01-08",
+        "material": "SPRING-ASI",
+        "weight_g": 11.09,
+        "cost_inr": 2.0,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row11_20.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row11_21.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Master Cylinder Piston Spring",
+        "part_number": "2312-BA-01-033",
+        "material": "SPRING-ASI",
+        "weight_g": 13.48,
+        "cost_inr": 2.43,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row36_70.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row36_71.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -2.3900000000000006,
+      "cost_diff": -0.43000000000000016
+    },
+    {
+      "part_name": "Master Cylinder",
+      "mg_data": {
+        "part_name": "Master Cylinder",
+        "part_number": "2311-BA-01-09-A",
+        "material": "AL-AA-Ingots-60822105-GA-EN-O RING-ASI,SPRING-ASI,Aluminium-ASI",
+        "weight_g": 398.82,
+        "cost_inr": 187.2,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row12_22.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row12_23.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Master Cylinder",
+        "part_number": "2312-BA-01-011-A",
+        "material": "AL-AA-Ingots-60822105-GA-EN-O RING-ASI,Steel Ball-ASI",
+        "weight_g": 377.67,
+        "cost_inr": 196.7,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row14_26.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row14_27.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 21.149999999999977,
+      "cost_diff": -9.5
+    },
+    {
+      "part_name": "Master Cylinder Piston",
+      "mg_data": {
+        "part_name": "Master Cylinder Piston",
+        "part_number": "2311-BA-01-010-A",
+        "material": "Aluminium-ASI",
+        "weight_g": 48.28,
+        "cost_inr": 24.14,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row13_24.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row13_25.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Master Cylinder Piston",
+        "part_number": "2312-BA-01-032-A",
+        "material": "Aluminium-ASI",
+        "weight_g": 32.8,
+        "cost_inr": 15.74,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row35_68.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row35_69.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 15.480000000000004,
+      "cost_diff": 8.4
+    },
+    {
+      "part_name": "Brake Booster Front Casing",
+      "mg_data": {
+        "part_name": "Brake Booster Front Casing",
+        "part_number": "2311-BA-01-011",
+        "material": "ST-CS-Coil-CR",
+        "weight_g": 527.3,
+        "cost_inr": 78.86,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row14_26.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row14_27.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Front Casing",
+        "part_number": "2312-BA-01-016-A",
+        "material": "ST-CS-Coil-CRFT-Stud-00,FT-Stud-00",
+        "weight_g": 669.0,
+        "cost_inr": 128.32,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row19_36.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row19_37.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -141.70000000000005,
+      "cost_diff": -49.459999999999994
+    },
+    {
+      "part_name": "Brake Booster Diaphragm Plate",
+      "mg_data": {
+        "part_name": "Brake Booster Diaphragm Plate",
+        "part_number": "2311-BA-01-012",
+        "material": "ST-CS-Coil-CR",
+        "weight_g": 270.0,
+        "cost_inr": 41.33,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row15_28.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row15_29.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Diaphragm Plate",
+        "part_number": "2312-BA-01-018",
+        "material": "ST-CS-Coil-CR",
+        "weight_g": 394.0,
+        "cost_inr": 55.11,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row21_40.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row21_41.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -124.0,
+      "cost_diff": -13.780000000000001
+    },
+    {
+      "part_name": "Brake Booster Diaphragm Plate-2",
+      "mg_data": {
+        "part_name": "Brake Booster Diaphragm Plate-2",
+        "part_number": "2311-BA-01-013",
+        "material": "ST-CS-Coil-CR",
+        "weight_g": 226.9,
+        "cost_inr": 36.62,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row16_30.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row16_31.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Diaphragm Plate-3",
+      "mg_data": {
+        "part_name": "Brake Booster Diaphragm Plate-3",
+        "part_number": "2311-BA-01-014",
+        "material": "ST-CS-Coil-CR",
+        "weight_g": 433.73,
+        "cost_inr": 55.77,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row17_32.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row17_33.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Casing Plate",
+      "mg_data": {
+        "part_name": "Brake Booster Casing Plate",
+        "part_number": "2311-BA-01-015",
+        "material": "ST-CS-Coil-CR",
+        "weight_g": 703.72,
+        "cost_inr": 87.26,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row18_34.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row18_35.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Diaphragm",
+      "mg_data": {
+        "part_name": "Diaphragm",
+        "part_number": "2311-BA-01-016",
+        "material": "RB-EPDM",
+        "weight_g": 105.5,
+        "cost_inr": 59.58,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row19_36.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row19_37.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Diaphragm",
+        "part_number": "2312-BA-01-017",
+        "material": "RB-SR-Sheet-SBR",
+        "weight_g": 112.4,
+        "cost_inr": 40.63,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row20_38.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row20_39.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -6.900000000000006,
+      "cost_diff": 18.949999999999996
+    },
+    {
+      "part_name": "Diaphragm-2",
+      "mg_data": {
+        "part_name": "Diaphragm-2",
+        "part_number": "2311-BA-01-017",
+        "material": "RB-EPDM",
+        "weight_g": 129.53,
+        "cost_inr": 70.83,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row20_38.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row20_39.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Spring",
+      "mg_data": {
+        "part_name": "Brake Booster Spring",
+        "part_number": "2311-BA-01-018",
+        "material": "SPRING-ASI",
+        "weight_g": 81.11,
+        "cost_inr": 14.6,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row21_40.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row21_41.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Spring",
+        "part_number": "2312-BA-01-019",
+        "material": "SPRING-ASI",
+        "weight_g": 83.86,
+        "cost_inr": 15.09,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row22_42.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row22_43.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -2.75,
+      "cost_diff": -0.4900000000000002
+    },
+    {
+      "part_name": "Brake Booster Push Rod Boot",
+      "mg_data": {
+        "part_name": "Brake Booster Push Rod Boot",
+        "part_number": "2311-BA-01-019",
+        "material": "Rubber-ASI",
+        "weight_g": 9.82,
+        "cost_inr": 3.34,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row22_42.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row22_43.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Push Rod Boot",
+        "part_number": "2312-BA-01-020",
+        "material": "RUBBER-ASI",
+        "weight_g": 17.45,
+        "cost_inr": 8.72,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row23_44.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row23_45.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -7.629999999999999,
+      "cost_diff": -5.380000000000001
+    },
+    {
+      "part_name": "Grommet",
+      "mg_data": {
+        "part_name": "Grommet",
+        "part_number": "2311-BA-01-020",
+        "material": "Rubber-ASI",
+        "weight_g": 3.27,
+        "cost_inr": 1.64,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row23_44.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row23_45.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Casing Spring Holder",
+      "mg_data": {
+        "part_name": "Brake Booster Casing Spring Holder",
+        "part_number": "2311-BA-01-021",
+        "material": "PL-PET-GF30",
+        "weight_g": 103.99,
+        "cost_inr": 51.45,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row24_46.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row24_47.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Casing Spring Holder",
+        "part_number": "2312-BA-01-021",
+        "material": "Plastic-ASI",
+        "weight_g": 87.4,
+        "cost_inr": 43.7,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row24_46.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row24_47.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 16.58999999999999,
+      "cost_diff": 7.75
+    },
+    {
+      "part_name": "Brake Booster Front Casing Seal",
+      "mg_data": {
+        "part_name": "Brake Booster Front Casing Seal",
+        "part_number": "2311-BA-01-022",
+        "material": "RUBBER-ASI",
+        "weight_g": 6.86,
+        "cost_inr": 3.43,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row25_48.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row25_49.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Front Casing Seal",
+        "part_number": "2312-BA-01-022",
+        "material": "RUBBER-ASI",
+        "weight_g": 8.86,
+        "cost_inr": 4.43,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row25_48.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row25_49.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -1.9999999999999991,
+      "cost_diff": -0.9999999999999996
+    },
+    {
+      "part_name": "Brake Booster Oil Seal",
+      "mg_data": {
+        "part_name": "Brake Booster Oil Seal",
+        "part_number": "2311-BA-01-023",
+        "material": "Rubber-ASI",
+        "weight_g": 6.22,
+        "cost_inr": 3.11,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row26_50.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row26_51.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Bolt",
+      "mg_data": {
+        "part_name": "Brake Booster Bolt",
+        "part_number": "2311-BA-01-024",
+        "material": "ASI-BOLT",
+        "weight_g": 5.47,
+        "cost_inr": 0.82,
+        "quantity": 7,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row27_52.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row27_53.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Reservior Nut",
+      "mg_data": {
+        "part_name": "Reservior Nut",
+        "part_number": "2311-BA-01-025",
+        "material": "ASI-NUT",
+        "weight_g": 4.735,
+        "cost_inr": 0.71,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row28_54.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row28_55.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Shaft",
+      "mg_data": {
+        "part_name": "Brake Booster Shaft",
+        "part_number": "2311-BA-01-026",
+        "material": "Steel-ASI",
+        "weight_g": 59.6,
+        "cost_inr": 41.72,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row29_56.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row29_57.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Shaft impeller",
+      "mg_data": {
+        "part_name": "Brake Booster Shaft impeller",
+        "part_number": "2311-BA-01-027",
+        "material": "Steel-ASI",
+        "weight_g": 3.28,
+        "cost_inr": 0.52,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row30_58.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row30_59.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Nut",
+      "mg_data": {
+        "part_name": "Brake Booster Nut",
+        "part_number": "2311-BA-01-028",
+        "material": "ASI-NUT",
+        "weight_g": 23.66,
+        "cost_inr": 3.55,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row31_60.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row31_61.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Bolt Seal",
+      "mg_data": {
+        "part_name": "Brake Booster Bolt Seal",
+        "part_number": "2311-BA-01-029",
+        "material": "Rubber-ASI",
+        "weight_g": 0.1,
+        "cost_inr": 0.05,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row32_62.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row32_63.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Spring Holder Rubber Bush",
+      "mg_data": {
+        "part_name": "Spring Holder Rubber Bush",
+        "part_number": "2311-BA-01-030",
+        "material": "Rubber-ASI",
+        "weight_g": 4.14,
+        "cost_inr": 2.07,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row33_64.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row33_65.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Spring Holder Rubber Bush",
+        "part_number": "2312-BA-01-025",
+        "material": "RUBBER-ASI",
+        "weight_g": 4.23,
+        "cost_inr": 2.12,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row28_54.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row28_55.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -0.09000000000000075,
+      "cost_diff": -0.050000000000000266
+    },
+    {
+      "part_name": "Spring Holder Washer",
+      "mg_data": {
+        "part_name": "Spring Holder Washer",
+        "part_number": "2311-BA-01-031",
+        "material": "washer-ASI",
+        "weight_g": 1.36,
+        "cost_inr": 0.14,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row34_66.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row34_67.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Plate cover",
+      "mg_data": {
+        "part_name": "Brake Booster Plate cover",
+        "part_number": "2311-BA-01-032",
+        "material": "Steel-ASI",
+        "weight_g": 11.7,
+        "cost_inr": 1.87,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row35_68.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row35_69.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Spring Holder Retainer",
+      "mg_data": {
+        "part_name": "Spring Holder Retainer",
+        "part_number": "2311-BA-01-033",
+        "material": "Steel-ASI",
+        "weight_g": 11.91,
+        "cost_inr": 1.91,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row36_70.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row36_71.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Spring Holder Retainer",
+        "part_number": "2312-BA-01-029",
+        "material": "Steel-ASI",
+        "weight_g": 10.16,
+        "cost_inr": 1.63,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row32_62.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row32_63.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 1.75,
+      "cost_diff": 0.28
+    },
+    {
+      "part_name": "Gasket",
+      "mg_data": {
+        "part_name": "Gasket",
+        "part_number": "2311-BA-01-034",
+        "material": "GASKET-ASI",
+        "weight_g": 0.63,
+        "cost_inr": 0.63,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row37_72.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row37_73.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Gasket",
+        "part_number": "2312-BA-01-015",
+        "material": "FOAM-ASI",
+        "weight_g": 1.51,
+        "cost_inr": 0.6,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row18_34.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row18_35.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -0.88,
+      "cost_diff": 0.030000000000000027
+    },
+    {
+      "part_name": "Gasket-2",
+      "mg_data": {
+        "part_name": "Gasket-2",
+        "part_number": "2311-BA-01-035",
+        "material": "GASKET-ASI",
+        "weight_g": 3.65,
+        "cost_inr": 3.65,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row38_74.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row38_75.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Bolt Holder",
+      "mg_data": {
+        "part_name": "Brake Booster Bolt Holder",
+        "part_number": "2311-BA-01-036",
+        "material": "Plastic-ASI",
+        "weight_g": 18.22,
+        "cost_inr": 3.28,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row39_76.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row39_77.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Bolt Holder O-ring",
+      "mg_data": {
+        "part_name": "Brake Booster Bolt Holder O-ring",
+        "part_number": "2311-BA-01-037",
+        "material": "Rubber-ASI",
+        "weight_g": 0.18,
+        "cost_inr": 0.09,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row40_78.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row40_79.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Reservoir-Master CYL Cap Seal",
+      "mg_data": {
+        "part_name": "Reservoir-Master CYL Cap Seal",
+        "part_number": "2311-BA-01-038",
+        "material": "Rubber-ASI",
+        "weight_g": 2.9,
+        "cost_inr": 1.45,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row41_80.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row41_81.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Reservoir-Master CYL Cap Seal",
+        "part_number": "2312-BA-01-08",
+        "material": "RUBBER-ASI",
+        "weight_g": 3.89,
+        "cost_inr": 1.95,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row11_20.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row11_21.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -0.9900000000000002,
+      "cost_diff": -0.5
+    },
+    {
+      "part_name": "Brake Booster Push Rod",
+      "mg_data": {
+        "part_name": "Brake Booster Push Rod",
+        "part_number": "2311-BA-01-039-A",
+        "material": "Mild MS RoundsSPRING-ASI,Steel-ASI,Seal-ASI,Steel-ASI,Steel-ASI,Plastic-ASI,Plastic-ASI,SPRING-ASI",
+        "weight_g": 101.02,
+        "cost_inr": 53.14,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row42_82.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row42_83.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Push Rod",
+        "part_number": "2312-BA-01-023-A",
+        "material": "Mild MS RoundsSPRING-ASI,SPRING-ASI,Seal-ASI,Steel-ASI,Steel-ASI",
+        "weight_g": 107.24,
+        "cost_inr": 80.5,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row26_50.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row26_51.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -6.219999999999999,
+      "cost_diff": -27.36
+    },
+    {
+      "part_name": "Brake Booster Push Rod Foam",
+      "mg_data": {
+        "part_name": "Brake Booster Push Rod Foam",
+        "part_number": "2311-BA-01-040",
+        "material": "FOAM-ASI",
+        "weight_g": 3.72,
+        "cost_inr": 1.49,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row43_84.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row43_85.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Push Rod Seal",
+      "mg_data": {
+        "part_name": "Brake Booster Push Rod Seal",
+        "part_number": "2311-BA-01-041",
+        "material": "Rubber-ASI",
+        "weight_g": 0.29,
+        "cost_inr": 0.14,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row44_86.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row44_87.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Vaccum Check Valve",
+      "mg_data": {
+        "part_name": "Vaccum Check Valve",
+        "part_number": "2311-BA-01-042-A",
+        "material": "Plastic-ASI",
+        "weight_g": 14.56,
+        "cost_inr": 2.62,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row45_88.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row45_89.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Booster Rear Casing",
+      "mg_data": {
+        "part_name": "Brake Booster Rear Casing",
+        "part_number": "2311-BA-01-043-A",
+        "material": "Mild MS Rounds,ST-CS-Coil-CRASI-BOLT,ASI-BOLT",
+        "weight_g": 709.15,
+        "cost_inr": 136.6,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row46_90.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row46_91.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Booster Rear Casing",
+        "part_number": "2312-BA-01-012",
+        "material": "ST-CS-Coil-CR2105-GA-EL-INFORMATION STICKER",
+        "weight_g": 553.0,
+        "cost_inr": 72.42,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row15_28.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row15_29.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 156.14999999999998,
+      "cost_diff": 64.17999999999999
+    },
+    {
+      "part_name": "Hose",
+      "mg_data": {
+        "part_name": "Hose",
+        "part_number": "2311-BA-01-044",
+        "material": "RB-NR-Sheet-RSS-4-01,RB-NR-Sheet-RSS-4-01NYLON-STRAP-1",
+        "weight_g": 111.76,
+        "cost_inr": 41.93,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row47_92.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row47_93.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Hose",
+        "part_number": "2312-BA-01-036",
+        "material": "NBR,NBRNYLON-STRAP-1",
+        "weight_g": 130.71,
+        "cost_inr": 54.85,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row39_76.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row39_77.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -18.950000000000003,
+      "cost_diff": -12.920000000000002
+    },
+    {
+      "part_name": "Hose-2",
+      "mg_data": {
+        "part_name": "Hose-2",
+        "part_number": "2311-BA-01-045",
+        "material": "HOSE 7",
+        "weight_g": 54.9,
+        "cost_inr": 32.94,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row48_94.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row48_95.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Hose-3",
+      "mg_data": {
+        "part_name": "Hose-3",
+        "part_number": "2311-BA-01-046-A",
+        "material": "HOSE 7",
+        "weight_g": 23.58,
+        "cost_inr": 14.15,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row49_96.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row49_97.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Hose Bush",
+      "mg_data": {
+        "part_name": "Hose Bush",
+        "part_number": "2311-BA-01-047",
+        "material": "Rubber-ASI",
+        "weight_g": 6.99,
+        "cost_inr": 3.5,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row50_98.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row50_99.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Hose Bush",
+        "part_number": "2312-BA-04-015",
+        "material": "Plastic-ASI",
+        "weight_g": 1.495,
+        "cost_inr": 0.27,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row138_274.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row138_275.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 5.495,
+      "cost_diff": 3.23
+    },
+    {
+      "part_name": "Hose Clip",
+      "mg_data": {
+        "part_name": "Hose Clip",
+        "part_number": "2311-BA-01-048",
+        "material": "Steel-ASI",
+        "weight_g": 4.89,
+        "cost_inr": 0.78,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row51_100.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row51_101.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Hose Clip",
+        "part_number": "2312-BA-01-039",
+        "material": "Clip-ASI",
+        "weight_g": 3.56,
+        "cost_inr": 0.5,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row42_82.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row42_83.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 1.3299999999999996,
+      "cost_diff": 0.28
+    },
+    {
+      "part_name": "Filter",
+      "mg_data": {
+        "part_name": "Filter",
+        "part_number": "2311-BA-01-049-A",
+        "material": "Plastic-ASI",
+        "weight_g": 1.66,
+        "cost_inr": 0.75,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row52_102.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row52_103.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Filter",
+        "part_number": "2312-BA-01-028",
+        "material": "2202-AI-Air Filter Foam-ASI",
+        "weight_g": 3.42,
+        "cost_inr": 1.71,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row31_60.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row31_61.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -1.76,
+      "cost_diff": -0.96
+    },
+    {
+      "part_name": "Hose Protective Shield",
+      "mg_data": {
+        "part_name": "Hose Protective Shield",
+        "part_number": "2311-BA-01-050",
+        "material": "Plastic-ASI",
+        "weight_g": 2.94,
+        "cost_inr": 0.36,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row53_104.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row53_105.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Oil",
+      "mg_data": {
+        "part_name": "Oil",
+        "part_number": "2311-BA-01-051",
+        "material": "Oil",
+        "weight_g": 33.5,
+        "cost_inr": 9.58,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row54_106.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row54_107.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Oil",
+        "part_number": "2312-BA-01-049",
+        "material": "Oil",
+        "weight_g": 21.37,
+        "cost_inr": 6.11,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row52_102.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row52_103.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 12.129999999999999,
+      "cost_diff": 3.4699999999999998
+    },
+    {
+      "part_name": "Front Brake Assembly",
+      "mg_data": {
+        "part_name": "Front Brake Assembly",
+        "part_number": "2311-BA-02-A",
+        "material": "nan",
+        "weight_g": 17030.67,
+        "cost_inr": 3479.73,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row55_108.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row55_109.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Front Brake Assembly",
+        "part_number": "2312-BA-02-A",
+        "material": "nan",
+        "weight_g": 14075.9,
+        "cost_inr": 2982.24,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row53_104.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row53_105.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 2954.7699999999986,
+      "cost_diff": 497.49000000000024
+    },
+    {
+      "part_name": "Front Brake Outer Shoe",
+      "mg_data": {
+        "part_name": "Front Brake Outer Shoe",
+        "part_number": "2311-BA-02-01-A",
+        "material": "ST-CS-Coil-HRGLUE-ASI,COMPOSITE-ASI,BRAKE PAD-RGMS14701-4101S,Steel-ASI",
+        "weight_g": 568.99,
+        "cost_inr": 345.73,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row56_110.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row56_111.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Front Brake Outer Shoe",
+        "part_number": "2312-BA-02-01-A",
+        "material": "ST-CS-Coil-HRSteel Plate-ASI,COMPOSITE-ASI,GLUE-ASI,BRAKE PAD-RGMS14701-4101S",
+        "weight_g": 382.35,
+        "cost_inr": 293.24,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row54_106.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row54_107.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 186.64,
+      "cost_diff": 52.49000000000001
+    },
+    {
+      "part_name": "Front Brake Inner Shoe",
+      "mg_data": {
+        "part_name": "Front Brake Inner Shoe",
+        "part_number": "2311-BA-02-02-A",
+        "material": "ST-CS-Coil-HRBRAKE PAD-RGMS14701-4101S,COMPOSITE-ASI,GLUE-ASI,Steel-ASI",
+        "weight_g": 566.84,
+        "cost_inr": 359.98,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row57_112.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row57_113.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Front Brake Inner Shoe",
+        "part_number": "2312-BA-02-02-A",
+        "material": "ST-CS-Coil-HRCOMPOSITE-ASI,GLUE-ASI,BRAKE PAD-RGMS14701-4101S,Steel-ASI",
+        "weight_g": 373.44,
+        "cost_inr": 278.89,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row55_108.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row55_109.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 193.40000000000003,
+      "cost_diff": 81.09000000000003
+    },
+    {
+      "part_name": "Caliper",
+      "mg_data": {
+        "part_name": "Caliper",
+        "part_number": "2311-BA-02-03",
+        "material": "OTH-PW-Core Sand,ST-IR-Ingots-CAST IRON,OTH-CO-RM",
+        "weight_g": 3772.0,
+        "cost_inr": 606.17,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row58_114.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row58_115.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper",
+        "part_number": "2312-BA-03-02",
+        "material": "ST-IR-Ingots-CAST IRON,OTH-CO-RM,OTH-PW-Core Sand",
+        "weight_g": 1471.0,
+        "cost_inr": 315.55,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row78_154.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row78_155.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 2301.0,
+      "cost_diff": 290.61999999999995
+    },
+    {
+      "part_name": "Caliper Dust Boot",
+      "mg_data": {
+        "part_name": "Caliper Dust Boot",
+        "part_number": "2311-BA-02-04-A",
+        "material": "Seal-ASI",
+        "weight_g": 12.37,
+        "cost_inr": 30.92,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row59_116.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row59_117.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Dust Boot",
+        "part_number": "2312-BA-03-013",
+        "material": "RUBBER-ASI",
+        "weight_g": 4.73,
+        "cost_inr": 2.37,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row89_176.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row89_177.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 7.639999999999999,
+      "cost_diff": 28.55
+    },
+    {
+      "part_name": "Piston",
+      "mg_data": {
+        "part_name": "Piston",
+        "part_number": "2311-BA-02-05",
+        "material": "SAE 4140",
+        "weight_g": 248.3,
+        "cost_inr": 106.47,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row60_118.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row60_119.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Piston",
+        "part_number": "2312-BA-02-06",
+        "material": "SAE 4140",
+        "weight_g": 368.31,
+        "cost_inr": 123.46,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row59_116.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row59_117.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -120.00999999999999,
+      "cost_diff": -16.989999999999995
+    },
+    {
+      "part_name": "Piston Seal",
+      "mg_data": {
+        "part_name": "Piston Seal",
+        "part_number": "2311-BA-02-06",
+        "material": "Rubber-ASI",
+        "weight_g": 1.64,
+        "cost_inr": 0.82,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row61_120.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row61_121.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Piston Seal",
+        "part_number": "2312-BA-02-07",
+        "material": "RUBBER-ASI",
+        "weight_g": 1.91,
+        "cost_inr": 0.95,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row60_118.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row60_119.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -0.27,
+      "cost_diff": -0.13
+    },
+    {
+      "part_name": "Front Brake Inner Shoe Clip",
+      "mg_data": {
+        "part_name": "Front Brake Inner Shoe Clip",
+        "part_number": "2311-BA-02-07",
+        "material": "Steel-ASI",
+        "weight_g": 3.3,
+        "cost_inr": 0.46,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row62_122.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row62_123.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Front Brake Inner Shoe Clip",
+        "part_number": "2312-BA-02-08",
+        "material": "Steel-ASI",
+        "weight_g": 4.09,
+        "cost_inr": 0.57,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row61_120.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row61_121.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -0.79,
+      "cost_diff": -0.10999999999999993
+    },
+    {
+      "part_name": "Bleeder screw",
+      "mg_data": {
+        "part_name": "Bleeder screw",
+        "part_number": "2311-BA-02-08",
+        "material": "Steel-ASI",
+        "weight_g": 10.43,
+        "cost_inr": 4.69,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row63_124.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row63_125.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Bleeder screw",
+        "part_number": "2312-BA-03-07",
+        "material": "Steel-ASI",
+        "weight_g": 9.22,
+        "cost_inr": 4.15,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row83_164.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row83_165.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 1.209999999999999,
+      "cost_diff": 0.54
+    },
+    {
+      "part_name": "Bleeder cap",
+      "mg_data": {
+        "part_name": "Bleeder cap",
+        "part_number": "2311-BA-02-09",
+        "material": "RUBBER-ASI",
+        "weight_g": 1.02,
+        "cost_inr": 0.51,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row64_126.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row64_127.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Bleeder cap",
+        "part_number": "2312-BA-02-010",
+        "material": "RUBBER-ASI",
+        "weight_g": 0.63,
+        "cost_inr": 0.32,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row63_124.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row63_125.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.39,
+      "cost_diff": 0.19
+    },
+    {
+      "part_name": "Caliper mounting Bracket",
+      "mg_data": {
+        "part_name": "Caliper mounting Bracket",
+        "part_number": "2311-BA-02-010",
+        "material": "ST-IR-Ingots-CAST IRON,OTH-PW-Core Sand",
+        "weight_g": 1813.0,
+        "cost_inr": 295.79,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row65_128.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row65_129.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Mounting Bracket",
+        "part_number": "2312-BA-03-03",
+        "material": "OTH-PW-Core Sand,ST-IR-Ingots-CAST IRON",
+        "weight_g": 843.23,
+        "cost_inr": 149.54,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row79_156.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row79_157.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 969.77,
+      "cost_diff": 146.25000000000003
+    },
+    {
+      "part_name": "Caliper Bracket Lock Pin",
+      "mg_data": {
+        "part_name": "Caliper Bracket Lock Pin",
+        "part_number": "2311-BA-02-011-A",
+        "material": "RUBBER-ASI,Steel-ASI",
+        "weight_g": 60.67,
+        "cost_inr": 41.26,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row66_130.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row66_131.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Bracket Lock Pin",
+        "part_number": "2312-BA-02-012-A",
+        "material": "Steel-ASI,RUBBER-ASI",
+        "weight_g": 51.15,
+        "cost_inr": 35.4,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row65_128.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row65_129.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 9.520000000000003,
+      "cost_diff": 5.859999999999999
+    },
+    {
+      "part_name": "Caliper Bracket Guide Pin",
+      "mg_data": {
+        "part_name": "Caliper Bracket Guide Pin",
+        "part_number": "2311-BA-02-012",
+        "material": "Steel-ASI",
+        "weight_g": 66.19,
+        "cost_inr": 46.33,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row67_132.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row67_133.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Bracket Guide Pin",
+        "part_number": "2312-BA-02-013",
+        "material": "Steel-ASI",
+        "weight_g": 53.61,
+        "cost_inr": 37.53,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row66_130.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row66_131.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 12.579999999999998,
+      "cost_diff": 8.799999999999997
+    },
+    {
+      "part_name": "Caliper Bolt",
+      "mg_data": {
+        "part_name": "Caliper Bolt",
+        "part_number": "2311-BA-02-013",
+        "material": "ASI-BOLT",
+        "weight_g": 15.6,
+        "cost_inr": 3.9,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row68_134.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row68_135.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Bolt",
+        "part_number": "2312-BA-03-012",
+        "material": "ASI-BOLT",
+        "weight_g": 16.82,
+        "cost_inr": 4.21,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row88_174.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row88_175.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -1.2200000000000006,
+      "cost_diff": -0.31000000000000005
+    },
+    {
+      "part_name": "Front Brake Inner & Outer Shoe Clip",
+      "mg_data": {
+        "part_name": "Front Brake Inner & Outer Shoe Clip",
+        "part_number": "2311-BA-02-014",
+        "material": "Steel-ASI",
+        "weight_g": 2.895,
+        "cost_inr": 0.41,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row69_136.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row69_137.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Front Brake Inner & Outer Shoe Clip",
+        "part_number": "2312-BA-03-015",
+        "material": "Steel-ASI",
+        "weight_g": 6.87,
+        "cost_inr": 0.96,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row91_180.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row91_181.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -3.975,
+      "cost_diff": -0.55
+    },
+    {
+      "part_name": "Caliper Bracket Lock & Guide Pin Boot",
+      "mg_data": {
+        "part_name": "Caliper Bracket Lock & Guide Pin Boot",
+        "part_number": "2311-BA-02-015-A",
+        "material": "Steel-ASI,RUBBER-ASI",
+        "weight_g": 7.415,
+        "cost_inr": 2.69,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row70_138.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row70_139.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Bracket Lock & Guide Pin Boot",
+        "part_number": "2312-BA-02-015",
+        "material": "RUBBER-ASI",
+        "weight_g": 2.86,
+        "cost_inr": 1.43,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row68_134.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row68_135.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 4.555,
+      "cost_diff": 1.26
+    },
+    {
+      "part_name": "Disc Rotor",
+      "mg_data": {
+        "part_name": "Disc Rotor",
+        "part_number": "2311-BA-02-016",
+        "material": "OTH-PW-Core Sand,ST-IR-Ingots-CAST IRON,OTH-CO-RM",
+        "weight_g": 9586.0,
+        "cost_inr": 1592.79,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row71_140.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row71_141.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Disc Rotor",
+        "part_number": "2312-BA-02-017",
+        "material": "OTH-CO-RM,ST-IR-Ingots-CAST IRON,OTH-PW-Core Sand",
+        "weight_g": 7990.0,
+        "cost_inr": 1448.19,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row70_138.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row70_139.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 1596.0,
+      "cost_diff": 144.5999999999999
+    },
+    {
+      "part_name": "Rear Brake Assembly",
+      "mg_data": {
+        "part_name": "Rear Brake Assembly",
+        "part_number": "2311-BA-03-A",
+        "material": "nan",
+        "weight_g": 9900.649999999998,
+        "cost_inr": 4891.01,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row72_142.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row72_143.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Rear Brake Assembly",
+        "part_number": "2312-BA-03-A",
+        "material": "nan",
+        "weight_g": 14618.18,
+        "cost_inr": 4294.89,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row76_150.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row76_151.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -4717.5300000000025,
+      "cost_diff": 596.1199999999999
+    },
+    {
+      "part_name": "Rear Brake Disc Rotor",
+      "mg_data": {
+        "part_name": "Rear Brake Disc Rotor",
+        "part_number": "2311-BA-03-01",
+        "material": "ST-IR-Ingots-CAST IRON,OTH-PW-Core Sand",
+        "weight_g": 4903.0,
+        "cost_inr": 1177.52,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row73_144.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row73_145.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Rear Brake Disc Rotor",
+        "part_number": "2312-BA-03-01",
+        "material": "OTH-PW-Core Sand,ST-IR-Ingots-CAST IRON",
+        "weight_g": 3679.0,
+        "cost_inr": 842.94,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row77_152.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row77_153.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 1224.0,
+      "cost_diff": 334.5799999999999
+    },
+    {
+      "part_name": "Caliper",
+      "mg_data": {
+        "part_name": "Caliper",
+        "part_number": "2311-BA-03-02",
+        "material": "OTH-CO-RM,OTH-PW-Core Sand,ST-IR-Ingots-CAST IRON",
+        "weight_g": 1808.0,
+        "cost_inr": 363.51,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row74_146.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row74_147.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper",
+        "part_number": "2312-BA-03-02",
+        "material": "ST-IR-Ingots-CAST IRON,OTH-CO-RM,OTH-PW-Core Sand",
+        "weight_g": 1471.0,
+        "cost_inr": 315.55,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row78_154.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row78_155.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 337.0,
+      "cost_diff": 47.95999999999998
+    },
+    {
+      "part_name": "Bleeder Screw",
+      "mg_data": {
+        "part_name": "Bleeder Screw",
+        "part_number": "2311-BA-03-03",
+        "material": "Steel-ASI",
+        "weight_g": 11.01,
+        "cost_inr": 4.95,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row75_148.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row75_149.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Bleeder screw",
+        "part_number": "2312-BA-03-07",
+        "material": "Steel-ASI",
+        "weight_g": 9.22,
+        "cost_inr": 4.15,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row83_164.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row83_165.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 1.7899999999999991,
+      "cost_diff": 0.7999999999999998
+    },
+    {
+      "part_name": "Bleeder Screw Cap",
+      "mg_data": {
+        "part_name": "Bleeder Screw Cap",
+        "part_number": "2311-BA-03-04",
+        "material": "RUBBER-ASI",
+        "weight_g": 0.86,
+        "cost_inr": 0.43,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row76_150.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row76_151.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Bleeder Screw Cap",
+        "part_number": "2312-BA-03-08",
+        "material": "RUBBER-ASI",
+        "weight_g": 0.79,
+        "cost_inr": 0.4,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row84_166.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row84_167.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.06999999999999995,
+      "cost_diff": 0.02999999999999997
+    },
+    {
+      "part_name": "Rear Brake Outer Shoe",
+      "mg_data": {
+        "part_name": "Rear Brake Outer Shoe",
+        "part_number": "2311-BA-03-05-A",
+        "material": "ST-CS-Coil-HRCOMPOSITE-ASI,GLUE-ASI,BRAKE PAD-RGMS14701-4101S,Steel-ASI",
+        "weight_g": 252.67,
+        "cost_inr": 228.75,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row77_152.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row77_153.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Rear Brake Outer Shoe",
+        "part_number": "2312-BA-03-04-A",
+        "material": "ST-CS-Coil-HRGLUE-ASI,COMPOSITE-ASI,BRAKE PAD-RGMS14701-4101S,Steel-ASI",
+        "weight_g": 163.62,
+        "cost_inr": 180.99,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row80_158.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row80_159.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 89.04999999999998,
+      "cost_diff": 47.75999999999999
+    },
+    {
+      "part_name": "Rear Brake Inner Shoe",
+      "mg_data": {
+        "part_name": "Rear Brake Inner Shoe",
+        "part_number": "2311-BA-03-06-A",
+        "material": "ST-CS-Coil-HRCOMPOSITE-ASI,GLUE-ASI,BRAKE PAD-RGMS14701-4101S,Steel-ASI,Steel-ASI",
+        "weight_g": 251.58,
+        "cost_inr": 224.0,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row78_154.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row78_155.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Rear Brake Inner Shoe",
+        "part_number": "2312-BA-03-05-A",
+        "material": "ST-CS-Coil-HRCOMPOSITE-ASI,GLUE-ASI,BRAKE PAD-RGMS14701-4101S,Steel-ASI",
+        "weight_g": 167.16,
+        "cost_inr": 176.1,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row81_160.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row81_161.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 84.42000000000002,
+      "cost_diff": 47.900000000000006
+    },
+    {
+      "part_name": "Caliper Piston",
+      "mg_data": {
+        "part_name": "Caliper Piston",
+        "part_number": "2311-BA-03-07",
+        "material": "SAE 4140",
+        "weight_g": 178.55,
+        "cost_inr": 83.11,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row79_156.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row79_157.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Piston",
+        "part_number": "2312-BA-03-06",
+        "material": "SAE 4140",
+        "weight_g": 164.64,
+        "cost_inr": 105.02,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row82_162.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row82_163.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 13.910000000000025,
+      "cost_diff": -21.909999999999997
+    },
+    {
+      "part_name": "Caliper Mounting Bracket",
+      "mg_data": {
+        "part_name": "Caliper Mounting Bracket",
+        "part_number": "2311-BA-03-08",
+        "material": "OTH-PW-Core Sand,ST-IR-Ingots-CAST IRON",
+        "weight_g": 1133.0,
+        "cost_inr": 198.54,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row80_158.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row80_159.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Mounting Bracket",
+        "part_number": "2312-BA-03-03",
+        "material": "OTH-PW-Core Sand,ST-IR-Ingots-CAST IRON",
+        "weight_g": 843.23,
+        "cost_inr": 149.54,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row79_156.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row79_157.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 289.77,
+      "cost_diff": 49.0
+    },
+    {
+      "part_name": "Caliper Mounting Bracket Pin",
+      "mg_data": {
+        "part_name": "Caliper Mounting Bracket Pin",
+        "part_number": "2311-BA-03-09",
+        "material": "PIN-ASI",
+        "weight_g": 56.13,
+        "cost_inr": 39.29,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row81_160.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row81_161.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Mounting Bracket Pin",
+        "part_number": "2312-BA-03-09",
+        "material": "Steel-ASI",
+        "weight_g": 39.13,
+        "cost_inr": 27.39,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row85_168.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row85_169.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 17.0,
+      "cost_diff": 11.899999999999999
+    },
+    {
+      "part_name": "Caliper Mounting Bracket Pin Boot",
+      "mg_data": {
+        "part_name": "Caliper Mounting Bracket Pin Boot",
+        "part_number": "2311-BA-03-010",
+        "material": "RUBBER-ASI",
+        "weight_g": 2.895,
+        "cost_inr": 1.45,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row82_162.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row82_163.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Mounting Bracket Pin Boot",
+        "part_number": "2312-BA-03-011",
+        "material": "RUBBER-ASI",
+        "weight_g": 2.22,
+        "cost_inr": 1.11,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row87_172.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row87_173.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.6749999999999998,
+      "cost_diff": 0.33999999999999986
+    },
+    {
+      "part_name": "Caliper Bolt",
+      "mg_data": {
+        "part_name": "Caliper Bolt",
+        "part_number": "2311-BA-03-011",
+        "material": "ASI-BOLT",
+        "weight_g": 62.585,
+        "cost_inr": 15.65,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row83_164.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row83_165.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Bolt",
+        "part_number": "2312-BA-03-012",
+        "material": "ASI-BOLT",
+        "weight_g": 16.82,
+        "cost_inr": 4.21,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row88_174.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row88_175.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 45.765,
+      "cost_diff": 11.440000000000001
+    },
+    {
+      "part_name": "Caliper Dust Boot",
+      "mg_data": {
+        "part_name": "Caliper Dust Boot",
+        "part_number": "2311-BA-03-012",
+        "material": "RUBBER-ASI",
+        "weight_g": 4.89,
+        "cost_inr": 2.44,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row84_166.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row84_167.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Dust Boot",
+        "part_number": "2312-BA-03-013",
+        "material": "RUBBER-ASI",
+        "weight_g": 4.73,
+        "cost_inr": 2.37,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row89_176.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row89_177.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.15999999999999925,
+      "cost_diff": 0.06999999999999984
+    },
+    {
+      "part_name": "Caliper Bottem O-Ring",
+      "mg_data": {
+        "part_name": "Caliper Bottem O-Ring",
+        "part_number": "2311-BA-03-013",
+        "material": "RUBBER-ASI",
+        "weight_g": 1.25,
+        "cost_inr": 0.62,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row85_168.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row85_169.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Front Brake Inner & Outer Shoe Clip",
+      "mg_data": {
+        "part_name": "Front Brake Inner & Outer Shoe Clip",
+        "part_number": "2311-BA-03-014",
+        "material": "Steel-ASI",
+        "weight_g": 3.22,
+        "cost_inr": 0.45,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row86_170.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row86_171.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Front Brake Inner & Outer Shoe Clip",
+        "part_number": "2312-BA-03-015",
+        "material": "Steel-ASI",
+        "weight_g": 6.87,
+        "cost_inr": 0.96,
+        "quantity": 4,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row91_180.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row91_181.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -3.65,
+      "cost_diff": -0.51
+    },
+    {
+      "part_name": "Motor Actuator",
+      "mg_data": {
+        "part_name": "Motor Actuator",
+        "part_number": "2311-BA-03-015-A",
+        "material": "Motor",
+        "weight_g": 694.65,
+        "cost_inr": 2279.66,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row87_172.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row87_173.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Piston Spindle",
+      "mg_data": {
+        "part_name": "Piston Spindle",
+        "part_number": "2311-BA-03-016",
+        "material": "Steel-ASI",
+        "weight_g": 62.2,
+        "cost_inr": 43.54,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row88_174.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row88_175.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Piston Spindle",
+        "part_number": "2312-BA-03-019",
+        "material": "Steel-ASI",
+        "weight_g": 42.85,
+        "cost_inr": 30.0,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row94_186.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row94_187.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 19.35,
+      "cost_diff": 13.54
+    },
+    {
+      "part_name": "Piston Pressure Nut",
+      "mg_data": {
+        "part_name": "Piston Pressure Nut",
+        "part_number": "2311-BA-03-017",
+        "material": "ASI-NUT",
+        "weight_g": 60.21,
+        "cost_inr": 24.08,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row89_176.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row89_177.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Piston Pressure Nut",
+        "part_number": "2312-BA-03-027",
+        "material": "Steel-ASI",
+        "weight_g": 33.43,
+        "cost_inr": 12.37,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row102_202.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row102_203.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 26.78,
+      "cost_diff": 11.709999999999999
+    },
+    {
+      "part_name": "Piston Spindle Circlip",
+      "mg_data": {
+        "part_name": "Piston Spindle Circlip",
+        "part_number": "2311-BA-03-018",
+        "material": "Steel-ASI",
+        "weight_g": 1.17,
+        "cost_inr": 0.26,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row90_178.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row90_179.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Piston Spindle Circlip",
+        "part_number": "2312-BA-03-024",
+        "material": "CIRCLIP-ASI",
+        "weight_g": 1.2,
+        "cost_inr": 0.26,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row99_196.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row99_197.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -0.030000000000000027,
+      "cost_diff": 0.0
+    },
+    {
+      "part_name": "Piston Spindle Shim",
+      "mg_data": {
+        "part_name": "Piston Spindle Shim",
+        "part_number": "2311-BA-03-019",
+        "material": "washer-ASI",
+        "weight_g": 4.735,
+        "cost_inr": 0.76,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row91_180.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row91_181.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Piston Spindle Shim",
+        "part_number": "2312-BA-03-021",
+        "material": "Steel-ASI",
+        "weight_g": 0.67,
+        "cost_inr": 0.11,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row96_190.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row96_191.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 4.065,
+      "cost_diff": 0.65
+    },
+    {
+      "part_name": "Piston Spindle Bearing",
+      "mg_data": {
+        "part_name": "Piston Spindle Bearing",
+        "part_number": "2311-BA-03-020-A",
+        "material": "BR-NB-HK3012",
+        "weight_g": 4.31,
+        "cost_inr": 64.0,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row92_182.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row92_183.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Piston Spindle O-Ring",
+      "mg_data": {
+        "part_name": "Piston Spindle O-Ring",
+        "part_number": "2311-BA-03-021",
+        "material": "RUBBER-ASI",
+        "weight_g": 0.33,
+        "cost_inr": 0.17,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row93_184.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row93_185.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Piston Spindle O-Ring",
+        "part_number": "2312-BA-03-026",
+        "material": "O-RINGS",
+        "weight_g": 0.19,
+        "cost_inr": 0.1,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row101_200.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row101_201.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.14,
+      "cost_diff": 0.07
+    },
+    {
+      "part_name": "Piston Spindle Sleeve",
+      "mg_data": {
+        "part_name": "Piston Spindle Sleeve",
+        "part_number": "2311-BA-03-022",
+        "material": "Copper-ASI",
+        "weight_g": 1.74,
+        "cost_inr": 1.83,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row94_186.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row94_187.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Piston Spindle Sleeve",
+        "part_number": "2312-BA-03-025",
+        "material": "Copper-ASI",
+        "weight_g": 1.73,
+        "cost_inr": 1.82,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row100_198.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row100_199.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.010000000000000009,
+      "cost_diff": 0.010000000000000009
+    },
+    {
+      "part_name": "Caliper Seal",
+      "mg_data": {
+        "part_name": "Caliper Seal",
+        "part_number": "2311-BA-03-023",
+        "material": "RUBBER-ASI",
+        "weight_g": 1.42,
+        "cost_inr": 0.71,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row95_188.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row95_189.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Caliper Seal",
+        "part_number": "2312-BA-03-014",
+        "material": "RUBBER-ASI",
+        "weight_g": 1.33,
+        "cost_inr": 0.67,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row90_178.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row90_179.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.08999999999999986,
+      "cost_diff": 0.039999999999999925
+    },
+    {
+      "part_name": "Caliper Bracket Bolt",
+      "mg_data": {
+        "part_name": "Caliper Bracket Bolt",
+        "part_number": "2311-BA-03-024",
+        "material": "ASI-BOLT",
+        "weight_g": 17.3,
+        "cost_inr": 4.33,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row96_190.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row96_191.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Motor Actuator Mount Bolt",
+      "mg_data": {
+        "part_name": "Motor Actuator Mount Bolt",
+        "part_number": "2311-BA-03-025",
+        "material": "ASI-BOLT",
+        "weight_g": 5.36,
+        "cost_inr": 0.8,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row97_192.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row97_193.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Caliper To Suspension  Bolt",
+      "mg_data": {
+        "part_name": "Caliper To Suspension  Bolt",
+        "part_number": "2311-BA-03-026",
+        "material": "ASI-BOLT",
+        "weight_g": 86.5,
+        "cost_inr": 21.62,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row98_194.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row98_195.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Motor Actuator Cable Bracket",
+      "mg_data": {
+        "part_name": "Motor Actuator Cable Bracket",
+        "part_number": "2311-BA-03-027",
+        "material": "Steel-ASI",
+        "weight_g": 33.97,
+        "cost_inr": 5.44,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row99_196.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row99_197.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Motor Actuator Cable Bracket Bolt",
+      "mg_data": {
+        "part_name": "Motor Actuator Cable Bracket Bolt",
+        "part_number": "2311-BA-03-028",
+        "material": "ASI-BOLT",
+        "weight_g": 7.08,
+        "cost_inr": 1.77,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row100_198.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row100_199.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Motor Actuator Cable Clip",
+      "mg_data": {
+        "part_name": "Motor Actuator Cable Clip",
+        "part_number": "2311-BA-03-029",
+        "material": "Plastic-ASI",
+        "weight_g": 1.02,
+        "cost_inr": 0.18,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row101_200.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row101_201.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Motor Actuator Cable Clip-2",
+      "mg_data": {
+        "part_name": "Motor Actuator Cable Clip-2",
+        "part_number": "2311-BA-03-030",
+        "material": "Plastic-ASI",
+        "weight_g": 1.45,
+        "cost_inr": 0.26,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row102_202.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row102_203.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Caliper Snap Ring",
+      "mg_data": {
+        "part_name": "Caliper Snap Ring",
+        "part_number": "2311-BA-03-031",
+        "material": "SNP-RING",
+        "weight_g": 2.4,
+        "cost_inr": 0.38,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row103_204.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row103_205.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "Brake Distributor Assembly",
+      "mg_data": {
+        "part_name": "Brake Distributor Assembly",
+        "part_number": "2311-BA-04-A",
+        "material": "nan",
+        "weight_g": 4980.4299,
+        "cost_inr": 8267.1,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row104_206.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row104_207.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "Brake Distributor Assembly",
+        "part_number": "2312-BA-04-A",
+        "material": "nan",
+        "weight_g": 3991.517999999999,
+        "cost_inr": 4144.32,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row123_244.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row123_245.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 988.911900000001,
+      "cost_diff": 4122.780000000001
+    },
+    {
+      "part_name": "ABS Output Hose-1 FR",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1 FR",
+        "part_number": "2311-BA-04-01-A",
+        "material": "2101-EL-PROTECTIVEHOSE-ASI",
+        "weight_g": 71.55,
+        "cost_inr": 35.77,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row105_208.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row105_209.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-2 FR",
+      "mg_data": {
+        "part_name": "ABS Output Hose-2 FR",
+        "part_number": "2311-BA-04-02-A",
+        "material": "2101-EL-PROTECTIVEHOSE-ASI",
+        "weight_g": 68.24,
+        "cost_inr": 34.12,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row106_210.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row106_211.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-3 FR",
+      "mg_data": {
+        "part_name": "ABS Output Hose-3 FR",
+        "part_number": "2311-BA-04-03-A",
+        "material": "2101-EX-FLEXIBLE HOSE-ASI",
+        "weight_g": 113.16,
+        "cost_inr": 144.2,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row107_212.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row107_213.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-1 FR Clip",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1 FR Clip",
+        "part_number": "2311-BA-04-04",
+        "material": "Plastic-ASI",
+        "weight_g": 5.43,
+        "cost_inr": 0.98,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row108_214.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row108_215.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-3 FR Bolt",
+      "mg_data": {
+        "part_name": "ABS Output Hose-3 FR Bolt",
+        "part_number": "2311-BA-04-05",
+        "material": "ASI-BOLT",
+        "weight_g": 25.9,
+        "cost_inr": 6.47,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row109_216.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row109_217.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-3 FR Bolt Washer",
+      "mg_data": {
+        "part_name": "ABS Output Hose-3 FR Bolt Washer",
+        "part_number": "2311-BA-04-06",
+        "material": "COPPER-WASHER-ASI",
+        "weight_g": 1.11,
+        "cost_inr": 1.11,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row110_218.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row110_219.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose FR Clamp",
+      "mg_data": {
+        "part_name": "ABS Output Hose FR Clamp",
+        "part_number": "2311-BA-04-07",
+        "material": "STEEL-ASI",
+        "weight_g": 4.22,
+        "cost_inr": 0.68,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row111_220.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row111_221.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-1 FR Hanger",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1 FR Hanger",
+        "part_number": "2311-BA-04-08",
+        "material": "RUBBER-ASI",
+        "weight_g": 6.02,
+        "cost_inr": 3.01,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row112_222.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row112_223.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-3 FR Bolt Washer-2",
+      "mg_data": {
+        "part_name": "ABS Output Hose-3 FR Bolt Washer-2",
+        "part_number": "2311-BA-04-09",
+        "material": "COPPER-WASHER-ASI",
+        "weight_g": 1.15,
+        "cost_inr": 1.15,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row113_224.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row113_225.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-1 FL",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1 FL",
+        "part_number": "2311-BA-04-010-A",
+        "material": "2101-EL-PROTECTIVEHOSE-ASI",
+        "weight_g": 59.59,
+        "cost_inr": 29.8,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row114_226.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row114_227.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Output Hose-1 FL",
+        "part_number": "2312-BA-04-02-A",
+        "material": "Steel-ASI,RUBBER-ASI",
+        "weight_g": 91.47,
+        "cost_inr": 45.73,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row125_248.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row125_249.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -31.879999999999995,
+      "cost_diff": -15.929999999999996
+    },
+    {
+      "part_name": "ABS Output Hose-2 FL",
+      "mg_data": {
+        "part_name": "ABS Output Hose-2 FL",
+        "part_number": "2311-BA-04-011-A",
+        "material": "2101-EX-FLEXIBLE HOSE-ASI",
+        "weight_g": 111.91,
+        "cost_inr": 92.65,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row115_228.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row115_229.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-2 FL Bolt",
+      "mg_data": {
+        "part_name": "ABS Output Hose-2 FL Bolt",
+        "part_number": "2311-BA-04-012",
+        "material": "ASI-BOLT",
+        "weight_g": 25.8,
+        "cost_inr": 6.45,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row116_230.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row116_231.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose FL Bolt Washer",
+      "mg_data": {
+        "part_name": "ABS Output Hose FL Bolt Washer",
+        "part_number": "2311-BA-04-013",
+        "material": "COPPER-WASHER-ASI",
+        "weight_g": 1.14,
+        "cost_inr": 1.14,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row117_232.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row117_233.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-2 FL Bolt Washer-2",
+      "mg_data": {
+        "part_name": "ABS Output Hose-2 FL Bolt Washer-2",
+        "part_number": "2311-BA-04-014",
+        "material": "COPPER-WASHER-ASI",
+        "weight_g": 1.14,
+        "cost_inr": 1.14,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row118_234.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row118_235.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-2 FL Hanger",
+      "mg_data": {
+        "part_name": "ABS Output Hose-2 FL Hanger",
+        "part_number": "2311-BA-04-015",
+        "material": "RUBBER DAMPER-ASI",
+        "weight_g": 6.01,
+        "cost_inr": 3.0,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row119_236.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row119_237.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-1 FL Clamp",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1 FL Clamp",
+        "part_number": "2311-BA-04-016",
+        "material": "Steel-ASI",
+        "weight_g": 4.25,
+        "cost_inr": 0.68,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row120_238.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row120_239.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-1 RR",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1 RR",
+        "part_number": "2311-BA-04-017-A",
+        "material": "ST-GAL-PIPE,RB-EPDMASI-BOLT",
+        "weight_g": 199.0,
+        "cost_inr": 104.89,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row121_240.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row121_241.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Output Hose-1 RR",
+        "part_number": "2312-BA-04-07-A",
+        "material": "OIL-PIPE-1",
+        "weight_g": 57.2,
+        "cost_inr": 28.6,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row130_258.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row130_259.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 141.8,
+      "cost_diff": 76.28999999999999
+    },
+    {
+      "part_name": "ABS Output Hose-2 RR",
+      "mg_data": {
+        "part_name": "ABS Output Hose-2 RR",
+        "part_number": "2311-BA-04-018-A",
+        "material": "ST-GAL-PIPEASI-BOLT,ASI-NUT",
+        "weight_g": 127.0,
+        "cost_inr": 58.55,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row122_242.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row122_243.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Output Hose-2 RR",
+        "part_number": "2312-BA-04-08-A",
+        "material": "ST-GAL-PIPE,RB-EPDMASI-BOLT",
+        "weight_g": 304.0,
+        "cost_inr": 145.66,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row131_260.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row131_261.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -177.0,
+      "cost_diff": -87.11
+    },
+    {
+      "part_name": "ABS Output Hose-3 RR",
+      "mg_data": {
+        "part_name": "ABS Output Hose-3 RR",
+        "part_number": "2311-BA-04-019-A",
+        "material": "2101-EL-PROTECTIVEHOSE-ASI",
+        "weight_g": 26.57,
+        "cost_inr": 13.29,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row123_244.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row123_245.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-4 RR",
+      "mg_data": {
+        "part_name": "ABS Output Hose-4 RR",
+        "part_number": "2311-BA-04-020-A",
+        "material": "2101-EX-FLEXIBLE HOSE-ASI",
+        "weight_g": 92.07,
+        "cost_inr": 98.45,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row124_246.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row124_247.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RR",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RR",
+        "part_number": "2311-BA-04-021-A",
+        "material": "2101-EX-FLEXIBLE HOSE-ASI",
+        "weight_g": 119.79,
+        "cost_inr": 92.24,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row125_248.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row125_249.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RR Bolt",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RR Bolt",
+        "part_number": "2311-BA-04-022",
+        "material": "ASI-BOLT",
+        "weight_g": 25.74,
+        "cost_inr": 6.43,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row126_250.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row126_251.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RR Bolt Washer",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RR Bolt Washer",
+        "part_number": "2311-BA-04-023",
+        "material": "Copper-ASI",
+        "weight_g": 1.12,
+        "cost_inr": 1.12,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row127_252.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row127_253.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RR Bolt Washer-2",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RR Bolt Washer-2",
+        "part_number": "2311-BA-04-024",
+        "material": "Copper-ASI",
+        "weight_g": 1.14,
+        "cost_inr": 1.14,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row128_254.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row128_255.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose 4&5 RR Clamp",
+      "mg_data": {
+        "part_name": "ABS Output Hose 4&5 RR Clamp",
+        "part_number": "2311-BA-04-025",
+        "material": "Steel-ASI",
+        "weight_g": 4.38,
+        "cost_inr": 0.7,
+        "quantity": 5,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row129_256.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row129_257.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-1&2 RR Clip",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1&2 RR Clip",
+        "part_number": "2311-BA-04-026",
+        "material": "Plastic-ASI",
+        "weight_g": 3.46,
+        "cost_inr": 0.62,
+        "quantity": 7,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row130_258.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row130_259.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-1&2 RR Clip-2",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1&2 RR Clip-2",
+        "part_number": "2311-BA-04-027",
+        "material": "Plastic-ASI",
+        "weight_g": 2.09,
+        "cost_inr": 0.38,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row131_260.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row131_261.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-4 RR Clamp",
+      "mg_data": {
+        "part_name": "ABS Output Hose-4 RR Clamp",
+        "part_number": "2311-BA-04-028",
+        "material": "Steel-ASI",
+        "weight_g": 3.67,
+        "cost_inr": 0.59,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row132_262.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row132_263.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Hose Front to Rare Mount Bolt",
+      "mg_data": {
+        "part_name": "ABS Hose Front to Rare Mount Bolt",
+        "part_number": "2311-BA-04-029",
+        "material": "ASI-BOLT",
+        "weight_g": 5.8411,
+        "cost_inr": 0.88,
+        "quantity": 9,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row133_264.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row133_265.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-1RL",
+      "mg_data": {
+        "part_name": "ABS Output Hose-1RL",
+        "part_number": "2311-BA-04-030-A",
+        "material": "RB-EPDM,ST-GAL-PIPEASI-BOLT",
+        "weight_g": 277.0,
+        "cost_inr": 125.08,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row134_266.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row134_267.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-2 RL",
+      "mg_data": {
+        "part_name": "ABS Output Hose-2 RL",
+        "part_number": "2311-BA-04-031-A",
+        "material": "ST-GAL-PIPEASI-BOLT,ASI-NUT",
+        "weight_g": 123.0,
+        "cost_inr": 56.76,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row135_268.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row135_269.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Output Hose-2 RL",
+        "part_number": "2312-BA-04-010-A",
+        "material": "RB-EPDM,ST-GAL-PIPEASI-BOLT",
+        "weight_g": 391.0,
+        "cost_inr": 166.6,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row133_264.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row133_265.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -268.0,
+      "cost_diff": -109.84
+    },
+    {
+      "part_name": "ABS Output Hose-3 RL",
+      "mg_data": {
+        "part_name": "ABS Output Hose-3 RL",
+        "part_number": "2311-BA-04-032-A",
+        "material": "2101-EL-PROTECTIVEHOSE-ASI",
+        "weight_g": 27.13,
+        "cost_inr": 13.56,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row136_270.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row136_271.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-4 RL",
+      "mg_data": {
+        "part_name": "ABS Output Hose-4 RL",
+        "part_number": "2311-BA-04-033-A",
+        "material": "2101-EX-FLEXIBLE HOSE-ASI",
+        "weight_g": 91.73,
+        "cost_inr": 98.45,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row137_272.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row137_273.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RL",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RL",
+        "part_number": "2311-BA-04-034-A",
+        "material": "2101-EX-FLEXIBLE HOSE-ASI",
+        "weight_g": 120.55,
+        "cost_inr": 99.18,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row138_274.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row138_275.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RL Bolt",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RL Bolt",
+        "part_number": "2311-BA-04-035",
+        "material": "ASI-BOLT",
+        "weight_g": 25.77,
+        "cost_inr": 6.44,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row139_276.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row139_277.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RL Bolt Washer",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RL Bolt Washer",
+        "part_number": "2311-BA-04-036",
+        "material": "WASHER-COPPER",
+        "weight_g": 1.15,
+        "cost_inr": 1.15,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row140_278.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row140_279.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RL Bolt Washer-2",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RL Bolt Washer-2",
+        "part_number": "2311-BA-04-037",
+        "material": "COPPER-WASHER-ASI",
+        "weight_g": 1.12,
+        "cost_inr": 1.12,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row141_280.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row141_281.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RL Bracket",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RL Bracket",
+        "part_number": "2311-BA-04-038",
+        "material": "Steel-ASI",
+        "weight_g": 4.35,
+        "cost_inr": 0.7,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row142_282.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row142_283.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Output Hose-5 RL Clamp",
+      "mg_data": {
+        "part_name": "ABS Output Hose-5 RL Clamp",
+        "part_number": "2311-BA-04-039",
+        "material": "Steel-ASI",
+        "weight_g": 3.71,
+        "cost_inr": 0.59,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row143_284.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row143_285.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Module",
+      "mg_data": {
+        "part_name": "ABS Module",
+        "part_number": "2311-BA-04-040-A",
+        "material": "nan",
+        "weight_g": 1965.0,
+        "cost_inr": 6647.2,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row144_286.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row144_287.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Module",
+        "part_number": "2312-BA-04-04-A",
+        "material": "nan",
+        "weight_g": 1645.0,
+        "cost_inr": 2913.2,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row127_252.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row127_253.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 320.0,
+      "cost_diff": 3734.0
+    },
+    {
+      "part_name": "ABS Module Bracket",
+      "mg_data": {
+        "part_name": "ABS Module Bracket",
+        "part_number": "2311-BA-04-041-A",
+        "material": "ST-CS-Coil-CR,ST-CS-Coil-CR,ST-CS-Coil-CR",
+        "weight_g": 717.38,
+        "cost_inr": 127.36,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row145_288.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row145_289.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Module Bracket",
+        "part_number": "2312-BA-04-05-A",
+        "material": "ST-CS-Coil-CR,ST-CS-Coil-CRSteel Plate-ASI",
+        "weight_g": 456.52,
+        "cost_inr": 59.49,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row128_254.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row128_255.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 260.86,
+      "cost_diff": 67.87
+    },
+    {
+      "part_name": "ABS Module Bracket Nut",
+      "mg_data": {
+        "part_name": "ABS Module Bracket Nut",
+        "part_number": "2311-BA-04-042",
+        "material": "ASI-NUT",
+        "weight_g": 6.215,
+        "cost_inr": 0.93,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row146_290.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row146_291.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Module Bracket Nut",
+        "part_number": "2312-BA-04-06",
+        "material": "ASI-NUT",
+        "weight_g": 6.435,
+        "cost_inr": 0.96,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row129_256.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row129_257.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -0.21999999999999975,
+      "cost_diff": -0.029999999999999916
+    },
+    {
+      "part_name": "ABS Module Bracket Nut-2",
+      "mg_data": {
+        "part_name": "ABS Module Bracket Nut-2",
+        "part_number": "2311-BA-04-043",
+        "material": "ASI-NUT",
+        "weight_g": 8.0,
+        "cost_inr": 1.2,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row147_292.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row147_293.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Module Bracket Washer",
+      "mg_data": {
+        "part_name": "ABS Module Bracket Washer",
+        "part_number": "2311-BA-04-044",
+        "material": "Steel-ASI",
+        "weight_g": 0.995,
+        "cost_inr": 0.1,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row148_294.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row148_295.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Module Bracket washer-2",
+      "mg_data": {
+        "part_name": "ABS Module Bracket washer-2",
+        "part_number": "2311-BA-04-045",
+        "material": "Steel-ASI",
+        "weight_g": 1.88,
+        "cost_inr": 0.19,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row149_296.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row149_297.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Module Bracket Bush",
+      "mg_data": {
+        "part_name": "ABS Module Bracket Bush",
+        "part_number": "2311-BA-04-046",
+        "material": "RUBBER-ASI",
+        "weight_g": 2.035,
+        "cost_inr": 1.02,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row150_298.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row150_299.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Module Bracket Bush",
+        "part_number": "2312-BA-04-013",
+        "material": "Rubber-ASI",
+        "weight_g": 3.076,
+        "cost_inr": 1.54,
+        "quantity": 3,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row136_270.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row136_271.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": -1.041,
+      "cost_diff": -0.52
+    },
+    {
+      "part_name": "ABS Module Bracket Bush-2",
+      "mg_data": {
+        "part_name": "ABS Module Bracket Bush-2",
+        "part_number": "2311-BA-04-047",
+        "material": "RUBBER-ASI",
+        "weight_g": 3.34,
+        "cost_inr": 1.67,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row151_300.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row151_301.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Module Mount Bolt",
+      "mg_data": {
+        "part_name": "ABS Module Mount Bolt",
+        "part_number": "2311-BA-04-048",
+        "material": "ASI-BOLT",
+        "weight_g": 13.39,
+        "cost_inr": 3.35,
+        "quantity": 2,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row152_302.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row152_303.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Module Mount Bolt",
+        "part_number": "2312-BA-04-014",
+        "material": "ASI-BOLT",
+        "weight_g": 12.94,
+        "cost_inr": 1.94,
+        "quantity": 3,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row137_272.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row137_273.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 0.45000000000000107,
+      "cost_diff": 1.4100000000000001
+    },
+    {
+      "part_name": "ABS Module Mount Nut",
+      "mg_data": {
+        "part_name": "ABS Module Mount Nut",
+        "part_number": "2311-BA-04-049",
+        "material": "ASI-NUT",
+        "weight_g": 7.32,
+        "cost_inr": 1.1,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row153_304.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row153_305.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Module Inlet Hose",
+      "mg_data": {
+        "part_name": "ABS Module Inlet Hose",
+        "part_number": "2311-BA-04-050-A",
+        "material": "ST-GAL-PIPEASI-BOLT",
+        "weight_g": 168.0,
+        "cost_inr": 76.77,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row154_306.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row154_307.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Module Inlet Hose",
+        "part_number": "2312-BA-04-021-A",
+        "material": "OIL-PIPE-1",
+        "weight_g": 87.56,
+        "cost_inr": 43.78,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row144_286.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row144_287.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 80.44,
+      "cost_diff": 32.989999999999995
+    },
+    {
+      "part_name": "ABS Module Inlet Hose-2",
+      "mg_data": {
+        "part_name": "ABS Module Inlet Hose-2",
+        "part_number": "2311-BA-04-051-A",
+        "material": "ST-GAL-PIPEASI-BOLT",
+        "weight_g": 174.02,
+        "cost_inr": 78.51,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row155_308.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row155_309.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": {
+        "part_name": "ABS Module Inlet Hose-2",
+        "part_number": "2312-BA-04-022-A",
+        "material": "2101-EL-PROTECTIVEHOSE-ASI",
+        "weight_g": 89.0,
+        "cost_inr": 40.05,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Kia_Seltos/Kia_Seltos_row145_288.png",
+          "static/teardown/Kia_Seltos/Kia_Seltos_row145_289.png"
+        ],
+        "vehicle": "Kia_Seltos"
+      },
+      "weight_diff": 85.02000000000001,
+      "cost_diff": 38.46000000000001
+    },
+    {
+      "part_name": "ABS Module Inlet Hose 1&2 Clip",
+      "mg_data": {
+        "part_name": "ABS Module Inlet Hose 1&2 Clip",
+        "part_number": "2311-BA-04-052",
+        "material": "Plastic-ASI",
+        "weight_g": 7.0,
+        "cost_inr": 1.26,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row156_310.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row156_311.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    },
+    {
+      "part_name": "ABS Module Inlet Hose 1&2 Clip-2",
+      "mg_data": {
+        "part_name": "ABS Module Inlet Hose 1&2 Clip-2",
+        "part_number": "2311-BA-04-053",
+        "material": "Plastic-ASI",
+        "weight_g": 4.21,
+        "cost_inr": 0.76,
+        "quantity": 1,
+        "images": [
+          "static/teardown/Hector_Plus/Hector_Plus_row157_312.png",
+          "static/teardown/Hector_Plus/Hector_Plus_row157_313.png"
+        ],
+        "vehicle": "Hector_Plus"
+      },
+      "competitor_data": null,
+      "weight_diff": 0,
+      "cost_diff": 0
+    }
+  ]
+}

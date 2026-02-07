@@ -1,0 +1,143 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-DA-ID-06,Replace the plastic trim used on the Hood Prop Rod in MGI with a foam cover trim as in KIA,NaN,INR 0.0,Check supplier feasibility,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumption)
+2. Per Kg rate of Neoprene (assumption) - INR 400 (assumption)
+3. The current weight of the trim = 6g (assumption)
+4. The estimated weight of the foam trim of the same dimensions = 1.09g (assumed using Mass Volume, and Density relations)
+5. The current cost of the trim = INR 1.8
+6. The estimated cost of the proposed foam trim = INR 0.43
+
+7. The estimated weight saved = 6 -1.09 = 4.91g
+8. The estimated cost saved = 1.8 - 0.43 = INR 1.37",nan,INR 148.0,0.00,NG,Purchase,LC,2311-DA-ID-06,Replace the plastic trim used on the Hood Prop Rod in MGI with a foam cover trim as in KIA,Check supplier feasibility,INR 148.0,Chirag,2024-02-16 00:00:00
+2311-DA-ID-22,Replace PA6-GF30 with PA6-GF15 + MD25 in the manufacture of the Exterior Door Handle Rear Trims,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PA6 + GF30 = INR 450 (assumed)
+2. Per Kg rate of PA6 + GF15 + MD25 = INR 350 (assumed)
+3. The current weight of the trim - 55.2g
+4. The estimated weight of the proposed trim - 53.29g
+5. The estimated weight saved = 55.2 - 53.29 = 1.91*4 = 7.64g
+6. The current cost of the trim - INR 24.8
+7. The estimated cost of the proposed trim - INR 18.65
+8. The estimated cost saved = 24.8 - 18.65 = 6.15*4 = INR 24.6",nan,INR 148.0,0.01,NG,nan,LC,2311-DA-ID-22,Replace PA6-GF30 with PA6-GF15 + MD25 in the manufacture of the Exterior Door Handle Rear Trims,nan,INR 148.0,nan,nan
+2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,NaN,INR 91.35,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the front trim - 290.06g
+4. The estimated weight of the proposed front trim - 263.4g
+5. The estimated weight savings on both front trims = 290.06 - 263.4 = 26.6*2 = 53.32g
+6. The current weight of the rear trim - 292.86g
+7. The estimated weight of the proposed rear trim - 266.01g
+8. The estimated weight savings on both rear trims = 292.86 - 266.01 = 26.85*2 = 53.7g
+9. The cost of the front trim = INR 87.01
+10. The estimated cost of the proposed front trim = INR 58.01
+11. The estimated cost savings on both front trims = 87.01 - 58.01 = 29*2 = INR 58
+12. The cost of the rear trim = INR 87.85
+13. The estimated cost of the proposed rear trim = INR 58.57
+14. The estimated cost savings on both rear trims = 87.8 - 58.57 = 29.23*2 = INR 58.4
+
+15. The estimated weight savings in total = 53.32 + 53.7 = 107g
+16. The estimated cost savings in total = 58 + 58.4 = INR 116.4
+17. Flaming Process Cost - INR 5 should be considered for each part
+18. Cost saved - 116.4 - 5*4 = INR 96.4",nan,INR 147.0,0.11,NG,nan,LC,2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,nan,INR 147.0,nan,nan
+2311-SS-ID-10,Replace PP+EPDM-T20 used in the manufacture of the Second-Row Seat Bottom Cover and Cushion Cover Trims of MGI with standard PP,NaN,INR 0.0,All trims foam & cover idea will be again checked for feasibility with supplier & BC evaluation.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP - INR 180 (assumed)
+2. Per Kg rate of PP+EPDM-T20 - INR 250 (assumed)
+3. The current weight of the Bottom Cover 40% = 829.59g
+4. The estimated weight of the proposed trim = 692.59g
+5. The estimated weight saved = 829.59 - 692.59 = 137g
+6. The current weight of the Cushion Cover 40% = 484.4g
+7. The estimated weight of the proposed trim = 404.40g
+8. The estimated weight saved = 484.4 - 404.40 = 80g
+9. The current weight of the Bottom Cover 60% = 1192g
+10. The estimated weight of the proposed trim = 995g
+11. The estimated weight saved = 1192 - 995 = 197g
+12. The current weight of the Cushion Cover 60% = 631g
+13. The estimated weight of the proposed trim = 526.7g
+14. The estimated weight saved = 631 - 526.7 = 104.3g
+15. The current cost of the Bottom Cover 40% = INR 207.39
+16. The estimated cost of the proposed trim = INR 124.6
+17. The estimated cost saved = 207.39 - 124.6 = INR 82.79
+18. The current cost of the Cushion Cover 40% = INR 121.1
+19. The estimated cost of the proposed trim = INR 72.79
+20. The estimated cost saved = 121.1 - 72.79 = INR 48.2
+21. The current cost of the Bottom Cover 60% = INR 298
+22. The estimated cost of the proposed trim = INR 179.1
+23. The estimated cost saved = 298 - 179.1 = INR 118.9
+24. The current cost of the Cushion Cover 60% = INR 157.75
+25. The estimated cost of the proposed trim = INR 94.80
+26. The estimated cost saved = INR 62.95
+
+27. The total weight saved = 517.3g
+28. The total cost saved = INR 312.84",nan,INR 147.0,0.52,NG,PE/ Finance,LC,2311-SS-ID-10,Replace PP+EPDM-T20 used in the manufacture of the Second-Row Seat Bottom Cover and Cushion Cover Trims of MGI with standard PP,All trims foam & cover idea will be again checked for feasibility with supplier & BC evaluation.,INR 147.0,Kalp/Nishant,2023-12-31 00:00:00
+2311-DA-ID-35,Replace PBT-GF30 with PA6-GF30 in the manufacture of the gear casings.,NaN,INR 0.0,Consider in homeroom bucket,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of PBT-GF30 = INR 108.79
+2. The per Kg rate of PA6-GF30 = INR 101.20
+3. The current weight of the casings on the front doors = 82.84g
+4. The estimated weight of the proposed = 70.54g
+5. The estimated weight saved = 82.84 - 70.54 = 12.3*2 = 24.6g
+6. The current weight of the casings on the rear doors = 75.53g
+7. The estimated weight of the proposed = 64.32g
+8. The estimated weight saved = 75.53 - 64.32 = 11.21*2 = 22.4g
+9. The current cost of the casings on the front doors = INR 9.01
+10. The estimated cost of the proposed = INR 7.13
+11. The estimated cost saved = 9.01 - 7.13 = 1.88*2 = INR 3.76
+12. The current cost of the casings on the rear doors = INR 8.21
+13. The estimated cost of the proposed = INR 6.50
+14. The estimated cost saved = 8.21 - 6.50 = 1.71*2 = INR 3.42
+
+15. The total weight saved = 24.6 + 22.4 = 47g
+16. The total cost saved = 3.76 + 3.42 = INR 7.18",nan,INR 147.0,0.05,Hold,VAVE,KD,2311-DA-ID-35,Replace PBT-GF30 with PA6-GF30 in the manufacture of the gear casings.,Consider in homeroom bucket,INR 147.0,Ratnadeep,TBC
+2311-IT-ID-26,Replace PP-T20 with PP in the manufacture of the grab handles within the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 = INR 200 (assumed)
+2. Per Kg rate of PP - INR 180 (assumed)
+3. The current weight of the handle - 65g
+4. The estimated weight of the proposed handle - 58.8g
+5. The estimated weight saved = 65 - 58.8 = 6.2*3 = 18.6g
+6. The current cost of the handle - INR 13
+7. The estimated cost of the proposed handle - INR 10.5
+8. The estimated cost saved = 13 - 10.5 = 2.5*3 = INR 7.5",nan,INR 145.0,0.02,TBD,nan,nan,2311-IT-ID-26,Replace PP-T20 with PP in the manufacture of the grab handles within the vehicle,nan,INR 145.0,nan,nan
+2311-IT-ID-16,Replace PP+PE-T10 used in the manufacture of the Front A-Pillar Interior Trims in MGI with standard PP+PE,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP+PE-T10 - INR 240 (assumed)
+2. Per Kg rate of PP+PE - INR 215 (assumed))
+3. The current weight of the trim piece - 249g
+4. The estimated weight of the proposed trim piece - 241.13g (assumed using mass, volume, and density relation)
+5. The estimated weight saved = 249 - 241.13 = 7.87*2 = 15.74g
+6. The current cost of the trim piece = INR 59.76
+7. The estimated cost of the proposed trim piece = INR 51.84
+8. The estimated cost saved = 59 - 51.84 = 7.2*2 = INR 14.4",nan,INR 145.0,0.02,NG,nan,LC,2311-IT-ID-16,Replace PP+PE-T10 used in the manufacture of the Front A-Pillar Interior Trims in MGI with standard PP+PE,nan,INR 145.0,nan,nan
+2311-ET-ID-27,Replace the Thinsulate Acoustic Insulation used on the Front & Rear Wheel Arch LH & RH Liners for NVH restriction within MGI with Noiselite PP-PET Insulation,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Noiselite per square meter - INR 155.49
+3. The surface area of the front wheel arch liner Thinsulate - 0.306m2
+4. The current cost = INR 62.42
+5. The estimated cost after using Noiselite instead = INR 47.57
+6. Total cost saved on both LH and RH sides = 62.42 - 47.57 = 14.95*2 (LH & RH) = INR 29.9
+7. The surface area of the rear wheel arch liner Thinsulate - 0.248m2
+8. The current cost = INR 50.59
+9. The estimated cost after using Noiselite instead = INR 38.56
+10. Total cost saved on both LH and RH sides = 50.59 - 38.56 = 12.03*2 (LH & RH) = INR 24.06
+
+11. The total cost savings = 29.9 + 24.06 = INR 53.96
+12. The total weight savings = Nil",nan,INR 145.0,0.00,TBD,nan,nan,2311-ET-ID-27,Replace the Thinsulate Acoustic Insulation used on the Front & Rear Wheel Arch LH & RH Liners for NVH restriction within MGI with Noiselite PP-PET Insulation,nan,INR 145.0,nan,nan
+2311-IT-ID-06,Eliminate the dead pedal trim provided in MGI.,NaN,INR 22.79,Confirm date for sample availability (Functional & Appearance check) - 1Nos 6 seater carpet without cut-out for dead pedal,"The value could be changed after costing as this is done before teardown:
+1. Per kg cost of dead pedal trim = INR 220/kg
+2. Per kg cost of Steel Clips = INR 140/kg
+3. Weight of dead pedal trim = 83.94g
+4. Weight of Steel Clips = 3.42g.
+5. Estimated cost of dead pedal trim= INR 18.46
+6. Estimated cost of Steel Clips = INR 0.48
+Estimated cost saving = 18.46 + 0.48 = INR 18.94
+Estimated weight saving = 83.94 g",nan,INR 144.0,0.08,OK,PSCM,LC,2311-IT-ID-06,Eliminate the dead pedal trim provided in MGI.,Confirm date for sample availability (Functional & Appearance check) - 1Nos 6 seater carpet without cut-out for dead pedal,INR 144.0,Akhil,2024-06-15 00:00:00
+2311-FS-ID-02,Replace the Steel access cover used within MGI with a Plastic (PP(assumed)) one as used in KIA,NaN,INR 0.0,Confirm technical feasibilty ,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of Steel - INR 180
+2. Per Kg rate of PP - INR 180 (assumed)
+3. The current weight of the steel cover - 100g (assumed)
+4. The estimated weight of the proposed cover - 55g (according to mass, volume and density relations)
+5. The estimated weight saved = 100 - 55 = 45g
+6. The current cost of the steel cover - INR 18
+7. The estimated cost of the proposed cover - INR 9.9
+8. The estimated cost saved = 18 - 9.9 = INR 8.1",nan,INR 144.0,0.04,TBD,PE,nan,2311-FS-ID-02,Replace the Steel access cover used within MGI with a Plastic (PP(assumed)) one as used in KIA,Confirm technical feasibilty ,INR 144.0,Sumanta,2024-04-23 00:00:00
+AI-GEN-01,Replace the with a in the manufacture of replace within MGI,N/A,N/A,Review feasibility,N/A,N/A,₹ 110,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Replace the with a in the manufacture of replace within MGI,Review feasibility,₹ 110,Digital Analyst,N/A
+AI-GEN-01,Replace pa6-gf30 with pa6-gf15 in the manufacture of replace within MGI,N/A,N/A,Review feasibility,N/A,N/A,₹ 131,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Replace pa6-gf30 with pa6-gf15 in the manufacture of replace within MGI,Review feasibility,₹ 131,Digital Analyst,N/A
+AI-GEN-01,Replace the with pp-t20 in the manufacture of replace within MGI,N/A,N/A,Review feasibility,N/A,N/A,₹ 152,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Replace the with pp-t20 in the manufacture of replace within MGI,Review feasibility,₹ 152,Digital Analyst,N/A
+AI-GEN-01,Replace pp+epdm-t20 with standard in the manufacture of replace within MGI,N/A,N/A,Review feasibility,N/A,N/A,₹ 172,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Replace pp+epdm-t20 with standard in the manufacture of replace within MGI,Review feasibility,₹ 172,Digital Analyst,N/A
+AI-GEN-01,Replace pbt-gf30 with pa6-gf30 in the manufacture of replace within MGI,N/A,N/A,Review feasibility,N/A,N/A,₹ 193,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Replace pbt-gf30 with pa6-gf30 in the manufacture of replace within MGI,Review feasibility,₹ 193,Digital Analyst,N/A

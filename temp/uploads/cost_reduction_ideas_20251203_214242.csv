@@ -1,0 +1,109 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (70 - 80μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The surface area of the Roof Panel = 2.330m2
+4. The current cost to paint the structure = INR 241.24
+5. The estimated cost = INR 147.72
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 241.24 - 147.72 = INR 93.52",nan,INR 135.0,0.00,TBD,nan,nan,2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,nan,INR 135.0,nan,nan
+2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (160 - 170μm) - INR 129.78 (assumed)
+3. The surface area of the Front Hood = 1.456m2
+4. The current cost to paint the structure = INR 188.95
+5. The estimated cost = INR 115.02
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 188.95 - 115.02 = INR 73.92",nan,INR 82.0,0.00,TBD,nan,nan,2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,nan,INR 82.0,nan,nan
+2311-BIW-ID-07,Reduce the Paint Coating Thickness of the highlighted Roof Side BiW Panels from 120 - 130μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (120 - 130μm) - INR 103.54(assumed)
+3. The surface area of the Roof Side Panels = 0.276*2 = 0.552m2
+4. The current cost to paint the structure = INR 57.15
+5. The estimated cost = INR 43.60
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 57.15 - 43.60 = INR 13.55",nan,INR 71.0,0.00,TBD,nan,nan,2311-BIW-ID-07,Reduce the Paint Coating Thickness of the highlighted Roof Side BiW Panels from 120 - 130μm to 100 - 110μm,nan,INR 71.0,nan,nan
+2311-BIW-ID-03,Reduce the Paint Coating Thicknesses of the highlighted Front Fender and Rear Quarter Panel BiW Panels from 120 - 130μm to 85 - 95μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (80 - 90μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The combined surface area of the Front Fenders = 0.366*2 = 0.733m2
+4. The current cost to paint the structure = INR 75.94
+5. The estimated cost = INR 46.5
+6. The estimated cost saved = 75.94 - 46.5 = INR 28.89
+7. The combined surface area of the Front Fenders = 0.291*2 = 0.583m2
+8. The current cost to paint the structure = INR 60.38
+9. The estimated cost = INR 36.96
+10. The estimated cost saved = 60.38 - 36.96 = INR 23.42
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 28.89 + 23.42 = INR 52.31",nan,INR 122.0,0.00,TBD,nan,nan,2311-BIW-ID-03,Reduce the Paint Coating Thicknesses of the highlighted Front Fender and Rear Quarter Panel BiW Panels from 120 - 130μm to 85 - 95μm,nan,INR 122.0,nan,nan
+2311-BIW-ID-04,Reduce the Paint Coating Thicknesses of the highlighted Front and Rear Door BiW Panels from 115 - 125μm to 80 - 90μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (80 - 90μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The combined surface area of the Front Doors = 0.864*2 = 1.728m2
+4. The current cost to paint the structure = INR 178.91
+5. The estimated cost = INR 109.55
+6. The estimated cost saved = 178.91 - 109.55 = INR 69.35
+7. The combined surface area of the Rear Doors = 0.661*2 = 1.322m2
+8. The current cost to paint the structure = INR 137.01
+9. The estimated cost = INR 83.81
+10. The estimated cost saved = 137.01 - 83.81 = INR 53.19
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 69.35 + 53.19 = INR 122.54",nan,INR 84.0,0.00,TBD,nan,nan,2311-BIW-ID-04,Reduce the Paint Coating Thicknesses of the highlighted Front and Rear Door BiW Panels from 115 - 125μm to 80 - 90μm,nan,INR 84.0,nan,nan
+2311-IT-ID-21,"Process Deletion,
+Remove the Black Painting done on the LH & RH Sunroof Frame Mounts (Sunroof Mount 1, Sunroof Mount 2, Sunroof BIW-Airbag Mount)",NaN,INR 0.0,Confirm homeroom feasibility,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Black Paint Coating- INR 47.8 (assumed)
+2. The surface area of a Mount 1 = 0.095m2
+3. The cost to paint Mount 1 = INR 4.54
+4. The estimated cost saved on LH & RH sides = 4.54*2 = INR 9.08
+5. The surface area of a Mount 2 = 0.059m2
+6. The cost to paint Mount 2 = INR 2.82
+7. The estimated cost saved on LH & RH sides = 2.82*2 = INR 5.64
+8. The surface area of a Sunroof BIW-Airbag Mount = 0.023m2
+9. The cost to paint Mount 2 = INR 1
+10. The estimated cost saved on LH & RH sides = 1*2 = INR 2
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 9 + 5.64 + 2 = INR 16.64",nan,INR 125.0,0.00,Hold,PE,KD,2311-IT-ID-21,"Process Deletion,
+Remove the Black Painting done on the LH & RH Sunroof Frame Mounts (Sunroof Mount 1, Sunroof Mount 2, Sunroof BIW-Airbag Mount)",Confirm homeroom feasibility,INR 125.0,Manish,TBD
+2311-SS-ID-12,"Process Deletion,
+Remove the Black Painting done on the Second Row 60% and 40% Seat Base Frame Plates",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Black Paint Coating- INR 47.8 (assumed)
+2. The combined surface area of the 60% and 40% Plates = 0.56m2
+3. The cost to paint the structure = INR 26.76
+
+4. The estimated weight saved = Nil
+5. The estimated cost saved = INR 26.76",nan,INR 44.0,0.00,TBD,nan,nan,2311-SS-ID-12,"Process Deletion,
+Remove the Black Painting done on the Second Row 60% and 40% Seat Base Frame Plates",nan,INR 44.0,nan,nan
+2311-SS-ID-13,"Process Deletion,
+Remove the Black Painting done on the Third-Row Seat Mounting Frame",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Black Paint Coating- INR 47.8 (assumed)
+2. The coating surface area of the mounting frame = 198707.8mm2 = 0.19m2
+3. The cost to paint the structure = INR 9.08
+
+4. The estimated weight saved = Nil
+5. The estimated cost saved = INR 9.08",nan,INR 92.0,0.00,TBD,nan,nan,2311-SS-ID-13,"Process Deletion,
+Remove the Black Painting done on the Third-Row Seat Mounting Frame",nan,INR 92.0,nan,nan
+2311-SS-ID-14,"Process Deletion,
+Remove the Black Painting done on the Second-Row Seat 60% and 40% Main Bracket Cross Members",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Black Paint Coating- INR 47.8 (assumed)
+2. The combined coating surface area of the 60% & 40% bracket cross members = 163852mm2 = 0.16m2
+3. The cost to paint the structure = INR 7.64
+
+4. The estimated weight saved = Nil
+5. The estimated cost saved = INR 7.64",nan,INR 81.0,0.00,TBD,nan,nan,2311-SS-ID-14,"Process Deletion,
+Remove the Black Painting done on the Second-Row Seat 60% and 40% Main Bracket Cross Members",nan,INR 81.0,nan,nan
+2311-BA-ID-02,"Remove the black paint coating from the Brake Caliper Mounting Brackets on all four brake assemblies of MGI, following the procedure used for the front brake caliper mounting brackets in KIA.",NaN,INR 0.0,"Homeroom ideas to be bunched up and taken up for implementation at program level
+","The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate for black paint coating - INR 102.93 (Heat Resistant)
+2. Total Coating Surface Area at the front end = 49120mm2 = 0.049m2
+3. Total cost - INR 5.05
+4. Total Coating Surface Area at the rear end = 44368mm2 = 0.044m2
+5. Total cost - 4.52
+
+6. The estimated cost saved = 5.05 + 4.52 = INR 9.57",nan,INR 102.0,0.00,NG,PE,KD,2311-BA-ID-02,"Remove the black paint coating from the Brake Caliper Mounting Brackets on all four brake assemblies of MGI, following the procedure used for the front brake caliper mounting brackets in KIA.","Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 102.0,Manish Jaju,TBC

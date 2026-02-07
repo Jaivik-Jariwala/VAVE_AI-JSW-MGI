@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAVE AI - Chat Interface</title>
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <button class="sidebar-toggle" id="sidebarToggle" aria-label="Toggle sidebar">
+                <i class="ph ph-list"></i>
+            </button>
+            <div class="logo">
+                <h1><span class="logo-accent">VAVE</span> AI</h1>
+            </div>
+        </div>
+        <div class="header-right">
+            <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+                <i class="ph ph-moon"></i>
+            </button>
+            <div class="user-avatar" title="{{ current_user.username }}" id="userMenuToggle">
+                {{ current_user.username[0].upper() }}
+            </div>
+            <!-- User Dropdown Menu -->
+            <div class="user-dropdown" id="userDropdown">
+                <div class="user-dropdown-header">
+                    <div class="user-dropdown-avatar">{{ current_user.username[0].upper() }}</div>
+                    <div class="user-dropdown-info">
+                        <div class="user-dropdown-name">{{ current_user.username }}</div>
+                        <div class="user-dropdown-role role-badge role-{{ current_user.role }}">{{ current_user.role }}</div>
+                    </div>
+                </div>
+                <div class="user-dropdown-divider"></div>
+                <a href="/dashboard" class="user-dropdown-item">
+                    <i class="ph ph-user"></i>
+                    <span>Profile</span>
+                </a>
+                <a href="/logout" class="user-dropdown-item">
+                    <i class="ph ph-sign-out"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-section="chat">
+                    <i class="ph ph-chat-circle nav-icon"></i>
+                    <span class="nav-text">Chat</span>
+                </a>
+                <a href="#" class="nav-item" data-section="history">
+                    <i class="ph ph-clock-clockwise nav-icon"></i>
+                    <span class="nav-text">History</span>
+                </a>
+                {% if current_user.role in ['SuperAdmin', 'Admin'] %}
+                <a href="#" class="nav-item" data-section="database">
+                    <i class="ph ph-database nav-icon"></i>
+                    <span class="nav-text">Database</span>
+                </a>
+                <a href="#" class="nav-item" data-section="users">
+                    <i class="ph ph-users nav-icon"></i>
+                    <span class="nav-text">Users</span>
+                </a>
+
+                <a href="#" class="nav-item" data-section="analytics">
+                    <i class="ph ph-chart-line-up nav-icon"></i>
+                    <span class="nav-text">Big Data</span>
+                </a>
+
+                {% endif %}
+                {% if current_user.role == 'SuperAdmin' %}
+                <a href="#" class="nav-item" data-section="logs">
+                    <i class="ph ph-list-bullets nav-icon"></i>
+                    <span class="nav-text">System Logs</span>
+                </a>
+                {% endif %}
+                <div class="nav-divider"></div>
+                <a href="#" class="nav-item" data-section="settings">
+                    <i class="ph ph-gear nav-icon"></i>
+                    <span class="nav-text">Settings</span>
+                </a>
+            </nav>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Flash Messages -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="flash-messages">
+                        {% for category, message in messages %}
+                            <div class="flash-message flash-{{ category }}">
+                                <i class="ph ph-{% if category == 'success' %}check-circle{% elif category == 'error' %}x-circle{% else %}info{% endif %}"></i>
+                                <span>{{ message }}</span>
+                                <button class="flash-close" onclick="this.parentElement.remove()">
+                                    <i class="ph ph-x"></i>
+                                </button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+
+            <!-- Chat Section -->
+            <section id="chatSection" class="content-section active">
+                <div class="chat-layout">
+                    <!-- Chat Area -->
+                    <div class="chat-area">
+                        <div class="chat-messages" id="chatMessages">
+                            <!-- Welcome Message -->
+                            <div class="message ai-message">
+                                <div class="message-avatar">
+                                    <i class="ph ph-robot"></i>
+                                </div>
+                                <div class="message-content">
+                                    <div class="message-header">
+                                        <span class="message-sender">AI Assistant</span>
+                                        <span class="message-time">Now</span>
+                                    </div>
+                                    <div class="message-text">
+                                        Hello {{ current_user.username }}! I'm your VAVE AI assistant. How can I help you today?
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Chat Input -->
+                        <div class="chat-input-container">
+                            <div id="imagePreviewContainer" class="image-preview hidden">
+                                <i class="ph ph-image"></i>
+                                <span id="imageFileName">image.jpg</span>
+                                <button id="clearImageBtn" aria-label="Clear image">
+                                    <i class="ph ph-x"></i>
+                                </button>
+                            </div>
+                            
+                            <div id="loadingIndicator" class="loading-indicator hidden">
+                                <div class="loading-spinner"></div>
+                                <span>AI is thinking...</span>
+                            </div>
+
+                            <div class="chat-input-wrapper">
+                                <textarea 
+                                    id="chatInput" 
+                                    class="chat-input" 
+                                    placeholder="Ask me anything..."
+                                    rows="1"
+                                ></textarea>
+                                <div class="input-actions">
+                                    <input type="file" id="imageInput" accept="image/*" style="display: none;">
+                                    <button class="icon-btn" onclick="document.getElementById('imageInput').click()" aria-label="Attach image">
+                                        <i class="ph ph-paperclip"></i>
+                                    </button>
+                                    <button class="send-btn" id="sendBtn" aria-label="Send message">
+                                        <i class="ph ph-paper-plane-tilt"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Results Panel -->
+                    <div class="results-panel">
+                        <div class="results-header">
+                            <h3>Analysis Results</h3>
+                            <p>Ideas and structured data appear here</p>
+                        </div>
+                        <div class="results-content" id="resultsContent">
+                            <div class="empty-state">
+                                <i class="ph ph-table"></i>
+                                <p>No data yet. Start a conversation to see results.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- History Section -->
+            <section id="historySection" class="content-section">
+                <div class="dashboard-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Chat History</h3>
+                            <button class="btn btn-secondary btn-sm" onclick="app.loadHistory()">
+                                <i class="ph ph-arrow-clockwise"></i>
+                                Refresh
+                            </button>
+                        </div>
+                        <div id="historyContainer">
+                            <p class="empty-text">Loading history...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Database Section (Admin/SuperAdmin only) -->
+            {% if current_user.role in ['SuperAdmin', 'Admin'] %}
+            <section id="databaseSection" class="content-section">
+                <div class="dashboard-container">
+                    <div class="card">
+                        <h3>Database Management</h3>
+                        <p class="card-description">Upload Excel + Images ZIP to refresh the knowledge base</p>
+                        <form id="databaseUploadForm" enctype="multipart/form-data">
+                            <div class="form-group">
+                                <label class="form-label">Select Excel File</label>
+                                <div class="file-input-wrapper">
+                                    <input type="file" id="databaseExcelFile" name="excel_file" accept=".xlsx,.xls" class="file-input">
+                                    <button type="button" class="btn btn-secondary" onclick="document.getElementById('databaseExcelFile').click()">
+                                        <i class="ph ph-upload"></i>
+                                        Choose File
+                                    </button>
+                                    <span id="databaseExcelFileName" class="file-name">No file chosen</span>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="form-label">Select Images ZIP (proposal / mg / competitor)</label>
+                                <div class="file-input-wrapper">
+                                    <input type="file" id="databaseZipFile" name="zip_file" accept=".zip" class="file-input">
+                                    <button type="button" class="btn btn-secondary" onclick="document.getElementById('databaseZipFile').click()">
+                                        <i class="ph ph-upload"></i>
+                                        Choose ZIP
+                                    </button>
+                                    <span id="databaseZipFileName" class="file-name">No file chosen</span>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                <i class="ph ph-cloud-arrow-up"></i>
+                                Upload Database
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="card">
+                        <h3>Database Status</h3>
+                        <div class="status-grid">
+                            <div class="status-item">
+                                <div class="status-label">Total Records</div>
+                                <div class="status-value" id="totalRecords">-</div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-label">Last Updated</div>
+                                <div class="status-value" id="lastUpdated">-</div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-label">Database Size</div>
+                                <div class="status-value" id="dbSize">-</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Upload History</h3>
+                        <div class="table-responsive">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>When</th>
+                                        <th>Excel</th>
+                                        <th>ZIP</th>
+                                        <th>By</th>
+                                        <th>Status</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="databaseUploadsBody">
+                                    <tr>
+                                        <td colspan="5" class="text-muted">No uploads yet.</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Users Section (Admin/SuperAdmin only) -->
+            <section id="usersSection" class="content-section">
+                <div class="dashboard-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>User Management</h3>
+                            <button class="btn btn-primary btn-sm" onclick="app.toggleAddUserForm()">
+                                <i class="ph ph-user-plus"></i>
+                                Add User
+                            </button>
+                        </div>
+
+                        <!-- Add User Form -->
+                        <div id="addUserForm" class="add-user-form hidden">
+                            <form id="createUserForm">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label class="form-label">Username</label>
+                                        <input type="text" name="username" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Password</label>
+                                        <input type="password" name="password" class="form-control" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Role</label>
+                                        <select name="role" class="form-control" required>
+                                            <option value="User">User</option>
+                                            {% if current_user.role == 'SuperAdmin' %}
+                                            <option value="Admin">Admin</option>
+                                            {% endif %}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-actions">
+                                    <button type="submit" class="btn btn-primary">Create User</button>
+                                    <button type="button" class="btn btn-secondary" onclick="app.toggleAddUserForm()">Cancel</button>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Users Table -->
+                        <div class="table-responsive">
+                            <table class="data-table">
+                                <thead>
+                                    <tr>
+                                        <th>Username</th>
+                                        <th>Role</th>
+                                        <th>Created</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="usersTableBody">
+                                    {% for user in users %}
+                                    <tr>
+                                        <td>
+                                            <div class="user-cell">
+                                                <div class="user-cell-avatar">{{ user[1][0].upper() }}</div>
+                                                <span>{{ user[1] }}</span>
+                                                {% if user[1] == current_user.username %}
+                                                <span class="badge badge-info">You</span>
+                                                {% endif %}
+                                            </div>
+                                        </td>
+                                        <td><span class="role-badge role-{{ user[2] }}">{{ user[2] }}</span></td>
+                                        <td>{{ user[3] }}</td>
+                                        <td>
+                                            {% if user[1] != current_user.username %}
+                                            <div class="action-buttons">
+                                                <button class="btn-icon" onclick="app.resetPassword('{{ user[1] }}')" title="Reset Password">
+                                                    <i class="ph ph-key"></i>
+                                                </button>
+                                                <button class="btn-icon btn-icon-danger" onclick="app.deleteUser('{{ user[1] }}')" title="Delete User">
+                                                    <i class="ph ph-trash"></i>
+                                                </button>
+                                            </div>
+                                            {% else %}
+                                            <span class="text-muted">-</span>
+                                            {% endif %}
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {% endif %}
+
+            <!-- Big Data / Analytics Section (Admin/SuperAdmin only) -->
+            {% if current_user.role in ['SuperAdmin', 'Admin'] %}
+            <section id="analyticsSection" class="content-section">
+                <div class="dashboard-container">
+                    <div class="card">
+                        <h3>Big Data Overview</h3>
+                        <p class="card-description">
+                            Live insights from the DuckDB data lake built from all uploaded knowledge bases.
+                        </p>
+                        <div class="status-grid">
+                            <div class="status-item">
+                                <div class="status-label">Total Ideas in Lake</div>
+                                <div class="status-value" id="bdTotalIdeas">-</div>
+                            </div>
+                            <div class="status-item">
+                                <div class="status-label">Departments</div>
+                                <div class="status-value" id="bdDeptCount">-</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Ideas by Department</h3>
+                            <button class="btn btn-secondary btn-sm" onclick="app.loadAnalytics()">
+                                <i class="ph ph-arrow-clockwise"></i>
+                                Refresh
+                            </button>
+                        </div>
+                        <div id="bdDeptChart" class="chart-container empty-text">
+                            Loading...
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>Top Saving Ideas</h3>
+                        </div>
+                        <div id="bdTopSavings" class="activity-list">
+                            <p class="empty-text">No data yet.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {% endif %}
+            <!-- System Logs (SuperAdmin only) -->
+            {% if current_user.role == 'SuperAdmin' %}
+            <section id="logsSection" class="content-section">
+                <div class="dashboard-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3>System Logs</h3>
+                            <button class="btn btn-secondary btn-sm" onclick="app.loadLogs()">
+                                <i class="ph ph-arrow-clockwise"></i>
+                                Refresh
+                            </button>
+                        </div>
+                        <div class="logs-container" id="logsContainer">
+                            <p class="empty-text">Loading logs...</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            {% endif %}
+
+            <!-- Settings Section -->
+            <section id="settingsSection" class="content-section">
+                <div class="dashboard-container">
+                    <div class="card">
+                        <h3>Appearance</h3>
+                        <div class="form-group">
+                            <label class="form-label">Theme</label>
+                            <select class="form-control" id="themeSelect">
+                                <option value="light">Light</option>
+                                <option value="dark">Dark</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <h3>Change Password</h3>
+                        <form id="changePasswordForm">
+                            <div class="form-group">
+                                <label class="form-label">Current Password</label>
+                                <input type="password" class="form-control" name="current_password" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">New Password</label>
+                                <input type="password" class="form-control" name="new_password" required>
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Confirm New Password</label>
+                                <input type="password" class="form-control" name="confirm_password" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Update Password</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+
+</html>

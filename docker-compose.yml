@@ -1,0 +1,47 @@
+# Filename: docker-compose.yml
+version: '3.8'
+
+services:
+  # 1. Your Python Application Service
+  app:
+    build: .  # Build from the Dockerfile in this directory
+    container_name: vave-app
+    ports:
+      - "5000:5000"  # Map host port 5000 to container port 5000
+    env_file:
+      - .env  # Pass all variables from .env to the container
+    volumes:
+      # Mounts your local 'model' directory into the container
+      # You MUST transfer your 'model' folder to the VM for this to work
+      - ./model:/app/model
+      
+      # Mounts your SQLite user database file for persistence
+      - ./users.db:/app/users.db
+      
+      # Mounts the temp folder for generating CSVs/PPTs
+      - ./static/temp:/app/static/temp
+    depends_on:
+      - db  # Wait for the 'db' service to be healthy before starting
+    restart: unless-stopped
+
+  # 2. The PostgreSQL Database Service
+  db:
+    image: postgres:15-alpine
+    container_name: vave-postgres-db
+    environment:
+      # These MUST match the values in your .env file
+      # Note: app.py supports both DB_PASS and DB_PASSWORD
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data  # Persist database data
+    ports:
+      # Optionally, map the port to your host to connect with a DB tool
+      # Do not do this in high-security production
+      - "5432:5432"
+    restart: unless-stopped
+
+# Define the named volume for persistent data
+volumes:
+  pgdata:

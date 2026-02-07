@@ -1,0 +1,111 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,156.jpg,INR 91.35,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the front trim - 290.06g
+4. The estimated weight of the proposed front trim - 263.4g
+5. The estimated weight savings on both front trims = 290.06 - 263.4 = 26.6*2 = 53.32g
+6. The current weight of the rear trim - 292.86g
+7. The estimated weight of the proposed rear trim - 266.01g
+8. The estimated weight savings on both rear trims = 292.86 - 266.01 = 26.85*2 = 53.7g
+9. The cost of the front trim = INR 87.01
+10. The estimated cost of the proposed front trim = INR 58.01
+11. The estimated cost savings on both front trims = 87.01 - 58.01 = 29*2 = INR 58
+12. The cost of the rear trim = INR 87.85
+13. The estimated cost of the proposed rear trim = INR 58.57
+14. The estimated cost savings on both rear trims = 87.8 - 58.57 = 29.23*2 = INR 58.4
+
+15. The estimated weight savings in total = 53.32 + 53.7 = 107g
+16. The estimated cost savings in total = 58 + 58.4 = INR 116.4
+17. Flaming Process Cost - INR 5 should be considered for each part
+18. Cost saved - 116.4 - 5*4 = INR 96.4",nan,INR 147.0,0.11,NG,nan,LC,2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,nan,INR 147.0,nan,nan
+VAVE-SWI-083,"D90, Astor, ZSEV - Back penal PP sheet localization",None,INR 50.0,nan,None,None,INR 0.0,0.00,HOLD,nan,"KD/LC     LC
+KD/LC    NaN
+Name: 46, dtype: object",VAVE-SWI-083,"D90, Astor, ZSEV - Back penal PP sheet localization",nan,INR 0.0,nan,nan
+2311-ET-ID-03,Remove the Air Extractor Vent Securing Trims affixed at both ends of the rear bumper brackets of the vehicle,190.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-GF 15 - INR 245 (assumed)
+2. The combined weight of the trims - 167*2 = 334g
+3. The combined cost of the trims - 40.91*2 = INR 81.83
+4. The estimated weight saved = 334g
+5. The estimated cost saved = INR 81.83",nan,INR 148.0,0.33,NG,nan,KD,2311-ET-ID-03,Remove the Air Extractor Vent Securing Trims affixed at both ends of the rear bumper brackets of the vehicle,nan,INR 148.0,nan,nan
+2311-PRODUCT-ID-06,"Change the design of the lug nut used in MGI with the design of the lug nut used in KIA.
+Wheel lug nut in MGI-
+Overall length - 31.3mm
+Thread length - 27.95mm
+Wheel lug nut in KIA-
+Overall length - 27.5mm
+Thread length - 15mm",104.jpg,INR 0.0,nan,"The cost savings will be updated once the costing is done.
+1. Per Kg cost of lug nuts - INR 220 (assumption)
+2. Weight of a single lug nut in MGI - 55.47g (0.055Kg)
+3. Cost of a lug nut - INR 12.20
+4. Weight of the proposed lug nut -34.41g (0.034Kg)
+5. Cost of a lug nut - INR 7.5
+6. The estimated weight savings on a nut - 55.47 - 34.41 = 21.06g
+7. The estimated cost savings on a nut - 12.20 - 7.5 = INR 4.7
+
+8. Total weight saved - 21.06*20 = 421.2g
+9. Total cost saved - 4.7*20 = INR 94",nan,INR 50.0,0.42,NG,nan,KD,2311-PRODUCT-ID-06,"Change the design of the lug nut used in MGI with the design of the lug nut used in KIA.
+Wheel lug nut in MGI-
+Overall length - 31.3mm
+Thread length - 27.95mm
+Wheel lug nut in KIA-
+Overall length - 27.5mm
+Thread length - 15mm",nan,INR 50.0,nan,nan
+VAVE-SWI-055,Glove Box Dampener removal from low variants,None,INR 72.0,Confirm on IP Substrate complexity to recommend variant application,None,None,INR 0.0,0.00,OK,PE,"KD/LC    LC
+KD/LC    LC
+Name: 11, dtype: object",VAVE-SWI-055,Glove Box Dampener removal from low variants,Confirm on IP Substrate complexity to recommend variant application,INR 0.0,Narendra,2024-06-15 00:00:00
+2311-EX-ID-01,"1. Remove the rubber hanger from the extension pipe near the resonator, along with its associated mounting points, and rearrange the other hangers as shown in the figure.
+2. Relocate the hangers mounted on the resonator to the top and bottom of the resonator (onto the exhaust pipe and the extension pipe)",209.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg cost of EPDM - INR 500 (assumption)
+2. Per Kg rate of Steel - INR 180 (assumption)
+3. Per M cost of 5mm Arc Weld - INR 75 (assumption)
+4. The current weight of the rubber hanger - 42g
+5. The estimated weight saved after removal - 42g (assumption)
+6. The current weight of the mounting points - 65 + 45 = 110g
+7. The estimated weight saved after removal - 110g (assumption)
+8. The current weight of the weld - 15g 
+9. The estimated weight saved after removal - 15g (assumption)
+10. The estimated cost savings on the rubber hanger - INR 21
+11. The estimated cost savings on the mounting points - INR 19.8
+12. The estimated cost savings on the welds - INR 13 (assumption)
+
+13. The total weight saved - 42 + 110 + 15 = 167g
+14. The total cost saved - 21 + 19.8 + 13 = INR 53.8",nan,INR 136.0,0.02,NG,nan,KD,2311-EX-ID-01,"1. Remove the rubber hanger from the extension pipe near the resonator, along with its associated mounting points, and rearrange the other hangers as shown in the figure.
+2. Relocate the hangers mounted on the resonator to the top and bottom of the resonator (onto the exhaust pipe and the extension pipe)",nan,INR 136.0,nan,nan
+2311-IP-ID-07,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard middle trim of the vehicle,35.jpg,INR 0.0,To be considered for new project,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP+T20 - INR 200 (assumed)
+2. Per Kg rate of PP+EPDM-T20 - INR 250 (assumed)
+3. The current weight of the trim - 1600g
+4. The estimated weight of the proposed trim - 1381g
+5. The estimated weight saved = 1600 - 1381 = 219g
+6. The current cost of the trim - INR 400
+7. The estimated cost of the proposed trim - INR 276.2
+8. The estimated cost saved = 400 - 276.2 = INR 123.8 - 15% tolerance = INR 105.23",nan,INR 59.0,0.22,NG,nan,nan,2311-IP-ID-07,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard middle trim of the vehicle,To be considered for new project,INR 59.0,Ratnadeep,nan
+2311-IP-ID-05,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard upper trim of the vehicle,33.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP+T20 - INR 200 (assumed)
+2. Per Kg rate of PP+EPDM-T20 - INR 250 (assumed)
+3. The current weight of the trim - 2900g
+4. The estimated weight of the proposed trim - 2623g
+5. The estimated weight saved = 2900 - 2623 = 277g
+6. The current cost of the trim - INR 725
+7. The estimated cost of the proposed trim - INR 524.6
+8. The estimated cost saved = 725 - 524.6 = INR 200.4 - 15% tolerance = INR 170.34",nan,INR 141.0,0.28,NG,nan,nan,2311-IP-ID-05,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard upper trim of the vehicle,nan,INR 141.0,nan,nan
+2311-BIW-ID-02,"Remove the black paint coating from the LH & RH A-Pillar Side Stiffener Brackets, LH & RH Centre Console and Gear Selector Base Mounting Brackets on the BIW of MGI",129.jpg,INR 7.08,CFT buy off,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate for black paint coating - INR 45.5 (Metal Brackets)
+2. Coating Surface Area of LH & RH A-Pillar Side Stiffener Brackets = 69536mm2 = 0.069m2
+3. Total cost = INR 3.13
+4. Coating Surface Area of LH & RH Centre Console Base Mounting Brackets = 70172mm2 = 0.070m2
+5. Total cost = INR 3.18
+6. Coating Surface Area of Gear Selector Base Mounting Bracket = 17472mm2 = 0.017m2
+5. Total cost = INR 0.77
+
+6. The estimated cost saved = 3.13 + 3.18 + 0.77 = INR 7.08",nan,INR 130.0,0.00,TBD,VAVE,LC,2311-BIW-ID-02,"Remove the black paint coating from the LH & RH A-Pillar Side Stiffener Brackets, LH & RH Centre Console and Gear Selector Base Mounting Brackets on the BIW of MGI",CFT buy off,INR 130.0,Ratnadeep,2024-03-29 00:00:00
+2311-IP-ID-10,Replace PC-ABS with ABS in the manufacture of the Front-Row Armrest Inner Cover in MGI,38.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 33.62g
+4. The estimated weight of the proposed trim = 32.69g
+5. The estimated weight saved = 33.62 - 32.69 = 0.93g
+6. The current cost of the trim = INR 12.14
+7. The estimated cost of the proposed trim = INR 5.40
+8. The estimated cost saved = 12.14 - 5.40 = INR 6.79",nan,INR 130.0,0.00,NG,nan,LC,2311-IP-ID-10,Replace PC-ABS with ABS in the manufacture of the Front-Row Armrest Inner Cover in MGI,nan,INR 130.0,nan,nan

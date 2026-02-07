@@ -1,0 +1,98 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-PRODUCT-ID-01,Replace the dual LED lamps used for rear license plate illumination with a pair of single LED lamps.,NaN,INR 0.0,"Homeroom ideas to be bunched up and taken up for implementation at program level
+","The estimated cost savings will be updated once the costing is done.
+1. Current weight of the lamps (both) used in MGI - 50g (assumptions)
+2. Estimated weight of the lamps (both) proposed - 36g (assumptions)
+3. Current cost of the lamps (both) used - INR 60 (assumptions)
+4. Estimated cost of the lamps (both) proposed - INR 50 (assumptions)
+
+5. The estimated cost saved - INR 10
+6. The estimated weight saved - 14g",nan,INR 68.0,0.03,NG,PE,KD,2311-PRODUCT-ID-01,Replace the dual LED lamps used for rear license plate illumination with a pair of single LED lamps.,"Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 68.0,Ojaswini,nan
+2311-EL-ID-07,Replace PP-T30 used in the manufacture of the LH and RH DRL/Indicator Lamp Housings of MGI with PP-TD20,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate PP-T30 - INR 220 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the housing - 350g
+4. The estimated weight of the proposed housing - 340.6g
+5. The estimated weight saved on LH & RH sides = 350 - 340.6 = 9.4*2 = 18.8g
+6. The current cost of the housing - INR 77
+7. The estimated cost of the proposed housing - INR 68.12
+8. The estimated cost saved on LH & RH sides = 77 - 68.12 = 8.88*2 = INR 17.76",nan,INR 79.0,0.02,NG,nan,LC,2311-EL-ID-07,Replace PP-T30 used in the manufacture of the LH and RH DRL/Indicator Lamp Housings of MGI with PP-TD20,nan,INR 79.0,nan,nan
+2311-EL-ID-04,Replace PP-T30 used in the manufacture of the LH & RH Front Fog Lamp Housing of MGI with PP-TD20 as used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate PP-T30 - INR 220 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the housing - 250g
+4. The estimated weight of the proposed housing - 243.30g
+5. The estimated weight saved on LH & RH sides = 250 - 243.30 = 6.7*2 = 13.4g
+6. The current cost of the housing - INR 55
+7. The estimated cost of the proposed housing - INR 48.66
+8. The estimated cost saved on LH & RH sides = 55 - 48.66 = 6.34*2 = INR 12.68",nan,INR 120.0,0.01,NG,nan,LC,2311-EL-ID-04,Replace PP-T30 used in the manufacture of the LH & RH Front Fog Lamp Housing of MGI with PP-TD20 as used in KIA,nan,INR 120.0,nan,nan
+2311-EL-ID-14,"Replace PC used in the manufacture of the LH & RH Rear Tail Lamps, Rear Center Light Bar and Rear Fog Lamp Bezels of MGI with PBT as used in KIA",NaN,INR 26.8,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC - INR 361.63
+2. Per Kg rate of PBT - INR 136.08
+3. The current weight of the Tail Lamp Bezel - 30g
+4. The estimated weight of the proposed Bezel - 32.54g
+5. The current weight of the Center Light Bar Bezel - 50g
+6. The estimated weight of the proposed Bezel - 54g
+7. The current weight of the Rear Fog Lamp Bezel - 25g
+8. The estimated weight of the proposed Bezel - 27.04g
+9. The current cost of the Tail Lamp Bezel - INR 10.84
+10. The estimated cost of the proposed Bezel - INR 4.42
+11. The estimated cost saved = 10.84 - 4.42 = 6.42*2 = INR 12.84
+12. The current cost of the Center Light Bar Bezel - INR 18.08
+13. The estimated cost of the proposed Bezel - INR 7.34
+14. The estimated cost saved = 18.08 - 7.34 = INR 10.74
+15. The current cost of the Rear Fog Lamp Bezel - INR 9.04
+16. The estimated cost of the proposed Bezel - INR 3.67
+17. The estimated cost saved = 9.04 - 3.67 = 5.37*2 = INR 10.74
+
+18. There are no weight savings
+19. The estimated cost saved = 12.84 + 10.74 + 10.74 = INR 34.32",nan,INR 68.0,0.00,NG,nan,LC,2311-EL-ID-14,"Replace PC used in the manufacture of the LH & RH Rear Tail Lamps, Rear Center Light Bar and Rear Fog Lamp Bezels of MGI with PBT as used in KIA",nan,INR 68.0,nan,nan
+2311-EL-ID-06,Replace PP-T30 used in the manufacture of the LH and RH Headlamp Housings of MGI with PP-TD20 as used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate PP-T30 - INR 220 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the housing - 550g
+4. The estimated weight of the proposed housing - 535.2g
+5. The estimated weight saved on LH & RH sides = 550 - 535.2 = 14.8*2 = 29.6g
+6. The current cost of the housing - INR 121
+7. The estimated cost of the proposed housing - INR 107.04
+8. The estimated cost saved on LH & RH sides = 121 - 107 = 14*2 = INR 28",nan,INR 126.0,0.03,NG,nan,LC,2311-EL-ID-06,Replace PP-T30 used in the manufacture of the LH and RH Headlamp Housings of MGI with PP-TD20 as used in KIA,nan,INR 126.0,nan,nan
+2311-EL-ID-18,Replace the Auto Headlamp Photodiode Sensor used in MGI with the one used in KIA.,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the current sensor - INR 153.44
+2. The current weight - 11g
+3. The cost of the proposed sensor - INR 134.96
+4. The estimated weight - 5.37g
+
+6. The estimated weight saved = 11 - 5.37 = 5.63g
+7. The estimated cost saved = 153.44 - 134.96 = INR 18.48 - 15% tolerance = INR 15.70",nan,INR 42.0,0.01,TBD,nan,KD,2311-EL-ID-18,Replace the Auto Headlamp Photodiode Sensor used in MGI with the one used in KIA.,nan,INR 42.0,nan,nan
+2311-EL-ID-11,Replace PC-ABS with ABS in the manufacture of Tail Lamp Housings of MGI,NaN,INR 71.66,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of ABS - INR 165.45
+3. The current weight of the lamp housing - 450g (assumed)
+4. The estimated weight of the proposed housing - 433.6g
+5. The estimated weight saved on both ends = 450 - 433.6 = 16.4*2 = 32.8g
+6. The current cost of the lamp housing - INR 140.02
+7. The estimated cost of the proposed housing - INR 71.73
+8. The estimated cost saved on both ends = 140.02 - 71.73 = 68.29*2 = INR 136.58",nan,INR 137.0,0.03,NG,nan,LC,2311-EL-ID-11,Replace PC-ABS with ABS in the manufacture of Tail Lamp Housings of MGI,nan,INR 137.0,nan,nan
+2311-EL-ID-05,Replace PC used in the manufacture of the LH & RH Front Fog Lamp Bezels of MGI with PBT as used in KIA,NaN,INR 26.8,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC - INR 361.63 (assumed)
+2. Per Kg rate of PBT - INR 136.08 (assumed)
+3. The current weight of the Bezel - 50g
+4. The estimated weight of the proposed Bezel - 54.09g
+5. The estimated weight saved on LH & RH sides = Nil
+6. The current cost of the Bezel - INR 18.08
+7. The estimated cost of the proposed Bezel - INR 7.36
+8. The estimated cost saved on LH & RH sides = 18.08 - 7.36 = 10.72*2 = INR 21.44",nan,INR 91.0,0.00,NG,nan,LC,2311-EL-ID-05,Replace PC used in the manufacture of the LH & RH Front Fog Lamp Bezels of MGI with PBT as used in KIA,nan,INR 91.0,nan,nan
+2311-IP-ID-08,Redesign the mounting points allocated for the fasteners on the ambient light lenses reducing it's length to 15mm across all points and removing the locators,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC - INR 361.63
+2. The current combined weight of the lenses = 39.79 + 18.45 + 11.15 = 69.39g
+3. The estimated combined weight after redesigning = 31.6 + 10.4 + 9.1 = 51.1g
+4. The estimated weight saved = 69.39 - 51.1 = 18.29g
+5. The estimated cost saved = INR 6.61",nan,INR 76.0,0.02,TBD,nan,KD,2311-IP-ID-08,Redesign the mounting points allocated for the fasteners on the ambient light lenses reducing it's length to 15mm across all points and removing the locators,nan,INR 76.0,nan,nan
+2311-PRODUCT-ID-24,Eliminate the hooks from the receptacle trims found on the RH side of the headrest assemblies reducing the overall length from 53.3mm to 40mm,NaN,INR 2.73,nan,"The evaluation is done before teardown, the values will change after costing.
+1. Per Kg rate of PP - INR 130.35
+2. The assumed weight of the trim piece to be removed - 3g
+3. Total weight of the trim pieces - 3*7 (headrest assemblies) - 21g
+
+4. The estimated weight saved - 21g
+5. The estimated cost saved - INR 2.73",nan,INR 64.0,0.02,NG,nan,LC,2311-PRODUCT-ID-24,Eliminate the hooks from the receptacle trims found on the RH side of the headrest assemblies reducing the overall length from 53.3mm to 40mm,nan,INR 64.0,nan,nan

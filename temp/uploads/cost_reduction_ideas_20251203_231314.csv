@@ -1,0 +1,156 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg cost of PC-ABS = INR 311.17
+2. The Per Kg cost of ABS = INR 165.45
+3. The Per Sq.M cost of chrome plating = INR 129.14
+4. The weight saved de-contenting the holder trim = 39.16g
+5. The cost saved = INR 12.18
+6. The estimated weight of the proposed edge trim = 15g
+7. The estimated cost = INR 2.48
+8. The estimated surface area = 0.00249755 m2
+9. The Chrome Plating cost = INR 0.32
+
+10. The estimated weight saved = 39.16 - 15 = 24.16g
+11. The estimated cost saved = 12.18 - (2.48 + 0.32) = 12.18 - 2.8 = INR 9.38",nan,INR 132.0,0.02,TBD,nan,nan,2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",nan,INR 132.0,nan,nan
+2311-DA-ID-27,Replace ABS+PVC+PU with PP+PE-TD14 in the manufacture of both Front and Rear Passenger Armrest Trims of MGI,NaN,INR 109.3,New tooling cost from YFI to be confirmed for business case calculations,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS+PVC+PU blend - INR 310 (assumed)
+2. Per Kg rate of PP+PE-TD14 - INR 250 (assumed)
+3. The current weight of the front trim - 322.05g
+4. The estimated weight of the proposed front trim - 268.37g
+5. The estimated weight savings on both front trims = 322.05 - 268.37 = 53.68*2 = 107.36g
+6. The current weight of the rear trim - 284g
+7. The estimated weight of the proposed rear trim - 236.6g
+8. The estimated weight savings on both rear trims = 284 - 236.6 = 47.4*2 = 94.8g
+9. The cost of the front trim = INR 99.82
+10. The estimated cost of the proposed front trim = INR 67.07
+11. The estimated cost savings on both front trims = 99.82 - 67.07 = 32.73*2 = INR 65.46
+12. The cost of the rear trim = INR 88.04
+13. The estimated cost of the proposed rear trim = INR 59.15
+14. The estimated cost savings on both rear trims = 88.04 - 59.15 = 28.89*2 = INR 
+
+15. The estimated weight savings in total = 107.36 + 94.8 = 202.16g
+16. The estimated cost savings in total = 65.46 + 57.78 = INR 123.24",nan,INR 126.0,0.20,NG,Purchase,LC,2311-DA-ID-27,Replace ABS+PVC+PU with PP+PE-TD14 in the manufacture of both Front and Rear Passenger Armrest Trims of MGI,New tooling cost from YFI to be confirmed for business case calculations,INR 126.0,Akhil,2024-02-12 00:00:00
+2311-DA-ID-02,Substitute ABS with PP-T20 for the production of the Door Recess Trims fastened onto the door control panel trims,NaN,INR 27.98,Confirm on part availabilty and trial,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the front-row door recess trim = 93g
+4. The current weight of the second-row door recess trim = 81.47g
+5. The estimated weight of the proposed front-row door recess trim = 83.4g
+6. The estimated weight of the proposed second-row door recess trim = 73.09g
+7. The estimated weight saved = (93 - 83.4 + 81.47 - 73.09) = (9.6*2 + 8.38*2) = 19.2 + 16.76 = 35.96g
+8. The current cost of the front-row door recess trim = INR 27.9
+9. The current cost of the second-row door recess trim = INR 24.4
+10. The estimated cost of the proposed front-row door recess trim = INR 16.68
+11. The estimated cost of the proposed second-row door recess trim = INR 14.61
+12. The estimated cost saved = (27.9 - 16.68 + 24.4 - 14.61) = 11.22*2 + 9.79*2 = 22.44 + 19.58 = INR 42.02",nan,INR 55.0,0.04,NG,Purchase/ PE,LC,2311-DA-ID-02,Substitute ABS with PP-T20 for the production of the Door Recess Trims fastened onto the door control panel trims,Confirm on part availabilty and trial,INR 55.0,Akhil/ Narendra,2024-02-16 00:00:00
+2311-IP-ID-10,Replace PC-ABS with ABS in the manufacture of the Front-Row Armrest Inner Cover in MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 33.62g
+4. The estimated weight of the proposed trim = 32.69g
+5. The estimated weight saved = 33.62 - 32.69 = 0.93g
+6. The current cost of the trim = INR 12.14
+7. The estimated cost of the proposed trim = INR 5.40
+8. The estimated cost saved = 12.14 - 5.40 = INR 6.79",nan,INR 130.0,0.00,NG,nan,LC,2311-IP-ID-10,Replace PC-ABS with ABS in the manufacture of the Front-Row Armrest Inner Cover in MGI,nan,INR 130.0,nan,nan
+2311-IP-ID-03,Replace PC-ABS with ABS in the manufacture of Centre Console LH and RH Garnish Trims and the Infotainment Screen Garnish Trim present within the interior of the vehicle,NaN,INR 0.17,Supplier evalutiaon,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of ABS - INR 165.45
+3. The weight of the current Centre Console Garnish Trim - 50g (assumed)
+4. The estimated weight of the proposed trim - 49g
+5. The estimated weight saved on both ends = 50 - 49 = 1*2 = 2g
+6. The weight of the current Infotainment Screen Garnish Trim - 30g
+7. The estimated weight of the proposed trim - 29.17g
+8. The estimated weight saved on both ends = 30 - 29.17 = 0.83g
+9. Total weight saved = 2 + 0.83 = 2.83g
+10. The cost of the current Centre Console Garnish Trim - INR 15.55
+11. The estimated cost of the proposed trim - INR 8.10
+12. The estimated cost saved on both ends = 15.55 - 8.10 = 7.44*2 = INR 14.88
+13. The cost of the current Infotainment Screen Garnish Trim - INR 9.33
+14. The estimated cost of the proposed trim - INR 4.82
+15. The estimated cost saved on both ends = 9.33 - 4.82 = INR 4.50
+16. Total cost saved = 14.88 + 4.50 = INR 19.38",nan,INR 72.0,0.00,NG,PE,LC,2311-IP-ID-03,Replace PC-ABS with ABS in the manufacture of Centre Console LH and RH Garnish Trims and the Infotainment Screen Garnish Trim present within the interior of the vehicle,Supplier evalutiaon,INR 72.0,Narendra,nan
+2311-AI-ID-04,Redesign the Air Intake Upper Trim removing the service cover and the provisions provided to snap fit the same,NaN,INR 12.07,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of PP-T20 - INR 200 (assumed)
+2. The current overall weight of the upper trim = 205 + 71 (Service Cover) = 276g
+3. The estimated weight of the proposed trim = 134g (assumed after sealing the vents on top)
+4. The estimated weight saved = 276 - 134 = 142g
+5. The cost of the current trim = INR 41
+6. The estimated cost of the proposed trim = INR 26.8
+7. The estimated cost saved = 14.2 - 15% tolerance = INR 12.07 ",nan,INR 42.0,0.16,NG,nan,LC,2311-AI-ID-04,Redesign the Air Intake Upper Trim removing the service cover and the provisions provided to snap fit the same,nan,INR 42.0,nan,nan
+2311-DA-ID-10,"Instead of using Aluminum in the manufacture of the Mirror Main Frame, use PA6-GF 50",NaN,INR 0.0,"Homeroom ideas to be bunched up and taken up for new program
+","The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of Aluminum - INR 300 (assumption)
+2. The Per Kg rate of PA6-GF 50 - INR 450 (assumption)
+3. The current weight of the mirror frame = 264g
+4. The estimated weight of the proposed frame = 151.5g (assumed)
+5. The estimated weight saved = 112.5g
+6. The current cost of the mirror frame = INR 79.2
+7. The estimated cost of the proposed frame = INR 67.95
+8. The estimated cost saved = INR 11.25",nan,INR 135.0,0.11,NG,nan,KD,2311-DA-ID-10,"Instead of using Aluminum in the manufacture of the Mirror Main Frame, use PA6-GF 50","Homeroom ideas to be bunched up and taken up for new program
+",INR 135.0,nan,nan
+2311-DA-ID-03,Replace PA6-G30 with PA6-GF20 in the manufacture of Speaker/Door Handle Housing Trim,NaN,INR 0.0,Confirm business case,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PA6-G30 - INR 250 (assumption)
+2. Per Kg rate of PA6-GF20 - INR 230 (assumption)
+3. The current weight of the front row trim = 160g (Including speaker and mounting point covers)
+4. The estimated weight of the proposed front row trim = 150g (assumption)
+5. The current weight of the second-row trim = 180g (Including speaker and mounting point covers)
+6. The estimated weight of the proposed second-row trim = 170g (assumption)
+7. The estimated weight saved = 160 - 150 + 180 - 170 = 10 + 10 = 20*2 (LHS&RHS) = 40g
+8. The current cost of the front row trim = INR 40 (Including speaker and mounting point covers)
+9. The estimated cost of the proposed front row trims = INR 34.5 (assumption)
+10. The current cost of the second-row trim = INR 45 (Including speaker and mounting point covers)
+11. The estimated cost of the proposed second-row trims = INR 41.4 (assumption)
+12. The estimated cost saved = 5.5*2 + 3.6*2 = 11 + 7.2 (LHS & RHS) = INR 18.2",nan,INR 66.0,0.04,NG,Finance,LC,2311-DA-ID-03,Replace PA6-G30 with PA6-GF20 in the manufacture of Speaker/Door Handle Housing Trim,Confirm business case,INR 66.0,Kalp,2023-11-02 00:00:00
+2311-IP-ID-06,Replace PC-ABS with ABS in the manufacture of the Front-Row Armrest Base in MGI,NaN,INR 32.71,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 251.23g
+4. The estimated weight of the proposed trim = 244.3g
+5. The estimated weight saved = 251.23 - 244.3 = 6.93g
+6. The current cost of the trim = INR 78.17
+7. The estimated cost of the proposed trim = INR 40.41
+8. The estimated cost saved = 78.17 - 40.41 = INR 37.76 - 15% tolerance = INR 32.1",nan,INR 126.0,0.01,NG,nan,LC,2311-IP-ID-06,Replace PC-ABS with ABS in the manufacture of the Front-Row Armrest Base in MGI,nan,INR 126.0,nan,nan
+2311-SS-ID-08,Replace PP-T20 and PP+EPDM-T20 with standard PP in the manufacture of Front-Row Seating Assembly Side Cover Trims,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 - INR 200 (assumed)
+2. Per Kg rate of PP+EPDM-T20 - INR 250 (assumed)
+3. Per Kg rate of PP - INR 180 (assumed)
+4. The current weight of the Front-Row Driver LH Trim - 183.8g
+5. The estimated weight of the proposed trim - 153.4g
+6. The estimated weight saved = 183.8 - 153.4 = 30.4g
+7. The current weight of the Front-Row Driver RH Trim - 326g
+8. The estimated weight of the proposed trim - 272.16g
+9. The estimated weight saved = 326 - 272.16 = 53.84g
+10. The current weight of the Front-Row Driver RH Trim Bottom - 188.9g
+11. The estimated weight of the proposed trim - 157.7g
+12. The estimated weight saved = 188.9 - 157.7 = 31.2g
+13. The current weight of the Front-Row Co-Driver LH Trim - 447g
+14. The estimated weight of the proposed trim - 373g
+15. The estimated weight saved = 447 - 373 = 74g
+16. The current weight of the Front-Row Co-Driver RH Trim - 184g
+14. The estimated weight of the proposed trim - 153.6g
+15. The estimated weight saved = 184 - 153.6 = 30.4g
+
+16. The current cost of the Front-Row Driver LH Trim - INR 45.9
+17. The estimated cost of the proposed trim - INR 27.61
+18. The estimated cost saved = 45.9 - 27.61 = INR 18.29
+19. The current cost of the Front-Row Driver RH Trim - INR 65.2
+20. The estimated cost of the proposed trim - INR 48.98
+21. The estimated cost saved = 65.2 - 48.98 = INR 16.22
+22. The current cost of the Front-Row Driver RH Trim Bottom - INR 47.2
+23. The estimated cost of the proposed trim - INR 28.3
+24. The estimated cost saved = 47.2 - 28.3 = INR 18.9
+25. The current cost of the Front-Row Co-Driver LH Trim - INR 89.4
+26. The estimated cost of the proposed trim - INR 67.14
+27. The estimated cost saved = 89.4 - 67.14 = INR 22.26
+28. The current cost of the Front-Row Co-Driver RH Trim - INR 46
+29. The estimated cost of the proposed trim - INR 27.64
+30. The estimated cost saved = 46 - 27.64 = INR 18.36
+
+31. The total weight saved = 30.4 + 53.84 + 31.2 + 74 + 30.4 = 219.84g
+32. The total cost saved = 18.29 + 16.2 + 18.9 + 22.26 + 18.36 = INR 94.01",nan,INR 119.0,0.22,NG,nan,LC,2311-SS-ID-08,Replace PP-T20 and PP+EPDM-T20 with standard PP in the manufacture of Front-Row Seating Assembly Side Cover Trims,nan,INR 119.0,nan,nan

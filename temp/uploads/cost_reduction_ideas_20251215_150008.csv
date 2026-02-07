@@ -1,0 +1,106 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg cost of PC-ABS = INR 311.17
+2. The Per Kg cost of ABS = INR 165.45
+3. The Per Sq.M cost of chrome plating = INR 129.14
+4. The weight saved de-contenting the holder trim = 39.16g
+5. The cost saved = INR 12.18
+6. The estimated weight of the proposed edge trim = 15g
+7. The estimated cost = INR 2.48
+8. The estimated surface area = 0.00249755 m2
+9. The Chrome Plating cost = INR 0.32
+
+10. The estimated weight saved = 39.16 - 15 = 24.16g
+11. The estimated cost saved = 12.18 - (2.48 + 0.32) = 12.18 - 2.8 = INR 9.38",nan,INR 132.0,0.02,TBD,nan,nan,2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",nan,INR 132.0,nan,nan
+2311-EL-ID-01,Replace the 16-pin connector set used on the IRVM assembly with an 8-pin connector set.,NaN,INR 0.0,Confirm on 10 pin connector availability with supplier (similar to Kia),"The evaluation is done before teardown, the values will change after the costing.
+1. Current weight of the connector set - 8 + 6 = 14g (assumed)
+2. The estimated weight of the proposed set - 5 + 4 = 9g (assumed)
+3. Current cost of the connector set - 20 + 20 = INR 40 (assumed)
+4. The estimated cost of the proposed set  - 12 + 12 = INR 24 (assumed)
+
+5. The weight saved on the replacement = 14 - 9 = 5g
+6. The cost saved on the replacement = 40 - 24 = INR 16",nan,INR 142.0,0.01,NG,PE,LC,2311-EL-ID-01,Replace the 16-pin connector set used on the IRVM assembly with an 8-pin connector set.,Confirm on 10 pin connector availability with supplier (similar to Kia),INR 142.0,Narendra,2023-11-24 00:00:00
+2311-EL-ID-25,Replace Brass with Steel in the manufacture of the Main Terminal Connector Bolt within the Engine-Bay Fusebox Assembly of MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of Brass - INR 740
+2. The per Kg rate of Steel - INR 160
+3. The current weight of the bolt = 28g
+4. The estimated weight of the proposed bolt = 24.72g
+5. The estimated weight saved = 28 - 24.72 = 3.28g
+6. The current cost of the bolt = INR 20.72
+7. The estimated cost of the proposed bolt = INR 3.95
+8. The estimated cost saved = 20.72 - 3.95 = INR 16.77",nan,INR 140.0,3.28,TBD,nan,nan,2311-EL-ID-25,Replace Brass with Steel in the manufacture of the Main Terminal Connector Bolt within the Engine-Bay Fusebox Assembly of MGI,nan,INR 140.0,nan,nan
+2311-DA-ID-13,Replace the Black Coated tracks used in the window regulators with Galvanized Steel tracks,NaN,INR 0.0,Complete cost increase,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate for black coating - INR 80 (assumed)
+2. Per Sq.M rate for zinc coating - INR 55 (assumed)
+3. Coating Area of the Double Track Drum and Pulley System (single track) - 78000mm2 
+4. Coating Area of the Single Track Drum and Pulley System (single track) - 61600mm2
+5. The cost of coating the Double Track Drum and Pulley System with black coating = 6.24*4 (front LH&RH) = INR 24.96
+6. The cost of coating the Single Track Drum and Pulley System with black coating = 4.88*2 (rear LH&RH) = INR 9.76
+7. The cost of coating the Double Track Drum and Pulley System with zinc coating = 4.29*4 (front LH&RH) = INR 17.16
+8. The cost of coating the Single Track Drum and Pulley System with zinc coating = 3.35*2 (front LH&RH) = INR 6.7
+
+9. The estimated cost saved at both front and rear ends = (24.96 + 9.76) - (17.16 + 6.7) = 34.72 - 23.86 = INR 10.86",nan,INR 93.0,0.00,NG,Finance,LC,2311-DA-ID-13,Replace the Black Coated tracks used in the window regulators with Galvanized Steel tracks,Complete cost increase,INR 93.0,Kalp,2023-12-15 00:00:00
+2311-EL-ID-17,Replace the oxygen sensors used in MGI with the oxygen sensors used in KIA,NaN,INR 0.0,"Homeroom ideas to be bunched up and taken up for implementation at program level
+","The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the current oxygen sensors - INR 897.19
+2. The current weight - 100g
+3. The cost of the proposed oxygen sensors - INR 785.22
+4. The estimated weight - 91g
+
+5. The estimated cost saved on a pair = 897.19 - 785.22 = 111.97*2 = (223.94 - 15% tolerance) = INR 190.34
+6. The estimated weight saved on a pair = 100 - 91 = 9*2 = 18g",nan,INR 139.0,0.02,Hold,PE,KD,2311-EL-ID-17,Replace the oxygen sensors used in MGI with the oxygen sensors used in KIA,"Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 139.0,Manish Jaju,2024-02-20 00:00:00
+2311-DA-ID-11,Replace PMMA+ASA with PC-ABS in the manufacture of the LH and RH Side Spoilers,NaN,INR 14.32,Confirm Business case,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PMMA+ASA = INR 400 (assumed)
+2. Per Kg rate of PC-ABS = INR 350 (assumed)
+3. The current weight of the trim - 111.8g
+4. The estimated weight of the proposed trim - 107.32g
+5. The estimated weight savings on both the LH and RH ends = 111.8 - 107.32 = 4.48*2 = 8.96g
+6. The current cost of the trim = INR 44.72
+7. The estimated cost of the proposed trim = INR 37.56
+8. The estimated cost savings on both the LH and RH ends = 44.72 - 37.56 = 7.16*2 = INR 14.32",nan,INR 79.0,0.01,NG,Finance,LC,2311-DA-ID-11,Replace PMMA+ASA with PC-ABS in the manufacture of the LH and RH Side Spoilers,Confirm Business case,INR 79.0,Kalp,2023-11-02 00:00:00
+2311-DA-ID-04,Replace the Mounting Point Covers present on each of the LH and RH side speaker/door handle housing trims of MGI with a smaller one as in KIA,NaN,INR 8.48,Confirm business case,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PA6-G30 - INR 250 (assumed)
+2. The current weight of the cover trim - 9g
+3. The estimated weight of the proposed trim - 0.52g
+4. The current cost of the cover trim - INR 2.25
+5. The estimated cost of the proposed trim - INR 0.13 (assumed)
+
+6. The total weight saved on all four doors = 8.48*4 = 33.92g
+7. The total cost saved on all four doors = 2.12*4 = INR 8.48",nan,INR 47.0,0.03,NG,Finance,LC,2311-DA-ID-04,Replace the Mounting Point Covers present on each of the LH and RH side speaker/door handle housing trims of MGI with a smaller one as in KIA,Confirm business case,INR 47.0,Kalp,2023-11-07 00:00:00
+2311-PRODUCT-ID-05,Reduce the projection of the 'HECTOR' badging on the tailgate at the rear end of the car from 4mm to 2.5mm,NaN,INR 0.0,Verify business case,"The cost savings will be updated once the costing is done.
+1. The current total weight of the trims - 50g (0.05Kg) (assumption)
+2. Weight of the same trims after design change - 30g (0.03Kg) (assumption) 
+3. Per Kg cost of ABS - INR 165.45
+4. The current total cost of the trims - INR 8.27
+5. The total cost of the proposed trims - INR 4.96
+
+6. The estimated cost saved - INR 3.30
+7. The estimated weight saved - 20g",nan,INR 135.0,0.02,NG,Finance,LC,2311-PRODUCT-ID-05,Reduce the projection of the 'HECTOR' badging on the tailgate at the rear end of the car from 4mm to 2.5mm,Verify business case,INR 135.0,Kalp,2023-11-24 00:00:00
+2311-PA-ID-02,Redesign the current Brake Pedal Mounting Bracket used in MGI to a similar bracket used in KIA.,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of steel (painted) = INR 230
+2. The current weight = 1104g
+3. The estimated weight of the proposed setup = 622.42g
+4. Weight added on from Idea ID - (2311-BA-ID-01) = 201g
+4. The current cost = INR 253.92
+5. The estimated cost of the proposed setup = INR 143.15
+
+6. The estimated weight saved = 1104 - 622.42 = 481.58g
+7. The estimated cost saved = 253.92 - 143.15 = INR 110.77",nan,INR 113.0,0.48,TBD,nan,nan,2311-PA-ID-02,Redesign the current Brake Pedal Mounting Bracket used in MGI to a similar bracket used in KIA.,nan,INR 113.0,nan,nan
+2311-DA-ID-10,"Instead of using Aluminum in the manufacture of the Mirror Main Frame, use PA6-GF 50",NaN,INR 0.0,"Homeroom ideas to be bunched up and taken up for new program
+","The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of Aluminum - INR 300 (assumption)
+2. The Per Kg rate of PA6-GF 50 - INR 450 (assumption)
+3. The current weight of the mirror frame = 264g
+4. The estimated weight of the proposed frame = 151.5g (assumed)
+5. The estimated weight saved = 112.5g
+6. The current cost of the mirror frame = INR 79.2
+7. The estimated cost of the proposed frame = INR 67.95
+8. The estimated cost saved = INR 11.25",nan,INR 135.0,0.11,NG,nan,KD,2311-DA-ID-10,"Instead of using Aluminum in the manufacture of the Mirror Main Frame, use PA6-GF 50","Homeroom ideas to be bunched up and taken up for new program
+",INR 135.0,nan,nan

@@ -1,0 +1,76 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-EL-ID-13,Replace PC-ABS with ABS in the manufacture of the Rear Fog Lamp Housings of MGI,177.jpg,INR 49.36,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of ABS - INR 165.45
+3. The current weight of the lamp housing - 350g (assumed)
+4. The estimated weight of the proposed housing - 337.27g
+5. The estimated weight saved on both ends = 350 - 337.27 = 12.73*2 = 25.46g
+6. The current cost of the lamp housing - INR 108.9
+7. The estimated cost of the proposed housing - INR 55.80
+8. The estimated cost saved on both ends = 108.9 - 55.80 = 53.1*2 = INR 106.2",nan,INR 121.0,0.03,NG,nan,LC,2311-EL-ID-13,Replace PC-ABS with ABS in the manufacture of the Rear Fog Lamp Housings of MGI,nan,INR 121.0,nan,nan
+VAVE-SWI-061,Replace Backrest bottom Flap PP sheet to Use Carpet type material,None,INR 6.0,Confirm date for sample availability (Functional & Appearance check) - 1Nos Passenger seat,None,None,INR 6.0,0.00,OK,PSCM,"KD/LC    LC
+KD/LC    LC
+Name: 24, dtype: object",VAVE-SWI-061,Replace Backrest bottom Flap PP sheet to Use Carpet type material,Confirm date for sample availability (Functional & Appearance check) - 1Nos Passenger seat,INR 6.0,Akhil,2024-05-29 00:00:00
+2311-PRODUCT-ID-01,Replace the dual LED lamps used for rear license plate illumination with a pair of single LED lamps.,10.jpg,INR 0.0,"Homeroom ideas to be bunched up and taken up for implementation at program level
+","The estimated cost savings will be updated once the costing is done.
+1. Current weight of the lamps (both) used in MGI - 50g (assumptions)
+2. Estimated weight of the lamps (both) proposed - 36g (assumptions)
+3. Current cost of the lamps (both) used - INR 60 (assumptions)
+4. Estimated cost of the lamps (both) proposed - INR 50 (assumptions)
+
+5. The estimated cost saved - INR 10
+6. The estimated weight saved - 14g",nan,INR 68.0,0.03,NG,PE,KD,2311-PRODUCT-ID-01,Replace the dual LED lamps used for rear license plate illumination with a pair of single LED lamps.,"Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 68.0,Ojaswini,nan
+2311-DA-ID-32,Replace ABS with Talc Filled (20%) PP in the manufacture of the LH and RH Side Spoiler Inner Trims,160.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS = INR 165.45
+2. Per Kg rate of PP-T20 = INR 98.26 
+3. The current weight of the trim - 70.7g
+4. The estimated weight of the proposed trim - 62.73g
+5. The estimated weight savings on both the LH and RH ends = 70.7 - 62.73 = 8*2 = 16g
+6. The current cost of the trim = INR 11.69
+7. The estimated cost of the proposed trim = INR 6.16
+8. The estimated cost savings = 11.69 - 6.16 = 5.53*2 = INR 11.06",nan,INR 97.0,0.02,TBD,nan,nan,2311-DA-ID-32,Replace ABS with Talc Filled (20%) PP in the manufacture of the LH and RH Side Spoiler Inner Trims,nan,INR 97.0,nan,nan
+2311-DA-ID-34,Replace the Door Lock Request Sensor Assemblies used in MGI with the one used in KIA,162.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the sensor assembly from 'SAIC GM WULING AUTOMOBILE CO LIMITED' - INR 278.86
+2. The current weight - 25.74g
+3. The cost of the horn system from 'HYUNDAI GLOVIS CO LIMITED' - INR 181.71
+4. The estimated weight - 30.01g
+
+5. The estimated cost saved on a pair = 278.86 - 181.71 = 97.15*2 = INR 194.3 - 15% tolerance = INR 165.15
+6. The estimated weight saved - Nil",nan,INR 100.0,0.00,TBD,nan,nan,2311-DA-ID-34,Replace the Door Lock Request Sensor Assemblies used in MGI with the one used in KIA,nan,INR 100.0,nan,nan
+VAVE-SWI-084,"Astor,ZSEV - Cancel EPP from Rear 100% cushion",None,INR 0.0,Confirm Business case,None,None,INR 0.0,0.00,TBD,Finance,"KD/LC     LC
+KD/LC    NaN
+Name: 47, dtype: object",VAVE-SWI-084,"Astor,ZSEV - Cancel EPP from Rear 100% cushion",Confirm Business case,INR 0.0,Srushti,2024-06-20 00:00:00
+2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,131.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (160 - 170μm) - INR 129.78 (assumed)
+3. The surface area of the Front Hood = 1.456m2
+4. The current cost to paint the structure = INR 188.95
+5. The estimated cost = INR 115.02
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 188.95 - 115.02 = INR 73.92",nan,INR 82.0,0.00,TBD,nan,nan,2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,nan,INR 82.0,nan,nan
+VAVE-SWI-056,Quarter Lower Insulation removal,None,INR 244.8,Complete NVH trial,None,None,INR 0.0,0.00,OK,PE,"KD/LC    LC
+KD/LC    LC
+Name: 12, dtype: object",VAVE-SWI-056,Quarter Lower Insulation removal,Complete NVH trial,INR 0.0,Narendra/ Ratnadeep,2024-06-21 00:00:00
+2311-ET-ID-21,Replace PC-ABS/ with PP-T20 in the manufacture of the Front Number Plate Mounting Trim,201.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of PC-ABS - INR 311.17
+2. The per Kg rate of ABS - INR 165.45
+2. The per Kg rate of PP-T20 - INR 125.71
+Scenario - 1
+3. The current weight of the trim - 336g
+4. The estimated weight of the proposed trim - 320g
+5. the estimated weight saved = 336 - 320 = 16g
+6. The current cost of the trim - INR 104.5
+7. The estimated cost of the proposed trim - INR 40.22
+8. the estimated cost saved = 104.5 - 40.2 = INR 64.3 - 15% tolerance = INR 54.6
+Scenario - 2
+3. The current weight of the trim - 336g
+4. The estimated weight of the proposed trim - 320g
+5. the estimated weight saved = 336 - 320 = 16g
+6. The current cost of the trim - INR 55.59
+7. The estimated cost of the proposed trim - INR 40.22
+8. the estimated cost saved = 104.5 - 40.2 = INR 15.37 - 15% tolerance = INR 14.52",nan,INR 75.0,0.02,TBD,nan,nan,2311-ET-ID-21,Replace PC-ABS/ with PP-T20 in the manufacture of the Front Number Plate Mounting Trim,nan,INR 75.0,nan,nan
+VAVE-SWI-052,Console Armrest rear panel wrapping to MIC,None,INR 112.0,Confirm with supplier on 55lakh investment requirement,None,None,INR 0.0,0.00,NG,PSCM,"KD/LC    LC
+KD/LC    LC
+Name: 8, dtype: object",VAVE-SWI-052,Console Armrest rear panel wrapping to MIC,Confirm with supplier on 55lakh investment requirement,INR 0.0,Akhil,2024-06-07 00:00:00

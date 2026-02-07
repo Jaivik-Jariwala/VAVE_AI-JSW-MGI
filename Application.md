@@ -1,0 +1,257 @@
+# VAVE AI - Application Documentation
+
+## 1. Core Logic: Ground Truth Image Mapping
+
+This application uses a **strict mapping** between Data rows and Image filenames to ensure 100% accuracy.
+
+### The Mapping Rule
+
+* **The Rule:** The image filename is derived from the Excel Row number.
+* **Formula:** `Image Filename = (Pandas_Index + 2).jpg`
+    * Pandas Index `0` (First data row, Excel Row 2) = `2.jpg`
+    * Pandas Index `1` (Excel Row 3) = `3.jpg`
+    * Pandas Index `2` (Excel Row 4) = `4.jpg`
+    * And so on...
+
+### Why This Formula?
+
+The images were extracted sequentially from the Excel file, where:
+- **Row 1** = Header row (no image)
+- **Row 2** = First data row (Index 0) → `2.jpg`
+- **Row 3** = Second data row (Index 1) → `3.jpg`
+
+This ensures that when you search for an idea description, you get the **exact image** that corresponds to that CSV row.
+
+## 2. Setup Instructions
+
+### Step 1: Place Files
+
+1. **Excel/CSV File:** Place `AIML Dummy Ideas Data.xlsx` (or exported CSV) in the root directory.
+2. **Images:** Ensure images are in `static/images/mg/` starting from `2.jpg` (not `0.jpg` or `1.jpg`).
+
+### Step 2: Generate Ground Truth Index
+
+**CRITICAL:** You must run the CSV indexer to map the text to the images:
+
+```bash
+python -m utils.csv_indexer
+```
+
+**What it does:**
+- Reads the Excel/CSV file
+- Extracts the "Cost Reduction Idea Proposal" column
+- Maps each row to its corresponding image using the formula: `(Index + 2).jpg`
+- Creates `static/image_captions.json` with the mapping
+
+**Expected Output:**
+```
+Reading file: AIML Dummy Ideas Data.xlsx
+Loaded 100844 rows from file
+✅ Success! Mapped 212 images from CSV to static/image_captions.json
+   Example: Index 0 -> '2.jpg' -> 'Replace dual LED lamps with single LED...'
+```
+
+### Step 3: Run Server
+
+```bash
+python app.py
+```
+
+The application will:
+1. Load the CSV-based index on startup
+2. Use semantic search to match queries to CSV descriptions
+3. Return the exact image file that corresponds to the matched CSV row
+
+## 3. How It Works
+
+### Image Retrieval Flow
+
+1. **User Query:** "GIVE ME IMAGES FOR CHASSIS COST REDUCTION"
+2. **Semantic Search:** 
+   - Query is embedded using sentence transformer
+   - Compared against all CSV descriptions in the index
+   - Finds best match (e.g., "Optimize front subframe material...")
+3. **Image Mapping:**
+   - Best match corresponds to a specific CSV row (e.g., Index 83)
+   - Image filename = `(83 + 2).jpg` = `85.jpg`
+   - Returns `/static/images/mg/85.jpg`
+
+### Example Mapping
+
+| CSV Row | Pandas Index | Image Filename | CSV Description |
+|---------|--------------|----------------|-----------------|
+| Row 2   | 0            | 2.jpg          | "Replace dual LED lamps..." |
+| Row 3   | 1            | 3.jpg          | "Optimize chassis structure..." |
+| Row 4   | 2            | 4.jpg          | "Material substitution..." |
+| Row 85  | 83           | 85.jpg         | "Front subframe optimization..." |
+
+## 4. Troubleshooting
+
+### "Wrong Image Shown"
+
+**Cause:** The CSV index is missing or outdated.
+
+**Fix:**
+1. Check if `static/image_captions.json` exists.
+2. If not, run: `python -m utils.csv_indexer`
+3. Verify the index contains mappings (should have ~200+ entries).
+
+**Verification:**
+```python
+import json
+with open('static/image_captions.json', 'r') as f:
+    index = json.load(f)
+    print(f"Index has {len(index)} mappings")
+    print(f"First mapping: {list(index.items())[0]}")
+```
+
+### "Images are NaN"
+
+**Cause:** Images don't start at `2.jpg` or CSV structure is wrong.
+
+**Fix:**
+1. Verify images in `static/images/mg/` start at `2.jpg` (not `0.jpg` or `1.jpg`).
+2. Check CSV has "Cost Reduction Idea Proposal" column.
+3. Re-run indexer: `python -m utils.csv_indexer`
+
+### "Index Generation Failed"
+
+**Possible Causes:**
+- Excel file not found
+- Wrong column name
+- Images missing
+
+**Debug Steps:**
+1. Check Excel file exists in root directory
+2. Verify column name matches: "Cost Reduction Idea Proposal"
+3. Check `static/images/mg/` has images starting from `2.jpg`
+4. Run indexer with verbose logging
+
+### "Semantic Search Returns Random Images"
+
+**Cause:** CSV index exists but embeddings not built.
+
+**Fix:**
+1. Ensure `sentence_model` is loaded (check logs on startup)
+2. Verify `static/image_captions.json` has content
+3. Restart application to rebuild embeddings
+
+## 5. File Structure
+
+```
+VAVE_AI-JSW-MGI/
+├── agent.py                    # Main brain. Uses CSV index for image search.
+├── vlm_engine.py               # Image generation and retrieval.
+├── app.py                      # Flask web server.
+├── utils/
+│   ├── csv_indexer.py          # CRITICAL: Generates ground truth index
+│   └── indexer.py              # BLIP-based caption generator (optional)
+├── static/
+│   ├── images/
+│   │   └── mg/                 # Images: 2.jpg, 3.jpg, 4.jpg, ...
+│   └── image_captions.json     # Ground truth mapping (generated by csv_indexer)
+├── AIML Dummy Ideas Data.xlsx  # Source data file
+└── Application.md              # This file
+```
+
+## 6. Key Features
+
+### Ground Truth Mapping
+
+- **100% Accurate:** Each CSV row maps to exactly one image file
+- **Formula-Based:** Uses `(Index + 2).jpg` for deterministic mapping
+- **No Guessing:** No random image selection when CSV index is available
+
+### Semantic Search
+
+- Uses sentence embeddings to match queries to CSV descriptions
+- Finds the most semantically similar CSV row
+- Returns the corresponding image file automatically
+
+### Unique Image Enforcement
+
+- Tracks used images across all ideas
+- Tries top 5 semantic matches to find unused images
+- Falls back to random unused images if all matches are used
+
+## 7. API Endpoints
+
+### Main Chat Endpoint
+
+**POST** `/chat`
+
+```json
+{
+  "query": "GIVE ME IMAGES FOR CHASSIS COST REDUCTION"
+}
+```
+
+**Response:**
+```json
+{
+  "success": true,
+  "response_text": "Analyzed query...",
+  "table_data": [
+    {
+      "Idea Id": "AI-GEN-01",
+      "Cost Reduction Idea": "Optimize front subframe...",
+      "Current Scenario Image": "/static/images/mg/85.jpg",
+      "Proposal Scenario Image": "/static/generated/overlay_xxx.jpg"
+    }
+  ]
+}
+```
+
+## 8. Development Notes
+
+### Regenerating the Index
+
+If you update the Excel file or add new images:
+
+```bash
+python -m utils.csv_indexer
+```
+
+This will:
+- Re-read the Excel/CSV file
+- Re-map all rows to images
+- Overwrite `static/image_captions.json`
+
+### Adding New Images
+
+1. Add images to `static/images/mg/` following the naming: `N.jpg` where N = (CSV Row - 1)
+2. Update Excel file if needed
+3. Run `python -m utils.csv_indexer` to regenerate index
+
+### Modifying Search Thresholds
+
+Edit `agent.py` → `_get_fallback_mg_image()`:
+- Line ~114: `if score > 0.35:` - Semantic match threshold (0.35 = good match)
+- Lower threshold (e.g., 0.25) = more matches, less accurate
+- Higher threshold (e.g., 0.45) = fewer matches, more accurate
+
+## 9. Performance Tips
+
+1. **Pre-generate Index:** Run `csv_indexer` on deployment (takes ~1-2 seconds)
+2. **Embeddings:** Pre-computed on startup for fast search
+3. **Caching:** Generated overlays cached in `static/generated/`
+
+## 10. Support & Maintenance
+
+### Regular Maintenance
+
+- **After Excel Updates:** Run `python -m utils.csv_indexer` to regenerate index
+- **After Adding Images:** Ensure naming follows `(Row-1).jpg` formula, then regenerate index
+- **Weekly:** Check logs for "CSV Ground Truth Match" messages to verify search is working
+
+### Logs Location
+
+- Application logs: `logger.log`
+- Look for "CSV Ground Truth Match" or "CSV Keyword Match" messages
+- These confirm the system is using the CSV index correctly
+
+---
+
+**Last Updated:** 2025-01-01
+**Version:** 3.0 (CSV Ground Truth Mapping)
+**Critical:** Always run `python -m utils.csv_indexer` after updating Excel/CSV files!

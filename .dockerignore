@@ -1,0 +1,11 @@
+# Filename: .dockerignore
+.git
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+cost_reduction.db  # Ignoring your old SQLite DB
+.env
+docker-compose.yml
+README.md

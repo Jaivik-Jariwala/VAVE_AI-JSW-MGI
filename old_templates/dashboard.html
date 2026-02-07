@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Profile & Operations</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <style>
+        .profile-container { max-width: 1200px; margin: 0 auto; padding: 2rem; display: grid; grid-template-columns: 300px 1fr; gap: 2rem; }
+        .card { background: white; padding: 1.5rem; border-radius: 12px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 1.5rem; }
+        
+        /* Sidebar Profile Style */
+        .profile-card { text-align: center; }
+        .avatar-circle { width: 80px; height: 80px; background: #007bff; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 1rem; }
+        .role-badge { padding: 4px 12px; border-radius: 12px; font-size: 0.8rem; font-weight: bold; display: inline-block; margin-top: 0.5rem; }
+        .role-SuperAdmin { background: #6f42c1; color: white; }
+        .role-Admin { background: #28a745; color: white; }
+        .role-User { background: #6c757d; color: white; }
+
+        /* Form Styles */
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: bold; }
+        .form-control { width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 6px; }
+        .btn { padding: 0.8rem 1.5rem; border: none; border-radius: 6px; cursor: pointer; font-weight: bold; }
+        .btn-primary { background: #007bff; color: white; }
+        .btn-danger { background: #dc3545; color: white; }
+
+        /* Table Styles */
+        .data-table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+        .data-table th, .data-table td { padding: 1rem; text-align: left; border-bottom: 1px solid #eee; }
+        .data-table th { background: #f8f9fa; }
+        
+        .nav-back { margin-bottom: 1rem; display: block; color: #666; text-decoration: none; }
+    </style>
+</head>
+<body style="background-color: #f4f6f9;">
+
+<div class="profile-container">
+    
+    <aside>
+        <a href="/app" class="nav-back">← Back to Chat</a>
+        
+        <div class="card profile-card">
+            <div class="avatar-circle">{{ current_user.username[0].upper() }}</div>
+            <h2>{{ current_user.username }}</h2>
+            <span class="role-badge role-{{ current_user.role }}">{{ current_user.role }}</span>
+            <p style="color: #666; margin-top: 1rem;">Member since: {{ current_user.created_at }}</p>
+        </div>
+
+        <div class="card">
+            <h3>🔐 Change Password</h3>
+            <form action="/change_password" method="POST">
+                <div class="form-group">
+                    <label>New Password</label>
+                    <input type="password" name="new_password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%">Update Password</button>
+            </form>
+        </div>
+    </aside>
+
+    <main>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="card" style="background: #e8f0fe; border-left: 4px solid #007bff; padding: 1rem;">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        {% if current_user.role in ['SuperAdmin', 'Admin'] %}
+        <div class="card">
+            <h3>📂 Database Management</h3>
+            <p>Upload new Excel files to update the knowledge base.</p>
+            <div style="background: #f8f9fa; padding: 2rem; border: 2px dashed #ddd; text-align: center; border-radius: 8px;">
+                <p style="color: #888;">(Database Upload Feature - Coming in Phase 3)</p>
+                <button class="btn btn-primary" disabled>Upload Excel Data</button>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if current_user.role == 'SuperAdmin' %}
+        <div class="card">
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+                <h3>👥 User Management</h3>
+            </div>
+            
+            <div style="background: #f8f9fa; padding: 1rem; margin-top: 1rem; border-radius: 8px;">
+                <h4>Add New User</h4>
+                <form action="/create_user" method="POST" style="display: grid; grid-template-columns: 1fr 1fr 1fr auto; gap: 1rem; align-items: end;">
+                    <div>
+                        <label>Username</label>
+                        <input type="text" name="username" class="form-control" required>
+                    </div>
+                    <div>
+                        <label>Password</label>
+                        <input type="password" name="password" class="form-control" required>
+                    </div>
+                    <div>
+                        <label>Role</label>
+                        <select name="role" class="form-control">
+                            <option value="User">User</option>
+                            <option value="Admin">Admin</option>
+                            <option value="SuperAdmin">SuperAdmin</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create</button>
+                </form>
+            </div>
+
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Role</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for user in users %}
+                    <tr>
+                        <td>
+                            <strong>{{ user[1] }}</strong>
+                            {% if user[1] == current_user.username %} (You) {% endif %}
+                        </td>
+                        <td><span class="role-badge role-{{ user[2] }}">{{ user[2] }}</span></td>
+                        <td>
+                            {% if user[1] != current_user.username %}
+                            <a href="/reset_password/{{ user[0] }}" class="btn" style="color: #e67e22; padding: 0.5rem;" onclick="return confirm('Reset this password to a random value?')">Reset Pass</a>
+                            <a href="/delete_user/{{ user[0] }}" class="btn" style="color: #dc3545; padding: 0.5rem;" onclick="return confirm('Delete this user?')">Delete</a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        {% endif %}
+
+        <div class="card">
+            <h3>📜 My Recent Activity</h3>
+            <p style="color: #666;">Your recent chat history and actions.</p>
+            <div style="padding: 1rem; border-bottom: 1px solid #eee;">
+                Logged in at {{ now }}
+            </div>
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>

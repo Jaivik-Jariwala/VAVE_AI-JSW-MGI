@@ -1,0 +1,78 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+VAVE-SWI-046,Cluster Bezel Ring Platin to Painting ,None,INR 0.0,nan,None,None,INR 0.0,0.00,NG,nan,"KD/LC    KD
+KD/LC    KD
+Name: 2, dtype: object",VAVE-SWI-046,Cluster Bezel Ring Platin to Painting ,nan,INR 0.0,nan,nan
+2311-IT-ID-05,Replace the TPE Coaster/Insert positioned at the base of the front centre armrest storage compartment with a Fabric one,NaN,INR 3.28,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of TPE - INR 300 (assumed)
+2. Per Kg rate of PP+EPDM - INR 250 (assumed)
+3. The current weight of the coaster/insert = 27.28g
+4. The estimated weight of the coaster/insert after the material change = 19.66g (assumed using Mass, Density, and Volume relations)
+5. The total weight saved = 27.28 - 19.66 = 7.62g
+6. The current cost of the coaster/insert - INR 8.18
+7. The estimated cost of the coaster/insert after the material change - INR 4.91
+8. The total cost saved = 8.18 - 4.9 = INR 3.28",nan,INR 40.0,0.01,NG,nan,LC,2311-IT-ID-05,Replace the TPE Coaster/Insert positioned at the base of the front centre armrest storage compartment with a Fabric one,nan,INR 40.0,nan,nan
+2311-EL-ID-01,Replace the 16-pin connector set used on the IRVM assembly with an 8-pin connector set.,NaN,INR 0.0,Confirm on 10 pin connector availability with supplier (similar to Kia),"The evaluation is done before teardown, the values will change after the costing.
+1. Current weight of the connector set - 8 + 6 = 14g (assumed)
+2. The estimated weight of the proposed set - 5 + 4 = 9g (assumed)
+3. Current cost of the connector set - 20 + 20 = INR 40 (assumed)
+4. The estimated cost of the proposed set  - 12 + 12 = INR 24 (assumed)
+
+5. The weight saved on the replacement = 14 - 9 = 5g
+6. The cost saved on the replacement = 40 - 24 = INR 16",nan,INR 142.0,0.01,NG,PE,LC,2311-EL-ID-01,Replace the 16-pin connector set used on the IRVM assembly with an 8-pin connector set.,Confirm on 10 pin connector availability with supplier (similar to Kia),INR 142.0,Narendra,2023-11-24 00:00:00
+2311-IP-ID-16,Replace PC-ABS with ABS in the manufacture of both Instrument Cluster Fascia Decorative Trim and the IP LHS & RHS Decorative Trims since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current combined weight - 80.19g
+4. The estimated combined weight - 77.16g
+5. The estimated weight saved = 80.19 - 77.16 = 3.03g
+6. The current combined cost - INR 24.95
+7. The estimated combined cost - INR 12.76
+8. The estimated cost saved = 24.95 - 12.76 = INR 12.19 ",nan,INR 140.0,0.00,TBD,Finance,KD,2311-IP-ID-16,Replace PC-ABS with ABS in the manufacture of both Instrument Cluster Fascia Decorative Trim and the IP LHS & RHS Decorative Trims since the finish could be achieved on ABS-made trims as well,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 140.0,Kalp ,nan
+2311-EC-ID-02,"Route the Radiator to the Oil Chiller Hose through the right side of the Radiator to the Engine Assembly Hose as shown in the diagrams, resulting in a 100mm reduction in the overall hose length.",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after costing.
+1. Per M cost of the hose - INR 300 (assumption)
+2. The current string length of the hose - 598mm
+3. The proposed string length after rerouting - 498mm
+4. Length saved - 100mm
+5. The estimated weight of the portion removed - 80g (assumption)
+6. The estimated cost of the portion removed - INR 30",nan,INR 57.0,0.08,NG,nan,KD,2311-EC-ID-02,"Route the Radiator to the Oil Chiller Hose through the right side of the Radiator to the Engine Assembly Hose as shown in the diagrams, resulting in a 100mm reduction in the overall hose length.",nan,INR 57.0,nan,nan
+2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the LHS Trim - 152.7g
+4. The estimated weight of the proposed trim - 147.09g
+5. The current weight of the RHS Trim - 393.4g
+6. The estimated weight of the proposed trim - 378.9g
+7. The total weight saved = (152.7 - 147.09) + (393.4 + 378.9) = 5.61 + 14.5 = 20.11g
+8. The current cost of the LHS Trim - INR 47.51
+9. The estimated cost of the proposed trim - INR 24.33
+10. The current cost of the RHS Trim - INR 122.41
+11. The estimated cost of the proposed trim - INR 62.68
+12. The total cost saved = (47.51 - 24.33) + (122.41 - 62.68) = 23.18 + 59.73 = INR 82.91 - 15% tolerance = INR 70.47",nan,INR 60.0,0.02,TBD,Finance,KD,2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 60.0,Kalp,nan
+2311-PRODUCT-ID-03,Replace the rubber bushes used on the wiper blade mounting bolts with the plastic protective cap.,NaN,INR 2.86,nan,"The cost savings will be updated once the costing is done.
+1. Per Kg cost of EPDM - INR 500 (assumptions)
+2. Current weight of a single bushing used in MGI - 4.07g
+3. Current cost of a bushing - INR 2.03
+4. Per Kg cost of POM - INR 200 (assumptions)
+5. Weight of the proposed cap - 3g
+6. Cost of the caps proposed - INR 0.6
+7. The estimated cost savings on a bushing - 2.03 - 0.6 = INR 1.43
+8. The estimated weight saved on a bushing - 4.07 - 3 = 1.07g
+
+9. Total cost saved - 1.43*2 = INR 2.86
+10. Total weight saved = 1.07*2 = 2.14g",nan,INR 126.0,0.02,NG,nan,LC,2311-PRODUCT-ID-03,Replace the rubber bushes used on the wiper blade mounting bolts with the plastic protective cap.,nan,INR 126.0,nan,nan
+VAVE-SWI-035,Mirror button material change SS-USA To ZAMAK 5 -Local,None,INR 8.0,nan,None,None,INR 8.0,0.00,NG,nan,"KD/LC    NaN
+KD/LC     LC
+Name: 54, dtype: object",VAVE-SWI-035,Mirror button material change SS-USA To ZAMAK 5 -Local,nan,INR 8.0,nan,nan
+VAVE-SWI-004,Suspension - Dust cap weight reduction,None,INR 4.14,nan,None,None,INR 0.0,0.00,NG,nan,"KD/LC    LC
+KD/LC    LC
+Name: 50, dtype: object",VAVE-SWI-004,Suspension - Dust cap weight reduction,nan,INR 0.0,nan,nan
+2311-IP-ID-14,Redesign the Instrument Cluster Fascia separating both the garnish trim and the fascia while simultaneously replacing PC-ABS with PP-TD20 in the manufacture of the separated fascia,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of PP-TD20 - INR 200 (assumed)
+3. The current weight of the trim - 393.46g
+4. The estimated weight of the trim if separated - 160g
+5. The estimated weight of the proposed trim - 150g
+6. The estimated weight saved = 160 - 150g
+7. The estimated cost of the trim if separated = INR 49.78
+8. The estimated cost of the proposed trim = INR 30
+9. The estimated cost saved = 49.78 - 30 = 19.78 - 30% tolerance (including new setup) = INR 13.84",nan,INR 111.0,0.01,NG,nan,KD,2311-IP-ID-14,Redesign the Instrument Cluster Fascia separating both the garnish trim and the fascia while simultaneously replacing PC-ABS with PP-TD20 in the manufacture of the separated fascia,nan,INR 111.0,nan,nan

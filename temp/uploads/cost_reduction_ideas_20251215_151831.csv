@@ -1,0 +1,123 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-DA-ID-25,Replace PP-T20 used in the manufacture of the Door Panel Interior Main Trims 2 of MGI with PP-E/P-TD10,NaN,INR 0.0,Business case to be evaluated (combined for DA-ID-24 & 25),"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 - INR 200 (assumed)
+2. Per Kg rate of PP-E/P-TD10 - INR 190 (assumed)
+3. The current weight of the front trim - 864g
+4. The estimated weight of the proposed front trim - 792.6g
+5. The estimated weight savings on both front trims = 864 - 792.6 = 71.4*2 = 142.8g
+6. The current weight of the rear trim - 610g
+7. The estimated weight of the proposed rear trim - 559.6g
+8. The estimated weight savings on both rear trims = 610 - 559.6 = 50.4*2 = 100.8g
+9. The cost of the front trim = INR 172.8
+10. The estimated cost of the proposed front trim = INR 150.59
+11. The estimated cost savings on both front trims = 172.8 - 150.59 = 22.21*2 = INR 44.42
+12. The cost of the rear trim = INR 122
+13. The estimated cost of the proposed rear trim = INR 106.32
+14. The estimated cost savings on both rear trims = 122 - 106.32 = 15.68*2 = INR 31.36
+
+15. The estimated weight savings in total = 142.8 + 100.8 = 243.6g
+16. The estimated cost savings in total = 44.42 + 31.36 = INR 75.78",nan,INR 134.0,0.24,NG,Finance,LC,2311-DA-ID-25,Replace PP-T20 used in the manufacture of the Door Panel Interior Main Trims 2 of MGI with PP-E/P-TD10,Business case to be evaluated (combined for DA-ID-24 & 25),INR 134.0,Kalp,2023-11-24 00:00:00
+2311-DA-ID-18,Replace ABS with PP-T 20 in the manufacture of Door Panel Interior Delta Trim Inners,NaN,INR 3.3,Check Bussiness case,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the door panel interior delta trim inner = 17.56g
+4. The estimated weight of the proposed trim = 18.05g
+5. The current cost of the door panel interior delta trim inner = INR 5.26
+6. The estimated cost of the proposed trim = INR 3.61
+7. The estimated cost saved = 5.26 - 3.61 = 1.65*2 = INR 3.3",nan,INR 129.0,0.00,NG,Finance,LC,2311-DA-ID-18,Replace ABS with PP-T 20 in the manufacture of Door Panel Interior Delta Trim Inners,Check Bussiness case,INR 129.0,Kalp,2023-11-08 00:00:00
+2311-DA-ID-28,Replace PP-T20 used in the manufacture of the LH and RH Door Panel Interior Delta Trims of MGI with PP-E/P-TD10,NaN,INR 0.0,Bussiness case to be evaluated,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 - INR 200 (assumed)
+2. Per Kg rate of PP-E/P-TD10 - INR 190 (assumed)
+3. The current weight of the front trim - 58.66g
+4. The estimated weight of the proposed front trim - 53.76g
+5. The estimated weight savings on both front trims = 58.6 - 53.7 = 4.9*2 = 9.8g
+6. The cost of the front trim = INR 11.7
+7. The estimated cost of the proposed front trim = INR 10.21
+8. The estimated cost savings on both front trims = 11.7 - 10.21 = 1.49*2 = INR 3",nan,INR 119.0,0.01,NG,Finance,LC,2311-DA-ID-28,Replace PP-T20 used in the manufacture of the LH and RH Door Panel Interior Delta Trims of MGI with PP-E/P-TD10,Bussiness case to be evaluated,INR 119.0,Kalp,2023-11-02 00:00:00
+2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,NaN,INR 91.35,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the front trim - 290.06g
+4. The estimated weight of the proposed front trim - 263.4g
+5. The estimated weight savings on both front trims = 290.06 - 263.4 = 26.6*2 = 53.32g
+6. The current weight of the rear trim - 292.86g
+7. The estimated weight of the proposed rear trim - 266.01g
+8. The estimated weight savings on both rear trims = 292.86 - 266.01 = 26.85*2 = 53.7g
+9. The cost of the front trim = INR 87.01
+10. The estimated cost of the proposed front trim = INR 58.01
+11. The estimated cost savings on both front trims = 87.01 - 58.01 = 29*2 = INR 58
+12. The cost of the rear trim = INR 87.85
+13. The estimated cost of the proposed rear trim = INR 58.57
+14. The estimated cost savings on both rear trims = 87.8 - 58.57 = 29.23*2 = INR 58.4
+
+15. The estimated weight savings in total = 53.32 + 53.7 = 107g
+16. The estimated cost savings in total = 58 + 58.4 = INR 116.4
+17. Flaming Process Cost - INR 5 should be considered for each part
+18. Cost saved - 116.4 - 5*4 = INR 96.4",nan,INR 147.0,0.11,NG,nan,LC,2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,nan,INR 147.0,nan,nan
+2311-DA-ID-23,Replace PP-GF30 used in the manufacture of the Door Lock Latch Housing Cover in MGI with PP-GF20,NaN,INR 0.0,Confirm business case,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of PP-GF30 - INR 265 (assumed)
+2. The Per Kg rate of PP-GF20 - INR 250 (assumed)
+3. The current weight of the Door Lock Latch Housing Cover - 32.49g
+4. The estimated weight of the proposed cover - 31.13g
+5. The estimated weight saved = 32.49 - 31.13 = 1.36*4 = 5.44g
+6. The current cost of the Door Lock Latch Housing Cover - INR 8.60
+7. The estimated cost of the proposed cover - INR 7.78
+8. The estimated cost saved = 8.60 - 7.78 = 0.82*4 = INR 3.28",nan,INR 125.0,0.01,NG,Finance,KD,2311-DA-ID-23,Replace PP-GF30 used in the manufacture of the Door Lock Latch Housing Cover in MGI with PP-GF20,Confirm business case,INR 125.0,Kalp,2023-12-15 00:00:00
+2311-ET-ID-28,"Redesign the current Door Panel Exterior LH & RH Main Trims to a similar setup as employed in KIA,
+1. Employ separate LH and RH Side Claddings (PP-T30) as in KIA
+2. Reduce the current width of the Front and Rear Door Panel Exterior LH & RH Main Trims by 80mm and de-content the rubber seals used on all four doors",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of EPDM - INR 500 (assumed)
+2. The per Kg rate of PP-T30 - INR 190 (assumed)
+3. The per Kg rate of Steel (painted) - INR 230 (assumed)
+4. The current weight of the rubber beadings on the front LH & RH sides = 335.51g
+5. The estimated weight saved on both sides after de-contenting = 335.51*2 = 671g
+6. The current weight of the rubber beadings on the rear LH & RH sides = 330.53g
+7. The estimated weight saved on both sides after de-contenting = 330.53*2 = 661g
+8. The estimated weight saved from the current front door panel exterior LH & RH main trims = 176*2 = 352g (assumed using mass, volume and density relations)
+9. The estimated weight saved from the current rear door panel exterior LH & RH main trims = 148*2 = 296g (assumed using mass, volume and density relations)
+10. The estimated weight saved from the provisions made on the BiW panels on both LH & RH sides = 3.2*11 = 35.2g
+11. The estimated weight of the proposed LH & RH Side Claddings = 1641*2 = 3282g (assumed using mass, volume and density relations)
+12. The estimated weight of the push-clips to be used = 1.8*11 = 19.8g
+13. The estimated weight of the fasteners to be used = 4*12 = 48g
+14. The current cost of the rubber beadings on the front LH & RH sides = INR 167.75
+15. The estimated cost saved on both sides after de-contenting = 167.75*2 = INR 335.51
+16. The current cost of the rubber beadings on the rear LH & RH sides = INR 165.26
+17. The estimated cost saved on both sides after de-contenting = 165.26*2 = INR 330.53
+18. The estimated cost saved from the current front door panel exterior LH & RH main trims = 33.44*2 = INR 66.88
+19. The estimated cost saved from the current rear door panel exterior LH & RH main trims = 28.12*2 = INR 56.24
+20. The estimated cost saved from the provisions made on the BiW panels on both LH & RH sides = 0.73*11 = INR 8.09
+21. The estimated cost of the proposed LH & RH Side Claddings = 311.79*2 = INR 623.58
+22. The estimated cost of the push-clips to be used = 0.32*11 = INR 3.56
+23. The estimated cost of the fasteners to be used = 0.72*12 = INR 8.64
+
+24. The total estimated weight saved = (671 + 661 + 352 + 296 + 35.2) - (3282 + 19.8 + 48) = 2015.2 - 3349.8 = Nil
+25. The total estimated cost saved = (335.51 + 330.53 + 66.88 + 56.24 + 8.09) - (623.58 + 3.56 + 8.64) = 797.25 - 635.78 = INR 161.47",nan,INR 105.0,0.00,TBD,nan,nan,2311-ET-ID-28,"Redesign the current Door Panel Exterior LH & RH Main Trims to a similar setup as employed in KIA,
+1. Employ separate LH and RH Side Claddings (PP-T30) as in KIA
+2. Reduce the current width of the Front and Rear Door Panel Exterior LH & RH Main Trims by 80mm and de-content the rubber seals used on all four doors",nan,INR 105.0,nan,nan
+2311-DA-ID-17,"Instead of using Thinsulate within the door assemblies, Felt could be utilized",NaN,INR 137.9,Confirm on part availability,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Felt per square meter - INR 50 (assumption)
+3. Surface area of the front door Thinsulate 1 - 0.26m2
+4. The current cost = INR 53.04
+5. The estimated cost after using Felt instead = INR 13
+6. Total cost saved on both doors = 53.04 - 13 = 40.04*2 (LH&RH) = INR 80.08
+7. Surface area of the front door Thinsulate 2 - 0.071m2
+8. The current cost = INR 14.4
+9. The estimated cost after using Felt instead = INR 3.55
+10. Total cost saved on both doors = 14.4 - 3.55 = 10.85*2 (LH&RH) = INR 21.7
+11. Surface area of the rear door Thinsulate 1 - 0.22m2
+12. The current cost = INR 44.88
+13. The estimated cost after using Felt instead = INR 11
+14. Total cost saved on both doors = 44.88 - 11 = 33.88*2 (LH&RH) = INR 67.76
+15. Surface area of the rear door Thinsulate 2 - 0.10m2
+16. The current cost = INR 20.4
+17. The estimated cost after using Felt instead = INR 5
+18. Total cost saved on both doors = 20.4 - 5 = 15.4*2 (LH&RH) = INR 30.8
+19. Surface area of the tailgate Thinsulate - 0.49m2
+20. The current cost = INR 99.96
+21. The estimated cost after using Felt instead = INR 24.5
+22. The cost saved on the tailgate = 99.96 - 24.5 = INR 75.46
+
+23. The estimated cost saved in total = 80.08 + 21.7 + 67.76 + 30.8 + 75.46 = INR 275.8
+24. The estimated weight saved in total = No Weight Savings",nan,INR 78.0,0.00,TBD,PE/ Purchase,LC,2311-DA-ID-17,"Instead of using Thinsulate within the door assemblies, Felt could be utilized",Confirm on part availability,INR 78.0,Akhil/ Narendra,"29-Mar-24
+16-Feb-24"

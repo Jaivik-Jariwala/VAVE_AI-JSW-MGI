@@ -1,0 +1,20 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-AI-ID-01,Route the air filter bypass hose through the left of the engine assembly (left of the engine oil inlet) and thereby reduce 220mm in length.,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per meter cost of the hose - INR 300 (assumption)
+2. The current string length of the hose - 614mm
+3. The proposed string length after rerouting - 395mm
+4. Length saved - 220mm
+5. The estimated weight of the portion removed - 100g (assumption)
+6. The estimated cost of the portion removed - INR 65.7 - 20% tolerance = INR 52.56",nan,INR 71.0,0.10,NG,nan,KD,2311-AI-ID-01,Route the air filter bypass hose through the left of the engine assembly (left of the engine oil inlet) and thereby reduce 220mm in length.,nan,INR 71.0,nan,nan
+2311-EC-ID-02,"Route the Radiator to the Oil Chiller Hose through the right side of the Radiator to the Engine Assembly Hose as shown in the diagrams, resulting in a 100mm reduction in the overall hose length.",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after costing.
+1. Per M cost of the hose - INR 300 (assumption)
+2. The current string length of the hose - 598mm
+3. The proposed string length after rerouting - 498mm
+4. Length saved - 100mm
+5. The estimated weight of the portion removed - 80g (assumption)
+6. The estimated cost of the portion removed - INR 30",nan,INR 57.0,0.08,NG,nan,KD,2311-EC-ID-02,"Route the Radiator to the Oil Chiller Hose through the right side of the Radiator to the Engine Assembly Hose as shown in the diagrams, resulting in a 100mm reduction in the overall hose length.",nan,INR 57.0,nan,nan
+AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,N/A,N/A,Review feasibility,N/A,N/A,₹ 51,0.00,AI-PROPOSAL,nan,N/A,AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,Review feasibility,₹ 51,Digital Analyst,N/A
+AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,N/A,N/A,Review feasibility,N/A,N/A,₹ 61,0.00,AI-PROPOSAL,nan,N/A,AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,Review feasibility,₹ 61,Digital Analyst,N/A
+AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,N/A,N/A,Review feasibility,N/A,N/A,₹ 70,0.00,AI-PROPOSAL,nan,N/A,AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,Review feasibility,₹ 70,Digital Analyst,N/A
+AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,N/A,N/A,Review feasibility,N/A,N/A,₹ 80,0.00,AI-PROPOSAL,nan,N/A,AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,Review feasibility,₹ 80,Digital Analyst,N/A
+AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,N/A,N/A,Review feasibility,N/A,N/A,₹ 90,0.00,AI-PROPOSAL,nan,N/A,AI-GEN-01,Reduce the thickness/coating thickness of engine to optimize material usage and cost,Review feasibility,₹ 90,Digital Analyst,N/A

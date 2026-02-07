@@ -1,0 +1,102 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-PRODUCT-ID-16,Replace fiberboard with velcro tape and carpet in the assembly,NaN,INR 0.0,Check for loss in functionality,"The cost savings will be updated once the costing is done.
+Cost savings: carpet
+1. Length of carpet = 1000mm 
+2. Width of carpet to be reduced = 170mm (rear side of board) 
+3. Area of carpet to be reduced = 170000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 17
+Cost savings: Fiberboard
+1. Length of fiberboard = 1000mm
+2. Width of fiberboard to be eliminated = 170mm
+3. Area of fiberboard to be eliminated = 170000mm2
+4. Cost per meter square of fiberboard = 150 INR/m2 (Assumption)
+5. Cost saving for fiberboard  = INR 25.5
+Costing saving: springs
+1. Weight of springs (3) = 8g
+2. Peg Kg cost of steel = INR 180 (assumption)
+3. The estimated cost saving = INR 1.44
+
+The cost for velcro tape needs to add:
+1. Length of velcro needed = 1000mm
+2. Cost per meter square of velcro tape = INR 20 (assumption)
+
+Total estimated cost saving = (17 + 25.5 + 1.44) - 20 = INR 23.94 (This will be updated once costing is done)
+Tot estimated weight saving = (30 + 120 +8) - 20 = 138 g (This will be updated once TD is done)",nan,INR 64.0,0.14,TBD,PE,KD,2311-PRODUCT-ID-16,Replace fiberboard with velcro tape and carpet in the assembly,Check for loss in functionality,INR 64.0,Narendra,2024-02-22 00:00:00
+2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",NaN,INR 0.0,nan,"The estimated cost saving will be updated once the costing is done.
+1. Per Kg cost of PC- ABS - INR 311.17
+2. Weight of the Type 1 cap used in MGI - 1.39g
+3. Weight of the Type 2 cap used in MGI - 1.14g
+4. Cost of the Type 1 caps - 0.43*4 = INR 1.73
+5. Cost of the Type 2 caps - 0.35*10 = INR 3.5
+6. Weight of the proposed stickers - 0.2g
+7. Per Kg cost of adhesive stickers - INR 250 (assumption)
+8. Cost of a single sticker - INR 0.05
+9. The estimated cost saving on caps = (3.5 + 1.73) - (0.05*14) = 5.23 - 0.7 = INR 4.53
+10. The estimated weight saving on caps = ((1.39*4) + (1.14*10)) - (0.2*14) = 16.96 - 2.8 = 14.16g",nan,INR 130.0,0.02,NG,nan,KD,2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",nan,INR 130.0,nan,nan
+2311-DA-ID-14,De-content the Coasters/Inserts from the Door Recess Trims and the second-row AC Vent Bottom Storage Area,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of TPE - INR 300 (assumed)
+2. The current combined weight of the coasters/inserts =14.21*2 + 9.47*2 + 39.93 = 87.29g
+3. The total weight saved = 87.29g
+4. The current combined cost of the coasters/inserts - INR 26.18
+5. The total cost saved = INR 26.18",nan,INR 75.0,0.09,TBD,nan,nan,2311-DA-ID-14,De-content the Coasters/Inserts from the Door Recess Trims and the second-row AC Vent Bottom Storage Area,nan,INR 75.0,nan,nan
+2311-DA-ID-09,Replace the Double-Track Drum and Pulley System used at the front door assemblies with a Single-Track Drum and Pulley System used at the rear door assemblies of the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The current weight of the double-track drum and pulley system - 1550g
+2. The estimated weight of the proposed single-track drum and pulley system - 1300g (assumed)
+3. The estimated weight saved on LH and RH front doors = 250*2 = 500g
+4. Per Kg rate of the mechanism = INR 200 (assumed)
+5. The current cost of the double-track drum and pulley system - INR 310
+6. The estimated cost of the proposed single-track drum and pulley system - INR 260
+7. The estimated cost saved on LH & RH ends = 310 - 260 = 50*2 = INR 100",nan,INR 92.0,0.50,NG,nan,KD,2311-DA-ID-09,Replace the Double-Track Drum and Pulley System used at the front door assemblies with a Single-Track Drum and Pulley System used at the rear door assemblies of the vehicle,nan,INR 92.0,nan,nan
+2311-PRODUCT-ID-07,De-content the plastic trims found protecting the top tethers from both sides of the seat as the tethers could be placed within the seat fabric itself and a slit on the same could facilitate easy access,NaN,INR 0.0,Confirm on no part nuber change to avoid homologation cost,"The evaluation is done before teardown, the values will change after costing.
+1. Per Kg cost of PC ABS - INR 311.17 (Material and cost assumed)
+2. Assumed weight of the trim - 42g 
+3. The estimated cost of the trim = INR 13.06
+4. Total weight of both the trims on LHS and RHS - 42*2 = 84g
+5. Total cost of both the trims - 13.06*2 = INR 26.13
+
+6. The estimated weight savings on both sides = 84g
+7. The estimated cost savings on both sides = INR 26.13",nan,INR 115.0,0.08,OK,PE,LC,2311-PRODUCT-ID-07,De-content the plastic trims found protecting the top tethers from both sides of the seat as the tethers could be placed within the seat fabric itself and a slit on the same could facilitate easy access,Confirm on no part nuber change to avoid homologation cost,INR 115.0,Nishant,2024-06-17 00:00:00
+2311-BIW-ID-07,Reduce the Paint Coating Thickness of the highlighted Roof Side BiW Panels from 120 - 130μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (120 - 130μm) - INR 103.54(assumed)
+3. The surface area of the Roof Side Panels = 0.276*2 = 0.552m2
+4. The current cost to paint the structure = INR 57.15
+5. The estimated cost = INR 43.60
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 57.15 - 43.60 = INR 13.55",nan,INR 71.0,0.00,TBD,nan,nan,2311-BIW-ID-07,Reduce the Paint Coating Thickness of the highlighted Roof Side BiW Panels from 120 - 130μm to 100 - 110μm,nan,INR 71.0,nan,nan
+2311-BA-ID-01,The Brake Booster Plate in MGI could be integrated into the Dashboard BIW of the vehicle as done in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg cost of Steel (Fabricated and Painted) - INR 230 (assumed)
+2. The current weight of the plate - 707g
+3. The current cost - INR 162.6
+4. The current weight of the M8 fasteners (bolts & nuts) = 20*7 = 140g (assumed)
+5. The current cost of the M8 fasteners - INR 35
+6. The weight of the Seal - 2.5g
+7. The cost of the Seal - INR 5 
+8. The weight added on the BIW after redesigning - 201g
+9. The cost added on - INR 46.23
+10. The estimated weight saved = (707+140+2.5) - 201 = 681.5g
+11. The estimated cost saved - (162.6+35+5) - 46.23 = INR 156.37",nan,INR 47.0,0.64,NG,nan,KD,2311-BA-ID-01,The Brake Booster Plate in MGI could be integrated into the Dashboard BIW of the vehicle as done in KIA,nan,INR 47.0,nan,nan
+VAVE-SWI-045,IP support Bracket Metal to Plastic,None,INR 0.0,"Confirm on Supplier feedback (Feasibility, Savings, Investment)",None,None,INR 0.0,0.00,TBD,PSCM,"KD/LC    LC
+KD/LC    LC
+Name: 1, dtype: object",VAVE-SWI-045,IP support Bracket Metal to Plastic,"Confirm on Supplier feedback (Feasibility, Savings, Investment)",INR 0.0,Akhil,2024-06-15 00:00:00
+2311-PRODUCT-ID-12,Decrease the width of the carpet by 100mm from the lower edge on the rear side of the trunk liner flap.,NaN,INR 0.0,Confirm supplier feasibility in LC part for 5 seater,"The cost savings will be updated once the costing is done.
+Cost savings : carpet
+1. Total length of carpet = 1000mm
+2. Width of carpet to be reduce = 100mm
+3. Area of carpet to be reduce =  100000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 10
+
+Total estimated cost saving = INR 10 (will be updated once costing is done)
+Tot estimated weight saving = 40 = 40 g (will be updated once TD is done)",nan,INR 90.0,0.08,TBD,PSCM,LC,2311-PRODUCT-ID-12,Decrease the width of the carpet by 100mm from the lower edge on the rear side of the trunk liner flap.,Confirm supplier feasibility in LC part for 5 seater,INR 90.0,Akhil,2024-06-28 00:00:00
+2311-DA-ID-11,Replace PMMA+ASA with PC-ABS in the manufacture of the LH and RH Side Spoilers,NaN,INR 14.32,Confirm Business case,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PMMA+ASA = INR 400 (assumed)
+2. Per Kg rate of PC-ABS = INR 350 (assumed)
+3. The current weight of the trim - 111.8g
+4. The estimated weight of the proposed trim - 107.32g
+5. The estimated weight savings on both the LH and RH ends = 111.8 - 107.32 = 4.48*2 = 8.96g
+6. The current cost of the trim = INR 44.72
+7. The estimated cost of the proposed trim = INR 37.56
+8. The estimated cost savings on both the LH and RH ends = 44.72 - 37.56 = 7.16*2 = INR 14.32",nan,INR 79.0,0.01,NG,Finance,LC,2311-DA-ID-11,Replace PMMA+ASA with PC-ABS in the manufacture of the LH and RH Side Spoilers,Confirm Business case,INR 79.0,Kalp,2023-11-02 00:00:00

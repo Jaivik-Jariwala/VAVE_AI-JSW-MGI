@@ -1,0 +1,106 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-EL-ID-22,Replace the Closed (Mini) Fuses used within the Driver-Side Fuse Box of the vehicle with Open (Mini) Fuses,185.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per piece rate of 10Amp Closed Fuses = INR 69.48
+2. The per piece rate of 15Amp Closed Fuses = INR 76.38
+3. The per piece rate of 20Amp Closed Fuses = INR 82.30
+4. The per piece rate of 25Amp Closed Fuses = INR 77.01
+5. The per piece rate of 30Amp Closed Fuses = INR 81.24
+6. The per piece rate of 10Amp Open Fuses = INR 20.52
+7. The per piece rate of 15Amp Open Fuses = INR 19.10
+8. The per piece rate of 20Amp Open Fuses = INR 19.77
+9. The per piece rate of 25Amp Open Fuses = INR 25.27
+10. The per piece rate of 30Amp Open Fuses = INR 21.79
+11. The current total cost of the 10Amp Fuses = INR 1042.2
+12. The estimated total cost of the proposed 10Amp Fuses = INR 307.8
+13. The estimated cost saved = 1042.2 - 307.8 = INR 734.4 - 30% Tolerance = INR 514.08
+14. The current total cost of the 15Amp Fuses = INR 687.42
+15. The estimated total cost of the proposed 15Amp Fuses = INR 171.9
+16. The estimated cost saved = 687.42 - 171.9 = INR 515.52 - 30% Tolerance = INR 360.68
+17. The current total cost of the 20Amp Fuses = INR 82.30
+18. The estimated total cost of the proposed 20Amp Fuses = INR 19.77
+19. The estimated cost saved = 82.30 - 19.77 = INR 62.53 - 30% Tolerance = INR 43.77
+20. The current total cost of the 25Amp Fuses = INR 77.01
+21. The estimated total cost of the proposed 25Amp Fuses = INR 25.27
+22. The estimated cost saved = 77.01 - 25.27 = INR 51.74 - 30% Tolerance = INR 36.21
+23. The current total cost of the 30Amp Fuses = INR 162.48
+24. The estimated total cost of the proposed 30Amp Fuses = INR 43.58
+25. The estimated cost saved = 162.48 - 43.58 = INR 118.9 - 30% Tolerance = INR 83.23
+
+26. The estimated weight saved = 0.61 - 0.54 = 0.07*28 = 1.96g
+27. The estimated cost saved = 514.08 + 360.68 + 43.77 + 36.21 + 83.23 = INR 1037.97",nan,INR 111.0,0.00,TBD,nan,nan,2311-EL-ID-22,Replace the Closed (Mini) Fuses used within the Driver-Side Fuse Box of the vehicle with Open (Mini) Fuses,nan,INR 111.0,nan,nan
+VAVE-SWI-056,Quarter Lower Insulation removal,None,INR 244.8,Complete NVH trial,None,None,INR 0.0,0.00,OK,PE,"KD/LC    LC
+KD/LC    LC
+Name: 12, dtype: object",VAVE-SWI-056,Quarter Lower Insulation removal,Complete NVH trial,INR 0.0,Narendra/ Ratnadeep,2024-06-21 00:00:00
+2311-FS-ID-01,Remove the Neoprene Foam Sheaths present on the fuel lines and the fuel inlet hose of MGI,213.jpg,INR 6.0,Confirm Kia routing photos for analysis with ASI,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of Neoprene Foam - INR 150 (assumed)
+2. The overall surface area = 89058mm2 = 0.089m2
+3. Average wall thickness - 3mm
+4. Assumed weight - 40g (Density 150Kg/m3)
+5. Overall cost of the sheaths used = INR 6
+
+6. The estimated weight saved = 40g
+7. The estimated cost saved = INR 6",nan,INR 142.0,40.00,NG,VAVE,LC,2311-FS-ID-01,Remove the Neoprene Foam Sheaths present on the fuel lines and the fuel inlet hose of MGI,Confirm Kia routing photos for analysis with ASI,INR 142.0,Ratnadeep,2024-02-12 00:00:00
+VAVE-SWI-060,Replace PP strip to loose elastic strip at Map pocket upper side,None,INR 8.0,Confirm date for sample availability (Functional & Appearance check) - 1Nos Passenger seat,None,None,INR 8.0,0.00,OK,PSCM,"KD/LC    LC
+KD/LC    LC
+Name: 23, dtype: object",VAVE-SWI-060,Replace PP strip to loose elastic strip at Map pocket upper side,Confirm date for sample availability (Functional & Appearance check) - 1Nos Passenger seat,INR 8.0,Akhil,2024-06-15 00:00:00
+VAVE-SWI-057,"DP, Tailgate insulation change from PP PET to PET Felt",None,INR 0.0,"Confirm on Supplier feedback (Feasibility, Savings, Investment)",None,None,INR 0.0,0.00,TBD,PSCM,"KD/LC    LC
+KD/LC    LC
+Name: 13, dtype: object",VAVE-SWI-057,"DP, Tailgate insulation change from PP PET to PET Felt","Confirm on Supplier feedback (Feasibility, Savings, Investment)",INR 0.0,Akhil,2024-06-15 00:00:00
+2311-EL-ID-08,"Update the battery mounting technique in MGI to align with the one employed in KIA, including a redesign of the battery-securing enclosure.",172.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of Steel (Painted) - INR 230 (assumed)
+2. The Per Kg rate of Steel Fasteners - INR 200 (assumed)
+3. The current weight of the hold-down bracket - 93g
+4. The current weight of the hold-down bolt 1 - 81g
+5. The current weight of the hold-down bolt 2 - 27g
+6. The current weight of the bolt 2 bracket - 35g (assumed)
+7. The current weight of the nuts - 12g
+8. The estimated weight saved - 93 + 81 + 27 + 35 + 12 = 248g
+9. The estimated weight of the proposed bracket and fasteners combined = 90g (as in KIA)
+10. The estimated weight saved after redesigning = 158g
+11. The current cost of the hold-down bracket - INR 21.39
+12. The current cost of the hold-down bolt 1 - INR 16.2
+13. The current cost of the hold-down bolt 2 - INR 5.4
+14. The current cost of the bolt 2 bracket - INR 8.5
+15. The current cost of the nuts - INR 2.4
+16. The estimated cost saved - 21.39 + 16.2 + 5.4 + 8.5 + 2.4 = INR 53.89
+17. The estimated cost of the proposed bracket and fasteners combined = 18.4 + 2 = INR 20.4
+18. The estimated cost saved after redesigning = 53.89 - 20.4 = INR 33.49",nan,INR 135.0,0.16,TBD,nan,nan,2311-EL-ID-08,"Update the battery mounting technique in MGI to align with the one employed in KIA, including a redesign of the battery-securing enclosure.",nan,INR 135.0,nan,nan
+VAVE-SWI-069,Backrest bolster support frame wire diameter to be reduce,None,INR 0.0,nan,None,None,INR 0.0,0.00,NG,nan,"KD/LC    LC
+KD/LC    LC
+Name: 32, dtype: object",VAVE-SWI-069,Backrest bolster support frame wire diameter to be reduce,nan,INR 0.0,nan,nan
+2311-EX-ID-06,"Reduce the average wall thickness of the Exhaust Pipes (Pre-Silencer Outlet Pipe, Flexi Exhaust Outlet Connecting Pipe and Main Silencer Inlet Pipe) in MGI from 1.8mm and 1.4mm to 1.2mm as seen in KIA",212.jpg,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of steel = INR 180
+2. The current combined weight = 3812g
+3. The estimated weight of the proposed setup = 3581g
+4. The current cost = INR 686.16
+5. The estimated cost of the proposed setup = INR 644.58
+
+6. The estimated weight saved = 3812 - 3581 = 231g
+7. The estimated cost saved = 686.16 - 644.58 = INR 41.58",nan,INR 60.0,0.19,NG,nan,LC,2311-EX-ID-06,"Reduce the average wall thickness of the Exhaust Pipes (Pre-Silencer Outlet Pipe, Flexi Exhaust Outlet Connecting Pipe and Main Silencer Inlet Pipe) in MGI from 1.8mm and 1.4mm to 1.2mm as seen in KIA",nan,INR 60.0,nan,nan
+2311-PRODUCT-ID-23,Redesign the Tailgate Bumper Stops in MGI into an 'L' shape reducing the length from 74mm to 40mm,12.jpg,INR 0.0,"1. Confirm with homeroom
+2. Confirm for cost saving and tooling requirement.Homeroom ideas to be bunched up and taken up for implementation at program level
+","The evaluation is done before teardown, the values will change after the costing
+1. Per Kg rate of PA-66 - INR 450 (assumed)
+2. Current weight of the bumper stop - body frame - 99g
+3. Current cost of the bumper stop - INR 44.55
+4. Assumed weight of the proposed bumper stop - 70g
+5. The cost of the proposed bumper stop - INR 31.5
+6. The estimated weight saved - 99-70 = 29*2 = 58g (both ends)
+7. The estimated cost saved - 44.55 - 31.5 = 13.05*2 = INR 26.1 (both ends)
+
+8. Per Kg rate of bolts - INR 150
+9. Assumed weight of the proposed M4 bolts - 5*4 = 20g
+10. The estimated cost of the bolts - 0.75*4 = INR 3
+
+11. The total weight saved = 58 - 20 = 38g
+12. The total cost saved =  26.1 - 3 = INR 23.1",nan,INR 71.0,0.04,NG,PE/ Finance,KD,2311-PRODUCT-ID-23,Redesign the Tailgate Bumper Stops in MGI into an 'L' shape reducing the length from 74mm to 40mm,"1. Confirm with homeroom
+2. Confirm for cost saving and tooling requirement.Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 71.0,"1.Himanshu
+2. Sruhti",nan
+2311-PRODUCT-ID-25,Reduce the overall length of the Windshield Washer Fluid Reservoir neck by 30mm,121.jpg,INR 2.6,nan,"The evaluation is done before teardown, the values will change after the costing.
+1. Per Kg rate of PP - INR 130.35
+2. The weight of the area removed - 20g
+3. The estimated cost of the area removed - INR 2.60
+
+4. The total weight saved after redesigning = 20g
+5. The total cost saved after redesigning = INR 2.60",nan,INR 69.0,0.02,NG,nan,LC,2311-PRODUCT-ID-25,Reduce the overall length of the Windshield Washer Fluid Reservoir neck by 30mm,nan,INR 69.0,nan,nan

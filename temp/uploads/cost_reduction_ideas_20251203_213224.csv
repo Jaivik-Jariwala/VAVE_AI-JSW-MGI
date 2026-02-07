@@ -1,0 +1,133 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-ST-ID-04,"Reduce the length of the Iron Castings from 175mm to 110mm and Increase the length of the Rods to compensate instead, similar to the setup employed in KIA",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of Cast Iron - INR 180 (assumed)
+2. Per Kg rate of Steel - INR 180 (assumed)
+3. The current weight of the cast = 250g
+4. The estimated weight of the proposed cast = 150g
+5. The estimated weight saved = 250 - 150 = 100*2 (LH & RH) = 200g
+6. The current cost of the cast = INR 45
+7. The estimated cost of the proposed cast = INR 27
+8. The estimated cost saved = 45 - 27 = INR 18
+
+9. The estimated weight added on by the rod = 41.8g
+10. The estimated cost added on = INR 7.52
+
+11. The total weight saved = 100 - 41.8 = 58.2g
+12. The total cost saved = 18 - 7.52 = INR 10.48",nan,INR 122.0,0.06,NG,nan,KD,2311-ST-ID-04,"Reduce the length of the Iron Castings from 175mm to 110mm and Increase the length of the Rods to compensate instead, similar to the setup employed in KIA",nan,INR 122.0,nan,nan
+2311-ST-ID-05,Redesign the current Steering Column to Steering Rack Linkage Plastic Trim and the Rubber Bush associated with a smaller setup as employed in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of EPDM - INR 500 (assumed)
+2. The per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the plastic trim = 83.54g
+4. The estimated weight = 49.60g
+5. The estimated weight saved = 83.54 - 49.60 = 33.94g
+6. The current cost of the plastic trim = INR 16.70
+7. The estimated cost = INR 9.92
+8. The estimated cost saved = 16.70 - 9.92 = INR 6.78
+9. The current weight of the rubber bush = 143.01g
+10. The estimated weight = 49.60g
+11. The estimated weight saved = 143.01 - 49.60 = 93.41g
+12. The current cost of the rubber bush = INR 71.50
+13. The estimated cost = INR 24.8
+14. The estimated cost saved = 71.50 - 24.8 = INR 46.7
+
+15. The total weight saved = 33.94 + 93.41 = 127.35g
+16. The total cost saved = 6.78 + 46.7 = INR 53.48",nan,INR 98.0,0.13,NG,nan,KD,2311-ST-ID-05,Redesign the current Steering Column to Steering Rack Linkage Plastic Trim and the Rubber Bush associated with a smaller setup as employed in KIA,nan,INR 98.0,nan,nan
+2311-ST-ID-03,Replace the Cast Aluminium Steering Column Mount in MGI with a fabricated sheet welded onto the shaft as used in KIA ,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of Cast Aluminum (machined) - INR 480 (assumed)
+2. Per Kg rate of Steel Sheet (fabricated) - INR 180 (assumed)
+3. The current weight of the cast aluminium part = 195.63g
+4. The estimated weight of the proposed cover = 20.78g
+5. The estimated weight saved = 195.63 - 20.78 = 174.85g
+6. The current cost of the cast aluminium part = INR 93
+7. The estimated cost of the proposed cover = INR 3.73
+8. The estimated cost saved = 93 - 3.73 = INR 89.27",nan,INR 131.0,0.17,NG,nan,KD,2311-ST-ID-03,Replace the Cast Aluminium Steering Column Mount in MGI with a fabricated sheet welded onto the shaft as used in KIA ,nan,INR 131.0,nan,nan
+2311-ST-ID-06,Reduce the overall length and width of the rubber boots in MGI to match the dimensions of the similar rubber boots used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of EPDM - INR 500 (assumed)
+2. The current weight of the boot - 64g
+3. The estimated weight of the proposed boot - 48g
+4. The estimated weight saved = 64 - 48 = 16*2 = 24g
+5. The current cost of the boot - INR 32
+6. The estimated cost of the proposed boot - INR 24
+7. The estimated cost saved = 32 - 24 = 8*2 = INR 16",nan,INR 97.0,0.02,NG,nan,KD,2311-ST-ID-06,Reduce the overall length and width of the rubber boots in MGI to match the dimensions of the similar rubber boots used in KIA,nan,INR 97.0,nan,nan
+2311-DA-ID-09,Replace the Double-Track Drum and Pulley System used at the front door assemblies with a Single-Track Drum and Pulley System used at the rear door assemblies of the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The current weight of the double-track drum and pulley system - 1550g
+2. The estimated weight of the proposed single-track drum and pulley system - 1300g (assumed)
+3. The estimated weight saved on LH and RH front doors = 250*2 = 500g
+4. Per Kg rate of the mechanism = INR 200 (assumed)
+5. The current cost of the double-track drum and pulley system - INR 310
+6. The estimated cost of the proposed single-track drum and pulley system - INR 260
+7. The estimated cost saved on LH & RH ends = 310 - 260 = 50*2 = INR 100",nan,INR 92.0,0.50,NG,nan,KD,2311-DA-ID-09,Replace the Double-Track Drum and Pulley System used at the front door assemblies with a Single-Track Drum and Pulley System used at the rear door assemblies of the vehicle,nan,INR 92.0,nan,nan
+2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,NaN,INR 0.0,Confirm business case for 20mm reduction,"The cost savings will be updated once the costing is done.
+Cost savings : carpet
+1. Length of carpet = 1000mm (length will not change)
+2. Width of carpet to be reduce = 120mm (including front & rear sides) 
+3. Area of carpet to be reduce =  120000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 12
+Cost savings : fiberboard
+1. Length of fiberboard = 1000mm (length will not change)
+2. Width of fiberboard to be reduce = 60mm
+3. Area of fiberboard to be reduce =  60000mm2
+4. Cost per meter square of fiberboard = 150 INR/m2 (Assumption)
+5. Cost saving for fiberboard  = INR 9
+Total estimated cost saving = 12 + 9 = INR 21 (will be updated once costing is done)
+Tot estimated weight saving = 80 + 50 = 130 g (will be updated once TD is done)",nan,INR 89.0,0.09,TBD,Finance,KD,2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,Confirm business case for 20mm reduction,INR 89.0,Kalp,2024-02-14 00:00:00
+2311-ST-ID-02,Replace PC-ABS with ABS in the manufacture of the Steering Wheel Top Trim 2 since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 46.21g
+4. The estimated weight = 44.1g
+5. The estimated weight saved = 46.21 - 44.1 = 2.1g
+6. The current cost of the trim = INR 14.37
+7. The estimated cost = INR 7.29
+8. The estimated cost saved = 14.37 - 7.29 = INR 7.08",nan,INR 98.0,0.00,TBD,nan,nan,2311-ST-ID-02,Replace PC-ABS with ABS in the manufacture of the Steering Wheel Top Trim 2 since the finish could be achieved on ABS-made trims as well,nan,INR 98.0,nan,nan
+2311-SS-ID-03,Substitute the Seatbelt Buckles used in the front row of the seating system in the vehicle with those employed in the second and third row LH and RH sides of the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing
+1. The current weight of the seatbelt buckle used in the front row - 70g (assumed)
+2. The current weight of the seatbelt buckle used in the second and third rows - 60g (assumed)
+3. The current cost of the seatbelt buckle used in the front row - INR 20
+4. The current cost of the seatbelt buckle used in the second and third rows - INR 15
+
+5. The estimated weight saved - 10*2 = 20g
+6. The estimated cost saved - 5*2 = INR 10",nan,INR 126.0,0.02,NG,nan,KD,2311-SS-ID-03,Substitute the Seatbelt Buckles used in the front row of the seating system in the vehicle with those employed in the second and third row LH and RH sides of the vehicle,nan,INR 126.0,nan,nan
+2311-PRODUCT-ID-10,Reduce the length of the Seat Release Straps found on the second and third-row seats,NaN,INR 0.0,nan,"Estimated Cost Savings, (accurate costing would be completed after vehicle teardown)
+1. Per Meter cost of Nylon Straps - INR 50
+2. Current string length of strap 1 (third row) - 165mm
+3. The estimated cost of strap 1 - INR 8.25
+4. Current string length of strap 2 (second row) - 130mm
+5. The estimated cost of strap 2 - INR 6.5
+6. String length of the proposed strap - 110mm
+7. The estimated cost of the proposed strap - INR 5.5
+8. Current weight of strap 1 - 8g
+9. Current weight of strap 2 - 6g
+10. Assumed weight of the proposed strap - 5g
+
+11. The cost saved on strap 1 - 8.25*2 - 5.5*2 = 16.5 - 11 = INR 5.5
+12. The cost saved on strap 2 - 6.5*2 - 5.5*2 = 13 - 11 = INR 2
+13. Total cost saved - 5.5 + 2 = INR 7.5
+14. Total weight of straps 1&2 - 8*2 + 6*2 = 16 + 12 = 28g
+15. Total weight of proposed straps - 5*4 = 20g
+16. The estimated weight saved - 28 - 20 = 8g",nan,INR 86.0,0.09,NG,nan,LC,2311-PRODUCT-ID-10,Reduce the length of the Seat Release Straps found on the second and third-row seats,nan,INR 86.0,nan,nan
+2311-PRODUCT-ID-16,Replace fiberboard with velcro tape and carpet in the assembly,NaN,INR 0.0,Check for loss in functionality,"The cost savings will be updated once the costing is done.
+Cost savings: carpet
+1. Length of carpet = 1000mm 
+2. Width of carpet to be reduced = 170mm (rear side of board) 
+3. Area of carpet to be reduced = 170000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 17
+Cost savings: Fiberboard
+1. Length of fiberboard = 1000mm
+2. Width of fiberboard to be eliminated = 170mm
+3. Area of fiberboard to be eliminated = 170000mm2
+4. Cost per meter square of fiberboard = 150 INR/m2 (Assumption)
+5. Cost saving for fiberboard  = INR 25.5
+Costing saving: springs
+1. Weight of springs (3) = 8g
+2. Peg Kg cost of steel = INR 180 (assumption)
+3. The estimated cost saving = INR 1.44
+
+The cost for velcro tape needs to add:
+1. Length of velcro needed = 1000mm
+2. Cost per meter square of velcro tape = INR 20 (assumption)
+
+Total estimated cost saving = (17 + 25.5 + 1.44) - 20 = INR 23.94 (This will be updated once costing is done)
+Tot estimated weight saving = (30 + 120 +8) - 20 = 138 g (This will be updated once TD is done)",nan,INR 64.0,0.14,TBD,PE,KD,2311-PRODUCT-ID-16,Replace fiberboard with velcro tape and carpet in the assembly,Check for loss in functionality,INR 64.0,Narendra,2024-02-22 00:00:00

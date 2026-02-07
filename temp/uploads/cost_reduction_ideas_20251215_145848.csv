@@ -1,0 +1,132 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-EX-ID-04,Reduce the Wall Thickness of the Tailpipe from 1.2mm to 1mm.,NaN,INR 0.0,Confirm cost savings,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of steel = INR 180
+2. The current weight of the tailpipe = 283.18g
+3. The estimated weight of the proposed tailpipe = 236.60g
+4. The current cost = INR 50.97
+5. The estimated cost of the proposed pipe = INR 42.58
+
+6. The estimated weight saved = 283.18 - 236.60 = 46.58g
+7. The estimated cost saved = 50.97 - 42.58 = INR 8.39",nan,INR 84.0,0.05,NG,Finance,nan,2311-EX-ID-04,Reduce the Wall Thickness of the Tailpipe from 1.2mm to 1mm.,Confirm cost savings,INR 84.0,Kalp,2024-04-15 00:00:00
+2311-EX-ID-06,"Reduce the average wall thickness of the Exhaust Pipes (Pre-Silencer Outlet Pipe, Flexi Exhaust Outlet Connecting Pipe and Main Silencer Inlet Pipe) in MGI from 1.8mm and 1.4mm to 1.2mm as seen in KIA",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of steel = INR 180
+2. The current combined weight = 3812g
+3. The estimated weight of the proposed setup = 3581g
+4. The current cost = INR 686.16
+5. The estimated cost of the proposed setup = INR 644.58
+
+6. The estimated weight saved = 3812 - 3581 = 231g
+7. The estimated cost saved = 686.16 - 644.58 = INR 41.58",nan,INR 60.0,0.19,NG,nan,LC,2311-EX-ID-06,"Reduce the average wall thickness of the Exhaust Pipes (Pre-Silencer Outlet Pipe, Flexi Exhaust Outlet Connecting Pipe and Main Silencer Inlet Pipe) in MGI from 1.8mm and 1.4mm to 1.2mm as seen in KIA",nan,INR 60.0,nan,nan
+2311-EX-ID-02,Replace the steel rods used in the fabrication of the exhaust hanger mounting brackets in MGI with hollow steel pipes as used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of fabricated steel - INR 160 (assumed)
+2. The current weight of the rods in use - 821g
+3. The estimated weight of the proposed pipes of the same string length - 527g (assumed using mass, volume and density relations)
+4. The estimated weight saved = 821 - 527 = 294g
+5. The current cost of the rods in use - INR 131.36
+6. The estimated cost of the proposed pipes of the same string length - INR 84.32
+7. The estimated cost saved = 131.36 - 84.32 = INR 47 - 15% tolerance = INR 39.95",nan,INR 62.0,0.29,NG,nan,LC,2311-EX-ID-02,Replace the steel rods used in the fabrication of the exhaust hanger mounting brackets in MGI with hollow steel pipes as used in KIA,nan,INR 62.0,nan,nan
+2311-FS-ID-03,Reduce the average wall thickness of the Baffle Plates present within the fuel tank assembly of MGI from 0.7mm to 0.6mm as seen in the fuel tank assembly of KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of Steel - INR 180
+2. The current weight of Plate 1 = 508g
+3. The estimated weight of the proposed plate = 435.4g
+4. The estimated weight saved = 508 - 435.4 = 72.6g
+5. The current weight of Plate 2 = 433g
+6. The estimated weight of the proposed plate = 371.1g
+7. The estimated weight saved = 433 - 371.1 = 61.9g
+8. The current weight of Plate 3 = 202g
+9. The estimated weight of the proposed plate = 173.1g
+10. The estimated weight saved = 202 - 173.1 = 28.9g
+11. The current cost of Plate 1 = INR 91.44
+12. The estimated cost of the proposed plate = INR 78.37
+13. The estimated cost saved = INR 13.07
+14. The current cost of Plate 2 = INR 77.94
+15. The estimated cost of the proposed plate = INR 66.79
+16. The estimated cost saved = 77.94 - 66.79 = INR 11.15
+17. The current cost of Plate 3 = INR 36.36
+18. The estimated cost of the proposed plate = INR 31.15
+19. The estimated cost saved = 36.36 - 31.15 = INR 5.21
+
+20. The total weight saved = 72.6 + 61.9 + 28.9 = 163.4g
+21. The total cost saved = 13.07 + 11.15 + 5.21 = INR 29.43",nan,INR 75.0,0.16,NG,nan,nan,2311-FS-ID-03,Reduce the average wall thickness of the Baffle Plates present within the fuel tank assembly of MGI from 0.7mm to 0.6mm as seen in the fuel tank assembly of KIA,nan,INR 75.0,nan,nan
+2311-FS-ID-04,"Reduce the String Length of both the Fuel Inlet Steel Pipe and the Fuel Tank Vent Pipe
+1. Reduce the string length of the Fuel Inlet Steel Pipe from 160mm to 120mm
+2. Reduce the string length of the Fuel Tank Vent Pipe from 295mm to 110mm",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of steel = INR 180
+2. The current weight of the Fuel Inlet Steel Pipe = 141.14g
+3. The estimated weight of the proposed pipe = 105.8g
+4. The estimated weight saved = 141.14 - 105.8 = 35.34g
+5. The current weight of the Fuel Tank Vent Pipe = 117.2g
+6. The estimated weight of the proposed pipe = 43.71g
+7. The estimated weight saved = 117.2 - 43.71 = 73.49g
+8. The current cost of the Fuel Inlet Steel Pipe = INR 25.40
+9. The estimated cost of the proposed pipe = INR 19.04
+10. The estimated cost saved = 25.40 - 19.04 = INR 6.36
+11. The current cost of the Fuel Tank Vent Pipe = INR 21.09
+12. The estimated cost of the proposed pipe = INR 7.86
+13. The estimated cost saved = 21.09 - 7.86 = INR 13.22
+14. The current cost of the Support Bracket = INR 4.53
+15. The estimated cost of the proposed bracket = INR 3.33
+16. The estimated cost saved = 4.53 - 3.33 = INR 1.2
+
+17. The total weight saved = 35.34 + 73.49 = 108.83g
+18. The total cost saved = 6.36 + 13.22 + 1.2 = INR 20.78",nan,INR 93.0,0.11,NG,nan,LC,2311-FS-ID-04,"Reduce the String Length of both the Fuel Inlet Steel Pipe and the Fuel Tank Vent Pipe
+1. Reduce the string length of the Fuel Inlet Steel Pipe from 160mm to 120mm
+2. Reduce the string length of the Fuel Tank Vent Pipe from 295mm to 110mm",nan,INR 93.0,nan,nan
+2311-EX-ID-01,"1. Remove the rubber hanger from the extension pipe near the resonator, along with its associated mounting points, and rearrange the other hangers as shown in the figure.
+2. Relocate the hangers mounted on the resonator to the top and bottom of the resonator (onto the exhaust pipe and the extension pipe)",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg cost of EPDM - INR 500 (assumption)
+2. Per Kg rate of Steel - INR 180 (assumption)
+3. Per M cost of 5mm Arc Weld - INR 75 (assumption)
+4. The current weight of the rubber hanger - 42g
+5. The estimated weight saved after removal - 42g (assumption)
+6. The current weight of the mounting points - 65 + 45 = 110g
+7. The estimated weight saved after removal - 110g (assumption)
+8. The current weight of the weld - 15g 
+9. The estimated weight saved after removal - 15g (assumption)
+10. The estimated cost savings on the rubber hanger - INR 21
+11. The estimated cost savings on the mounting points - INR 19.8
+12. The estimated cost savings on the welds - INR 13 (assumption)
+
+13. The total weight saved - 42 + 110 + 15 = 167g
+14. The total cost saved - 21 + 19.8 + 13 = INR 53.8",nan,INR 136.0,0.02,NG,nan,KD,2311-EX-ID-01,"1. Remove the rubber hanger from the extension pipe near the resonator, along with its associated mounting points, and rearrange the other hangers as shown in the figure.
+2. Relocate the hangers mounted on the resonator to the top and bottom of the resonator (onto the exhaust pipe and the extension pipe)",nan,INR 136.0,nan,nan
+2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (160 - 170μm) - INR 129.78 (assumed)
+3. The surface area of the Front Hood = 1.456m2
+4. The current cost to paint the structure = INR 188.95
+5. The estimated cost = INR 115.02
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 188.95 - 115.02 = INR 73.92",nan,INR 82.0,0.00,TBD,nan,nan,2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,nan,INR 82.0,nan,nan
+2311-BIW-ID-07,Reduce the Paint Coating Thickness of the highlighted Roof Side BiW Panels from 120 - 130μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (120 - 130μm) - INR 103.54(assumed)
+3. The surface area of the Roof Side Panels = 0.276*2 = 0.552m2
+4. The current cost to paint the structure = INR 57.15
+5. The estimated cost = INR 43.60
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 57.15 - 43.60 = INR 13.55",nan,INR 71.0,0.00,TBD,nan,nan,2311-BIW-ID-07,Reduce the Paint Coating Thickness of the highlighted Roof Side BiW Panels from 120 - 130μm to 100 - 110μm,nan,INR 71.0,nan,nan
+2311-ET-ID-16,Reduce the wall thickness of the Front Wheel Arch Liners present on both LH and RH sides from 1.6mm to 1.4mm,NaN,INR 31.3,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP - INR 130.35
+2. The current weight of the front trim - 858g
+3. The estimated weight of the proposed front trim - 738g
+4. The estimated weight saved = 858 - 738 = 120*2 = 240g
+5. The current cost of the front trim - INR 111.84
+6. The estimated cost of the proposed front trim - INR 96.19
+7. The estimated cost saved = 111.84 - 96.19 = 15.65*2 = INR 31.3",nan,INR 92.0,0.24,NG,nan,LC,2311-ET-ID-16,Reduce the wall thickness of the Front Wheel Arch Liners present on both LH and RH sides from 1.6mm to 1.4mm,nan,INR 92.0,nan,nan
+2311-BIW-ID-03,Reduce the Paint Coating Thicknesses of the highlighted Front Fender and Rear Quarter Panel BiW Panels from 120 - 130μm to 85 - 95μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (80 - 90μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The combined surface area of the Front Fenders = 0.366*2 = 0.733m2
+4. The current cost to paint the structure = INR 75.94
+5. The estimated cost = INR 46.5
+6. The estimated cost saved = 75.94 - 46.5 = INR 28.89
+7. The combined surface area of the Front Fenders = 0.291*2 = 0.583m2
+8. The current cost to paint the structure = INR 60.38
+9. The estimated cost = INR 36.96
+10. The estimated cost saved = 60.38 - 36.96 = INR 23.42
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 28.89 + 23.42 = INR 52.31",nan,INR 122.0,0.00,TBD,nan,nan,2311-BIW-ID-03,Reduce the Paint Coating Thicknesses of the highlighted Front Fender and Rear Quarter Panel BiW Panels from 120 - 130μm to 85 - 95μm,nan,INR 122.0,nan,nan

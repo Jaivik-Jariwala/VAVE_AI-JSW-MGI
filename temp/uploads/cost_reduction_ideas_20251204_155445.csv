@@ -1,0 +1,60 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-SP-ID-01,"1. Reduce the overall wall thickness of the Brake Dust Cover Plates present on all four wheel hubs of the vehicles from 1mm to 0.8mm
+2. Reduce the paint coating thickness on each side of all four plates from 56 microns to 27.8 microns",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of Steel - INR 80 (assumed)
+2. The current weight of the front LH & RH dust cover plates - 383g
+3. The estimated weight of the proposed plates - 260g (assumed)
+4. The estimated weight saved on both ends - 123*2 = 246g
+5. The current weight of the rear LH & RH dust cover plates - 391g
+6. The estimated weight of the proposed plates - 264g (assumed)
+7. The estimated weight saved on both ends - 127*2 = 254g
+8. The current cost of the front LH & RH dust cover plates - INR 30.6
+9. The estimated cost of the proposed plates - INR 20.8
+10. The estimated cost saved on both ends - 9.8*2 = INR 19.6
+11. The current cost of the rear LH & RH dust cover plates - INR 31.2
+12. The estimated cost of the proposed plates - INR 21.12
+13. The estimated cost saved on both ends - 10.08*2 = INR 20.16
+14. The total weight saved - 246 + 254 = 500g (assumed)
+15. The total cost saved - 19.6 + 20.16 = INR 39.32 (assumed)
+
+16. Coating Surface Area of Plate 1 (Front) - 120640mm2 - 0.12m2
+17. Coating Surface Area of Plate 2 (Rear) - 118048mm2 - 0.118m2
+18. Per Sq.M rate of 50-micron paint coating - INR 29.57
+19. Per Sq.M rate of 35-micron paint coating - INR 21.57
+20. The current coating cost for front plates = 3.54*2 = INR 7.09
+21. The coating cost for the proposed thickness = 2.58*2 = INR 5.17
+22. The current coating cost for rear plates = 3.48*2 = INR 6.97
+23. The coating cost for the proposed thickness = 2.54*2 = INR 5.09
+24. The estimated cost savings on the front and rear ends = (7.09 - 5.17) + (6.97 - 5.09) = INR 3.8
+
+25. The total cost saved = 39.32 + 3.8 = INR 43.12",nan,INR 57.0,0.50,NG,nan,LC,2311-SP-ID-01,"1. Reduce the overall wall thickness of the Brake Dust Cover Plates present on all four wheel hubs of the vehicles from 1mm to 0.8mm
+2. Reduce the paint coating thickness on each side of all four plates from 56 microns to 27.8 microns",nan,INR 57.0,nan,nan
+2311-BA-ID-01,The Brake Booster Plate in MGI could be integrated into the Dashboard BIW of the vehicle as done in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg cost of Steel (Fabricated and Painted) - INR 230 (assumed)
+2. The current weight of the plate - 707g
+3. The current cost - INR 162.6
+4. The current weight of the M8 fasteners (bolts & nuts) = 20*7 = 140g (assumed)
+5. The current cost of the M8 fasteners - INR 35
+6. The weight of the Seal - 2.5g
+7. The cost of the Seal - INR 5 
+8. The weight added on the BIW after redesigning - 201g
+9. The cost added on - INR 46.23
+10. The estimated weight saved = (707+140+2.5) - 201 = 681.5g
+11. The estimated cost saved - (162.6+35+5) - 46.23 = INR 156.37",nan,INR 47.0,0.64,NG,nan,KD,2311-BA-ID-01,The Brake Booster Plate in MGI could be integrated into the Dashboard BIW of the vehicle as done in KIA,nan,INR 47.0,nan,nan
+2311-PA-ID-02,Redesign the current Brake Pedal Mounting Bracket used in MGI to a similar bracket used in KIA.,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of steel (painted) = INR 230
+2. The current weight = 1104g
+3. The estimated weight of the proposed setup = 622.42g
+4. Weight added on from Idea ID - (2311-BA-ID-01) = 201g
+4. The current cost = INR 253.92
+5. The estimated cost of the proposed setup = INR 143.15
+
+6. The estimated weight saved = 1104 - 622.42 = 481.58g
+7. The estimated cost saved = 253.92 - 143.15 = INR 110.77",nan,INR 113.0,0.48,TBD,nan,nan,2311-PA-ID-02,Redesign the current Brake Pedal Mounting Bracket used in MGI to a similar bracket used in KIA.,nan,INR 113.0,nan,nan
+2311-PA-ID-01,Remove the black paint coating on the Brake Pedal Mounting Bracket within MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate for black paint coating - INR 47.8 (Metal Brackets)
+2. Coating Surface Area of the Bracket = 116450mm2 = 0.116m2
+3. Total cost = INR 5.25
+
+4. The estimated weight saved = Nil
+5. The estimated cost saved = INR 5.25",nan,INR 115.0,0.00,TBD,nan,nan,2311-PA-ID-01,Remove the black paint coating on the Brake Pedal Mounting Bracket within MGI,nan,INR 115.0,nan,nan

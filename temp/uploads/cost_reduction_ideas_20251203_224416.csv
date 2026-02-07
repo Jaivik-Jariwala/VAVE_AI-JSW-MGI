@@ -1,0 +1,147 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-PRODUCT-ID-07,De-content the plastic trims found protecting the top tethers from both sides of the seat as the tethers could be placed within the seat fabric itself and a slit on the same could facilitate easy access,NaN,INR 0.0,Confirm on no part nuber change to avoid homologation cost,"The evaluation is done before teardown, the values will change after costing.
+1. Per Kg cost of PC ABS - INR 311.17 (Material and cost assumed)
+2. Assumed weight of the trim - 42g 
+3. The estimated cost of the trim = INR 13.06
+4. Total weight of both the trims on LHS and RHS - 42*2 = 84g
+5. Total cost of both the trims - 13.06*2 = INR 26.13
+
+6. The estimated weight savings on both sides = 84g
+7. The estimated cost savings on both sides = INR 26.13",nan,INR 115.0,0.08,OK,PE,LC,2311-PRODUCT-ID-07,De-content the plastic trims found protecting the top tethers from both sides of the seat as the tethers could be placed within the seat fabric itself and a slit on the same could facilitate easy access,Confirm on no part nuber change to avoid homologation cost,INR 115.0,Nishant,2024-06-17 00:00:00
+2311-SS-ID-02,"1. Reduce the width of the seat adjustment lever-2 from 345mm to 175mm commonising both.
+2. Reduce the overall diameter of the bars from 13mm to 12mm.",NaN,INR 0.0,Check for combined business case,"The evaluation is done before teardown, the values will change after the costing.
+1. The current weight of the Lever 2 before width reduction - 150g
+2. The estimated weight of the Lever 2 after width reduction - 110g
+3. Per Kg rate of steel - INR 160
+4. The current cost of the lever - INR 24
+5. The cost of the proposed lever - INR 17.6
+6. The estimated weight saved - 40g
+7. The estimated cost saved - INR 6.4
+
+8. The current weight of Lever 1 - 110g
+9. The current weight of Lever 2 - 150g
+10. The estimated weight of Lever 1 after diameter reduction -  95g
+11. The estimated weight of Lever 2 after diameter reduction -  138g
+12. The current cost of Lever 1 - INR 17.6
+13. The current cost of Lever 2 - INR 24
+14. The estimated cost of Lever 1 after diameter reduction - INR 15.2
+15. The current cost of Lever 2 after diameter reduction - INR 20.48
+16. The estimated weight saved = (110 - 95) + (150 - 128) = 15 + 22 = 37g
+17. The estimated cost saved  = (17.6 - 15.2) + (24 - 20.48) = 2.4 + 3.52 = INR 5.92
+
+18. The total weight saved = 40 + 37 = 77g
+19. The total cost saved = 6.4 + 5.92 = INR 12.32",nan,INR 74.0,0.08,NG,Finance,LC,2311-SS-ID-02,"1. Reduce the width of the seat adjustment lever-2 from 345mm to 175mm commonising both.
+2. Reduce the overall diameter of the bars from 13mm to 12mm.",Check for combined business case,INR 74.0,Kalp,2023-11-07 00:00:00
+2311-PRODUCT-ID-10,Reduce the length of the Seat Release Straps found on the second and third-row seats,NaN,INR 0.0,nan,"Estimated Cost Savings, (accurate costing would be completed after vehicle teardown)
+1. Per Meter cost of Nylon Straps - INR 50
+2. Current string length of strap 1 (third row) - 165mm
+3. The estimated cost of strap 1 - INR 8.25
+4. Current string length of strap 2 (second row) - 130mm
+5. The estimated cost of strap 2 - INR 6.5
+6. String length of the proposed strap - 110mm
+7. The estimated cost of the proposed strap - INR 5.5
+8. Current weight of strap 1 - 8g
+9. Current weight of strap 2 - 6g
+10. Assumed weight of the proposed strap - 5g
+
+11. The cost saved on strap 1 - 8.25*2 - 5.5*2 = 16.5 - 11 = INR 5.5
+12. The cost saved on strap 2 - 6.5*2 - 5.5*2 = 13 - 11 = INR 2
+13. Total cost saved - 5.5 + 2 = INR 7.5
+14. Total weight of straps 1&2 - 8*2 + 6*2 = 16 + 12 = 28g
+15. Total weight of proposed straps - 5*4 = 20g
+16. The estimated weight saved - 28 - 20 = 8g",nan,INR 86.0,0.09,NG,nan,LC,2311-PRODUCT-ID-10,Reduce the length of the Seat Release Straps found on the second and third-row seats,nan,INR 86.0,nan,nan
+2311-SS-ID-06,"Revise the existing seatbelt buckle housing brackets in MGI to match those in KIA, reducing the maximum width of the bracket from 33.5mm to 24mm, in line with KIA's design",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg weight of steel - INR 160 (assumed)
+2. The current weight of the bracket used in MGI - 151g (assumed)
+3. The estimated weight of the proposed bracket (from KIA) - 96g (assumed)
+4. The estimated weight saved = 151 - 96 = 55*2 (LH&RH) = 110g
+5. The current cost of the bracket used in MGI - INR 24
+6. The estimated cost of the proposed bracket (from KIA) - INR 15.36
+7. The estimated cost saved = 24 - 15.36 = 8.64*2 (LH&RH) = INR 17.28",nan,INR 93.0,0.11,NG,nan,LC,2311-SS-ID-06,"Revise the existing seatbelt buckle housing brackets in MGI to match those in KIA, reducing the maximum width of the bracket from 33.5mm to 24mm, in line with KIA's design",nan,INR 93.0,nan,nan
+2311-PRODUCT-ID-09,De-content the Plastic Protective Trims fitted onto the LHS and RHS mounting points of the third-row seats and cover the same with the fabric used on the vehicle floor.,NaN,INR 0.0,Confirm on PTR plan,"The evaluation is done before teardown, the values will change after costing.
+1. Per Kg cost of PP - INR 130.35
+2. Weight of a trim - 36.26g
+3. Estimated cost of a trim - INR 4.72
+ 
+4. Estimated weight saved de-contenting trims from both LHS and RHS sides = 36.26*2 = 72.52g
+5. Estimated cost saved = 4.72*2 = INR 9.45",nan,INR 76.0,0.07,OK,PE,LC,2311-PRODUCT-ID-09,De-content the Plastic Protective Trims fitted onto the LHS and RHS mounting points of the third-row seats and cover the same with the fabric used on the vehicle floor.,Confirm on PTR plan,INR 76.0,Harsh,2024-06-14 00:00:00
+2311-SS-ID-03,Substitute the Seatbelt Buckles used in the front row of the seating system in the vehicle with those employed in the second and third row LH and RH sides of the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing
+1. The current weight of the seatbelt buckle used in the front row - 70g (assumed)
+2. The current weight of the seatbelt buckle used in the second and third rows - 60g (assumed)
+3. The current cost of the seatbelt buckle used in the front row - INR 20
+4. The current cost of the seatbelt buckle used in the second and third rows - INR 15
+
+5. The estimated weight saved - 10*2 = 20g
+6. The estimated cost saved - 5*2 = INR 10",nan,INR 126.0,0.02,NG,nan,KD,2311-SS-ID-03,Substitute the Seatbelt Buckles used in the front row of the seating system in the vehicle with those employed in the second and third row LH and RH sides of the vehicle,nan,INR 126.0,nan,nan
+2311-SS-ID-11,"Process Deletion,
+Remove the Black Painting done on the Driver and Co-Driver Seat Base Support Frames",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Black Paint Coating- INR 47.8 (assumed)
+2. The combined surface area of the Driver Side Support Structure = 0.21m2
+3. The cost to paint the structure = INR 10.03
+4. The estimated cost saved in total = INR 10.03
+5. The combined surface area of the Co-Driver Side Support Structure = 0.32m2
+6. The cost to paint the structure = INR 15.2
+7. The estimated cost saved in total = INR 15.2
+
+8. The estimated weight saved = Nil
+9. The estimated cost saved = 10 + 15.2 = INR 25.2",nan,INR 90.0,0.00,NG,nan,LC,2311-SS-ID-11,"Process Deletion,
+Remove the Black Painting done on the Driver and Co-Driver Seat Base Support Frames",nan,INR 90.0,nan,nan
+2311-IT-ID-05,Replace the TPE Coaster/Insert positioned at the base of the front centre armrest storage compartment with a Fabric one,NaN,INR 3.28,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of TPE - INR 300 (assumed)
+2. Per Kg rate of PP+EPDM - INR 250 (assumed)
+3. The current weight of the coaster/insert = 27.28g
+4. The estimated weight of the coaster/insert after the material change = 19.66g (assumed using Mass, Density, and Volume relations)
+5. The total weight saved = 27.28 - 19.66 = 7.62g
+6. The current cost of the coaster/insert - INR 8.18
+7. The estimated cost of the coaster/insert after the material change - INR 4.91
+8. The total cost saved = 8.18 - 4.9 = INR 3.28",nan,INR 40.0,0.01,NG,nan,LC,2311-IT-ID-05,Replace the TPE Coaster/Insert positioned at the base of the front centre armrest storage compartment with a Fabric one,nan,INR 40.0,nan,nan
+2311-SS-ID-07,Replace the Steel Support Plates used within the second and third-row seating assemblies of MGI with Corrugated PP Panels as in KIA,NaN,INR 0.0,Confirm on functionality requirement (load bearing capacity of seats),"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of Galvanized Steel - INR 200 (assumed)
+2. Per Kg rate of PP Corrugated Board - INR 150 (assumed)
+3. The current weight of the second row 60% - 2165g
+4. The estimated weight of the proposed PP panel - 354g (assumed)
+5. The estimated weight saved = 2165 - 354 = 1811g
+6. The current weight of the second row 40% - 1030g
+7. The estimated weight of the proposed PP panel - 224.4g (assumed)
+8. The estimated weight saved = 1030 - 224.4 = 805.6
+9. The current weight of the third row 50% - 1091g
+10. The estimated weight of the proposed PP panel - 269.8g (assumed)
+11. The estimated weight saved = 1091 - 269.8 = 821.2*2 = 1642.4g
+12. The current cost of the second row 60% - INR 433
+13. The estimated cost of the proposed PP panel - INR 53.1
+14. The estimated cost saved = 433 - 53.1 = INR 379.9
+15. The current cost of the second row 40% - INR 206
+16. The estimated cost of the proposed PP panel - INR 33.6
+17. The estimated cost saved = 206 - 33.6 = INR 172.4
+18. The current cost of the third row 50% = 218*2 = INR 436
+19. The estimated cost of the proposed PP panel = 40.47*2 = INR 80.94
+20. The estimated cost saved = 436 - 80.94 = INR 355.06
+
+21. The estimated weight saved in total = 1811 + 805.6 + 1642.4 = 4259g
+22. The estimated cost saved in total = 379.9 + 172.4 + 355.06 = INR 907.36
+
+23. The assumed weight of the proposed reinforcement structure for the second row 60% = 666g
+24. The assumed weight of the proposed reinforcement structure for the second row 40% = 483g
+25. The assumed weight of the proposed reinforcement structure for the third row = 411*2 = 822g
+26. The total weight added on = 666 + 483 + 822 = 1971g
+27. The Per M cost of TIG Welding (5mm fillet) = INR 140 (assumed)
+28. The Per Kg cost of steel rods = INR 180 (assumed)
+29. The estimated cost of the proposed reinforcement structure for the second row 60% - INR 119.8
+30. The estimated cost of the proposed reinforcement structure for the second row 40% - INR 86.94
+31. The estimated cost of the proposed reinforcement structure for the third row 50% - INR 147.96
+32. The total weld length required = 0.480M (15mm per rod end)
+33. The weld cost = 0.480*140 = INR 67.2
+34. The total cost added on = 119.8 + 86.94 + 147.96 + 67.2 = INR 421.9
+
+35. The total weight saved after redesigning = 4259 - 1971 = 2288g
+36. The total cost saved after redesigning = 907.36 - 421.9 = INR 485.46",nan,INR 62.0,2.29,NG,VAVE/ PE,LC,2311-SS-ID-07,Replace the Steel Support Plates used within the second and third-row seating assemblies of MGI with Corrugated PP Panels as in KIA,Confirm on functionality requirement (load bearing capacity of seats),INR 62.0,Nishant/ Ratnadeep,2024-02-20 00:00:00
+2311-SS-ID-04,Substitute the leather upholstery on the left-hand (LH) and right-hand (RH) sides of the third-row seat bases with the same fabric utilized on the LH and RH sides of the corresponding backrests,NaN,INR 0.0,Check for combined business case,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M price of leather - INR 250 (assumed)
+2. Per Sq.M price of fabric (polyester) - INR 160 (assumed)
+3. Surface Area of the piece - 0.033M^2
+4. The current weight of the piece - 60g (assumed)
+5. The estimated weight of the proposed piece - 35g (assumed)
+6. The estimated weight saved = 25*2 (LH&RH) = 50g
+7. The current cost of the piece - INR 8.25
+8. The estimated cost of the proposed piece - INR 5.28
+9. The estimated cost saved = 2.97*2 (LH&RH) = INR 5.94",nan,INR 48.0,0.05,NG,Finance,LC,2311-SS-ID-04,Substitute the leather upholstery on the left-hand (LH) and right-hand (RH) sides of the third-row seat bases with the same fabric utilized on the LH and RH sides of the corresponding backrests,Check for combined business case,INR 48.0,Kalp,2023-11-10 00:00:00

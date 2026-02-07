@@ -1,0 +1,136 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (160 - 170μm) - INR 129.78 (assumed)
+3. The surface area of the Front Hood = 1.456m2
+4. The current cost to paint the structure = INR 188.95
+5. The estimated cost = INR 115.02
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 188.95 - 115.02 = INR 73.92",nan,INR 82.0,0.00,TBD,nan,nan,2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,nan,INR 82.0,nan,nan
+2311-DA-ID-05,Reduce the overall length of the plastic trim from 80mm to 30mm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumption)
+2. The current weight of the trim - 6g (assumed)
+3. The estimated weight of the proposed trim -2.2g (assumed using Mass, Density, and Volume relations)
+4. The current cost of the trim = INR 1.8
+5. The estimated cost of the proposed trim = INR 0.66
+
+6. The estimated weight saved = 6 - 2.2 = 3.8g
+7. The estimated cost saved = 1.8 - 0.66 = INR 1.14",nan,INR 104.0,0.00,NG,nan,LC,2311-DA-ID-05,Reduce the overall length of the plastic trim from 80mm to 30mm,nan,INR 104.0,nan,nan
+2311-DA-ID-06,Replace the plastic trim used on the Hood Prop Rod in MGI with a foam cover trim as in KIA,NaN,INR 0.0,Check supplier feasibility,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumption)
+2. Per Kg rate of Neoprene (assumption) - INR 400 (assumption)
+3. The current weight of the trim = 6g (assumption)
+4. The estimated weight of the foam trim of the same dimensions = 1.09g (assumed using Mass Volume, and Density relations)
+5. The current cost of the trim = INR 1.8
+6. The estimated cost of the proposed foam trim = INR 0.43
+
+7. The estimated weight saved = 6 -1.09 = 4.91g
+8. The estimated cost saved = 1.8 - 0.43 = INR 1.37",nan,INR 148.0,0.00,NG,Purchase,LC,2311-DA-ID-06,Replace the plastic trim used on the Hood Prop Rod in MGI with a foam cover trim as in KIA,Check supplier feasibility,INR 148.0,Chirag,2024-02-16 00:00:00
+2311-IT-ID-11,Replace the 11-layer headliner used in MGI with a 10-layer headliner as in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+The rates for all materials are considered rough estimates
+Current Scenario,
+1. Per Sq.M rate of Knitted Fabric - INR 200
+2. Per Sq.M rate of Insulating Wool - INR 150
+3. Per Sq.M rate of Foam 1 (150GSM) - INR 150
+4. Per Sq.M rate of Foam 2 (100GSM) - INR 100
+5. Per Sq.M rate of Fleece - INR 180
+6. Per Sq.M rate of Glass Fibre - INR 200
+7. Per Litre rate of Water Based Adhesive - INR 150
+8. The calculated surface area of the headliner - 1.43Sq.M
+9. The estimated cost of the Knitted Fabric used = INR 286
+10. The estimated cost of the Insulating Wool used = INR 214.5
+11. The estimated cost of Foam-1 used = INR 143
+12. The estimated cost of Foam-2 used = INR 214.5
+13. The estimated cost of Fleece used = INR 257.4
+14. The estimated cost of Glass Fibre used = 286*2 = INR 572
+15. The estimated cost of 4 layers of Adhesive used = 21.45*4 = INR 85.8
+16. The estimated raw material cost of the current headliner used in MG = INR 1773
+
+Proposed Scenario,
+1. Per Sq.M rate of Non-Woven Fabric - INR 120
+2. Per Sq.M rate of Fabric Strengthener - INR 50
+3. Per Sq.M rate of Foam (150GSM) - INR 150
+4. Per Sq.M rate of Fleece - INR 120
+5. Per Sq.M rate of Glass Fibre - INR 160
+6. Per Litre rate of Water Based Adhesive - INR 150
+7. The calculated surface area of the headliner - 1.43Sq.M
+8. The estimated cost of the Non-Woven Fabric used = INR 171.6
+9. The estimated cost of the Fabric Strengthener used = INR 71.5
+10. The estimated cost of the Foam used = INR 214.5
+11. The estimated cost of the Fleece used = 171.6*2 = INR 343.2
+12. The estimated cost of the Glass Fibre used = 228.8*2 = INR 457.6
+13. The estimated cost of 3 layers of Adhesive used = 21.45*3 = INR 64.35
+14. The estimated raw material cost of the proposed headliner to be used in MG = INR 1322.9
+
+The estimated weight & cost savings,
+1. The estimated weight saved = 2360 - 1501.5 (Proposed GSM to the Surface Area) = 858.5g
+2. The estimated cost saved = 1773 - 1323 = INR 450",nan,INR 86.0,0.86,NG,nan,LC,2311-IT-ID-11,Replace the 11-layer headliner used in MGI with a 10-layer headliner as in KIA,nan,INR 86.0,nan,nan
+2311-ET-ID-18,Reduce the wall thickness of the Front and Rear Door Panel Exterior Main LH and RH Trims from 3mm to 2.8mm,NaN,INR 30.8,New tooling cost from YFI to be confirmed for business case calculations,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T30 = INR 220 (assumed)
+2. The current weight of the trim on the front - 918.6g
+3. The estimated weight of the trim proposed - 853g
+4. The estimated weight saved = 918.6 - 853 = 65.6*2 = 131.2g
+5. The current weight of the trim on the rear - 692g
+6. The estimated weight of the trim proposed - 646g
+7. The estimated weight saved = 692 - 646 = 46*2 = 92g
+8. The current cost of the trim on the front - INR 202.09
+9. The estimated cost of the trim proposed - INR 187.66
+10. The estimated cost saved on both ends = 202.09 - 187.66 = 14.43*2 = 28.86
+11. The current cost of the trim on the rear - INR 152.24
+12. The estimated cost of the trim proposed - INR 142.12
+13. The estimated cost saved = 152.24 - 142.12 = 10.12*2 = 20.24
+
+14. The estimated weight saved on the front and rear = 131.2 + 92 = 223.2g
+15. The estimated cost saved on the front and rear = 28.86 + 20.24 = INR 49.1",nan,INR 67.0,0.22,NG,Purchase,LC,2311-ET-ID-18,Reduce the wall thickness of the Front and Rear Door Panel Exterior Main LH and RH Trims from 3mm to 2.8mm,New tooling cost from YFI to be confirmed for business case calculations,INR 67.0,Akhil,2024-02-12 00:00:00
+2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",NaN,INR 0.0,nan,"The estimated cost saving will be updated once the costing is done.
+1. Per Kg cost of PC- ABS - INR 311.17
+2. Weight of the Type 1 cap used in MGI - 1.39g
+3. Weight of the Type 2 cap used in MGI - 1.14g
+4. Cost of the Type 1 caps - 0.43*4 = INR 1.73
+5. Cost of the Type 2 caps - 0.35*10 = INR 3.5
+6. Weight of the proposed stickers - 0.2g
+7. Per Kg cost of adhesive stickers - INR 250 (assumption)
+8. Cost of a single sticker - INR 0.05
+9. The estimated cost saving on caps = (3.5 + 1.73) - (0.05*14) = 5.23 - 0.7 = INR 4.53
+10. The estimated weight saving on caps = ((1.39*4) + (1.14*10)) - (0.2*14) = 16.96 - 2.8 = 14.16g",nan,INR 130.0,0.02,NG,nan,KD,2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",nan,INR 130.0,nan,nan
+2311-EX-ID-06,"Reduce the average wall thickness of the Exhaust Pipes (Pre-Silencer Outlet Pipe, Flexi Exhaust Outlet Connecting Pipe and Main Silencer Inlet Pipe) in MGI from 1.8mm and 1.4mm to 1.2mm as seen in KIA",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of steel = INR 180
+2. The current combined weight = 3812g
+3. The estimated weight of the proposed setup = 3581g
+4. The current cost = INR 686.16
+5. The estimated cost of the proposed setup = INR 644.58
+
+6. The estimated weight saved = 3812 - 3581 = 231g
+7. The estimated cost saved = 686.16 - 644.58 = INR 41.58",nan,INR 60.0,0.19,NG,nan,LC,2311-EX-ID-06,"Reduce the average wall thickness of the Exhaust Pipes (Pre-Silencer Outlet Pipe, Flexi Exhaust Outlet Connecting Pipe and Main Silencer Inlet Pipe) in MGI from 1.8mm and 1.4mm to 1.2mm as seen in KIA",nan,INR 60.0,nan,nan
+2311-BIW-ID-07,Reduce the Paint Coating Thickness of the highlighted Roof Side BiW Panels from 120 - 130μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (120 - 130μm) - INR 103.54(assumed)
+3. The surface area of the Roof Side Panels = 0.276*2 = 0.552m2
+4. The current cost to paint the structure = INR 57.15
+5. The estimated cost = INR 43.60
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 57.15 - 43.60 = INR 13.55",nan,INR 71.0,0.00,TBD,nan,nan,2311-BIW-ID-07,Reduce the Paint Coating Thickness of the highlighted Roof Side BiW Panels from 120 - 130μm to 100 - 110μm,nan,INR 71.0,nan,nan
+2311-ET-ID-19,Reduce the 2.4mm average wall thickness of the Windshield Cowl Trim in MGI to 2mm as in KIA,NaN,INR 37.8,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate PP-T30 - INR 190 (assumed)
+2. The current weight of the trim - 1643g
+3. The estimated weight of the trim proposed - 1369g
+4. The estimated weight saved = 1643 - 1369 = 274g
+5. The current cost of the trim - INR 312.17
+3. The estimated cost of the trim proposed - INR 260.11
+4. The estimated cost saved = 312.17 - 260.11 = INR 52.06",nan,INR 101.0,0.26,NG,nan,LC,2311-ET-ID-19,Reduce the 2.4mm average wall thickness of the Windshield Cowl Trim in MGI to 2mm as in KIA,nan,INR 101.0,nan,nan
+2311-IP-ID-19,Replace the Thinsulate Acoustic Insulation used within the Dashboard and Control Panel for NVH restriction within MGI with Noiselite PP-PET Insulation as used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Noiselite per square meter - INR 155.49
+3. The surface area of the control panel thinsulate - 0.226m2
+4. The current cost = INR 46.10
+5. The estimated cost after using noiselite instead = INR 35.14
+6. Total cost saved on both LH and RH sides = 46.10 - 35.14 = 10.96*2 (LH & RH) = INR 21.92
+7. The surface area of the dashboard panel thinsulate - 0.193m2
+8. The current cost = INR 39.37
+9. The estimated cost after using noiselite instead = INR 30
+10. Total cost saved = 39.37 - 30 = INR 9.37
+
+11. The total cost savings = 21.92 + 9.37 = INR 31.29
+12. The total weight savings = Nil",nan,INR 85.0,0.00,TBD,nan,nan,2311-IP-ID-19,Replace the Thinsulate Acoustic Insulation used within the Dashboard and Control Panel for NVH restriction within MGI with Noiselite PP-PET Insulation as used in KIA,nan,INR 85.0,nan,nan

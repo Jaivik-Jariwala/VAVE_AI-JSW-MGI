@@ -1,0 +1,19 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (70 - 80μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The surface area of the Roof Panel = 2.330m2
+4. The current cost to paint the structure = INR 241.24
+5. The estimated cost = INR 147.72
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 241.24 - 147.72 = INR 93.52",nan,INR 135.0,0.00,TBD,nan,nan,2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,nan,INR 135.0,nan,nan
+2311-DA-ID-12,Replace ABS with PP-GF 15 in the manufacture of the LH and RH Side Spoiler Inner Trims,NaN,INR 5.42,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS = INR 300 (assumed)
+2. Per Kg rate of PP-GF 15 = INR 245 (assumed)
+3. The current weight of the trim - 70.7g
+4. The estimated weight of the proposed trim - 77.12g
+5. The estimated weight savings on both the LH and RH ends = 0g
+6. The current cost of the trim = INR 21.21
+7. The estimated cost of the proposed trim = INR 18.50
+8. The estimated cost savings on both the LH and RH ends = 21.21-18.50 = 2.71*2 = INR 5.42",nan,INR 131.0,0.00,NG,nan,LC,2311-DA-ID-12,Replace ABS with PP-GF 15 in the manufacture of the LH and RH Side Spoiler Inner Trims,nan,INR 131.0,nan,nan

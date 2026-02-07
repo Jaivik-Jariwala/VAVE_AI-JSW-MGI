@@ -1,0 +1,127 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (70 - 80μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The surface area of the Roof Panel = 2.330m2
+4. The current cost to paint the structure = INR 241.24
+5. The estimated cost = INR 147.72
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 241.24 - 147.72 = INR 93.52",nan,INR 135.0,0.00,TBD,nan,nan,2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,nan,INR 135.0,nan,nan
+2311-DA-ID-14,De-content the Coasters/Inserts from the Door Recess Trims and the second-row AC Vent Bottom Storage Area,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of TPE - INR 300 (assumed)
+2. The current combined weight of the coasters/inserts =14.21*2 + 9.47*2 + 39.93 = 87.29g
+3. The total weight saved = 87.29g
+4. The current combined cost of the coasters/inserts - INR 26.18
+5. The total cost saved = INR 26.18",nan,INR 75.0,0.09,TBD,nan,nan,2311-DA-ID-14,De-content the Coasters/Inserts from the Door Recess Trims and the second-row AC Vent Bottom Storage Area,nan,INR 75.0,nan,nan
+2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (160 - 170μm) - INR 129.78 (assumed)
+3. The surface area of the Front Hood = 1.456m2
+4. The current cost to paint the structure = INR 188.95
+5. The estimated cost = INR 115.02
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 188.95 - 115.02 = INR 73.92",nan,INR 82.0,0.00,TBD,nan,nan,2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,nan,INR 82.0,nan,nan
+2311-EL-ID-10,Replace the 444GSM Battery Insulation Cover used in MGI with a 350GSM Insulation Cover,NaN,INR 18.0,Thermal performance pending with change in density,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Sq.M rate of 450GSM PES-PU foam - INR 300 (assumed)
+2. The per Sq.M rate of 350GSM PES-PU foam - INR 200 (assumed)
+3. The total surface area of the cover = 1,88,966mm2 = 0.18m2
+4. The current weight of the cover = 88.09g
+5. The estimated weight of the proposed cover = 69.5g
+6. The current cost of the cover = INR 54
+7. The estimated cost of the proposed cover = INR 36
+
+8. The estimated weight saved = 88.09 - 69.5 (Proposed GSM to the Surface Area) = 18.59g
+9. The estimated cost saved = 54 - 36 = INR 18",nan,INR 61.0,0.02,TBD,PE,LC,2311-EL-ID-10,Replace the 444GSM Battery Insulation Cover used in MGI with a 350GSM Insulation Cover,Thermal performance pending with change in density,INR 61.0,Ojaswini,2024-03-29 00:00:00
+2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the LHS Trim - 152.7g
+4. The estimated weight of the proposed trim - 147.09g
+5. The current weight of the RHS Trim - 393.4g
+6. The estimated weight of the proposed trim - 378.9g
+7. The total weight saved = (152.7 - 147.09) + (393.4 + 378.9) = 5.61 + 14.5 = 20.11g
+8. The current cost of the LHS Trim - INR 47.51
+9. The estimated cost of the proposed trim - INR 24.33
+10. The current cost of the RHS Trim - INR 122.41
+11. The estimated cost of the proposed trim - INR 62.68
+12. The total cost saved = (47.51 - 24.33) + (122.41 - 62.68) = 23.18 + 59.73 = INR 82.91 - 15% tolerance = INR 70.47",nan,INR 60.0,0.02,TBD,Finance,KD,2311-IP-ID-15,Replace PC-ABS with ABS in the manufacture of IP LHS & RHS Trims since the finish could be achieved on ABS-made trims as well,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 60.0,Kalp,nan
+2311-DA-ID-25,Replace PP-T20 used in the manufacture of the Door Panel Interior Main Trims 2 of MGI with PP-E/P-TD10,NaN,INR 0.0,Business case to be evaluated (combined for DA-ID-24 & 25),"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 - INR 200 (assumed)
+2. Per Kg rate of PP-E/P-TD10 - INR 190 (assumed)
+3. The current weight of the front trim - 864g
+4. The estimated weight of the proposed front trim - 792.6g
+5. The estimated weight savings on both front trims = 864 - 792.6 = 71.4*2 = 142.8g
+6. The current weight of the rear trim - 610g
+7. The estimated weight of the proposed rear trim - 559.6g
+8. The estimated weight savings on both rear trims = 610 - 559.6 = 50.4*2 = 100.8g
+9. The cost of the front trim = INR 172.8
+10. The estimated cost of the proposed front trim = INR 150.59
+11. The estimated cost savings on both front trims = 172.8 - 150.59 = 22.21*2 = INR 44.42
+12. The cost of the rear trim = INR 122
+13. The estimated cost of the proposed rear trim = INR 106.32
+14. The estimated cost savings on both rear trims = 122 - 106.32 = 15.68*2 = INR 31.36
+
+15. The estimated weight savings in total = 142.8 + 100.8 = 243.6g
+16. The estimated cost savings in total = 44.42 + 31.36 = INR 75.78",nan,INR 134.0,0.24,NG,Finance,LC,2311-DA-ID-25,Replace PP-T20 used in the manufacture of the Door Panel Interior Main Trims 2 of MGI with PP-E/P-TD10,Business case to be evaluated (combined for DA-ID-24 & 25),INR 134.0,Kalp,2023-11-24 00:00:00
+2311-PRODUCT-ID-22,De-content the plastic support trims found within the storage pocket flaps behind the LH and RH front seats,NaN,INR 0.0,Check technical Feasibility,"The evaluation is done before teardown, the values will change after the costing
+1. Per Kg cost of PP (assumed) - INR 130.35 (assumed)
+2. Current weight of the trim - 15g
+3. Cost of a single trim - INR 1.95
+
+4. Total weight saved - 15*2 = 30g
+5. Tota cost saved - 1.95*2 = INR 3.91",nan,INR 108.0,0.09,NG,PE,LC,2311-PRODUCT-ID-22,De-content the plastic support trims found within the storage pocket flaps behind the LH and RH front seats,Check technical Feasibility,INR 108.0,Nishant,2023-11-10 00:00:00
+2311-ET-ID-14,"1. Replace the 2240GSM Engine Bay Insulation Cover within MGI with a 1080 - 1100GSM Insulation Cover (PES-NF) as in KIA
+2. Replace the 5300GSM Cabin Insulation Cover within MGI with a 4550 - 4650GSM Insulation Cover as in KIA",NaN,INR 60.0,Confirm on vehicel trial,"The evaluation is done before teardown, the values will change after the costing,
+Engine Bay Insulation,
+1. The per Sq.M rate of the Insulation (2240GSM with PES, EPDM and Foam layers) - INR 750 (assumed)
+2. The per Sq.M rate of the proposed PES-NF insulation (1080-1100 GSM) - INR 500 (assumed)
+3. The current surface area of the cover - 0.39m2
+4. The current weight - 1016g
+5. The estimated weight of the proposed Insulation - 421.2g (assumed)
+6. The estimated weight saved = 1016 - 421.2 = 594.8g
+7. The current cost - INR 292.5
+8. The estimated cost of the proposed Insulation - INR 195
+9. The estimated cost saved - 292.5 - 195 = INR 97.5
+
+Cabin Insulation,
+1. The per Sq.M rate of the Insulation (5300GSM with EPDM and Foam layers) - INR 500 (assumed)
+2. The per Sq.M rate of the proposed insulation (4550-4650 GSM) - INR 450 (assumed)
+3. The current surface area of the cover - 1.98m2
+4. The current weight - 5650g
+5. The estimated weight of the proposed Insulation - 4906g (assumed)
+6. The estimated weight saved = 5650 - 4906 = 744g
+7. The current cost - INR 2825
+8. The estimated cost of the proposed Insulation - INR 2207.7
+9. The estimated cost saved - 2825 - 2207.7 = INR 617.3
+
+Total weight saved = 594.8 + 744 = 1338.8g
+Total cost saved = 97.5 + 617.3 = INR 714.8",nan,INR 41.0,1.34,OK,PE/ PSCM,LC,2311-ET-ID-14,"1. Replace the 2240GSM Engine Bay Insulation Cover within MGI with a 1080 - 1100GSM Insulation Cover (PES-NF) as in KIA
+2. Replace the 5300GSM Cabin Insulation Cover within MGI with a 4550 - 4650GSM Insulation Cover as in KIA",Confirm on vehicel trial,INR 41.0,Narendra/ Ratnadeep,2024-06-28 00:00:00
+2311-IT-ID-25,Reduce the 2.5mm wall thickness of the LH & RH B-pillar Interior Lower Trims in MGI to 2.3mm as in KIA,NaN,INR 10.2,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 = INR 200
+2. The current weight of the trim - 764g
+3. The estimated weight of the trim proposed - 680g
+4. The estimated weight saved on both ends = 764 - 680 = 84*2 = 168g
+5. The current cost of the trim - INR 152.8
+3. The estimated cost of the trim proposed - INR 136
+4. The estimated cost saved on both ends = 152.8 - 136 = 16.8*2 = INR 33.6",nan,INR 66.0,0.17,NG,nan,LC,2311-IT-ID-25,Reduce the 2.5mm wall thickness of the LH & RH B-pillar Interior Lower Trims in MGI to 2.3mm as in KIA,nan,INR 66.0,nan,nan
+2311-DA-ID-35,Replace PBT-GF30 with PA6-GF30 in the manufacture of the gear casings.,NaN,INR 0.0,Consider in homeroom bucket,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of PBT-GF30 = INR 108.79
+2. The per Kg rate of PA6-GF30 = INR 101.20
+3. The current weight of the casings on the front doors = 82.84g
+4. The estimated weight of the proposed = 70.54g
+5. The estimated weight saved = 82.84 - 70.54 = 12.3*2 = 24.6g
+6. The current weight of the casings on the rear doors = 75.53g
+7. The estimated weight of the proposed = 64.32g
+8. The estimated weight saved = 75.53 - 64.32 = 11.21*2 = 22.4g
+9. The current cost of the casings on the front doors = INR 9.01
+10. The estimated cost of the proposed = INR 7.13
+11. The estimated cost saved = 9.01 - 7.13 = 1.88*2 = INR 3.76
+12. The current cost of the casings on the rear doors = INR 8.21
+13. The estimated cost of the proposed = INR 6.50
+14. The estimated cost saved = 8.21 - 6.50 = 1.71*2 = INR 3.42
+
+15. The total weight saved = 24.6 + 22.4 = 47g
+16. The total cost saved = 3.76 + 3.42 = INR 7.18",nan,INR 147.0,0.05,Hold,VAVE,KD,2311-DA-ID-35,Replace PBT-GF30 with PA6-GF30 in the manufacture of the gear casings.,Consider in homeroom bucket,INR 147.0,Ratnadeep,TBC

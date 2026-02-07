@@ -1,0 +1,707 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-ET-ID-27,Replace the Thinsulate Acoustic Insulation used on the Front & Rear Wheel Arch LH & RH Liners for NVH restriction within MGI with Noiselite PP-PET Insulation,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Noiselite per square meter - INR 155.49
+3. The surface area of the front wheel arch liner Thinsulate - 0.306m2
+4. The current cost = INR 62.42
+5. The estimated cost after using Noiselite instead = INR 47.57
+6. Total cost saved on both LH and RH sides = 62.42 - 47.57 = 14.95*2 (LH & RH) = INR 29.9
+7. The surface area of the rear wheel arch liner Thinsulate - 0.248m2
+8. The current cost = INR 50.59
+9. The estimated cost after using Noiselite instead = INR 38.56
+10. Total cost saved on both LH and RH sides = 50.59 - 38.56 = 12.03*2 (LH & RH) = INR 24.06
+
+11. The total cost savings = 29.9 + 24.06 = INR 53.96
+12. The total weight savings = Nil",nan,INR 145.0,0.00,TBD,nan,nan,2311-ET-ID-27,Replace the Thinsulate Acoustic Insulation used on the Front & Rear Wheel Arch LH & RH Liners for NVH restriction within MGI with Noiselite PP-PET Insulation,nan,INR 145.0,nan,nan
+2311-IT-ID-26,Replace PP-T20 with PP in the manufacture of the grab handles within the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 = INR 200 (assumed)
+2. Per Kg rate of PP - INR 180 (assumed)
+3. The current weight of the handle - 65g
+4. The estimated weight of the proposed handle - 58.8g
+5. The estimated weight saved = 65 - 58.8 = 6.2*3 = 18.6g
+6. The current cost of the handle - INR 13
+7. The estimated cost of the proposed handle - INR 10.5
+8. The estimated cost saved = 13 - 10.5 = 2.5*3 = INR 7.5",nan,INR 145.0,0.02,TBD,nan,nan,2311-IT-ID-26,Replace PP-T20 with PP in the manufacture of the grab handles within the vehicle,nan,INR 145.0,nan,nan
+2311-FS-ID-02,Replace the Steel access cover used within MGI with a Plastic (PP(assumed)) one as used in KIA,NaN,INR 0.0,Confirm technical feasibilty ,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of Steel - INR 180
+2. Per Kg rate of PP - INR 180 (assumed)
+3. The current weight of the steel cover - 100g (assumed)
+4. The estimated weight of the proposed cover - 55g (according to mass, volume and density relations)
+5. The estimated weight saved = 100 - 55 = 45g
+6. The current cost of the steel cover - INR 18
+7. The estimated cost of the proposed cover - INR 9.9
+8. The estimated cost saved = 18 - 9.9 = INR 8.1",nan,INR 144.0,0.04,TBD,PE,nan,2311-FS-ID-02,Replace the Steel access cover used within MGI with a Plastic (PP(assumed)) one as used in KIA,Confirm technical feasibilty ,INR 144.0,Sumanta,2024-04-23 00:00:00
+2311-IT-ID-17,Replace the Thinsulate used in between the Interior Trims of MGI with Felt,NaN,INR 90.92,Confirm on part availability,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M cost of Thinsulate - INR 204 (assumed)
+2. Per Sq.M cost of Felt - INR 50 (assumed)
+3. The surface area of the LH & RH Front Interior Lower Cowl Trims - 0.042m2
+4. The current cost = INR 8.56
+5. The estimated cost of the proposed felt = INR 2.1
+6. The cost saved on LH & RH ends = 8.56 - 2.1 = 4.36*2 = INR 8.72
+7. The surface area of the LH & RH B-Pillar Interior Upper Trims - 0.015m2
+8. The current cost = INR 3.06
+9. The estimated cost of the proposed felt = INR 0.75
+10. The cost saved on LH & RH ends = 3.06 - 0.75 = 2.31*2 = INR 4.62
+11. The surface area of the LH & RH C-Pillar Interior Trims = 0.068m2
+12. The current cost = INR 13.8
+13. The estimated cost of the proposed felt = INR 3.4
+14. The cost saved on LH & RH ends = 13.8 - 3.4 = 10.4*2 = INR 20.8
+15. The surface area of the LH & RH A-Pillar Interior Trims = 0.049m2
+16. The current cost = INR 9.99
+17. The estimated cost of the proposed felt = INR 2.45
+18. The cost saved on LH & RH ends = 9.99 - 2.45 = 7.45*2 = INR 15.08
+19. The surface area of the LH B-Pillar Interior Lower Trim = 0.14m2
+20. The current cost = INR 28.56
+21. The estimated cost of the proposed felt = INR 7
+22. The cost saved = 28.56 - 7 = INR 21.56
+23. The surface area of the RH B-Pillar Interior Lower Trim = 0.13m2
+24. The current cost = INR 26.52
+25. The estimated cost of the proposed felt = INR 6.5
+26. The cost saved = 26.52 - 6.5 = INR 20.02
+27. The surface area of the LH Cargo Area Side Trim = 0.31m2
+28. The current cost = INR 63.24
+29. The estimated cost of the proposed felt = INR 15.5
+30. The cost saved = 63.24 - 15.5 = INR 47.74
+31. The surface area of the LH Cargo Area Side Trim = 0.28m2
+32. The current cost = INR 57.12
+33. The estimated cost of the proposed felt = INR 14
+34. The cost saved = 57.12 - 14 = INR 43.12
+
+35. The estimated weight saved - 392g (current combined weight) - 724.8g (estimated combined weight) = no weight savings
+36. The estimated cost saved = 8.72 + 4.62 + 20.8 + 15.08 + 21.56 + 20.2 + 47.74 + 43.12 = INR 181.84",nan,INR 140.0,0.00,TBD,PE/ Purchase,LC,2311-IT-ID-17,Replace the Thinsulate used in between the Interior Trims of MGI with Felt,Confirm on part availability,INR 140.0,Akhil/ Narendra,"29-Mar-24
+16-Feb-24"
+2311-EL-ID-25,Replace Brass with Steel in the manufacture of the Main Terminal Connector Bolt within the Engine-Bay Fusebox Assembly of MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of Brass - INR 740
+2. The per Kg rate of Steel - INR 160
+3. The current weight of the bolt = 28g
+4. The estimated weight of the proposed bolt = 24.72g
+5. The estimated weight saved = 28 - 24.72 = 3.28g
+6. The current cost of the bolt = INR 20.72
+7. The estimated cost of the proposed bolt = INR 3.95
+8. The estimated cost saved = 20.72 - 3.95 = INR 16.77",nan,INR 140.0,3.28,TBD,nan,nan,2311-EL-ID-25,Replace Brass with Steel in the manufacture of the Main Terminal Connector Bolt within the Engine-Bay Fusebox Assembly of MGI,nan,INR 140.0,nan,nan
+2311-IP-ID-16,Replace PC-ABS with ABS in the manufacture of both Instrument Cluster Fascia Decorative Trim and the IP LHS & RHS Decorative Trims since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current combined weight - 80.19g
+4. The estimated combined weight - 77.16g
+5. The estimated weight saved = 80.19 - 77.16 = 3.03g
+6. The current combined cost - INR 24.95
+7. The estimated combined cost - INR 12.76
+8. The estimated cost saved = 24.95 - 12.76 = INR 12.19 ",nan,INR 140.0,0.00,TBD,Finance,KD,2311-IP-ID-16,Replace PC-ABS with ABS in the manufacture of both Instrument Cluster Fascia Decorative Trim and the IP LHS & RHS Decorative Trims since the finish could be achieved on ABS-made trims as well,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 140.0,Kalp ,nan
+2311-IP-ID-11,Replace PC-ABS with PP-TD40 in the manufacture of the Front-Row Air Vent Casings in MGI,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of PP-TD40 - INR 170 (assumed)
+3. The current weight of the driver-side LH trim - 75.9g
+4. The estimated weight of the proposed trim - 66.1g
+5. The current weight of the driver-side RH trim - 80g
+6. The estimated weight of the proposed trim - 69.72g
+7. The estimated weight saved on the driver's side = 75.9 - 66.1 + 80 - 69.72 = 9.8 + 10.27 = 20.07g
+8. The current weight of the co-driver-side LH trim - 62.3g
+9. The estimated weight of the proposed trim - 54.29g
+10. The current weight of the co-driver-side RH trim - 76.4g
+11. The estimated weight of the proposed trim - 66.5g
+12. The estimated weight saved on the co-driver side - 62.3 - 54.29 + 76.4 - 66.5 = 8.01 + 9.9 = 17.91g
+13. The current cost of the driver-side LH trim - INR 23.61
+14. The estimated cost of the proposed trim - INR 11.23
+15. The current cost of the driver-side RH trim - INR 24.89
+16. The estimated cost of the proposed trim - INR 11.85
+17. The estimated cost saved on the driver's side - 23.61 - 11.23 + 24.89 - 11.85 = 12.38 + 13.04 = INR 25.42
+18. The current cost of the co-driver-side LH trim - INR 19.38
+19. The estimated cost of the proposed trim - INR 9.22
+20. The current cost of the co-driver-side RH trim - INR 23.77
+21. The estimated cost of the proposed trim - INR 11.30
+22. The estimated cost saved on the co-driver side - 19.38 - 9.22 + 23.77 - 11.30 = 10.16 + 12.47 = INR 22.63
+
+23. The total weight saved = 20.07 + 17.91 = 37.98g
+24. The total cost saved = 25.42 + 22.63 = INR 48.05",nan,INR 138.0,0.04,TBD,Finance,KD,2311-IP-ID-11,Replace PC-ABS with PP-TD40 in the manufacture of the Front-Row Air Vent Casings in MGI,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 138.0,Kalp,nan
+2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (70 - 80μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The surface area of the Roof Panel = 2.330m2
+4. The current cost to paint the structure = INR 241.24
+5. The estimated cost = INR 147.72
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 241.24 - 147.72 = INR 93.52",nan,INR 135.0,0.00,TBD,nan,nan,2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,nan,INR 135.0,nan,nan
+2311-EL-ID-08,"Update the battery mounting technique in MGI to align with the one employed in KIA, including a redesign of the battery-securing enclosure.",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of Steel (Painted) - INR 230 (assumed)
+2. The Per Kg rate of Steel Fasteners - INR 200 (assumed)
+3. The current weight of the hold-down bracket - 93g
+4. The current weight of the hold-down bolt 1 - 81g
+5. The current weight of the hold-down bolt 2 - 27g
+6. The current weight of the bolt 2 bracket - 35g (assumed)
+7. The current weight of the nuts - 12g
+8. The estimated weight saved - 93 + 81 + 27 + 35 + 12 = 248g
+9. The estimated weight of the proposed bracket and fasteners combined = 90g (as in KIA)
+10. The estimated weight saved after redesigning = 158g
+11. The current cost of the hold-down bracket - INR 21.39
+12. The current cost of the hold-down bolt 1 - INR 16.2
+13. The current cost of the hold-down bolt 2 - INR 5.4
+14. The current cost of the bolt 2 bracket - INR 8.5
+15. The current cost of the nuts - INR 2.4
+16. The estimated cost saved - 21.39 + 16.2 + 5.4 + 8.5 + 2.4 = INR 53.89
+17. The estimated cost of the proposed bracket and fasteners combined = 18.4 + 2 = INR 20.4
+18. The estimated cost saved after redesigning = 53.89 - 20.4 = INR 33.49",nan,INR 135.0,0.16,TBD,nan,nan,2311-EL-ID-08,"Update the battery mounting technique in MGI to align with the one employed in KIA, including a redesign of the battery-securing enclosure.",nan,INR 135.0,nan,nan
+2311-ET-ID-20,"Replace the PCB Module supplied by 'Taizhou Suzhong Antenna Group Co., Ltd.' used within the shark fin antenna of MGI with a similar one supplied by 'INFAC Elecs' used in KIA",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The current combined weight of the modules - 21.86 + 20.89 = 42.75g
+2. The estimated weight of the proposed modules - 48.46g
+3. Estimated weight saved = NIL
+4. The current cost of the FM PCB Module - INR 307.7
+5. The current cost of the GPS PCB Module - INR 206.2
+6. The combined cost = 307.7 + 206.2 = INR 513.8 (assumed)
+7. The estimated cost of the proposed module = INR 466.29 (assumed)
+8. The estimated cost saved = 513.8 - 466.29 = INR 47.51",nan,INR 133.0,0.00,TBD,nan,nan,2311-ET-ID-20,"Replace the PCB Module supplied by 'Taizhou Suzhong Antenna Group Co., Ltd.' used within the shark fin antenna of MGI with a similar one supplied by 'INFAC Elecs' used in KIA",nan,INR 133.0,nan,nan
+2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg cost of PC-ABS = INR 311.17
+2. The Per Kg cost of ABS = INR 165.45
+3. The Per Sq.M cost of chrome plating = INR 129.14
+4. The weight saved de-contenting the holder trim = 39.16g
+5. The cost saved = INR 12.18
+6. The estimated weight of the proposed edge trim = 15g
+7. The estimated cost = INR 2.48
+8. The estimated surface area = 0.00249755 m2
+9. The Chrome Plating cost = INR 0.32
+
+10. The estimated weight saved = 39.16 - 15 = 24.16g
+11. The estimated cost saved = 12.18 - (2.48 + 0.32) = 12.18 - 2.8 = INR 9.38",nan,INR 132.0,0.02,TBD,nan,nan,2311-ET-ID-24,"Redesign the current front logo assembly making the mentioned changes,
+1. Remove the Logo Holder (Black)
+2. Instead of chrome plating the Logo Holding Bracket, finish it in Black and snap-fit the logo M and G onto this
+3. Introduce a new chrome-plated edge trim to complete the design",nan,INR 132.0,nan,nan
+2311-IP-ID-01,Replace the Thinsulate used within the LH & RH Centre Console Side Trims of MGI with Thermoplastic Felt,NaN,INR 35.42,Confirm on part availability,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M cost of Thinsulate - INR 204 (assumed)
+2. Per Sq.M cost of Felt - INR 50 (assumed)
+3. The surface area of the LH & RH Centre Console Side Trims - 0.23m2
+4. The current cost = INR 46.92
+5. The estimated cost of the proposed felt = INR 11.5
+6. The cost saved on LH & RH ends = 46.92 - 11.5 = 35.42*2 = INR 70.84
+7. The estimated weight saved - 146.2g (current combined weight) - 276g (estimated combined weight) = no weight savings",nan,INR 131.0,0.00,TBD,PE/ Purchase,LC,2311-IP-ID-01,Replace the Thinsulate used within the LH & RH Centre Console Side Trims of MGI with Thermoplastic Felt,Confirm on part availability,INR 131.0,Akhil/ Narendra,"29-Mar-24
+16-Feb-24"
+2311-WT-ID-01,Replace the Tyre Pressure Monitoring System (TPMS) sensors from 'SGMW' used in MGI with similar sensors from 'Continental Engineering Services' used in KIA.,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The current weight of the sensor - 13.14g
+2. The estimated weight of the proposed sensor - 9.14g
+3. The estimated weight saved on all four wheels = 13.14 - 9.14 = 4*4 = 16g
+4. The current cost of the sensor - INR 337.20
+5. The estimated cost of the proposed sensor - INR 253.72
+6. The estimated cost saved on all four wheels = 337.20 - 253.72 = 83.48*4 = 333.92 - 15% tolerance = INR 283.8",nan,INR 130.0,0.02,TBD,nan,nan,2311-WT-ID-01,Replace the Tyre Pressure Monitoring System (TPMS) sensors from 'SGMW' used in MGI with similar sensors from 'Continental Engineering Services' used in KIA.,nan,INR 130.0,nan,nan
+2311-BIW-ID-02,"Remove the black paint coating from the LH & RH A-Pillar Side Stiffener Brackets, LH & RH Centre Console and Gear Selector Base Mounting Brackets on the BIW of MGI",NaN,INR 7.08,CFT buy off,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate for black paint coating - INR 45.5 (Metal Brackets)
+2. Coating Surface Area of LH & RH A-Pillar Side Stiffener Brackets = 69536mm2 = 0.069m2
+3. Total cost = INR 3.13
+4. Coating Surface Area of LH & RH Centre Console Base Mounting Brackets = 70172mm2 = 0.070m2
+5. Total cost = INR 3.18
+6. Coating Surface Area of Gear Selector Base Mounting Bracket = 17472mm2 = 0.017m2
+5. Total cost = INR 0.77
+
+6. The estimated cost saved = 3.13 + 3.18 + 0.77 = INR 7.08",nan,INR 130.0,0.00,TBD,VAVE,LC,2311-BIW-ID-02,"Remove the black paint coating from the LH & RH A-Pillar Side Stiffener Brackets, LH & RH Centre Console and Gear Selector Base Mounting Brackets on the BIW of MGI",CFT buy off,INR 130.0,Ratnadeep,2024-03-29 00:00:00
+2311-EL-ID-23,Replace the Mini (Closed) Fuses used within the Engine-Bay Fuse Box of the vehicle with Micro2 (Open) Fuses,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per piece rate of 10Amp Mini (Closed) Fuses = INR 67.21
+2. The per piece rate of 15Amp Mini (Closed) Fuses = INR 67.21
+3. The per piece rate of 20Amp Mini (Closed) Fuses = INR 69.30
+4. The per piece rate of 25Amp Mini (Closed) Fuses = INR 67.21
+5. The per piece rate of 30Amp Mini (Closed) Fuses = INR 68.24
+6. The per piece rate of 10Amp Micro2 (Open) Fuses = INR 30.97
+7. The per piece rate of 15Amp Micro2 (Open) Fuses = INR 19.38
+8. The per piece rate of 20Amp Micro2 (Open) Fuses = INR 30.97
+9. The per piece rate of 25Amp Micro2 (Open) Fuses = INR 20.29
+10. The per piece rate of 30Amp Micro2 (Open) Fuses = INR 29.25
+11. The current total cost of the 10Amp Fuses = INR 1008.15
+12. The estimated total cost of the proposed 10Amp Fuses = INR 464.55
+13. The estimated cost saved = 1008.15 - 464.55 = INR 543.45 - 30% Tolerance = INR 380.41
+14. The current total cost of the 15Amp Fuses = INR 403.26
+15. The estimated total cost of the proposed 15Amp Fuses = INR 116.28
+16. The estimated cost saved = 403.26 - 116.28 = INR 286.98 - 30% Tolerance = INR 200.88
+17. The current total cost of the 20Amp Fuses = INR 207.9
+18. The estimated total cost of the proposed 20Amp Fuses = INR 92.91
+19. The estimated cost saved = 207.9 - 92.91 = INR 114.9 - 30% Tolerance = INR 80.49
+20. The current total cost of the 25Amp Fuses = INR 134.42
+21. The estimated total cost of the proposed 25Amp Fuses = INR 40.58
+22. The estimated cost saved = 134.42 - 40.58 = INR 93.84 - 30% Tolerance = INR 65.68
+23. The current total cost of the 30Amp Fuses = INR 204.72
+24. The estimated total cost of the proposed 30Amp Fuses = INR 87.75
+25. The estimated cost saved = 204.72 - 87.75 = INR 116.97 - 30% Tolerance = INR 81.87
+
+26. The estimated weight saved = 0.61 - 0.28 = 0.33*29 = 9.57g
+27. The estimated cost saved = 380.41 + 200.88 + 80.49 + 65.68 + 81.87 = INR 
+
+28. The per Kg rate of Copper = INR 1050
+29. The current weight of the female connector (fuse box) = 0.84g
+30. The estimated weight of the proposed = 0.4g
+31. The estimated weight saved in total = 0.84 - 0.4 = 0.44 *29 = 12.76*2 (a set) = 25.52g
+32. The current cost of the female connector (fuse box) = INR 0.88
+33. The estimated cost of the proposed = INR 0.42
+34. The estimated cost saved = 0.88 - 0.42 = 0.46 - 30% tolerance = 0.32*(29*2) = 0.32*58 = INR 18.56
+
+35. The total weight saved = 9.57 + 25.52 = 35.09g
+36. The total cost saved = 809.33 + 18.56 = INR 827.89",nan,INR 127.0,0.04,TBD,nan,nan,2311-EL-ID-23,Replace the Mini (Closed) Fuses used within the Engine-Bay Fuse Box of the vehicle with Micro2 (Open) Fuses,nan,INR 127.0,nan,nan
+2311-DA-ID-37,Replace ABS with PP-T20 used in the manufacture of the LH and RH Mirror Outer Covers of MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of ABS - INR 165.45
+2. The Per Kg rate of PP-T20 - INR 98.26
+3. The current weight of the trim - 149.67g
+4. The estimated weight of the proposed trim - 129.26g
+5. The current cost of the trim - INR 24.76
+6. The estimated cost of the proposed trim - INR 12.70
+
+7. The estimated weight saved = 149.67 - 129.26 = 20.41*2 = 40.82g
+8. The estimated cost saved = 24.76 - 12.70 = 12.06*2 = 24.12 - 15% tolerance = INR 20.50",nan,INR 127.0,0.04,TBD,nan,nan,2311-DA-ID-37,Replace ABS with PP-T20 used in the manufacture of the LH and RH Mirror Outer Covers of MGI,nan,INR 127.0,nan,nan
+2311-EL-ID-16,Replace the Keyless Entry Sensor Module from Continental used in MGI with the one used in KIA,NaN,INR 0.0,Confirm with homeroom on technical feasibility,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the antenna module from 'Continental' - INR 136.14
+2. The current weight - 48.5g
+3. The cost of the antenna module used in KIA - INR 74.68
+4. The estimated weight - 45.6g
+
+5. The estimated cost saved on three modules = 136.14 - 74.68 = 61.46*3 = INR 184.38 - 15% tolerance = INR 156.7
+6. The estimated weight saved on three modules = 48.5 - 45.6 = 2.9*3 = 8.7g",nan,INR 126.0,0.01,TBD,PE,KD,2311-EL-ID-16,Replace the Keyless Entry Sensor Module from Continental used in MGI with the one used in KIA,Confirm with homeroom on technical feasibility,INR 126.0,Ojaswini,TBC
+2311-EL-ID-21,Replace the Closed (Mini) Fuses used within the Engine-Bay Fuse Box of the vehicle with Open (Mini) Fuses,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per piece rate of 10Amp Closed Fuses = INR 69.48
+2. The per piece rate of 15Amp Closed Fuses = INR 76.38
+3. The per piece rate of 20Amp Closed Fuses = INR 82.30
+4. The per piece rate of 25Amp Closed Fuses = INR 77.01
+5. The per piece rate of 30Amp Closed Fuses = INR 81.24
+6. The per piece rate of 10Amp Open Fuses = INR 20.52
+7. The per piece rate of 15Amp Open Fuses = INR 19.10
+8. The per piece rate of 20Amp Open Fuses = INR 19.77
+9. The per piece rate of 25Amp Open Fuses = INR 25.27
+10. The per piece rate of 30Amp Open Fuses = INR 21.79
+11. The current total cost of the 10Amp Fuses = INR 1042.2
+12. The estimated total cost of the proposed 10Amp Fuses = INR 307.8
+13. The estimated cost saved = 1042.2 - 307.8 = INR 734.4 - 30% Tolerance = INR 513.8
+14. The current total cost of the 15Amp Fuses = INR 458.28
+15. The estimated total cost of the proposed 15Amp Fuses = INR 114.6
+16. The estimated cost saved = 458.28 - 114.6 = INR 343.68 - 30% Tolerance = INR 240.57
+17. The current total cost of the 20Amp Fuses = INR 246.9
+18. The estimated total cost of the proposed 20Amp Fuses = INR 59.31
+19. The estimated cost saved = 246.9 - 59.31 = INR 187.59 - 30% Tolerance = INR 131.31
+20. The current total cost of the 25Amp Fuses = INR 154.02
+21. The estimated total cost of the proposed 25Amp Fuses = INR 50.54
+22. The estimated cost saved = 154.02 - 50.54 = INR 103.48 - 30% Tolerance = INR 72.43
+23. The current total cost of the 30Amp Fuses = INR 240.72
+24. The estimated total cost of the proposed 30Amp Fuses = INR 65.37
+25. The estimated cost saved = 240.72 - 65.37 = INR 175.35 - 30% Tolerance = INR 122.74
+
+26. The estimated weight saved = 0.61 - 0.54 = 0.07*29 = 2.03g
+27. The estimated cost saved = 513.8 + 240.57 + 131.31 + 72.43 + 122.74 = INR 1080.85",nan,INR 124.0,0.00,TBD,nan,nan,2311-EL-ID-21,Replace the Closed (Mini) Fuses used within the Engine-Bay Fuse Box of the vehicle with Open (Mini) Fuses,nan,INR 124.0,nan,nan
+2311-ET-ID-26,Replace POM with Glass Filled PP (PP-GF30) in the manufacture of the Rear Bumper Support Brackets 1 & 2,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of POM - INR 220 (assumed)
+2. Per Kg rate of PP-GF30 - INR 210 (assumed)
+3. The current weight of the bracket 1 = 42.7g
+4. The estimated weight of the proposed bracket = 33.55g
+5. The current weight of the bracket 2 = 32.87g
+6. The estimated weight of the proposed bracket = 25.8g
+7. The current cost of the bracket 1 = INR 9.39
+8. The estimated cost of the proposed bracket = INR 7.04
+9. The current cost of the bracket 2 = INR 7.23
+10. The estimated cost of the proposed bracket = INR 5.41
+
+11. The estimated weight saved = (42.7 - 33.55) + (32.87 - 25.8) = 9.15 + 7.07 = 16.22g
+12. The estimated cost saved = (9.39 - 7.04) + (7.23 - 5.41) = 2.35 + 1.82 = INR 4.17",nan,INR 124.0,0.02,TBD,nan,nan,2311-ET-ID-26,Replace POM with Glass Filled PP (PP-GF30) in the manufacture of the Rear Bumper Support Brackets 1 & 2,nan,INR 124.0,nan,nan
+2311-HV-ID-04,Replace PC-ABS with PP-TD40 in the manufacture of the Second and Third-Row Air Vent Casings in MGI,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of PP-TD40 - INR 170 (assumed)
+3. The current weight of the second-row vent - 86.37g
+4. The estimated weight of the proposed trim - 75.27g
+5. The estimated weight saved = 86.37 - 75.27 = 11.1g
+6. The current weight of the third-row LH vent - 46.5g
+7. The estimated weight of the proposed trim - 40.5g
+8. The current weight of the third-row RH vent - 45.9g
+9. The estimated weight of the proposed trim - 40g
+10. The estimated weight saved on both LH and RH sides = 46.5 - 40.5 + 45.9 - 40 = 6 + 5.9 = 11.9g
+11. The current cost of the second-row vent - INR 26.86
+12. The estimated cost of the proposed trim - INR 12.79
+13. The estimated cost saved = 26.86 - 12.79 = INR 14.06
+14. The current cost of the third-row LH vent - INR 14.4
+15. The estimated cost of the proposed trim - INR 6.8
+16. The current cost of the third-row RH vent - INR 14.28
+17. The estimated cost of the proposed trim - INR 6.8
+18. The estimated cost saved on both LH and RH sides = 14.4 - 6.8 + 14.28 - 6.8 = 7.6 + 7.48 = INR 15.08
+
+19. Total weight saved = 11.1 + 11.9 = 23g
+20. Total cost saved = 14.06 + 15.08 = INR 29.14",nan,INR 123.0,0.02,TBD,Finance,KD,2311-HV-ID-04,Replace PC-ABS with PP-TD40 in the manufacture of the Second and Third-Row Air Vent Casings in MGI,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 123.0,Kalp,nan
+2311-BIW-ID-03,Reduce the Paint Coating Thicknesses of the highlighted Front Fender and Rear Quarter Panel BiW Panels from 120 - 130μm to 85 - 95μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (80 - 90μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The combined surface area of the Front Fenders = 0.366*2 = 0.733m2
+4. The current cost to paint the structure = INR 75.94
+5. The estimated cost = INR 46.5
+6. The estimated cost saved = 75.94 - 46.5 = INR 28.89
+7. The combined surface area of the Front Fenders = 0.291*2 = 0.583m2
+8. The current cost to paint the structure = INR 60.38
+9. The estimated cost = INR 36.96
+10. The estimated cost saved = 60.38 - 36.96 = INR 23.42
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 28.89 + 23.42 = INR 52.31",nan,INR 122.0,0.00,TBD,nan,nan,2311-BIW-ID-03,Reduce the Paint Coating Thicknesses of the highlighted Front Fender and Rear Quarter Panel BiW Panels from 120 - 130μm to 85 - 95μm,nan,INR 122.0,nan,nan
+2311-ET-ID-25,Replace ABS with PP-T20 in the manufacture of the reflector casing,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the component = 90.6g (assumed)
+4. The estimated weight after the material change = 78.24g
+5. The current cost of the component = INR 27.18
+6. The estimated cost = INR 15.64
+
+7. The estimated weight saved = 90.6 - 78.24 = 12.36g
+8. The estimated cost saved = 27.18 - 15.64 = INR 11.54",nan,INR 122.0,0.01,TBD,nan,nan,2311-ET-ID-25,Replace ABS with PP-T20 in the manufacture of the reflector casing,nan,INR 122.0,nan,nan
+2311-EL-ID-20,De-content the Door Lock Request Assembly along with the sensor within the co-driver door handle of the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the sensor assembly from MGI - INR 278.86
+2. The estimated cost of the female connector and wiring from the door wiring harness - INR 10 (assumed)
+3. The current combined weight = 25.74g + 10g (assumed) = 35.74g
+
+4. The estimated cost saved = 278.86 + 10 = 288.86 - 15% tolerance = INR 245.53",nan,INR 122.0,0.04,TBD,nan,nan,2311-EL-ID-20,De-content the Door Lock Request Assembly along with the sensor within the co-driver door handle of the vehicle,nan,INR 122.0,nan,nan
+2311-PA-ID-03,Replace the current Accelerator Pedal Position Sensor used in MGI with a similar one used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The current weight of the accelerator pedal position sensor - 40.11g
+2. The estimated weight of the proposed sensor - 38.52g
+3. The estimated weight saved = 40.11 - 38.52 = 1.59g
+4. The current cost of the accelerator pedal position sensor - INR 435.16
+5. The estimated cost of the proposed sensor - INR 256
+6. The estimated cost saved = 435.16 - 256 = INR 179.16",nan,INR 122.0,0.00,TBD,nan,nan,2311-PA-ID-03,Replace the current Accelerator Pedal Position Sensor used in MGI with a similar one used in KIA,nan,INR 122.0,nan,nan
+2311-TA-ID-01,Replace the PCB assembly from 'Continental' in MGI with a similar assembly as the one from 'Seoyon Electronics' used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The current cost of the PCB assembly used in MGI = INR 683.71
+2. The current cost of the PCB assembly used in KIA = INR 349.04
+3. The estimated cost saved = 683.71 - 349.04 = 334.67 - 40% tolerance = INR 200.80*2 (spare) = 401.6
+4. The weight savings = Nil",nan,INR 121.0,0.00,TBD,nan,nan,2311-TA-ID-01,Replace the PCB assembly from 'Continental' in MGI with a similar assembly as the one from 'Seoyon Electronics' used in KIA,nan,INR 121.0,nan,nan
+2311-PA-ID-01,Remove the black paint coating on the Brake Pedal Mounting Bracket within MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate for black paint coating - INR 47.8 (Metal Brackets)
+2. Coating Surface Area of the Bracket = 116450mm2 = 0.116m2
+3. Total cost = INR 5.25
+
+4. The estimated weight saved = Nil
+5. The estimated cost saved = INR 5.25",nan,INR 115.0,0.00,TBD,nan,nan,2311-PA-ID-01,Remove the black paint coating on the Brake Pedal Mounting Bracket within MGI,nan,INR 115.0,nan,nan
+2311-PA-ID-02,Redesign the current Brake Pedal Mounting Bracket used in MGI to a similar bracket used in KIA.,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of steel (painted) = INR 230
+2. The current weight = 1104g
+3. The estimated weight of the proposed setup = 622.42g
+4. Weight added on from Idea ID - (2311-BA-ID-01) = 201g
+4. The current cost = INR 253.92
+5. The estimated cost of the proposed setup = INR 143.15
+
+6. The estimated weight saved = 1104 - 622.42 = 481.58g
+7. The estimated cost saved = 253.92 - 143.15 = INR 110.77",nan,INR 113.0,0.48,TBD,nan,nan,2311-PA-ID-02,Redesign the current Brake Pedal Mounting Bracket used in MGI to a similar bracket used in KIA.,nan,INR 113.0,nan,nan
+2311-EL-ID-22,Replace the Closed (Mini) Fuses used within the Driver-Side Fuse Box of the vehicle with Open (Mini) Fuses,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per piece rate of 10Amp Closed Fuses = INR 69.48
+2. The per piece rate of 15Amp Closed Fuses = INR 76.38
+3. The per piece rate of 20Amp Closed Fuses = INR 82.30
+4. The per piece rate of 25Amp Closed Fuses = INR 77.01
+5. The per piece rate of 30Amp Closed Fuses = INR 81.24
+6. The per piece rate of 10Amp Open Fuses = INR 20.52
+7. The per piece rate of 15Amp Open Fuses = INR 19.10
+8. The per piece rate of 20Amp Open Fuses = INR 19.77
+9. The per piece rate of 25Amp Open Fuses = INR 25.27
+10. The per piece rate of 30Amp Open Fuses = INR 21.79
+11. The current total cost of the 10Amp Fuses = INR 1042.2
+12. The estimated total cost of the proposed 10Amp Fuses = INR 307.8
+13. The estimated cost saved = 1042.2 - 307.8 = INR 734.4 - 30% Tolerance = INR 514.08
+14. The current total cost of the 15Amp Fuses = INR 687.42
+15. The estimated total cost of the proposed 15Amp Fuses = INR 171.9
+16. The estimated cost saved = 687.42 - 171.9 = INR 515.52 - 30% Tolerance = INR 360.68
+17. The current total cost of the 20Amp Fuses = INR 82.30
+18. The estimated total cost of the proposed 20Amp Fuses = INR 19.77
+19. The estimated cost saved = 82.30 - 19.77 = INR 62.53 - 30% Tolerance = INR 43.77
+20. The current total cost of the 25Amp Fuses = INR 77.01
+21. The estimated total cost of the proposed 25Amp Fuses = INR 25.27
+22. The estimated cost saved = 77.01 - 25.27 = INR 51.74 - 30% Tolerance = INR 36.21
+23. The current total cost of the 30Amp Fuses = INR 162.48
+24. The estimated total cost of the proposed 30Amp Fuses = INR 43.58
+25. The estimated cost saved = 162.48 - 43.58 = INR 118.9 - 30% Tolerance = INR 83.23
+
+26. The estimated weight saved = 0.61 - 0.54 = 0.07*28 = 1.96g
+27. The estimated cost saved = 514.08 + 360.68 + 43.77 + 36.21 + 83.23 = INR 1037.97",nan,INR 111.0,0.00,TBD,nan,nan,2311-EL-ID-22,Replace the Closed (Mini) Fuses used within the Driver-Side Fuse Box of the vehicle with Open (Mini) Fuses,nan,INR 111.0,nan,nan
+2311-DA-ID-33,Replace ABS with Talc Filled (20%) PP in the manufacture of the LH and RH Tailgate Outer Trim 2 Inner Trims,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS = INR 165.45
+2. Per Kg rate of PP-T20 = INR 98.26
+3. The current weight of the trim - 124.49g
+4. The estimated weight of the proposed trim - 112.63g
+5. The estimated weight savings on both the LH and RH ends = 124.49 - 112.63 = 11.86*2 = 23.72g
+6. The current cost of the trim = INR 20.59
+7. The estimated cost of the proposed trim = INR 11.06
+8. The estimated cost savings = 20.59 - 11.06 = 9.53*2 = INR 19.06 - 15% tolerance = INR 16.20",nan,INR 110.0,0.02,TBD,nan,nan,2311-DA-ID-33,Replace ABS with Talc Filled (20%) PP in the manufacture of the LH and RH Tailgate Outer Trim 2 Inner Trims,nan,INR 110.0,nan,nan
+2311-ET-ID-28,"Redesign the current Door Panel Exterior LH & RH Main Trims to a similar setup as employed in KIA,
+1. Employ separate LH and RH Side Claddings (PP-T30) as in KIA
+2. Reduce the current width of the Front and Rear Door Panel Exterior LH & RH Main Trims by 80mm and de-content the rubber seals used on all four doors",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of EPDM - INR 500 (assumed)
+2. The per Kg rate of PP-T30 - INR 190 (assumed)
+3. The per Kg rate of Steel (painted) - INR 230 (assumed)
+4. The current weight of the rubber beadings on the front LH & RH sides = 335.51g
+5. The estimated weight saved on both sides after de-contenting = 335.51*2 = 671g
+6. The current weight of the rubber beadings on the rear LH & RH sides = 330.53g
+7. The estimated weight saved on both sides after de-contenting = 330.53*2 = 661g
+8. The estimated weight saved from the current front door panel exterior LH & RH main trims = 176*2 = 352g (assumed using mass, volume and density relations)
+9. The estimated weight saved from the current rear door panel exterior LH & RH main trims = 148*2 = 296g (assumed using mass, volume and density relations)
+10. The estimated weight saved from the provisions made on the BiW panels on both LH & RH sides = 3.2*11 = 35.2g
+11. The estimated weight of the proposed LH & RH Side Claddings = 1641*2 = 3282g (assumed using mass, volume and density relations)
+12. The estimated weight of the push-clips to be used = 1.8*11 = 19.8g
+13. The estimated weight of the fasteners to be used = 4*12 = 48g
+14. The current cost of the rubber beadings on the front LH & RH sides = INR 167.75
+15. The estimated cost saved on both sides after de-contenting = 167.75*2 = INR 335.51
+16. The current cost of the rubber beadings on the rear LH & RH sides = INR 165.26
+17. The estimated cost saved on both sides after de-contenting = 165.26*2 = INR 330.53
+18. The estimated cost saved from the current front door panel exterior LH & RH main trims = 33.44*2 = INR 66.88
+19. The estimated cost saved from the current rear door panel exterior LH & RH main trims = 28.12*2 = INR 56.24
+20. The estimated cost saved from the provisions made on the BiW panels on both LH & RH sides = 0.73*11 = INR 8.09
+21. The estimated cost of the proposed LH & RH Side Claddings = 311.79*2 = INR 623.58
+22. The estimated cost of the push-clips to be used = 0.32*11 = INR 3.56
+23. The estimated cost of the fasteners to be used = 0.72*12 = INR 8.64
+
+24. The total estimated weight saved = (671 + 661 + 352 + 296 + 35.2) - (3282 + 19.8 + 48) = 2015.2 - 3349.8 = Nil
+25. The total estimated cost saved = (335.51 + 330.53 + 66.88 + 56.24 + 8.09) - (623.58 + 3.56 + 8.64) = 797.25 - 635.78 = INR 161.47",nan,INR 105.0,0.00,TBD,nan,nan,2311-ET-ID-28,"Redesign the current Door Panel Exterior LH & RH Main Trims to a similar setup as employed in KIA,
+1. Employ separate LH and RH Side Claddings (PP-T30) as in KIA
+2. Reduce the current width of the Front and Rear Door Panel Exterior LH & RH Main Trims by 80mm and de-content the rubber seals used on all four doors",nan,INR 105.0,nan,nan
+2311-ET-ID-12,Replace PC-ABS with ABS in the manufacture of the LH and RH Roof Rail End Covers 1 and 2,NaN,INR 0.0,HR feedback awaited,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of PC-ABS - INR 350 (assumed)
+2. The Per Kg rate of ABS - INR 300 (assumed)
+3. The current weight of the front end cover - 100.1g
+4. The estimated weight of the proposed cover - 96.46g
+5. The estimated weight saved on both LH & RH ends = 100.1 - 96.46 = 3.64*2 = 7.28g
+6. The current weight of the rear end cover - 102.6g
+7. The estimated weight of the proposed cover - 98.8g
+8. The estimated weight saved on both LH & RH ends = 102.6 - 98.8 = 3.8*2 = 7.6g
+9. The current cost of the front end cover - INR 35
+10. The estimated cost of the proposed cover - 28.93
+11. The estimated cost saved on both LH & RH ends = 35 - 28.93 = 6.07*2 = INR 12.14
+12. The current cost of the rear end cover - INR 35.91
+13. The estimated cost of the proposed cover - INR 29.64
+14. The estimated cost saved on both LH & RH ends = 35.91 - 29.64 = 6.3*2 = INR 12.6
+
+15. The total weight saved = 7.28 + 7.6 = 14.88g
+16. The total cost saved = 12.14 + 12.6 = INR 24.74",nan,INR 102.0,0.01,TBD,PE,KD,2311-ET-ID-12,Replace PC-ABS with ABS in the manufacture of the LH and RH Roof Rail End Covers 1 and 2,HR feedback awaited,INR 102.0,Vikrant ,2024-02-22 00:00:00
+2311-DA-ID-34,Replace the Door Lock Request Sensor Assemblies used in MGI with the one used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the sensor assembly from 'SAIC GM WULING AUTOMOBILE CO LIMITED' - INR 278.86
+2. The current weight - 25.74g
+3. The cost of the horn system from 'HYUNDAI GLOVIS CO LIMITED' - INR 181.71
+4. The estimated weight - 30.01g
+
+5. The estimated cost saved on a pair = 278.86 - 181.71 = 97.15*2 = INR 194.3 - 15% tolerance = INR 165.15
+6. The estimated weight saved - Nil",nan,INR 100.0,0.00,TBD,nan,nan,2311-DA-ID-34,Replace the Door Lock Request Sensor Assemblies used in MGI with the one used in KIA,nan,INR 100.0,nan,nan
+2311-DA-ID-36,Replace PP-T20 with PP in the manufacture of the LH and RH APS Trims,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 = INR 200 (assumed)
+2. Per Kg rate of PP - INR 180 (assumed)
+3. The current weight of the trim = 75.01g
+4. The estimated weight of the proposed trim = 67.8g
+5. The estimated weight saved = 75.01 - 67.8 = 7.21*2 = 14.42g
+6. The current cost of the trim = INR 15
+7. The estimated cost of the proposed trim = INR 12.2
+8. The estimated cost saved = 15 - 12.2 = 2.8*2 = INR 5.6",nan,INR 98.0,0.01,TBD,nan,nan,2311-DA-ID-36,Replace PP-T20 with PP in the manufacture of the LH and RH APS Trims,nan,INR 98.0,nan,nan
+2311-ST-ID-02,Replace PC-ABS with ABS in the manufacture of the Steering Wheel Top Trim 2 since the finish could be achieved on ABS-made trims as well,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of ABS - INR 165.45 (assumed)
+3. The current weight of the trim = 46.21g
+4. The estimated weight = 44.1g
+5. The estimated weight saved = 46.21 - 44.1 = 2.1g
+6. The current cost of the trim = INR 14.37
+7. The estimated cost = INR 7.29
+8. The estimated cost saved = 14.37 - 7.29 = INR 7.08",nan,INR 98.0,0.00,TBD,nan,nan,2311-ST-ID-02,Replace PC-ABS with ABS in the manufacture of the Steering Wheel Top Trim 2 since the finish could be achieved on ABS-made trims as well,nan,INR 98.0,nan,nan
+2311-DA-ID-32,Replace ABS with Talc Filled (20%) PP in the manufacture of the LH and RH Side Spoiler Inner Trims,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS = INR 165.45
+2. Per Kg rate of PP-T20 = INR 98.26 
+3. The current weight of the trim - 70.7g
+4. The estimated weight of the proposed trim - 62.73g
+5. The estimated weight savings on both the LH and RH ends = 70.7 - 62.73 = 8*2 = 16g
+6. The current cost of the trim = INR 11.69
+7. The estimated cost of the proposed trim = INR 6.16
+8. The estimated cost savings = 11.69 - 6.16 = 5.53*2 = INR 11.06",nan,INR 97.0,0.02,TBD,nan,nan,2311-DA-ID-32,Replace ABS with Talc Filled (20%) PP in the manufacture of the LH and RH Side Spoiler Inner Trims,nan,INR 97.0,nan,nan
+2311-BIW-ID-01,"1. Reduce the width of the Frit Band application on the front windshield bottom of MGI from 165mm to 130mm as applied in KIA
+2. Reduce the width of the Frit Band application on the rear windshield LH and RH sides of MGI from 195mm to 165mm as applied in KIA",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+Front,
+1. Per Kg rate of Enamel Fritting - INR 417.80 (Decorative & Solar Control) (assumed)
+2. Area of Frit being removed - 50400mm2 = 0.0504m2
+3. Thickness of the Frit - 30 microns = 0.03mm
+4. The weight of the Frit to be removed - 4.71g
+3. The cost of the frit being removed = INR 1.96
+4. The estimated weight saved - 4.71g
+5. The estimated cost saved = INR 1.96
+
+Rear,
+1. Area of Frit being removed - 18000mm2 = 0.018m2
+2. The weight of the Frit to be removed = 1.68g
+3. The cost of the frit being removed = INR 0.70
+4. The estimated weight saved - 1.68g
+5. The estimated cost saved = INR 0.70
+
+6. The total weight saved = 4.71+1.68 = 6.39g
+7. The total cost saved = 1.96 + 0.70 = INR 2.66",nan,INR 96.0,0.01,TBD,nan,nan,2311-BIW-ID-01,"1. Reduce the width of the Frit Band application on the front windshield bottom of MGI from 165mm to 130mm as applied in KIA
+2. Reduce the width of the Frit Band application on the rear windshield LH and RH sides of MGI from 195mm to 165mm as applied in KIA",nan,INR 96.0,nan,nan
+2311-IP-ID-18,Redesign the setup removing the entire reinforcement trim and combine the highlighted area shown in the picture into the Dashboard Assembly Upper Trim making it a single trim,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 = INR 200 (assumed)
+2. The estimated weight saved after redesigning = 200g (assumed)
+3. The estimated cost saved = 40 - 20% tolerance = INR 32",nan,INR 96.0,0.20,TBD,nan,nan,2311-IP-ID-18,Redesign the setup removing the entire reinforcement trim and combine the highlighted area shown in the picture into the Dashboard Assembly Upper Trim making it a single trim,nan,INR 96.0,nan,nan
+2311-IT-ID-28,Replace PP-TD10-GF10 with PP-T20 in the manufacture of the speaker casing.,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-TD10-GF10 = INR 205 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the casing trim - 1462g
+4. The estimated weight of the proposed trim - 1329g
+5. The estimated weight saved = 1462 - 1329 = 133g
+6. The current weight of the mounting trim - 125.9g
+7. The estimated weight of the proposed trim - 114.45g
+8. The estimated weight saved = 125.9 - 114.45 = 11.45g
+9. The current cost of the casing trim - INR 299.71
+10. The estimated cost of the proposed trim - INR 265.8
+11. The estimated cost saved = 299.71 - 265.8 = INR 33.91
+12. The current cost of the mounting trim - INR 25.80
+13. The estimated cost of the proposed trim - INR 22.89
+14. The estimated cost saved = 25.80 - 22.89 = INR 2.91
+
+15. The total weight saved = 133 + 11.45 = 144.45g
+16. The total cost saved = 33.91 + 2.91 = INR 36.82",nan,INR 94.0,0.14,TBD,nan,nan,2311-IT-ID-28,Replace PP-TD10-GF10 with PP-T20 in the manufacture of the speaker casing.,nan,INR 94.0,nan,nan
+2311-SS-ID-13,"Process Deletion,
+Remove the Black Painting done on the Third-Row Seat Mounting Frame",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Black Paint Coating- INR 47.8 (assumed)
+2. The coating surface area of the mounting frame = 198707.8mm2 = 0.19m2
+3. The cost to paint the structure = INR 9.08
+
+4. The estimated weight saved = Nil
+5. The estimated cost saved = INR 9.08",nan,INR 92.0,0.00,TBD,nan,nan,2311-SS-ID-13,"Process Deletion,
+Remove the Black Painting done on the Third-Row Seat Mounting Frame",nan,INR 92.0,nan,nan
+2311-PRODUCT-ID-12,Decrease the width of the carpet by 100mm from the lower edge on the rear side of the trunk liner flap.,NaN,INR 0.0,Confirm supplier feasibility in LC part for 5 seater,"The cost savings will be updated once the costing is done.
+Cost savings : carpet
+1. Total length of carpet = 1000mm
+2. Width of carpet to be reduce = 100mm
+3. Area of carpet to be reduce =  100000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 10
+
+Total estimated cost saving = INR 10 (will be updated once costing is done)
+Tot estimated weight saving = 40 = 40 g (will be updated once TD is done)",nan,INR 90.0,0.08,TBD,PSCM,LC,2311-PRODUCT-ID-12,Decrease the width of the carpet by 100mm from the lower edge on the rear side of the trunk liner flap.,Confirm supplier feasibility in LC part for 5 seater,INR 90.0,Akhil,2024-06-28 00:00:00
+2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,NaN,INR 0.0,Confirm business case for 20mm reduction,"The cost savings will be updated once the costing is done.
+Cost savings : carpet
+1. Length of carpet = 1000mm (length will not change)
+2. Width of carpet to be reduce = 120mm (including front & rear sides) 
+3. Area of carpet to be reduce =  120000mm2
+4. Cost per meter square of fabric carpet = 100 INR/m2 (Assumption)
+5. Cost saving for carpet  = INR 12
+Cost savings : fiberboard
+1. Length of fiberboard = 1000mm (length will not change)
+2. Width of fiberboard to be reduce = 60mm
+3. Area of fiberboard to be reduce =  60000mm2
+4. Cost per meter square of fiberboard = 150 INR/m2 (Assumption)
+5. Cost saving for fiberboard  = INR 9
+Total estimated cost saving = 12 + 9 = INR 21 (will be updated once costing is done)
+Tot estimated weight saving = 80 + 50 = 130 g (will be updated once TD is done)",nan,INR 89.0,0.09,TBD,Finance,KD,2311-PRODUCT-ID-11,Reduce the width of the trunk liner flap by 60mm from the upper edge.,Confirm business case for 20mm reduction,INR 89.0,Kalp,2024-02-14 00:00:00
+2311-IP-ID-02,Replace PC+ABS/TPU used in the manufacture of the Centre Console Bottle Holder Trim with PP,NaN,INR 0.0,Supplier evalutiaon,"The evaluation is done before teardown, the values will change after the costing,
+Considering TPU as the rubber-like components covering the holder which could be kept on,
+1. Per Kg rate of PC-ABS - INR 311.17
+2. Per Kg rate of PP - INR 130.35
+3. The current weight of the holder - 100g
+4. The estimated weight of the proposed holder - 86.36g
+5. The estimated weight saved = 100 - 86.36 = 13.64g
+6. The current cost of the holder - INR 31.11
+4. The estimated cost of the proposed holder - INR 11.25
+5. The estimated cost saved = 31.11 - 11.25 = INR 19.86",nan,INR 87.0,0.01,TBD,PE,KD,2311-IP-ID-02,Replace PC+ABS/TPU used in the manufacture of the Centre Console Bottle Holder Trim with PP,Supplier evalutiaon,INR 87.0,Narendra,2024-02-22 00:00:00
+2311-IP-ID-13,Replace POM with PA6-GF30 in the manufacture of Glove Box Lock Pins 1 & 2 within the IP assembly of MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of POM - INR 230 (assumed)
+2. Per Kg rate of PA6-GF30 - INR 195 (assumed)
+3. The current weight of Pin 1 = 20.14g
+4. The estimated weight of the proposed pin = 15.99g
+5. The current weight of Pin 2 = 18.16g
+6. The estimated weight of the proposed pin = 14.42g
+7. The estimated weight savings on both pins = 20.14 - 15.99 + 18.16 - 14.42 = 4.15 + 4.04 = 8.18g
+8. The current cost of Pin 1 = INR 4.63
+4. The estimated cost of the proposed pin = INR 3
+5. The current cost of Pin 2 = INR 4.17
+6. The estimated cost of the proposed pin = INR 2.73
+7. The estimated cost savings on both pins = 4.6 - 3 + 4.17 - 2.73 = 1.6 + 1.44 = INR 3.04",nan,INR 87.0,0.01,TBD,nan,nan,2311-IP-ID-13,Replace POM with PA6-GF30 in the manufacture of Glove Box Lock Pins 1 & 2 within the IP assembly of MGI,nan,INR 87.0,nan,nan
+2311-IP-ID-19,Replace the Thinsulate Acoustic Insulation used within the Dashboard and Control Panel for NVH restriction within MGI with Noiselite PP-PET Insulation as used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Noiselite per square meter - INR 155.49
+3. The surface area of the control panel thinsulate - 0.226m2
+4. The current cost = INR 46.10
+5. The estimated cost after using noiselite instead = INR 35.14
+6. Total cost saved on both LH and RH sides = 46.10 - 35.14 = 10.96*2 (LH & RH) = INR 21.92
+7. The surface area of the dashboard panel thinsulate - 0.193m2
+8. The current cost = INR 39.37
+9. The estimated cost after using noiselite instead = INR 30
+10. Total cost saved = 39.37 - 30 = INR 9.37
+
+11. The total cost savings = 21.92 + 9.37 = INR 31.29
+12. The total weight savings = Nil",nan,INR 85.0,0.00,TBD,nan,nan,2311-IP-ID-19,Replace the Thinsulate Acoustic Insulation used within the Dashboard and Control Panel for NVH restriction within MGI with Noiselite PP-PET Insulation as used in KIA,nan,INR 85.0,nan,nan
+2311-BIW-ID-04,Reduce the Paint Coating Thicknesses of the highlighted Front and Rear Door BiW Panels from 115 - 125μm to 80 - 90μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (80 - 90μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The combined surface area of the Front Doors = 0.864*2 = 1.728m2
+4. The current cost to paint the structure = INR 178.91
+5. The estimated cost = INR 109.55
+6. The estimated cost saved = 178.91 - 109.55 = INR 69.35
+7. The combined surface area of the Rear Doors = 0.661*2 = 1.322m2
+8. The current cost to paint the structure = INR 137.01
+9. The estimated cost = INR 83.81
+10. The estimated cost saved = 137.01 - 83.81 = INR 53.19
+
+11. The estimated weight saved = Nil
+12. The estimated cost saved = 69.35 + 53.19 = INR 122.54",nan,INR 84.0,0.00,TBD,nan,nan,2311-BIW-ID-04,Reduce the Paint Coating Thicknesses of the highlighted Front and Rear Door BiW Panels from 115 - 125μm to 80 - 90μm,nan,INR 84.0,nan,nan
+2311-DA-ID-31,Replace Glass Filled (15%) PP with Talc Filled (20%) PP in the manufacture of the Main Spoiler Inner Trim of MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-GF15 = INR 245 (assumed)
+2. Per Kg rate of PP-T20 = INR 200 (assumed)
+3. The current weight of the trim - 607g
+4. The estimated weight of the proposed trim - 549.19g
+5. The estimated weight saved = 607 - 549.19 = 57.81g
+6. The current cost of the trim - INR 148.71
+7. The estimated cost of the proposed trim - INR 109.8
+8. The estimated cost saved = 148.7 - 109.8 = Inr 38.86 - 15% Tolerance = INR 33.03",nan,INR 83.0,0.06,TBD,nan,nan,2311-DA-ID-31,Replace Glass Filled (15%) PP with Talc Filled (20%) PP in the manufacture of the Main Spoiler Inner Trim of MGI,nan,INR 83.0,nan,nan
+2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (100 - 110μm) - INR 79(assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (160 - 170μm) - INR 129.78 (assumed)
+3. The surface area of the Front Hood = 1.456m2
+4. The current cost to paint the structure = INR 188.95
+5. The estimated cost = INR 115.02
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 188.95 - 115.02 = INR 73.92",nan,INR 82.0,0.00,TBD,nan,nan,2311-BIW-ID-05,Reduce the Paint Coating Thickness of the highlighted Front Hood BiW Panel from 160 - 170μm to 100 - 110μm,nan,INR 82.0,nan,nan
+2311-SS-ID-14,"Process Deletion,
+Remove the Black Painting done on the Second-Row Seat 60% and 40% Main Bracket Cross Members",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Black Paint Coating- INR 47.8 (assumed)
+2. The combined coating surface area of the 60% & 40% bracket cross members = 163852mm2 = 0.16m2
+3. The cost to paint the structure = INR 7.64
+
+4. The estimated weight saved = Nil
+5. The estimated cost saved = INR 7.64",nan,INR 81.0,0.00,TBD,nan,nan,2311-SS-ID-14,"Process Deletion,
+Remove the Black Painting done on the Second-Row Seat 60% and 40% Main Bracket Cross Members",nan,INR 81.0,nan,nan
+2311-DA-ID-17,"Instead of using Thinsulate within the door assemblies, Felt could be utilized",NaN,INR 137.9,Confirm on part availability,"The evaluation is done before teardown, the values will change after the costing,
+1. The cost of the Thinsulate per square meter - INR 204
+2. The cost of Felt per square meter - INR 50 (assumption)
+3. Surface area of the front door Thinsulate 1 - 0.26m2
+4. The current cost = INR 53.04
+5. The estimated cost after using Felt instead = INR 13
+6. Total cost saved on both doors = 53.04 - 13 = 40.04*2 (LH&RH) = INR 80.08
+7. Surface area of the front door Thinsulate 2 - 0.071m2
+8. The current cost = INR 14.4
+9. The estimated cost after using Felt instead = INR 3.55
+10. Total cost saved on both doors = 14.4 - 3.55 = 10.85*2 (LH&RH) = INR 21.7
+11. Surface area of the rear door Thinsulate 1 - 0.22m2
+12. The current cost = INR 44.88
+13. The estimated cost after using Felt instead = INR 11
+14. Total cost saved on both doors = 44.88 - 11 = 33.88*2 (LH&RH) = INR 67.76
+15. Surface area of the rear door Thinsulate 2 - 0.10m2
+16. The current cost = INR 20.4
+17. The estimated cost after using Felt instead = INR 5
+18. Total cost saved on both doors = 20.4 - 5 = 15.4*2 (LH&RH) = INR 30.8
+19. Surface area of the tailgate Thinsulate - 0.49m2
+20. The current cost = INR 99.96
+21. The estimated cost after using Felt instead = INR 24.5
+22. The cost saved on the tailgate = 99.96 - 24.5 = INR 75.46
+
+23. The estimated cost saved in total = 80.08 + 21.7 + 67.76 + 30.8 + 75.46 = INR 275.8
+24. The estimated weight saved in total = No Weight Savings",nan,INR 78.0,0.00,TBD,PE/ Purchase,LC,2311-DA-ID-17,"Instead of using Thinsulate within the door assemblies, Felt could be utilized",Confirm on part availability,INR 78.0,Akhil/ Narendra,"29-Mar-24
+16-Feb-24"
+2311-ST-ID-01,Replace TPO with PP-T20 in the manufacture of the Steering Wheel Bottom Trim and the Steering Wheel Airbag Trim,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of TPO = INR 269.7
+2. Per Kg rate of PP-T20 = INR 200 (assumed)
+3. The current weight of the Bottom Trim = 175g
+4. The estimated weight of the proposed trim = 173.1g
+5. The estimated weight saved = 175 - 173.1 = 1.9g
+6. The current weight of the Airbag Trim = 127.6g
+7. The estimated weight of the proposed trim = 125.6g
+8. The estimated weight saved = 2g
+9. The current cost of the Bottom Trim = INR 47.19
+10. The estimated cost of the proposed trim = INR 34.62
+11. The estimated cost saved = 47.9 - 34.62 = INR 13.28
+12. The current cost of the Airbag Trim = INR 34.18
+13. The estimated cost of the proposed trim = INR 25.12
+14. The estimated cost saved = 34.18 - 25.12 = INR 9.06
+
+15. The total weight saved = 1.9 + 2 = 3.9g
+16. The total cost saved = 13.28 + 9.06 = INR 22.34",nan,INR 77.0,0.00,TBD,nan,nan,2311-ST-ID-01,Replace TPO with PP-T20 in the manufacture of the Steering Wheel Bottom Trim and the Steering Wheel Airbag Trim,nan,INR 77.0,nan,nan
+AI-GEN-01,Apply material optimization approach to analyze for cost reduction in MGI,N/A,N/A,Review feasibility with cross-functional team,N/A,N/A,₹ 32,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Apply material optimization approach to analyze for cost reduction in MGI,Review feasibility with cross-functional team,₹ 32,Digital Analyst,N/A
+AI-GEN-01,Apply material optimization approach to forward for cost reduction in MGI,N/A,N/A,Review feasibility with cross-functional team,N/A,N/A,₹ 38,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Apply material optimization approach to forward for cost reduction in MGI,Review feasibility with cross-functional team,₹ 38,Digital Analyst,N/A
+AI-GEN-01,Apply material optimization approach to column for cost reduction in MGI,N/A,N/A,Review feasibility with cross-functional team,N/A,N/A,₹ 44,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Apply material optimization approach to column for cost reduction in MGI,Review feasibility with cross-functional team,₹ 44,Digital Analyst,N/A
+AI-GEN-01,Apply material optimization approach to ideas for cost reduction in MGI,N/A,N/A,Review feasibility with cross-functional team,N/A,N/A,₹ 50,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Apply material optimization approach to ideas for cost reduction in MGI,Review feasibility with cross-functional team,₹ 50,Digital Analyst,N/A
+AI-GEN-01,Apply material optimization approach to summarize for cost reduction in MGI,N/A,N/A,Review feasibility with cross-functional team,N/A,N/A,₹ 56,0.00,AI-PROPOSAL,PE,N/A,AI-GEN-01,Apply material optimization approach to summarize for cost reduction in MGI,Review feasibility with cross-functional team,₹ 56,Digital Analyst,N/A

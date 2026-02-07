@@ -1,0 +1,124 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-DA-ID-27,Replace ABS+PVC+PU with PP+PE-TD14 in the manufacture of both Front and Rear Passenger Armrest Trims of MGI,NaN,INR 109.3,New tooling cost from YFI to be confirmed for business case calculations,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS+PVC+PU blend - INR 310 (assumed)
+2. Per Kg rate of PP+PE-TD14 - INR 250 (assumed)
+3. The current weight of the front trim - 322.05g
+4. The estimated weight of the proposed front trim - 268.37g
+5. The estimated weight savings on both front trims = 322.05 - 268.37 = 53.68*2 = 107.36g
+6. The current weight of the rear trim - 284g
+7. The estimated weight of the proposed rear trim - 236.6g
+8. The estimated weight savings on both rear trims = 284 - 236.6 = 47.4*2 = 94.8g
+9. The cost of the front trim = INR 99.82
+10. The estimated cost of the proposed front trim = INR 67.07
+11. The estimated cost savings on both front trims = 99.82 - 67.07 = 32.73*2 = INR 65.46
+12. The cost of the rear trim = INR 88.04
+13. The estimated cost of the proposed rear trim = INR 59.15
+14. The estimated cost savings on both rear trims = 88.04 - 59.15 = 28.89*2 = INR 
+
+15. The estimated weight savings in total = 107.36 + 94.8 = 202.16g
+16. The estimated cost savings in total = 65.46 + 57.78 = INR 123.24",nan,INR 126.0,0.20,NG,Purchase,LC,2311-DA-ID-27,Replace ABS+PVC+PU with PP+PE-TD14 in the manufacture of both Front and Rear Passenger Armrest Trims of MGI,New tooling cost from YFI to be confirmed for business case calculations,INR 126.0,Akhil,2024-02-12 00:00:00
+2311-DA-ID-25,Replace PP-T20 used in the manufacture of the Door Panel Interior Main Trims 2 of MGI with PP-E/P-TD10,NaN,INR 0.0,Business case to be evaluated (combined for DA-ID-24 & 25),"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 - INR 200 (assumed)
+2. Per Kg rate of PP-E/P-TD10 - INR 190 (assumed)
+3. The current weight of the front trim - 864g
+4. The estimated weight of the proposed front trim - 792.6g
+5. The estimated weight savings on both front trims = 864 - 792.6 = 71.4*2 = 142.8g
+6. The current weight of the rear trim - 610g
+7. The estimated weight of the proposed rear trim - 559.6g
+8. The estimated weight savings on both rear trims = 610 - 559.6 = 50.4*2 = 100.8g
+9. The cost of the front trim = INR 172.8
+10. The estimated cost of the proposed front trim = INR 150.59
+11. The estimated cost savings on both front trims = 172.8 - 150.59 = 22.21*2 = INR 44.42
+12. The cost of the rear trim = INR 122
+13. The estimated cost of the proposed rear trim = INR 106.32
+14. The estimated cost savings on both rear trims = 122 - 106.32 = 15.68*2 = INR 31.36
+
+15. The estimated weight savings in total = 142.8 + 100.8 = 243.6g
+16. The estimated cost savings in total = 44.42 + 31.36 = INR 75.78",nan,INR 134.0,0.24,NG,Finance,LC,2311-DA-ID-25,Replace PP-T20 used in the manufacture of the Door Panel Interior Main Trims 2 of MGI with PP-E/P-TD10,Business case to be evaluated (combined for DA-ID-24 & 25),INR 134.0,Kalp,2023-11-24 00:00:00
+2311-ET-ID-01,Replace PP-T30 with PP in the manufacture of Rear LH Wheel Guard Trim,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T30 = INR 220 (assumed)
+2. Per Kg rate of PP = INR 180 (assumed)
+3. The current weight of the trims on the rear - 773g
+4. The estimated weight of the proposed trims on the rear - 628.06g
+5. The estimated weight saved = (773 - 628.06) = 144.94g
+6. The current cost of the trims on the rear - INR 170.06
+7. The estimated cost of the proposed trims on the rear - INR 113.05
+8. The estimated cost saved = (170.06 - 113.05) = INR 57.01",nan,INR 70.0,0.11,NG,nan,LC,2311-ET-ID-01,Replace PP-T30 with PP in the manufacture of Rear LH Wheel Guard Trim,nan,INR 70.0,nan,nan
+2311-DA-ID-28,Replace PP-T20 used in the manufacture of the LH and RH Door Panel Interior Delta Trims of MGI with PP-E/P-TD10,NaN,INR 0.0,Bussiness case to be evaluated,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 - INR 200 (assumed)
+2. Per Kg rate of PP-E/P-TD10 - INR 190 (assumed)
+3. The current weight of the front trim - 58.66g
+4. The estimated weight of the proposed front trim - 53.76g
+5. The estimated weight savings on both front trims = 58.6 - 53.7 = 4.9*2 = 9.8g
+6. The cost of the front trim = INR 11.7
+7. The estimated cost of the proposed front trim = INR 10.21
+8. The estimated cost savings on both front trims = 11.7 - 10.21 = 1.49*2 = INR 3",nan,INR 119.0,0.01,NG,Finance,LC,2311-DA-ID-28,Replace PP-T20 used in the manufacture of the LH and RH Door Panel Interior Delta Trims of MGI with PP-E/P-TD10,Bussiness case to be evaluated,INR 119.0,Kalp,2023-11-02 00:00:00
+2311-IP-ID-05,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard upper trim of the vehicle,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP+T20 - INR 200 (assumed)
+2. Per Kg rate of PP+EPDM-T20 - INR 250 (assumed)
+3. The current weight of the trim - 2900g
+4. The estimated weight of the proposed trim - 2623g
+5. The estimated weight saved = 2900 - 2623 = 277g
+6. The current cost of the trim - INR 725
+7. The estimated cost of the proposed trim - INR 524.6
+8. The estimated cost saved = 725 - 524.6 = INR 200.4 - 15% tolerance = INR 170.34",nan,INR 141.0,0.28,NG,nan,nan,2311-IP-ID-05,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard upper trim of the vehicle,nan,INR 141.0,nan,nan
+2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,NaN,INR 91.35,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the front trim - 290.06g
+4. The estimated weight of the proposed front trim - 263.4g
+5. The estimated weight savings on both front trims = 290.06 - 263.4 = 26.6*2 = 53.32g
+6. The current weight of the rear trim - 292.86g
+7. The estimated weight of the proposed rear trim - 266.01g
+8. The estimated weight savings on both rear trims = 292.86 - 266.01 = 26.85*2 = 53.7g
+9. The cost of the front trim = INR 87.01
+10. The estimated cost of the proposed front trim = INR 58.01
+11. The estimated cost savings on both front trims = 87.01 - 58.01 = 29*2 = INR 58
+12. The cost of the rear trim = INR 87.85
+13. The estimated cost of the proposed rear trim = INR 58.57
+14. The estimated cost savings on both rear trims = 87.8 - 58.57 = 29.23*2 = INR 58.4
+
+15. The estimated weight savings in total = 53.32 + 53.7 = 107g
+16. The estimated cost savings in total = 58 + 58.4 = INR 116.4
+17. Flaming Process Cost - INR 5 should be considered for each part
+18. Cost saved - 116.4 - 5*4 = INR 96.4",nan,INR 147.0,0.11,NG,nan,LC,2311-DA-ID-26,Replace the ABS blend with PP-T20 in the manufacture of the Front and Rear Door Panel Side Trims in MGI,nan,INR 147.0,nan,nan
+2311-DA-ID-36,Replace PP-T20 with PP in the manufacture of the LH and RH APS Trims,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP-T20 = INR 200 (assumed)
+2. Per Kg rate of PP - INR 180 (assumed)
+3. The current weight of the trim = 75.01g
+4. The estimated weight of the proposed trim = 67.8g
+5. The estimated weight saved = 75.01 - 67.8 = 7.21*2 = 14.42g
+6. The current cost of the trim = INR 15
+7. The estimated cost of the proposed trim = INR 12.2
+8. The estimated cost saved = 15 - 12.2 = 2.8*2 = INR 5.6",nan,INR 98.0,0.01,TBD,nan,nan,2311-DA-ID-36,Replace PP-T20 with PP in the manufacture of the LH and RH APS Trims,nan,INR 98.0,nan,nan
+2311-IT-ID-16,Replace PP+PE-T10 used in the manufacture of the Front A-Pillar Interior Trims in MGI with standard PP+PE,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP+PE-T10 - INR 240 (assumed)
+2. Per Kg rate of PP+PE - INR 215 (assumed))
+3. The current weight of the trim piece - 249g
+4. The estimated weight of the proposed trim piece - 241.13g (assumed using mass, volume, and density relation)
+5. The estimated weight saved = 249 - 241.13 = 7.87*2 = 15.74g
+6. The current cost of the trim piece = INR 59.76
+7. The estimated cost of the proposed trim piece = INR 51.84
+8. The estimated cost saved = 59 - 51.84 = 7.2*2 = INR 14.4",nan,INR 145.0,0.02,NG,nan,LC,2311-IT-ID-16,Replace PP+PE-T10 used in the manufacture of the Front A-Pillar Interior Trims in MGI with standard PP+PE,nan,INR 145.0,nan,nan
+2311-DA-ID-02,Substitute ABS with PP-T20 for the production of the Door Recess Trims fastened onto the door control panel trims,NaN,INR 27.98,Confirm on part availabilty and trial,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the front-row door recess trim = 93g
+4. The current weight of the second-row door recess trim = 81.47g
+5. The estimated weight of the proposed front-row door recess trim = 83.4g
+6. The estimated weight of the proposed second-row door recess trim = 73.09g
+7. The estimated weight saved = (93 - 83.4 + 81.47 - 73.09) = (9.6*2 + 8.38*2) = 19.2 + 16.76 = 35.96g
+8. The current cost of the front-row door recess trim = INR 27.9
+9. The current cost of the second-row door recess trim = INR 24.4
+10. The estimated cost of the proposed front-row door recess trim = INR 16.68
+11. The estimated cost of the proposed second-row door recess trim = INR 14.61
+12. The estimated cost saved = (27.9 - 16.68 + 24.4 - 14.61) = 11.22*2 + 9.79*2 = 22.44 + 19.58 = INR 42.02",nan,INR 55.0,0.04,NG,Purchase/ PE,LC,2311-DA-ID-02,Substitute ABS with PP-T20 for the production of the Door Recess Trims fastened onto the door control panel trims,Confirm on part availabilty and trial,INR 55.0,Akhil/ Narendra,2024-02-16 00:00:00
+2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Sq.M rate of Automotive Grade Paint Coating (70 - 80μm) - INR 63.4 (assumed)
+2. Per Sq.M rate of Automotive Grade Paint Coating (110 - 120μm) - INR 103.54 (assumed)
+3. The surface area of the Roof Panel = 2.330m2
+4. The current cost to paint the structure = INR 241.24
+5. The estimated cost = INR 147.72
+
+6. The estimated weight saved = Nil
+7. The estimated cost saved = 241.24 - 147.72 = INR 93.52",nan,INR 135.0,0.00,TBD,nan,nan,2311-BIW-ID-06,Reduce the Paint Coating Thickness of the highlighted Roof BiW Panel from 110 - 120μm to 70 - 80μm,nan,INR 135.0,nan,nan

@@ -1,0 +1,141 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-PRODUCT-ID-21,"De-content the Spacer Plates mounted onto the door frame and if required, increase the length of the latch receiver on the Striker Plate to ensure the doors close smoothly and securely",NaN,INR 0.0,Share design change for business case evaluation,"The evaluation is done before teardown, the values will change after the costing
+1. Per Kg rate of steel - INR 160
+2. Current weight of the spacer plates - 30*4 = 120g
+3. The cost of a single plate - INR 4.8
+4. Assumed weight increased for striker plate = 8 g
+5. Assumed cost increased for striker plate = INR 1.28
+6. Estimated weight saving (for 1 item) = 30 - 8 = 22 g
+7. Estimated cost saving (for 1 item) = 4.8 - 1.28 = INR 3.52
+8. The total weight saved - 22*4 = 88 g
+9. The total cost saved - 3.52*4 = INR 14.08",nan,INR 65.0,0.09,NG,PE,KD,2311-PRODUCT-ID-21,"De-content the Spacer Plates mounted onto the door frame and if required, increase the length of the latch receiver on the Striker Plate to ensure the doors close smoothly and securely",Share design change for business case evaluation,INR 65.0,Manish Jaju,2023-12-12 00:00:00
+2311-PRODUCT-ID-14,Reduce the thickness of the rear wiper pivot bolt cover trim from 2mm to 1.3mm.,NaN,INR 0.0,Confirm with homeroom on technical feasibility & Confirm localization,"The estimated cost saving will be updated once the costing is done.
+1. Weight of the trim (thickness - 2mm) = 11.5g
+2. Per Kg cost of PBT+GF30 = INR 450 (assumption)
+3. Cost of the trim (thickness - 2mm) = INR 5.17
+4. Estimated weight of the trim (thickness - 1.3mm) = 7.47g (mass, density, volume relation)
+5. Estimated cost of the trim (thickness - 1.3mm) = INR 3.36
+
+Estimated cost saving = INR 1.81
+Estimated weight saving = 4.03 g",nan,INR 46.0,0.06,TBD,PE,KD,2311-PRODUCT-ID-14,Reduce the thickness of the rear wiper pivot bolt cover trim from 2mm to 1.3mm.,Confirm with homeroom on technical feasibility & Confirm localization,INR 46.0,Ojaswini,2023-12-14 00:00:00
+2311-IP-ID-13,Replace POM with PA6-GF30 in the manufacture of Glove Box Lock Pins 1 & 2 within the IP assembly of MGI,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of POM - INR 230 (assumed)
+2. Per Kg rate of PA6-GF30 - INR 195 (assumed)
+3. The current weight of Pin 1 = 20.14g
+4. The estimated weight of the proposed pin = 15.99g
+5. The current weight of Pin 2 = 18.16g
+6. The estimated weight of the proposed pin = 14.42g
+7. The estimated weight savings on both pins = 20.14 - 15.99 + 18.16 - 14.42 = 4.15 + 4.04 = 8.18g
+8. The current cost of Pin 1 = INR 4.63
+4. The estimated cost of the proposed pin = INR 3
+5. The current cost of Pin 2 = INR 4.17
+6. The estimated cost of the proposed pin = INR 2.73
+7. The estimated cost savings on both pins = 4.6 - 3 + 4.17 - 2.73 = 1.6 + 1.44 = INR 3.04",nan,INR 87.0,0.01,TBD,nan,nan,2311-IP-ID-13,Replace POM with PA6-GF30 in the manufacture of Glove Box Lock Pins 1 & 2 within the IP assembly of MGI,nan,INR 87.0,nan,nan
+2311-PRODUCT-ID-06,"Change the design of the lug nut used in MGI with the design of the lug nut used in KIA.
+Wheel lug nut in MGI-
+Overall length - 31.3mm
+Thread length - 27.95mm
+Wheel lug nut in KIA-
+Overall length - 27.5mm
+Thread length - 15mm",NaN,INR 0.0,nan,"The cost savings will be updated once the costing is done.
+1. Per Kg cost of lug nuts - INR 220 (assumption)
+2. Weight of a single lug nut in MGI - 55.47g (0.055Kg)
+3. Cost of a lug nut - INR 12.20
+4. Weight of the proposed lug nut -34.41g (0.034Kg)
+5. Cost of a lug nut - INR 7.5
+6. The estimated weight savings on a nut - 55.47 - 34.41 = 21.06g
+7. The estimated cost savings on a nut - 12.20 - 7.5 = INR 4.7
+
+8. Total weight saved - 21.06*20 = 421.2g
+9. Total cost saved - 4.7*20 = INR 94",nan,INR 50.0,0.42,NG,nan,KD,2311-PRODUCT-ID-06,"Change the design of the lug nut used in MGI with the design of the lug nut used in KIA.
+Wheel lug nut in MGI-
+Overall length - 31.3mm
+Thread length - 27.95mm
+Wheel lug nut in KIA-
+Overall length - 27.5mm
+Thread length - 15mm",nan,INR 50.0,nan,nan
+2311-PRODUCT-ID-17,"1. Relocate the Battery Negative Terminal Earthing Wire mount from the side to the top of the front suspension subframe of the vehicle
+2. Reduce the length of the connector terminal and instead of using two bolts, use a single bolt
+3. Reduce the overall size and wall thickness of the Battery Negative Terminal Cast Clamp",NaN,INR 0.0,"Homeroom ideas to be bunched up and taken up for implementation at program level. Confirm localization feasibility
+","Estimated Cost Savings, (accurate cost savings would be done once the vehicle is completely torn down)
+Terminal Connector,
+1. The weight of the portion to be removed - 2.5g (assumed)
+2. Per Kg cost of Brass - INR 740
+3. Estimated weight saved - 2.5g
+4. Estimated cost saved - INR 1.85
+Cast Terminal Clamp,
+1. The weight of the portion to be removed - 15g (assumed)
+2. Per Kg cost of Brass - INR 740
+3. Estimated weight saved - 15g
+4. Estimated cost saved - INR 11.1
+Cast Terminal Clamp (relocation),
+1. The weight of the portion to be removed - 25g (assumed)
+2. Per Kg cost of Brass - INR 740
+3. The assumed weight of a terminal connector - 8g
+4. The assumed cost of a terminal connector - INR 5.92
+3. Estimated weight saved - 25 - 8 = 17g
+4. Estimated cost saved -18.5 - 5.92 = INR 12.58
+
+1. The total estimated weight saved - 2.5 + 15 + 17 = 34.5g
+2. The total estimated cost saved - 1.85 + 11.1 + 12.58 = INR 25.53",nan,INR 103.0,0.03,Hold,PE,KD,2311-PRODUCT-ID-17,"1. Relocate the Battery Negative Terminal Earthing Wire mount from the side to the top of the front suspension subframe of the vehicle
+2. Reduce the length of the connector terminal and instead of using two bolts, use a single bolt
+3. Reduce the overall size and wall thickness of the Battery Negative Terminal Cast Clamp","Homeroom ideas to be bunched up and taken up for implementation at program level. Confirm localization feasibility
+",INR 103.0,Ojaswini,2023-12-20 00:00:00
+2311-SS-ID-06,"Revise the existing seatbelt buckle housing brackets in MGI to match those in KIA, reducing the maximum width of the bracket from 33.5mm to 24mm, in line with KIA's design",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg weight of steel - INR 160 (assumed)
+2. The current weight of the bracket used in MGI - 151g (assumed)
+3. The estimated weight of the proposed bracket (from KIA) - 96g (assumed)
+4. The estimated weight saved = 151 - 96 = 55*2 (LH&RH) = 110g
+5. The current cost of the bracket used in MGI - INR 24
+6. The estimated cost of the proposed bracket (from KIA) - INR 15.36
+7. The estimated cost saved = 24 - 15.36 = 8.64*2 (LH&RH) = INR 17.28",nan,INR 93.0,0.11,NG,nan,LC,2311-SS-ID-06,"Revise the existing seatbelt buckle housing brackets in MGI to match those in KIA, reducing the maximum width of the bracket from 33.5mm to 24mm, in line with KIA's design",nan,INR 93.0,nan,nan
+2311-EL-ID-08,"Update the battery mounting technique in MGI to align with the one employed in KIA, including a redesign of the battery-securing enclosure.",NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The Per Kg rate of Steel (Painted) - INR 230 (assumed)
+2. The Per Kg rate of Steel Fasteners - INR 200 (assumed)
+3. The current weight of the hold-down bracket - 93g
+4. The current weight of the hold-down bolt 1 - 81g
+5. The current weight of the hold-down bolt 2 - 27g
+6. The current weight of the bolt 2 bracket - 35g (assumed)
+7. The current weight of the nuts - 12g
+8. The estimated weight saved - 93 + 81 + 27 + 35 + 12 = 248g
+9. The estimated weight of the proposed bracket and fasteners combined = 90g (as in KIA)
+10. The estimated weight saved after redesigning = 158g
+11. The current cost of the hold-down bracket - INR 21.39
+12. The current cost of the hold-down bolt 1 - INR 16.2
+13. The current cost of the hold-down bolt 2 - INR 5.4
+14. The current cost of the bolt 2 bracket - INR 8.5
+15. The current cost of the nuts - INR 2.4
+16. The estimated cost saved - 21.39 + 16.2 + 5.4 + 8.5 + 2.4 = INR 53.89
+17. The estimated cost of the proposed bracket and fasteners combined = 18.4 + 2 = INR 20.4
+18. The estimated cost saved after redesigning = 53.89 - 20.4 = INR 33.49",nan,INR 135.0,0.16,TBD,nan,nan,2311-EL-ID-08,"Update the battery mounting technique in MGI to align with the one employed in KIA, including a redesign of the battery-securing enclosure.",nan,INR 135.0,nan,nan
+2311-PRODUCT-ID-03,Replace the rubber bushes used on the wiper blade mounting bolts with the plastic protective cap.,NaN,INR 2.86,nan,"The cost savings will be updated once the costing is done.
+1. Per Kg cost of EPDM - INR 500 (assumptions)
+2. Current weight of a single bushing used in MGI - 4.07g
+3. Current cost of a bushing - INR 2.03
+4. Per Kg cost of POM - INR 200 (assumptions)
+5. Weight of the proposed cap - 3g
+6. Cost of the caps proposed - INR 0.6
+7. The estimated cost savings on a bushing - 2.03 - 0.6 = INR 1.43
+8. The estimated weight saved on a bushing - 4.07 - 3 = 1.07g
+
+9. Total cost saved - 1.43*2 = INR 2.86
+10. Total weight saved = 1.07*2 = 2.14g",nan,INR 126.0,0.02,NG,nan,LC,2311-PRODUCT-ID-03,Replace the rubber bushes used on the wiper blade mounting bolts with the plastic protective cap.,nan,INR 126.0,nan,nan
+2311-EX-ID-02,Replace the steel rods used in the fabrication of the exhaust hanger mounting brackets in MGI with hollow steel pipes as used in KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. The per Kg rate of fabricated steel - INR 160 (assumed)
+2. The current weight of the rods in use - 821g
+3. The estimated weight of the proposed pipes of the same string length - 527g (assumed using mass, volume and density relations)
+4. The estimated weight saved = 821 - 527 = 294g
+5. The current cost of the rods in use - INR 131.36
+6. The estimated cost of the proposed pipes of the same string length - INR 84.32
+7. The estimated cost saved = 131.36 - 84.32 = INR 47 - 15% tolerance = INR 39.95",nan,INR 62.0,0.29,NG,nan,LC,2311-EX-ID-02,Replace the steel rods used in the fabrication of the exhaust hanger mounting brackets in MGI with hollow steel pipes as used in KIA,nan,INR 62.0,nan,nan
+2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",NaN,INR 0.0,nan,"The estimated cost saving will be updated once the costing is done.
+1. Per Kg cost of PC- ABS - INR 311.17
+2. Weight of the Type 1 cap used in MGI - 1.39g
+3. Weight of the Type 2 cap used in MGI - 1.14g
+4. Cost of the Type 1 caps - 0.43*4 = INR 1.73
+5. Cost of the Type 2 caps - 0.35*10 = INR 3.5
+6. Weight of the proposed stickers - 0.2g
+7. Per Kg cost of adhesive stickers - INR 250 (assumption)
+8. Cost of a single sticker - INR 0.05
+9. The estimated cost saving on caps = (3.5 + 1.73) - (0.05*14) = 5.23 - 0.7 = INR 4.53
+10. The estimated weight saving on caps = ((1.39*4) + (1.14*10)) - (0.2*14) = 16.96 - 2.8 = 14.16g",nan,INR 130.0,0.02,NG,nan,KD,2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",nan,INR 130.0,nan,nan

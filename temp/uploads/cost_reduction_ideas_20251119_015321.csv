@@ -1,0 +1,118 @@
+Idea Id,Cost Reduction Idea,Proposal Image Path,MGI Gross Saving,Way Forward,Estimated Cost Savings,MGI Carline,Saving Value (INR),Weight Saving (Kg),Status,Dept,KD/LC,Idea ID,Proposal,Imp,Saving Value,Responsibility,Date
+2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",NaN,INR 0.0,nan,"The estimated cost saving will be updated once the costing is done.
+1. Per Kg cost of PC- ABS - INR 311.17
+2. Weight of the Type 1 cap used in MGI - 1.39g
+3. Weight of the Type 2 cap used in MGI - 1.14g
+4. Cost of the Type 1 caps - 0.43*4 = INR 1.73
+5. Cost of the Type 2 caps - 0.35*10 = INR 3.5
+6. Weight of the proposed stickers - 0.2g
+7. Per Kg cost of adhesive stickers - INR 250 (assumption)
+8. Cost of a single sticker - INR 0.05
+9. The estimated cost saving on caps = (3.5 + 1.73) - (0.05*14) = 5.23 - 0.7 = INR 4.53
+10. The estimated weight saving on caps = ((1.39*4) + (1.14*10)) - (0.2*14) = 16.96 - 2.8 = 14.16g",nan,INR 130.0,0.02,NG,nan,KD,2311-PRODUCT-ID-02,"Replace the Plastic Caps mounted onto the doors, hood, and tailgate (total 14) with adhesive stickers.",nan,INR 130.0,nan,nan
+2311-PRODUCT-ID-23,Redesign the Tailgate Bumper Stops in MGI into an 'L' shape reducing the length from 74mm to 40mm,NaN,INR 0.0,"1. Confirm with homeroom
+2. Confirm for cost saving and tooling requirement.Homeroom ideas to be bunched up and taken up for implementation at program level
+","The evaluation is done before teardown, the values will change after the costing
+1. Per Kg rate of PA-66 - INR 450 (assumed)
+2. Current weight of the bumper stop - body frame - 99g
+3. Current cost of the bumper stop - INR 44.55
+4. Assumed weight of the proposed bumper stop - 70g
+5. The cost of the proposed bumper stop - INR 31.5
+6. The estimated weight saved - 99-70 = 29*2 = 58g (both ends)
+7. The estimated cost saved - 44.55 - 31.5 = 13.05*2 = INR 26.1 (both ends)
+
+8. Per Kg rate of bolts - INR 150
+9. Assumed weight of the proposed M4 bolts - 5*4 = 20g
+10. The estimated cost of the bolts - 0.75*4 = INR 3
+
+11. The total weight saved = 58 - 20 = 38g
+12. The total cost saved =  26.1 - 3 = INR 23.1",nan,INR 71.0,0.04,NG,PE/ Finance,KD,2311-PRODUCT-ID-23,Redesign the Tailgate Bumper Stops in MGI into an 'L' shape reducing the length from 74mm to 40mm,"1. Confirm with homeroom
+2. Confirm for cost saving and tooling requirement.Homeroom ideas to be bunched up and taken up for implementation at program level
+",INR 71.0,"1.Himanshu
+2. Sruhti",nan
+VAVE-SWI-056,Quarter Lower Insulation removal,None,INR 244.8,Complete NVH trial,None,None,INR 0.0,0.00,OK,PE,"KD/LC    LC
+KD/LC    LC
+Name: 12, dtype: object",VAVE-SWI-056,Quarter Lower Insulation removal,Complete NVH trial,INR 0.0,Narendra/ Ratnadeep,2024-06-21 00:00:00
+2311-ET-ID-25,Replace ABS with PP-T20 in the manufacture of the reflector casing,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of ABS - INR 300 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the component = 90.6g (assumed)
+4. The estimated weight after the material change = 78.24g
+5. The current cost of the component = INR 27.18
+6. The estimated cost = INR 15.64
+
+7. The estimated weight saved = 90.6 - 78.24 = 12.36g
+8. The estimated cost saved = 27.18 - 15.64 = INR 11.54",nan,INR 122.0,0.01,TBD,nan,nan,2311-ET-ID-25,Replace ABS with PP-T20 in the manufacture of the reflector casing,nan,INR 122.0,nan,nan
+2311-FS-ID-03,Reduce the average wall thickness of the Baffle Plates present within the fuel tank assembly of MGI from 0.7mm to 0.6mm as seen in the fuel tank assembly of KIA,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of Steel - INR 180
+2. The current weight of Plate 1 = 508g
+3. The estimated weight of the proposed plate = 435.4g
+4. The estimated weight saved = 508 - 435.4 = 72.6g
+5. The current weight of Plate 2 = 433g
+6. The estimated weight of the proposed plate = 371.1g
+7. The estimated weight saved = 433 - 371.1 = 61.9g
+8. The current weight of Plate 3 = 202g
+9. The estimated weight of the proposed plate = 173.1g
+10. The estimated weight saved = 202 - 173.1 = 28.9g
+11. The current cost of Plate 1 = INR 91.44
+12. The estimated cost of the proposed plate = INR 78.37
+13. The estimated cost saved = INR 13.07
+14. The current cost of Plate 2 = INR 77.94
+15. The estimated cost of the proposed plate = INR 66.79
+16. The estimated cost saved = 77.94 - 66.79 = INR 11.15
+17. The current cost of Plate 3 = INR 36.36
+18. The estimated cost of the proposed plate = INR 31.15
+19. The estimated cost saved = 36.36 - 31.15 = INR 5.21
+
+20. The total weight saved = 72.6 + 61.9 + 28.9 = 163.4g
+21. The total cost saved = 13.07 + 11.15 + 5.21 = INR 29.43",nan,INR 75.0,0.16,NG,nan,nan,2311-FS-ID-03,Reduce the average wall thickness of the Baffle Plates present within the fuel tank assembly of MGI from 0.7mm to 0.6mm as seen in the fuel tank assembly of KIA,nan,INR 75.0,nan,nan
+2311-IP-ID-11,Replace PC-ABS with PP-TD40 in the manufacture of the Front-Row Air Vent Casings in MGI,NaN,INR 0.0,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PC-ABS - INR 311.17 (assumed)
+2. Per Kg rate of PP-TD40 - INR 170 (assumed)
+3. The current weight of the driver-side LH trim - 75.9g
+4. The estimated weight of the proposed trim - 66.1g
+5. The current weight of the driver-side RH trim - 80g
+6. The estimated weight of the proposed trim - 69.72g
+7. The estimated weight saved on the driver's side = 75.9 - 66.1 + 80 - 69.72 = 9.8 + 10.27 = 20.07g
+8. The current weight of the co-driver-side LH trim - 62.3g
+9. The estimated weight of the proposed trim - 54.29g
+10. The current weight of the co-driver-side RH trim - 76.4g
+11. The estimated weight of the proposed trim - 66.5g
+12. The estimated weight saved on the co-driver side - 62.3 - 54.29 + 76.4 - 66.5 = 8.01 + 9.9 = 17.91g
+13. The current cost of the driver-side LH trim - INR 23.61
+14. The estimated cost of the proposed trim - INR 11.23
+15. The current cost of the driver-side RH trim - INR 24.89
+16. The estimated cost of the proposed trim - INR 11.85
+17. The estimated cost saved on the driver's side - 23.61 - 11.23 + 24.89 - 11.85 = 12.38 + 13.04 = INR 25.42
+18. The current cost of the co-driver-side LH trim - INR 19.38
+19. The estimated cost of the proposed trim - INR 9.22
+20. The current cost of the co-driver-side RH trim - INR 23.77
+21. The estimated cost of the proposed trim - INR 11.30
+22. The estimated cost saved on the co-driver side - 19.38 - 9.22 + 23.77 - 11.30 = 10.16 + 12.47 = INR 22.63
+
+23. The total weight saved = 20.07 + 17.91 = 37.98g
+24. The total cost saved = 25.42 + 22.63 = INR 48.05",nan,INR 138.0,0.04,TBD,Finance,KD,2311-IP-ID-11,Replace PC-ABS with PP-TD40 in the manufacture of the Front-Row Air Vent Casings in MGI,Potential saving evaluation of RM level is required to take this with SGMW for further discussions.,INR 138.0,Kalp,nan
+2311-EL-ID-07,Replace PP-T30 used in the manufacture of the LH and RH DRL/Indicator Lamp Housings of MGI with PP-TD20,NaN,INR 0.0,nan,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate PP-T30 - INR 220 (assumed)
+2. Per Kg rate of PP-T20 - INR 200 (assumed)
+3. The current weight of the housing - 350g
+4. The estimated weight of the proposed housing - 340.6g
+5. The estimated weight saved on LH & RH sides = 350 - 340.6 = 9.4*2 = 18.8g
+6. The current cost of the housing - INR 77
+7. The estimated cost of the proposed housing - INR 68.12
+8. The estimated cost saved on LH & RH sides = 77 - 68.12 = 8.88*2 = INR 17.76",nan,INR 79.0,0.02,NG,nan,LC,2311-EL-ID-07,Replace PP-T30 used in the manufacture of the LH and RH DRL/Indicator Lamp Housings of MGI with PP-TD20,nan,INR 79.0,nan,nan
+VAVE-SWI-052,Console Armrest rear panel wrapping to MIC,None,INR 112.0,Confirm with supplier on 55lakh investment requirement,None,None,INR 0.0,0.00,NG,PSCM,"KD/LC    LC
+KD/LC    LC
+Name: 8, dtype: object",VAVE-SWI-052,Console Armrest rear panel wrapping to MIC,Confirm with supplier on 55lakh investment requirement,INR 0.0,Akhil,2024-06-07 00:00:00
+VAVE-SWI-047,Hydrography to painting,None,"INR 1,104.0",Confirm on plate availability for appearnace approval,None,None,INR 0.0,0.00,OK,PE,"KD/LC    KD
+KD/LC    KD
+Name: 3, dtype: object",VAVE-SWI-047,Hydrography to painting,Confirm on plate availability for appearnace approval,INR 0.0,Narendra,2024-06-15 00:00:00
+2311-IP-ID-07,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard middle trim of the vehicle,NaN,INR 0.0,To be considered for new project,"The evaluation is done before teardown, the values will change after the costing,
+1. Per Kg rate of PP+T20 - INR 200 (assumed)
+2. Per Kg rate of PP+EPDM-T20 - INR 250 (assumed)
+3. The current weight of the trim - 1600g
+4. The estimated weight of the proposed trim - 1381g
+5. The estimated weight saved = 1600 - 1381 = 219g
+6. The current cost of the trim - INR 400
+7. The estimated cost of the proposed trim - INR 276.2
+8. The estimated cost saved = 400 - 276.2 = INR 123.8 - 15% tolerance = INR 105.23",nan,INR 59.0,0.22,NG,nan,nan,2311-IP-ID-07,Replace PP+EPDM+T20 with PP+T20 in the manufacture of the dashboard middle trim of the vehicle,To be considered for new project,INR 59.0,Ratnadeep,nan

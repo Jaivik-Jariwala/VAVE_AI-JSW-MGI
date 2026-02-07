@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - VAVE AI</title>
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-left">
+            <div class="logo">
+                <h1><span class="logo-accent">VAVE</span> AI</h1>
+            </div>
+        </div>
+        <div class="header-right">
+            <a href="/app" class="btn btn-primary btn-sm">
+                <i class="ph ph-chat-circle"></i>
+                Go to Chat
+            </a>
+            <div class="user-avatar" title="{{ current_user.username }}">
+                {{ current_user.username[0].upper() }}
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-page">
+        <div class="dashboard-container">
+            <!-- Flash Messages -->
+            {% with messages = get_flashed_messages(with_categories=true) %}
+                {% if messages %}
+                    <div class="flash-messages">
+                        {% for category, message in messages %}
+                            <div class="flash-message flash-{{ category }}">
+                                <i class="ph ph-{% if category == 'success' %}check-circle{% elif category == 'error' %}x-circle{% else %}info{% endif %}"></i>
+                                <span>{{ message }}</span>
+                                <button class="flash-close" onclick="this.parentElement.remove()">
+                                    <i class="ph ph-x"></i>
+                                </button>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            {% endwith %}
+
+            <!-- Profile Section -->
+            <div class="profile-section">
+                <div class="profile-card">
+                    <div class="avatar-large">{{ current_user.username[0].upper() }}</div>
+                    <h2>{{ current_user.username }}</h2>
+                    <span class="role-badge role-{{ current_user.role }}">{{ current_user.role }}</span>
+                    <p>Member since: {{ current_user.created_at }}</p>
+                    <a href="/logout" class="btn btn-secondary btn-sm">
+                        <i class="ph ph-sign-out"></i>
+                        Logout
+                    </a>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="ph ph-chat-circle stat-icon"></i>
+                        <div class="stat-content">
+                            <div class="stat-value">{{ stats.total_chats or 0 }}</div>
+                            <div class="stat-label">Total Chats</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="ph ph-clock-clockwise stat-icon"></i>
+                        <div class="stat-content">
+                            <div class="stat-value">{{ stats.recent_activity or 0 }}</div>
+                            <div class="stat-label">Recent Activity</div>
+                        </div>
+                    </div>
+                    {% if current_user.role in ['SuperAdmin', 'Admin'] %}
+                    <div class="stat-card">
+                        <i class="ph ph-users stat-icon"></i>
+                        <div class="stat-content">
+                            <div class="stat-value">{{ stats.total_users or 0 }}</div>
+                            <div class="stat-label">Total Users</div>
+                        </div>
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="card">
+                <h3>Quick Actions</h3>
+                <div class="action-grid">
+                    <a href="/app?section=chat" class="action-card">
+                        <i class="ph ph-chat-circle"></i>
+                        <div class="action-title">New Chat</div>
+                        <div class="action-description">Start a conversation with AI</div>
+                    </a>
+                    <a href="/app?section=history" class="action-card">
+                        <i class="ph ph-clock-clockwise"></i>
+                        <div class="action-title">View History</div>
+                        <div class="action-description">Browse past conversations</div>
+                    </a>
+                    {% if current_user.role in ['SuperAdmin', 'Admin'] %}
+                    <a href="/app?section=database" class="action-card">
+                        <i class="ph ph-database"></i>
+                        <div class="action-title">Database</div>
+                        <div class="action-description">Manage knowledge base</div>
+                    </a>
+                    <a href="/app?section=users" class="action-card">
+                        <i class="ph ph-users"></i>
+                        <div class="action-title">Users</div>
+                        <div class="action-description">Manage user accounts</div>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Recent Activity -->
+            <div class="card">
+                <div class="card-header">
+                    <h3>Recent Activity</h3>
+                    <a href="/app?section=history" class="btn btn-secondary btn-sm">View All</a>
+                </div>
+                <div class="activity-list">
+                    {% if recent_activity %}
+                        {% for activity in recent_activity %}
+                        <div class="activity-item">
+                            <div class="activity-icon">
+                                <i class="ph ph-chat-circle"></i>
+                            </div>
+                            <div class="activity-content">
+                                <div class="activity-text">{{ activity.message }}</div>
+                                <div class="activity-time">{{ activity.timestamp }}</div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    {% else %}
+                    <p class="empty-text">No recent activity</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            <!-- Admin Section -->
+            {% if current_user.role in ['SuperAdmin', 'Admin'] %}
+            <div class="card">
+                <h3>Administration</h3>
+                <div class="admin-links">
+                    <a href="/app?section=database" class="admin-link">
+                        <i class="ph ph-database"></i>
+                        <span>Database Management</span>
+                        <i class="ph ph-caret-right"></i>
+                    </a>
+                    <a href="/app?section=users" class="admin-link">
+                        <i class="ph ph-users"></i>
+                        <span>User Management</span>
+                        <i class="ph ph-caret-right"></i>
+                    </a>
+                    {% if current_user.role == 'SuperAdmin' %}
+                    <a href="/app?section=logs" class="admin-link">
+                        <i class="ph ph-list-bullets"></i>
+                        <span>System Logs</span>
+                        <i class="ph ph-caret-right"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>

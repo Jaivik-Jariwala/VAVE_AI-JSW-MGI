@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAVE-AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="/static/app.js" defer></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button class="sidebar-toggle" id="sidebarToggle">
+                <i class="ph ph-list"></i>
+            </button>
+            <div class="logo">
+                <h1>VAVE-AI</h1>
+            </div>
+        </div>
+        
+        <div class="header-right">
+            <button id="themeToggle" class="theme-btn" title="Toggle Dark Mode">
+                <i class="ph ph-moon"></i>
+            </button>
+            <div class="user-info">
+                <span class="user-name">{{ current_user.username }}</span>
+                <span class="role-badge-small role-{{ current_user.role }}">{{ current_user.role }}</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="sidebar">
+            <nav class="nav-menu">
+                <a href="#" class="nav-item active" data-section="chat">
+                    <span class="nav-icon"><i class="ph ph-chat-circle-dots"></i></span>
+                    <span class="nav-text">Chat</span>
+                </a>
+                <a href="#" class="nav-item" data-section="dashboard">
+                    <span class="nav-icon"><i class="ph ph-user-circle"></i></span>
+                    <span class="nav-text">Profile & Ops</span>
+                </a>
+                <a href="#" class="nav-item" data-section="history">
+                    <span class="nav-icon"><i class="ph ph-clock-counter-clockwise"></i></span>
+                    <span class="nav-text">History</span>
+                </a>
+            </nav>
+            
+            <div class="sidebar-footer">
+                <a href="/logout" class="nav-item logout-link">
+                    <span class="nav-icon"><i class="ph ph-sign-out"></i></span>
+                    <span class="nav-text">Logout</span>
+                </a>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <section id="chatSection" class="content-section active">
+                <div class="chat-layout">
+                    <div class="chat-area card">
+                        <div class="chat-header-card">
+                            <h2>AI Assistant</h2>
+                            <div class="chat-status">
+                                <span class="status-dot online"></span>
+                                <span>Online</span>
+                            </div>
+                        </div>
+                        <div class="chat-messages" id="chatMessages"></div>
+                        <div class="chat-input-container">
+                            <div class="chat-input-wrapper">
+                                <input type="file" id="imageInput" class="file-input" accept="image/*">
+                                <button class="icon-btn" onclick="document.getElementById('imageInput').click()" title="Upload Image">
+                                    <i class="ph ph-image"></i>
+                                </button>
+                                <input type="text" id="chatInput" class="chat-input" placeholder="Type your message...">
+                                <button id="sendBtn" class="send-btn">
+                                    <i class="ph ph-paper-plane-right"></i>
+                                </button>
+                            </div>
+                            <div id="imagePreviewContainer" class="hidden">
+                                <span id="imageFileName"></span>
+                                <button id="clearImageBtn">×</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="results-panel card">
+                        <div class="results-header">
+                            <h3>Results</h3>
+                            <div class="export-buttons">
+                                <a id="downloadCsvBtn" class="export-btn hidden" href="#">CSV</a>
+                            </div>
+                        </div>
+                        <div class="results-content" id="resultsContent">
+                            <div class="empty-state">
+                                <p>AI Analysis results will appear here...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="dashboardSection" class="content-section">
+                <div class="dashboard-container">
+                    
+                    {% with messages = get_flashed_messages(with_categories=true) %}
+                        {% if messages %}
+                            <div class="flash-messages-area">
+                            {% for category, message in messages %}
+                                <div class="flash-msg {{ category }}">{{ message }}</div>
+                            {% endfor %}
+                            </div>
+                        {% endif %}
+                    {% endwith %}
+
+                    <div class="profile-grid">
+                        <div class="profile-left">
+                            <div class="card profile-card">
+                                <div class="avatar-circle">{{ current_user.username[0].upper() }}</div>
+                                <h2>{{ current_user.username }}</h2>
+                                <span class="role-badge role-{{ current_user.role }}">{{ current_user.role }}</span>
+                                <p class="join-date">Member since: {{ current_user.created_at }}</p>
+                            </div>
+
+                            <div class="card">
+                                <h3>Change Password</h3>
+                                <form action="/change_password" method="POST" class="std-form">
+                                    <div class="form-group">
+                                        <label>New Password</label>
+                                        <input type="password" name="new_password" class="form-control" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary full-width">Update</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        {% if current_user.role in ['SuperAdmin', 'Admin'] %}
+<div class="card">
+    <h3>Database Operations</h3>
+    <div class="upload-area">
+        <form id="dataUploadForm">
+            <div class="form-group">
+                <label style="display:block; margin-bottom:5px; font-weight:bold;">1. Excel Data File (.xlsx)</label>
+                <input type="file" id="excelFile" name="excel_file" accept=".xlsx" class="form-control" required style="margin-bottom:15px;">
+            </div>
+            <div class="form-group">
+                <label style="display:block; margin-bottom:5px; font-weight:bold;">2. Images Zip File (.zip)</label>
+                <p style="font-size: 0.8rem; color: var(--text-secondary); margin-top: 0; margin-bottom: 5px;">
+                    Must contain folders: 'proposal', 'mg', 'competitor'
+                </p>
+                <input type="file" id="zipFile" name="zip_file" accept=".zip" class="form-control" required style="margin-bottom:15px;">
+            </div>
+            <button type="submit" class="btn btn-primary full-width">
+                <i class="ph ph-upload-simple"></i> Upload & Process Data
+            </button>
+            <div id="uploadStatus" class="hidden" style="margin-top: 15px; text-align: center;">
+                <div class="spinner" style="width: 24px; height: 24px; margin: 0 auto 8px; border: 3px solid var(--text-secondary); border-top-color: var(--accent-color);"></div>
+                <span style="color: var(--text-secondary); font-size: 0.9rem;">Processing... This may take a minute.</span>
+            </div>
+        </form>
+    </div>
+</div>
+{% endif %}
+
+            {% if current_user.role == 'SuperAdmin' %}
+
+            <div class="card">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 15px;">
+                    <h3>System Logs</h3>
+                    <div style="display: flex; gap: 8px;">
+                        <button id="refreshLogs" class="btn btn--outline btn--sm" title="Refresh Logs">
+                            <i class="ph ph-arrows-clockwise"></i>
+                        </button>
+                        <button id="clearLogs" class="btn btn--outline btn--sm" style="color: var(--danger); border-color: var(--danger);" title="Clear Logs">
+                            <i class="ph ph-trash"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="log-viewer" id="logViewer" style="
+                    background: #1e1e1e; 
+                    color: #00ff00; 
+                    padding: 12px; 
+                    height: 250px; 
+                    overflow-y: auto; 
+                    font-family: 'Courier New', monospace; 
+                    font-size: 0.85rem; 
+                    border-radius: 6px; 
+                    white-space: pre-wrap;
+                    border: 1px solid #333;">
+                    Loading logs...
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>User Management</h3>
+                
+                <div class="add-user-box">
+                    <h4>Add New User</h4>
+                    <form action="/create_user" method="POST" class="inline-form">
+                        <input type="text" name="username" placeholder="Username" class="form-control" required>
+                        <input type="password" name="password" placeholder="Password" class="form-control" required>
+                        <select name="role" class="form-control">
+                            <option value="User">User</option>
+                            <option value="Admin">Admin</option>
+                            <option value="SuperAdmin">SuperAdmin</option>
+                        </select>
+                        <button type="submit" class="btn btn-primary">Create</button>
+                    </form>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Username</th>
+                                <th>Role</th>
+                                <th>Actions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for user in users %}
+                            <tr>
+                                <td>
+                                    {{ user[1] }}
+                                    {% if user[1] == current_user.username %}<span class="me-tag">(You)</span>{% endif %}
+                                </td>
+                                <td><span class="role-pill role-{{ user[2] }}">{{ user[2] }}</span></td>
+                                <td>
+                                    {% if user[1] != current_user.username %}
+                                    <a href="/reset_password/{{ user[0] }}" onclick="return confirm('Reset password?')" class="icon-action warn"><i class="ph ph-arrow-counter-clockwise"></i></a>
+                                    <a href="/delete_user/{{ user[0] }}" onclick="return confirm('Delete user?')" class="icon-action danger"><i class="ph ph-trash"></i></a>
+                                    {% endif %}
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+
+                            {% if current_user.role == 'SuperAdmin' %}
+                            <div class="card">
+                                <h3>User Management</h3>
+                                
+                                <div class="add-user-box">
+                                    <h4>Add New User</h4>
+                                    <form action="/create_user" method="POST" class="inline-form">
+                                        <input type="text" name="username" placeholder="Username" class="form-control" required>
+                                        <input type="password" name="password" placeholder="Password" class="form-control" required>
+                                        <select name="role" class="form-control">
+                                            <option value="User">User</option>
+                                            <option value="Admin">Admin</option>
+                                            <option value="SuperAdmin">SuperAdmin</option>
+                                        </select>
+                                        <button type="submit" class="btn btn-primary">Create</button>
+                                    </form>
+                                </div>
+
+                                <div class="table-responsive">
+                                    <table class="data-table">
+                                        <thead>
+                                            <tr>
+                                                <th>Username</th>
+                                                <th>Role</th>
+                                                <th>Actions</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {% for user in users %}
+                                            <tr>
+                                                <td>
+                                                    {{ user[1] }}
+                                                    {% if user[1] == current_user.username %}<span class="me-tag">(You)</span>{% endif %}
+                                                </td>
+                                                <td><span class="role-pill role-{{ user[2] }}">{{ user[2] }}</span></td>
+                                                <td>
+                                                    {% if user[1] != current_user.username %}
+                                                    <a href="/reset_password/{{ user[0] }}" onclick="return confirm('Reset password?')" class="icon-action warn"><i class="ph ph-arrow-counter-clockwise"></i></a>
+                                                    <a href="/delete_user/{{ user[0] }}" onclick="return confirm('Delete user?')" class="icon-action danger"><i class="ph ph-trash"></i></a>
+                                                    {% endif %}
+                                                </td>
+                                            </tr>
+                                            {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            {% endif %}
+                            
+                            <div class="card">
+                                <h3>Activity Log</h3>
+                                <p>Session started at: {{ now }}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="historySection" class="content-section">
+                <div class="card history-card">
+                    <h2>Chat History</h2>
+                    <div id="historyContent" class="history-list">Loading...</div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="loadingIndicator" class="loading-overlay hidden">
+        <div class="spinner"></div>
+        <p>Processing...</p>
+    </div>
+</body>
+</html>

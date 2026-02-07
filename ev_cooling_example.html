@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VAVE AI: Visual Generation Pipeline</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+        }
+        /* PIPELINE CONTAINER */
+        .pipeline {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            max-width: 1200px;
+        }
+        /* STAGE CARDS */
+        .stage {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 300px;
+            width: 250px;
+            position: relative;
+        }
+        .stage-title {
+            font-weight: bold;
+            color: #555;
+            text-transform: uppercase;
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin-bottom: 20px;
+            width: 100%;
+            text-align: center;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 10px;
+        }
+        /* IMAGE CANDIDATES */
+        .candidate-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            width: 100%;
+        }
+        .candidate {
+            border: 2px solid #eee;
+            border-radius: 8px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            opacity: 0.6;
+            transition: all 0.3s;
+        }
+        .candidate-img {
+            width: 50px;
+            height: 50px;
+            background: #ddd;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+        /* SELECTION STYLES */
+        .selected {
+            border-color: #00b894;
+            background: #e6fffa;
+            opacity: 1;
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0, 184, 148, 0.2);
+        }
+        .rejected {
+            border-color: #d63031;
+            background: #fff5f5;
+            opacity: 0.5;
+        }
+        .status-badge {
+            font-size: 11px;
+            font-weight: bold;
+            padding: 2px 6px;
+            border-radius: 4px;
+        }
+        .pass {
+            color: #00b894;
+            background: rgba(0, 184, 148, 0.1);
+        }
+        .fail {
+            color: #d63031;
+            background: rgba(214, 48, 49, 0.1);
+        }
+        /* OVERLAY EDITOR */
+        .editor-view {
+            width: 100%;
+            height: 180px;
+            background: #333;
+            border-radius: 8px;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* The "Technical Image" with Overlay */
+        .tech-img {
+            width: 140px;
+            height: 140px;
+            border: 2px solid #fff;
+            position: relative;
+            background:
+                linear-gradient(45deg, transparent 48%, #fff 48%, #fff 52%, transparent 52%),
+                linear-gradient(-45deg, transparent 48%, #fff 48%, #fff 52%, transparent 52%);
+            background-size: 20px 20px;
+            background-color: #444;
+            border-radius: 50%;
+            /* Represents a Rotor */
+        }
+        /* OVERLAY ELEMENTS */
+        .overlay-tag {
+            position: absolute;
+            background: rgba(0, 184, 148, 0.9);
+            color: white;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+            font-weight: bold;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .tag-1 {
+            top: 10px;
+            right: -40px;
+        }
+        .tag-2 {
+            bottom: 10px;
+            left: -20px;
+        }
+        .dimension-line {
+            position: absolute;
+            height: 2px;
+            width: 100%;
+            background: #fdcb6e;
+            top: 50%;
+        }
+        /* ARROWS */
+        .arrow {
+            font-size: 30px;
+            color: #ccc;
+        }
+        /* FINAL OUTPUT CARD */
+        .final-card {
+            width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .final-img-container {
+            height: 120px;
+            background: #eee;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .final-info {
+            padding: 15px;
+        }
+        .final-title {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 5px;
+        }
+        .final-spec {
+            font-size: 12px;
+            color: #666;
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visual Capability: The "Smart Selection" Pipeline</h1>
+    <div class="pipeline">
+        <!-- STAGE 1: SEARCH & GENERATE -->
+        <div class="stage">
+            <div class="stage-title">1. Search & Generate</div>
+            <div class="candidate-grid">
+                <!-- Bad -->
+                <div class="candidate rejected">
+                    <div class="candidate-img">🎨</div>
+                    <div>
+                        <div style="font-size:12px; font-weight:bold;">Source A</div>
+                        <div class="status-badge fail">"Too Artistic"</div>
+                    </div>
+                </div>
+                <!-- Bad -->
+                <div class="candidate rejected">
+                    <div class="candidate-img">🚗</div>
+                    <div>
+                        <div style="font-size:12px; font-weight:bold;">Source B</div>
+                        <div class="status-badge fail">"Wrong View"</div>
+                    </div>
+                </div>
+                <!-- Good -->
+                <div class="candidate selected">
+                    <div class="candidate-img">⚙️</div>
+                    <div>
+                        <div style="font-size:12px; font-weight:bold;">Source C</div>
+                        <div class="status-badge pass">"Tech/CAD" Match</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow">➔</div>
+        <!-- STAGE 2: VLM OVERLAY -->
+        <div class="stage">
+            <div class="stage-title">2. VLM Analysis & Overlay</div>
+            <div class="editor-view">
+                <div class="tech-img">
+                    <div class="dimension-line"></div>
+                    <div class="overlay-tag tag-1">Venting: Optimized</div>
+                    <div class="overlay-tag tag-2">Material: Cast Iron</div>
+                </div>
+                <div
+                    style="position: absolute; bottom: 5px; right: 5px; color: #fdcb6e; font-size: 10px; font-family: monospace;">
+                    AI_LAYER_ACTIVE
+                </div>
+            </div>
+            <p style="font-size:12px; color:#666; text-align:center; margin-top:15px;">
+                The AI identifies key technical features and adds <b>Data Overlays</b> (Specs, Materials).
+            </p>
+        </div>
+        <div class="arrow">➔</div>
+        <!-- STAGE 3: FINAL OUTPUT -->
+        <div class="stage" style="border: 2px solid #00b894; background: #f0fff4;">
+            <div class="stage-title" style="color:#00b894; border-color:#b2f5ea;">3. Final Output Asset</div>
+            <div class="final-card">
+                <div class="final-img-container">
+                    <!-- Miniaturized version of the overlaid image -->
+                    <div class="tech-img" style="transform: scale(0.6);">
+                        <div class="dimension-line"></div>
+                        <div class="overlay-tag tag-1">Venting</div>
+                    </div>
+                    <div
+                        style="position:absolute; bottom:0; left:0; right:0; background:rgba(0,0,0,0.6); color:white; font-size:10px; padding:3px;">
+                        Confidence: 98%
+                    </div>
+                </div>
+                <div class="final-info">
+                    <div class="final-title">Optimized Rotor Design</div>
+                    <div class="final-spec">
+                        <span>Mass: -0.8kg</span>
+                        <span>Saving: ₹450</span>
+                    </div>
+                </div>
+            </div>
+            <p style="font-size:12px; color:#00b894; text-align:center; margin-top:15px;">
+                <b>Ready for Report</b><br>
+                Embedded in PowerPoint/Excel
+            </p>
+        </div>
+    </div>
+</body>
+</html>
