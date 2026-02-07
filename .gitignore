@@ -2,3 +2,5 @@
 model/
 venv/
 __pycache__/
+model.zip
+images.zip
