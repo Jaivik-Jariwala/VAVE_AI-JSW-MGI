@@ -625,8 +625,16 @@ def init_db():
                 user_query TEXT,
                 response_text TEXT,
                 image_path TEXT,
+                table_data JSONB,
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             );
+            """
+        )
+        
+        # Add table_data column if it doesn't already exist (backward compatibility)
+        cursor.execute(
+            """
+            ALTER TABLE chat_history ADD COLUMN IF NOT EXISTS table_data JSONB;
             """
         )
             
@@ -2485,7 +2493,7 @@ def infer_vlm(image, query, top_k=10):
         logger.error(f"Error in infer_vlm: {str(e)}")
         return str(e), None, [], [], {}
 
-def log_query_to_db(username, user_input, response_text, image_path):
+def log_query_to_db(username, user_input, response_text, image_path, table_data=None):
     """Logs the chat interaction to the chat_history table in PostgreSQL."""
     conn = None
     cursor = None
@@ -2494,9 +2502,9 @@ def log_query_to_db(username, user_input, response_text, image_path):
         cursor = conn.cursor()
         
         cursor.execute("""
-            INSERT INTO chat_history (username, user_query, response_text, image_path)
-            VALUES (%s, %s, %s, %s)
-        """, (username, user_input, response_text, image_path))
+            INSERT INTO chat_history (username, user_query, response_text, image_path, table_data)
+            VALUES (%s, %s, %s, %s, %s)
+        """, (username, user_input, response_text, image_path, json.dumps(table_data) if table_data else None))
         
         conn.commit()
         logger.info(f"Logged chat for user: {username}")
@@ -2536,10 +2544,11 @@ def generate_response(username, user_query, image_path=None, pre_retrieved_data=
 
             image_path_to_log = os.path.basename(image_path) if image_path else None
             executor.submit(log_query_to_db, 
-                                        username,         # <-- ADD THIS
+                                        username, 
                                         user_query, 
                                         generated_text, 
-                                        image_path_to_log)
+                                        image_path_to_log,
+                                        table_data)
             if error:
                 logger.error(f"VLM processing failed: {error}")
                 table_data, response_text = retrieve_context(user_query)
@@ -2550,15 +2559,6 @@ def generate_response(username, user_query, image_path=None, pre_retrieved_data=
                     "ppt_url": "",
                     "vlm_warning": f"VLM processing failed: {error}"
                 }
-
-            # --- Store VLM result in database (asynchronously) ---
-            idea_id_to_log = table_data[0].get('Idea Id') if table_data else 'N/A'
-            image_path_to_log = os.path.basename(image_path) if image_path else None
-            executor.submit(log_query_to_db, 
-                            username,         # <-- ADD THIS
-                            user_query, 
-                            response, 
-                            None)
             
             return {
                 "response_text": generated_text,
@@ -2730,10 +2730,11 @@ Response:"""
             # --- Store LLM result in database (asynchronously) ---
             idea_id_to_log = table_data[0].get('Idea Id') if table_data else 'N/A'
             executor.submit(log_query_to_db, 
-                            username,  # Correct parameter order: username first
+                            username,  
                             user_query, 
                             response, 
-                            None)  # image_path is None for LLM path
+                            None,
+                            table_data)
 
             # Files are now generated on-demand when download buttons are clicked
             # This saves API service costs by not generating files automatically
@@ -5002,7 +5003,7 @@ def history():
         
         # --- MODIFIED: Query chat_history table for the current user ---
         cursor.execute("""
-            SELECT user_query, response_text, created_at 
+            SELECT user_query, response_text, created_at, table_data 
             FROM chat_history 
             WHERE username = %s
             ORDER BY created_at DESC 
@@ -5016,7 +5017,8 @@ def history():
                 {
                     "query": row['user_query'],
                     "response": row['response_text'][:200] + "..." if row['response_text'] and len(row['response_text']) > 200 else row['response_text'],
-                    "timestamp": row['created_at']
+                    "timestamp": row['created_at'],
+                    "table_data": row['table_data'] or []
                 }
                 for row in history_data
             ]
@@ -5104,8 +5106,358 @@ def reset_password_api():
     finally:
         conn.close()
 
+@app.route('/analytics/ideas_detail', methods=['GET'])
+@login_required
+def analytics_ideas_detail():
+    """
+    Comprehensive analytics endpoint for the Big Data dashboard.
+    Queries PostgreSQL ideas table directly + dynamically unions AI/Web generated ideas from chat_history table_data.
+    Returns KPIs, status breakdown, dept breakdown, component group,
+    scatter data, feasibility matrix, top ideas list, source origin, and AI generation count.
+    """
+    if current_user.role not in ['SuperAdmin', 'Admin']:
+        return jsonify({"success": False, "error": "Permission denied"}), 403
+
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor(cursor_factory=DictCursor)
+
+        # ── In-Memory View for AI/Web Ideas + Main Ideas ────────────────
+        cur.execute("""
+            CREATE TEMP VIEW all_ideas AS
+            WITH chat_raw AS (
+                SELECT jsonb_array_elements(
+                     CASE WHEN jsonb_typeof(table_data) = 'array' THEN table_data ELSE '[]'::jsonb END
+                ) as json_line
+                FROM chat_history
+                WHERE table_data IS NOT NULL AND table_data != 'null'::jsonb
+            ),
+            chat_ideas AS (
+                SELECT 
+                    COALESCE(NULLIF(json_line->>'Idea ID', ''), NULLIF(json_line->>'Idea Id', ''), 'AI-' || left(md5(random()::text), 6)) as idea_id,
+                    COALESCE(NULLIF(json_line->>'Status', ''), 'TBD') as status,
+                    COALESCE(NULLIF(json_line->>'Dept', ''), NULLIF(json_line->>'Department', ''), '?') as dept,
+                    NULLIF(REGEXP_REPLACE(json_line->>'Saving (INR)', '[^\\d.]', '', 'g'), '')::numeric as saving_value_inr,
+                    NULLIF(REGEXP_REPLACE(json_line->>'Weight Saving', '[^\\d.]', '', 'g'), '')::numeric as weight_saving,
+                    NULLIF(REGEXP_REPLACE(json_line->>'Cost Saving', '[^\\d.]', '', 'g'), '')::numeric as capex,
+                    COALESCE(json_line->>'Detailed Idea Description', json_line->>'Idea Description', json_line->>'Title', '') as cost_reduction_idea,
+                    COALESCE(NULLIF(json_line->>'Origin', ''), NULLIF(json_line->>'Idea Source', ''), 
+                             CASE WHEN json_line->>'Status' ILIKE '%AI Generated%' THEN 'AI Generated'
+                                  WHEN json_line->>'Status' ILIKE '%Web Sourced%' THEN 'Web Sourced'
+                                  ELSE 'AI Generated' END) as idea_generated_by,
+                    COALESCE(NULLIF(json_line->>'MGI PE Feasibility', ''), NULLIF(json_line->>'PE Feasibility', ''), NULLIF(json_line->>'Feasibility', ''), 'Unknown') as mgi_pe_feasibility,
+                    COALESCE(NULLIF(json_line->>'Financial Feasibility', ''), NULLIF(json_line->>'Homologation Feasibility', ''), 'Unknown') as financial_feasibility,
+                    json_line->>'Way Forward' as way_forward,
+                    COALESCE(NULLIF(json_line->>'Component Group', ''), NULLIF(json_line->>'Component', ''), 'Other') as group_id
+                FROM chat_raw
+                WHERE json_line->>'Idea ID' ILIKE 'AI-%' OR json_line->>'Idea ID' ILIKE 'WEB-%'
+                   OR json_line->>'Origin' ILIKE '%AI%' OR json_line->>'Idea Source' ILIKE '%AI%'
+                   OR json_line->>'Origin' ILIKE '%Web%' OR json_line->>'Idea Source' ILIKE '%Web%'
+                   OR json_line->>'Status' ILIKE '%AI Generated%' OR json_line->>'Status' ILIKE '%Web Sourced%'
+            )
+            SELECT idea_id, status, dept, saving_value_inr, weight_saving, capex, cost_reduction_idea, idea_generated_by, mgi_pe_feasibility, financial_feasibility, group_id, way_forward
+            FROM ideas
+            UNION ALL
+            SELECT idea_id, status, dept, saving_value_inr, weight_saving, capex, cost_reduction_idea, idea_generated_by, mgi_pe_feasibility, financial_feasibility, group_id, way_forward
+            FROM chat_ideas;
+        """)
+
+        # ── KPIs ──────────────────────────────────────────────────────────
+        cur.execute("""
+            SELECT
+                COUNT(*)                            AS total_ideas,
+                COALESCE(SUM(saving_value_inr), 0)  AS total_inr_saving,
+                COALESCE(AVG(weight_saving::numeric), 0)   AS avg_weight_saving,
+                COUNT(DISTINCT dept)                AS dept_count,
+                COALESCE(SUM(capex::numeric), 0)          AS total_capex
+            FROM all_ideas
+        """)
+        kpi_row = cur.fetchone()
+        kpi = {
+            "total_ideas":       int(kpi_row['total_ideas'] or 0),
+            "total_inr_saving":  float(kpi_row['total_inr_saving'] or 0),
+            "avg_weight_saving": round(float(kpi_row['avg_weight_saving'] or 0), 2),
+            "dept_count":        int(kpi_row['dept_count'] or 0),
+            "total_capex":       float(kpi_row['total_capex'] or 0),
+        }
+
+        # ── By Status (for donut chart) ─────────────────────────────────
+        cur.execute("""
+            SELECT
+                COALESCE(NULLIF(TRIM(status), ''), 'Unknown') AS status,
+                COUNT(*) AS idea_count
+            FROM all_ideas
+            GROUP BY status
+            ORDER BY idea_count DESC
+        """)
+        by_status = [{"status": r['status'], "idea_count": int(r['idea_count'])} for r in cur.fetchall()]
+
+        # ── By Department (for horizontal bar chart) ────────────────────
+        cur.execute("""
+            SELECT
+                COALESCE(NULLIF(TRIM(dept), ''), 'Unknown') AS dept,
+                COUNT(*) AS idea_count,
+                COALESCE(SUM(saving_value_inr), 0) AS total_saving,
+                COALESCE(AVG(saving_value_inr), 0) AS avg_saving
+            FROM all_ideas
+            GROUP BY dept
+            ORDER BY total_saving DESC
+            LIMIT 15
+        """)
+        by_dept = [
+            {
+                "dept":          r['dept'],
+                "idea_count":    int(r['idea_count']),
+                "total_saving":  float(r['total_saving'] or 0),
+                "avg_saving":    round(float(r['avg_saving'] or 0), 1),
+            }
+            for r in cur.fetchall()
+        ]
+
+        # ── By Component Group (for component savings bar chart) ────────
+        cur.execute("""
+            SELECT
+                COALESCE(NULLIF(TRIM(group_id), ''), 'Unclassified') AS component,
+                COUNT(*) AS idea_count,
+                COALESCE(SUM(saving_value_inr), 0) AS total_saving,
+                COALESCE(SUM(weight_saving::numeric), 0) AS total_weight_saving
+            FROM all_ideas
+            GROUP BY group_id
+            ORDER BY total_saving DESC
+            LIMIT 20
+        """)
+        by_component = [
+            {
+                "component":           r['component'],
+                "idea_count":         int(r['idea_count']),
+                "total_saving":       float(r['total_saving'] or 0),
+                "total_weight_saving": round(float(r['total_weight_saving'] or 0), 2),
+            }
+            for r in cur.fetchall()
+        ]
+
+        # ── Scatter data: weight saving vs cost saving per idea ─────────
+        cur.execute("""
+            SELECT
+                idea_id,
+                COALESCE(saving_value_inr, 0)         AS saving_inr,
+                COALESCE(weight_saving::numeric, 0)   AS weight_saving,
+                COALESCE(NULLIF(TRIM(dept), ''), '?') AS dept,
+                COALESCE(NULLIF(TRIM(status), ''), 'Unknown') AS status
+            FROM all_ideas
+            WHERE saving_value_inr IS NOT NULL
+            LIMIT 200
+        """)
+        scatter = [
+            {
+                "idea_id":       r['idea_id'],
+                "x":             float(r['saving_inr'] or 0),
+                "y":             float(r['weight_saving'] or 0),
+                "dept":          r['dept'],
+                "status":        r['status'],
+            }
+            for r in cur.fetchall()
+        ]
+
+        # ── Feasibility Matrix (pe_feasibility x financial_feasibility) ─
+        cur.execute("""
+            SELECT
+                COALESCE(NULLIF(TRIM(mgi_pe_feasibility), ''), 'Unknown')    AS pe_feas,
+                COALESCE(NULLIF(TRIM(financial_feasibility), ''), 'Unknown') AS fin_feas,
+                COUNT(*) AS cnt
+            FROM all_ideas
+            GROUP BY mgi_pe_feasibility, financial_feasibility
+            ORDER BY cnt DESC
+            LIMIT 50
+        """)
+        feasibility_matrix = [
+            {"pe": r['pe_feas'], "fin": r['fin_feas'], "count": int(r['cnt'])}
+            for r in cur.fetchall()
+        ]
+
+        # ── Top Ideas leaderboard ───────────────────────────────────────
+        cur.execute("""
+            SELECT
+                idea_id,
+                COALESCE(cost_reduction_idea, '') AS idea_title,
+                COALESCE(dept, '?')               AS dept,
+                COALESCE(status, 'TBD')           AS status,
+                COALESCE(saving_value_inr, 0)     AS saving_inr,
+                COALESCE(weight_saving::numeric, 0) AS weight_saving,
+                COALESCE(capex::numeric, 0)        AS capex,
+                COALESCE(way_forward, '')          AS way_forward
+            FROM all_ideas
+            WHERE saving_value_inr IS NOT NULL
+            ORDER BY saving_value_inr DESC
+            LIMIT 25
+        """)
+        top_ideas = [
+            {
+                "idea_id":      r['idea_id'],
+                "title":        r['idea_title'],
+                "dept":         r['dept'],
+                "status":       r['status'],
+                "saving_inr":   float(r['saving_inr'] or 0),
+                "weight_saving": round(float(r['weight_saving'] or 0), 2),
+                "capex":         round(float(r['capex'] or 0), 2),
+                "way_forward":  r['way_forward'],
+            }
+            for r in cur.fetchall()
+        ]
+
+        # ── By idea_generated_by (data source breakdown) ───────────────
+        cur.execute("""
+            SELECT
+                COALESCE(NULLIF(TRIM(idea_generated_by), ''), 'Unknown') AS source,
+                COUNT(*) AS idea_count,
+                COALESCE(SUM(saving_value_inr), 0) AS total_saving
+            FROM all_ideas
+            GROUP BY idea_generated_by
+            ORDER BY idea_count DESC
+        """)
+        by_source = [
+            {"source": r['source'], "idea_count": int(r['idea_count']), "total_saving": float(r['total_saving'] or 0)}
+            for r in cur.fetchall()
+        ]
+
+        # ── Count of AI-generated ideas from chat sessions ──────────────
+        ai_gen_count = 0
+        try:
+            cur.execute("""
+                SELECT COUNT(*) FROM chat_history
+                WHERE table_data IS NOT NULL AND table_data != 'null'::jsonb
+            """)
+            ai_gen_count = int(cur.fetchone()[0] or 0)
+        except Exception:
+            pass
+
+        cur.close()
+        conn.close()
+
+        return jsonify({
+            "success": True,
+            "data": {
+                "kpi":                kpi,
+                "by_status":          by_status,
+                "by_dept":            by_dept,
+                "by_component":       by_component,
+                "scatter":            scatter,
+                "feasibility_matrix": feasibility_matrix,
+                "top_ideas":          top_ideas,
+                "by_source":          by_source,
+                "ai_generated_count": ai_gen_count,
+            }
+        })
+
+    except Exception as e:
+        logger.error(f"ideas_detail analytics error: {e}", exc_info=True)
+        return jsonify({"success": False, "error": str(e)}), 500
+
+
+@app.route('/analytics/ideas_table', methods=['GET'])
+@login_required
+def analytics_ideas_table():
+    """
+    Paginated, sortable table of ideas for the Big Data leaderboard.
+    Query params: sort (column), order (asc/desc), limit, offset.
+    """
+    if current_user.role not in ['SuperAdmin', 'Admin']:
+        return jsonify({"success": False, "error": "Permission denied"}), 403
+
+    sort_col_map = {
+        "saving":  "saving_value_inr",
+        "weight":  "weight_saving::numeric",
+        "dept":    "dept",
+        "status":  "status",
+        "idea_id": "idea_id",
+        "capex":   "capex::numeric",
+    }
+    sort_key = request.args.get("sort", "saving")
+    sort_col = sort_col_map.get(sort_key, "saving_value_inr")
+    order    = "DESC" if request.args.get("order", "desc").lower() != "asc" else "ASC"
+    limit    = min(int(request.args.get("limit", 50)), 200)
+    offset   = int(request.args.get("offset", 0))
+
+    try:
+        conn = get_db_connection()
+        cur = conn.cursor(cursor_factory=DictCursor)
+
+        cur.execute("""
+            CREATE TEMP VIEW all_ideas AS
+            WITH chat_raw AS (
+                SELECT jsonb_array_elements(
+                     CASE WHEN jsonb_typeof(table_data) = 'array' THEN table_data ELSE '[]'::jsonb END
+                ) as json_line
+                FROM chat_history
+                WHERE table_data IS NOT NULL AND table_data != 'null'::jsonb
+            ),
+            chat_ideas AS (
+                SELECT 
+                    COALESCE(NULLIF(json_line->>'Idea ID', ''), NULLIF(json_line->>'Idea Id', ''), 'AI-' || left(md5(random()::text), 6)) as idea_id,
+                    COALESCE(NULLIF(json_line->>'Status', ''), 'TBD') as status,
+                    COALESCE(NULLIF(json_line->>'Dept', ''), NULLIF(json_line->>'Department', ''), '?') as dept,
+                    NULLIF(REGEXP_REPLACE(json_line->>'Saving (INR)', '[^\\d.]', '', 'g'), '')::numeric as saving_value_inr,
+                    NULLIF(REGEXP_REPLACE(json_line->>'Weight Saving', '[^\\d.]', '', 'g'), '')::numeric as weight_saving,
+                    NULLIF(REGEXP_REPLACE(json_line->>'Cost Saving', '[^\\d.]', '', 'g'), '')::numeric as capex,
+                    COALESCE(json_line->>'Detailed Idea Description', json_line->>'Idea Description', json_line->>'Title', '') as cost_reduction_idea,
+                    COALESCE(NULLIF(json_line->>'Origin', ''), NULLIF(json_line->>'Idea Source', ''), 
+                             CASE WHEN json_line->>'Status' ILIKE '%AI Generated%' THEN 'AI Generated'
+                                  WHEN json_line->>'Status' ILIKE '%Web Sourced%' THEN 'Web Sourced'
+                                  ELSE 'AI Generated' END) as idea_generated_by,
+                    COALESCE(NULLIF(json_line->>'MGI PE Feasibility', ''), NULLIF(json_line->>'PE Feasibility', ''), NULLIF(json_line->>'Feasibility', ''), 'Unknown') as mgi_pe_feasibility,
+                    COALESCE(NULLIF(json_line->>'Financial Feasibility', ''), NULLIF(json_line->>'Homologation Feasibility', ''), 'Unknown') as financial_feasibility,
+                    json_line->>'Way Forward' as way_forward,
+                    COALESCE(NULLIF(json_line->>'Component Group', ''), NULLIF(json_line->>'Component', ''), 'Other') as group_id
+                FROM chat_raw
+                WHERE json_line->>'Idea ID' ILIKE 'AI-%' OR json_line->>'Idea ID' ILIKE 'WEB-%'
+                   OR json_line->>'Origin' ILIKE '%AI%' OR json_line->>'Idea Source' ILIKE '%AI%'
+                   OR json_line->>'Origin' ILIKE '%Web%' OR json_line->>'Idea Source' ILIKE '%Web%'
+                   OR json_line->>'Status' ILIKE '%AI Generated%' OR json_line->>'Status' ILIKE '%Web Sourced%'
+            )
+            SELECT idea_id, status, dept, saving_value_inr, weight_saving, capex, cost_reduction_idea, idea_generated_by, mgi_pe_feasibility, financial_feasibility, group_id, way_forward
+            FROM ideas
+            UNION ALL
+            SELECT idea_id, status, dept, saving_value_inr, weight_saving, capex, cost_reduction_idea, idea_generated_by, mgi_pe_feasibility, financial_feasibility, group_id, way_forward
+            FROM chat_ideas;
+        """)
+
+        cur.execute(f"""
+            SELECT
+                idea_id,
+                COALESCE(cost_reduction_idea, '') AS title,
+                COALESCE(dept, '?')               AS dept,
+                COALESCE(status, 'TBD')           AS status,
+                COALESCE(saving_value_inr, 0)     AS saving_inr,
+                COALESCE(weight_saving::numeric, 0) AS weight_saving,
+                COALESCE(capex::numeric, 0)        AS capex,
+                COALESCE(way_forward, '')          AS way_forward
+            FROM all_ideas
+            ORDER BY {sort_col} {order} NULLS LAST
+            LIMIT %s OFFSET %s
+        """, (limit, offset))
+        rows = [dict(r) for r in cur.fetchall()]
+        cur.execute("SELECT COUNT(*) FROM all_ideas")
+        total = cur.fetchone()[0]
+        cur.close()
+        conn.close()
+
+        # Convert Decimal to float for JSON
+        for r in rows:
+            for k in ['saving_inr', 'weight_saving', 'capex']:
+                try:
+                    r[k] = float(r[k] or 0)
+                except Exception:
+                    r[k] = 0.0
+
+        return jsonify({"success": True, "data": rows, "total": total})
+
+    except Exception as e:
+        logger.error(f"ideas_table analytics error: {e}", exc_info=True)
+        return jsonify({"success": False, "error": str(e)}), 500
+
 # Initialize the application
 if __name__ == '__main__':
+
     try:
         # 0. Ensure users.db schema (roles, SuperAdmin) is correct
         init_user_db_schema()

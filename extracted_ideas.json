@@ -1,0 +1,162 @@
+[
+    {
+        "Idea ID": "2311-PRODUCT-ID-01",
+        "Group": "4",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "10.0",
+        "Weight Saving(Kg)": "0.014"
+    },
+    {
+        "Idea ID": "2311-PRODUCT-ID-03",
+        "Group": "4",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "2.86",
+        "Weight Saving(Kg)": "0.0021"
+    },
+    {
+        "Idea ID": "2311-PRODUCT-ID-14",
+        "Group": "4",
+        "Title": "Thickness",
+        "Description": "",
+        "Saving Value(INR)": "1.81",
+        "Weight Saving(Kg)": "0.004"
+    },
+    {
+        "Idea ID": "2311-PRODUCT-ID-17",
+        "Group": "4",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "25.53",
+        "Weight Saving(Kg)": "0.0345"
+    },
+    {
+        "Idea ID": "2311-PRODUCT-ID-25",
+        "Group": "4",
+        "Title": "Quantity",
+        "Description": "",
+        "Saving Value(INR)": "2.6",
+        "Weight Saving(Kg)": "0.02"
+    },
+    {
+        "Idea ID": "2311-AI-ID-01",
+        "Group": "2",
+        "Title": "Length",
+        "Description": "",
+        "Saving Value(INR)": "52.56",
+        "Weight Saving(Kg)": "0.1"
+    },
+    {
+        "Idea ID": "2311-AI-ID-02",
+        "Group": "2",
+        "Title": "nan",
+        "Description": "",
+        "Saving Value(INR)": "16.37",
+        "Weight Saving(Kg)": "0.01719"
+    },
+    {
+        "Idea ID": "2311-AI-ID-03",
+        "Group": "2",
+        "Title": "Bought-Out",
+        "Description": "",
+        "Saving Value(INR)": "35.7",
+        "Weight Saving(Kg)": "0.0"
+    },
+    {
+        "Idea ID": "2311-AI-ID-04",
+        "Group": "2",
+        "Title": "nan",
+        "Description": "",
+        "Saving Value(INR)": "12.07",
+        "Weight Saving(Kg)": "0.142"
+    },
+    {
+        "Idea ID": "2311-DA-ID-01",
+        "Group": "3",
+        "Title": "Width",
+        "Description": "",
+        "Saving Value(INR)": "4.4",
+        "Weight Saving(Kg)": "0.012"
+    },
+    {
+        "Idea ID": "2311-DA-ID-02",
+        "Group": "1-Int",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "42.02",
+        "Weight Saving(Kg)": "0.035"
+    },
+    {
+        "Idea ID": "2311-DA-ID-03",
+        "Group": "1-int",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "18.2",
+        "Weight Saving(Kg)": "0.04"
+    },
+    {
+        "Idea ID": "2311-DA-ID-04",
+        "Group": "1-int",
+        "Title": "Length",
+        "Description": "",
+        "Saving Value(INR)": "8.48",
+        "Weight Saving(Kg)": "0.03392"
+    },
+    {
+        "Idea ID": "2311-DA-ID-05",
+        "Group": "2",
+        "Title": "Length",
+        "Description": "",
+        "Saving Value(INR)": "1.14",
+        "Weight Saving(Kg)": "0.0038"
+    },
+    {
+        "Idea ID": "2311-DA-ID-06",
+        "Group": "2",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "1.37",
+        "Weight Saving(Kg)": "0.00491"
+    },
+    {
+        "Idea ID": "2311-DA-ID-07",
+        "Group": "1-int",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "2.54",
+        "Weight Saving(Kg)": "0.01018"
+    },
+    {
+        "Idea ID": "2311-DA-ID-08",
+        "Group": "2",
+        "Title": "Width",
+        "Description": "",
+        "Saving Value(INR)": "202.2",
+        "Weight Saving(Kg)": "1.404"
+    },
+    {
+        "Idea ID": "2311-DA-ID-09",
+        "Group": "2",
+        "Title": "Quantity",
+        "Description": "",
+        "Saving Value(INR)": "100.0",
+        "Weight Saving(Kg)": "0.5"
+    },
+    {
+        "Idea ID": "2311-DA-ID-10",
+        "Group": "1-Ext",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "11.25",
+        "Weight Saving(Kg)": "0.1125"
+    },
+    {
+        "Idea ID": "2311-DA-ID-11",
+        "Group": "1-Ext",
+        "Title": "Price",
+        "Description": "",
+        "Saving Value(INR)": "14.32",
+        "Weight Saving(Kg)": "0.00896"
+    }
+]

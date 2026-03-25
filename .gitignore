@@ -4,3 +4,16 @@ venv/
 __pycache__/
 model.zip
 images.zip
+*.pptx
+*.docx
+*.pdf
+*.log
+*.db
+*.jpg
+*.png
+extracted.txt
+diffusers/
+MasaCtrl/
+*.pth
+.env
+

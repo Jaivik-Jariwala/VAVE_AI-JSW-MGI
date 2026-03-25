@@ -1,6 +1,13 @@
 # 🧠 VAVE-AI: Advanced Cost Optimization & Engineering Assistant
 
-**VAVE-AI (Value Analysis and Value Engineering AI)** is a state-of-the-art intelligent system designed for **JSW Morris Garages India**. It leverages advanced Large Language Models (LLM), Visual Language Models (VLM), and vector search technologies to streamline cost reduction initiatives, automate engineering validation, and generate comprehensive technical reports.
+> 🚨 **STRICTLY CONFIDENTIAL & PROPRIETARY** 🚨
+>
+> **THIS IS A COMPANY'S OFFICE TRADE MARK SECRET TOOL AND KIT AND IN PROCESS FOR PATENT AND FOLLOWING TO KEEP THIS AS INTERNAL COMPANY USE ONLY.**
+>
+> **Unauthorized access, distribution, or reproduction of this repository or its contents is strictly prohibited.**
+
+## ℹ️ About
+**VAVE-AI (Value Analysis and Value Engineering AI)** is a proprietary intelligent system developed exclusively for **JSW Morris Garages India**. It leverages advanced Large Language Models (LLM), Visual Language Models (VLM), and vector search technologies to streamline cost reduction initiatives, automate engineering validation, and generate comprehensive technical reports.
 
 ---
 
@@ -27,6 +34,10 @@
 -   **User Management**: Secure role-based access control (`users.db`).
 
 ---
+
+## 📦 Releases & Packages
+-   **[Release Notes](RELEASES.md)**: View version history, recent features, and bug fixes.
+-   **[Packages & Artifacts](PACKAGES.md)**: Information on internal distribution, Docker containers, and build artifacts.
 
 ## 📂 Project Structure
 
@@ -139,6 +150,14 @@ The repository includes utility scripts for Linux-based production environments:
 5.  Open a Pull Request.
 
 ---
+
+## ⚖️ License & Legal
+**PROPRIETARY AND CONFIDENTIAL**.
+Copyright © 2026 JSW Morris Garages India. All Rights Reserved.
+
+This software is protected by copyright law and international treaties. Unauthorized reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.
+
+See [LICENSE](LICENSE) for full terms.
 
 ## 📞 Support & Credits
 

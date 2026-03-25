@@ -74,6 +74,9 @@ def generate_excel_from_table(table_data, output_folder=None):
             "Current Scenario Image",
             "Competitor Image",
             "Proposal Scenario Image",
+            "Action Strategy",
+            "Current Material/Spec",
+            "Proposed Material/Spec",
             "Cost Reduction Idea",
             "Way Forward",
             "CAPEX",
@@ -124,7 +127,7 @@ def generate_excel_from_table(table_data, output_folder=None):
             col_letter = get_column_letter(col_idx)
             if header in IMAGE_COLUMNS:
                 ws.column_dimensions[col_letter].width = 20  # Width for images
-            elif header in ("Cost Reduction Idea", "Way Forward", "Homologation Theory"):
+            elif header in ("Cost Reduction Idea", "Way Forward", "Homologation Theory", "Current Material/Spec", "Proposed Material/Spec"):
                 ws.column_dimensions[col_letter].width = 40  # Wider for long text
             elif header == "Validation Notes":
                 ws.column_dimensions[col_letter].width = 35
@@ -150,6 +153,12 @@ def generate_excel_from_table(table_data, output_folder=None):
                     # Fallback strategies for mismatched keys
                     if header == "Idea Id":
                         val = row_data.get("idea_id") or row_data.get("Idea ID")
+                    elif header == "Action Strategy":
+                        val = row_data.get("action_strategy") or row_data.get("Action Strategy")
+                    elif header == "Current Material/Spec":
+                        val = row_data.get("current_material_spec") or row_data.get("current_design") or row_data.get("Current Material/Spec")
+                    elif header == "Proposed Material/Spec":
+                        val = row_data.get("proposed_material_spec") or row_data.get("proposed_design") or row_data.get("Proposed Material/Spec")
                     elif header == "Cost Reduction Idea":
                         val = row_data.get("cost_reduction_idea")
                     elif header == "CAPEX":

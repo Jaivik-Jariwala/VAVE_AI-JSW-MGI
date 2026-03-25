@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VAVE AI - Chat Interface</title>
     <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/regular/style.css">
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
 </head>
+
 <body>
     <!-- Header -->
     <header class="header">
@@ -15,6 +18,7 @@
                 <i class="ph ph-list"></i>
             </button>
             <div class="logo">
+                <img src="{{ url_for('static', filename='images/mg.png') }}" alt="MG Logo" class="brand-logo" />
                 <h1><span class="logo-accent">VAVE</span> AI</h1>
             </div>
         </div>
@@ -31,7 +35,8 @@
                     <div class="user-dropdown-avatar">{{ current_user.username[0].upper() }}</div>
                     <div class="user-dropdown-info">
                         <div class="user-dropdown-name">{{ current_user.username }}</div>
-                        <div class="user-dropdown-role role-badge role-{{ current_user.role }}">{{ current_user.role }}</div>
+                        <div class="user-dropdown-role role-badge role-{{ current_user.role }}">{{ current_user.role }}
+                        </div>
                     </div>
                 </div>
                 <div class="user-dropdown-divider"></div>
@@ -94,19 +99,20 @@
         <main class="main-content">
             <!-- Flash Messages -->
             {% with messages = get_flashed_messages(with_categories=true) %}
-                {% if messages %}
-                    <div class="flash-messages">
-                        {% for category, message in messages %}
-                            <div class="flash-message flash-{{ category }}">
-                                <i class="ph ph-{% if category == 'success' %}check-circle{% elif category == 'error' %}x-circle{% else %}info{% endif %}"></i>
-                                <span>{{ message }}</span>
-                                <button class="flash-close" onclick="this.parentElement.remove()">
-                                    <i class="ph ph-x"></i>
-                                </button>
-                            </div>
-                        {% endfor %}
-                    </div>
-                {% endif %}
+            {% if messages %}
+            <div class="flash-messages">
+                {% for category, message in messages %}
+                <div class="flash-message flash-{{ category }}">
+                    <i
+                        class="ph ph-{% if category == 'success' %}check-circle{% elif category == 'error' %}x-circle{% else %}info{% endif %}"></i>
+                    <span>{{ message }}</span>
+                    <button class="flash-close" onclick="this.parentElement.remove()">
+                        <i class="ph ph-x"></i>
+                    </button>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
             {% endwith %}
 
             <!-- Chat Section -->
@@ -126,7 +132,8 @@
                                         <span class="message-time">Now</span>
                                     </div>
                                     <div class="message-text">
-                                        Hello {{ current_user.username }}! I'm your VAVE AI assistant. How can I help you today?
+                                        Hello {{ current_user.username }}! I'm your VAVE AI assistant. How can I help
+                                        you today?
                                     </div>
                                 </div>
                             </div>
@@ -141,42 +148,25 @@
                                     <i class="ph ph-x"></i>
                                 </button>
                             </div>
-                            
+
                             <div id="loadingIndicator" class="loading-indicator hidden">
                                 <div class="loading-spinner"></div>
                                 <span>AI is thinking...</span>
                             </div>
 
                             <div class="chat-input-wrapper">
-                                <textarea 
-                                    id="chatInput" 
-                                    class="chat-input" 
-                                    placeholder="Ask me anything..."
-                                    rows="1"
-                                ></textarea>
+                                <textarea id="chatInput" class="chat-input" placeholder="Ask me anything..."
+                                    rows="1"></textarea>
                                 <div class="input-actions">
                                     <input type="file" id="imageInput" accept="image/*" style="display: none;">
-                                    <button class="icon-btn" onclick="document.getElementById('imageInput').click()" aria-label="Attach image">
+                                    <button class="icon-btn" onclick="document.getElementById('imageInput').click()"
+                                        aria-label="Attach image">
                                         <i class="ph ph-paperclip"></i>
                                     </button>
                                     <button class="send-btn" id="sendBtn" aria-label="Send message">
                                         <i class="ph ph-paper-plane-tilt"></i>
                                     </button>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Results Panel -->
-                    <div class="results-panel">
-                        <div class="results-header">
-                            <h3>Analysis Results</h3>
-                            <p>Ideas and structured data appear here</p>
-                        </div>
-                        <div class="results-content" id="resultsContent">
-                            <div class="empty-state">
-                                <i class="ph ph-table"></i>
-                                <p>No data yet. Start a conversation to see results.</p>
                             </div>
                         </div>
                     </div>
@@ -205,81 +195,181 @@
             {% if current_user.role in ['SuperAdmin', 'Admin'] %}
             <section id="databaseSection" class="content-section">
                 <div class="dashboard-container">
-                    <div class="card">
-                        <h3>Database Management</h3>
-                        <p class="card-description">Upload Excel + Images ZIP to refresh the knowledge base</p>
-                        <form id="databaseUploadForm" enctype="multipart/form-data">
-                            <div class="form-group">
-                                <label class="form-label">Select Excel File</label>
-                                <div class="file-input-wrapper">
-                                    <input type="file" id="databaseExcelFile" name="excel_file" accept=".xlsx,.xls" class="file-input">
-                                    <button type="button" class="btn btn-secondary" onclick="document.getElementById('databaseExcelFile').click()">
-                                        <i class="ph ph-upload"></i>
-                                        Choose File
-                                    </button>
-                                    <span id="databaseExcelFileName" class="file-name">No file chosen</span>
-                                </div>
-                            </div>
 
-                            <div class="form-group">
-                                <label class="form-label">Select Images ZIP (proposal / mg / competitor)</label>
-                                <div class="file-input-wrapper">
-                                    <input type="file" id="databaseZipFile" name="zip_file" accept=".zip" class="file-input">
-                                    <button type="button" class="btn btn-secondary" onclick="document.getElementById('databaseZipFile').click()">
-                                        <i class="ph ph-upload"></i>
-                                        Choose ZIP
-                                    </button>
-                                    <span id="databaseZipFileName" class="file-name">No file chosen</span>
-                                </div>
+                    <!-- Page Header -->
+                    <div class="db-page-header">
+                        <div class="db-page-header-left">
+                            <div class="db-page-icon">
+                                <i class="ph ph-database"></i>
                             </div>
-                            <button type="submit" class="btn btn-primary">
-                                <i class="ph ph-cloud-arrow-up"></i>
-                                Upload Database
-                            </button>
-                        </form>
+                            <div>
+                                <h2 class="db-page-title">Database Management</h2>
+                                <p class="db-page-subtitle">Manage, update and monitor the VAVE AI knowledge base</p>
+                            </div>
+                        </div>
+                        <button class="btn btn-secondary btn-sm" onclick="app.loadDatabaseStatus()">
+                            <i class="ph ph-arrow-clockwise"></i>
+                            Sync Status
+                        </button>
                     </div>
 
-                    <div class="card">
-                        <h3>Database Status</h3>
-                        <div class="status-grid">
-                            <div class="status-item">
-                                <div class="status-label">Total Records</div>
-                                <div class="status-value" id="totalRecords">-</div>
+                    <!-- Stats Row -->
+                    <div class="db-stats-row">
+                        <div class="db-stat-card">
+                            <div class="db-stat-icon db-stat-icon--primary">
+                                <i class="ph ph-rows"></i>
                             </div>
-                            <div class="status-item">
-                                <div class="status-label">Last Updated</div>
-                                <div class="status-value" id="lastUpdated">-</div>
+                            <div class="db-stat-body">
+                                <div class="db-stat-value" id="totalRecords">—</div>
+                                <div class="db-stat-label">Total Records</div>
                             </div>
-                            <div class="status-item">
-                                <div class="status-label">Database Size</div>
-                                <div class="status-value" id="dbSize">-</div>
+                        </div>
+                        <div class="db-stat-card">
+                            <div class="db-stat-icon db-stat-icon--success">
+                                <i class="ph ph-hard-drive"></i>
+                            </div>
+                            <div class="db-stat-body">
+                                <div class="db-stat-value" id="dbSize">—</div>
+                                <div class="db-stat-label">Database Size</div>
+                            </div>
+                        </div>
+                        <div class="db-stat-card">
+                            <div class="db-stat-icon db-stat-icon--warning">
+                                <i class="ph ph-calendar-clock"></i>
+                            </div>
+                            <div class="db-stat-body">
+                                <div class="db-stat-value db-stat-value--sm" id="lastUpdated">—</div>
+                                <div class="db-stat-label">Last Updated</div>
+                            </div>
+                        </div>
+                        <div class="db-stat-card">
+                            <div class="db-stat-icon db-stat-icon--info">
+                                <i class="ph ph-circle-wavy-check"></i>
+                            </div>
+                            <div class="db-stat-body">
+                                <div class="db-stat-value db-stat-value--online">Online</div>
+                                <div class="db-stat-label">DB Connection</div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Upload Panel -->
+                    <div class="card db-upload-card">
+                        <div class="db-upload-card-header">
+                            <div class="db-upload-card-header-left">
+                                <i class="ph ph-cloud-arrow-up"></i>
+                                <div>
+                                    <h3>Upload New Knowledge Base</h3>
+                                    <p class="db-upload-subtitle">Provide both Excel data and images ZIP to update the
+                                        AI's knowledge</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="db-upload-body">
+                            <form id="databaseUploadForm" enctype="multipart/form-data">
+                                <div class="db-dropzone-grid">
+                                    <!-- Excel dropzone -->
+                                    <div class="db-dropzone" id="excelDropzone"
+                                        onclick="document.getElementById('databaseExcelFile').click()">
+                                        <input type="file" id="databaseExcelFile" name="excel_file" accept=".xlsx,.xls"
+                                            class="file-input" style="display:none">
+                                        <div class="db-dropzone-icon db-dropzone-icon--excel">
+                                            <i class="ph ph-microsoft-excel-logo"></i>
+                                        </div>
+                                        <div class="db-dropzone-content">
+                                            <div class="db-dropzone-title">Excel Data File</div>
+                                            <div class="db-dropzone-hint">Click to browse · .xlsx or .xls</div>
+                                            <div class="db-dropzone-filename" id="databaseExcelFileName">No file
+                                                selected</div>
+                                        </div>
+                                        <div class="db-dropzone-hover-overlay">
+                                            <i class="ph ph-upload-simple"></i>
+                                        </div>
+                                    </div>
+
+                                    <div class="db-dropzone-separator">
+                                        <span>+</span>
+                                    </div>
+
+                                    <!-- ZIP dropzone -->
+                                    <div class="db-dropzone" id="zipDropzone"
+                                        onclick="document.getElementById('databaseZipFile').click()">
+                                        <input type="file" id="databaseZipFile" name="zip_file" accept=".zip"
+                                            class="file-input" style="display:none">
+                                        <div class="db-dropzone-icon db-dropzone-icon--zip">
+                                            <i class="ph ph-file-zip"></i>
+                                        </div>
+                                        <div class="db-dropzone-content">
+                                            <div class="db-dropzone-title">Images ZIP File</div>
+                                            <div class="db-dropzone-hint">proposal / mg / competitor · .zip</div>
+                                            <div class="db-dropzone-filename" id="databaseZipFileName">No file selected
+                                            </div>
+                                        </div>
+                                        <div class="db-dropzone-hover-overlay">
+                                            <i class="ph ph-upload-simple"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="db-upload-actions">
+                                    <div class="db-upload-info">
+                                        <i class="ph ph-info"></i>
+                                        Uploading will replace the current knowledge base and rebuild the AI vector
+                                        index
+                                    </div>
+                                    <button type="submit" class="btn btn-primary db-upload-btn" id="dbUploadBtn">
+                                        <i class="ph ph-cloud-arrow-up"></i>
+                                        Upload & Rebuild Knowledge Base
+                                    </button>
+                                </div>
+                            </form>
+
+                            <!-- Upload Progress -->
+                            <div id="dbUploadProgress" class="db-upload-progress hidden">
+                                <div class="db-upload-progress-bar">
+                                    <div class="db-upload-progress-fill" id="dbProgressFill"></div>
+                                </div>
+                                <div class="db-upload-progress-text" id="dbProgressText">Uploading...</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Upload History -->
                     <div class="card">
-                        <h3>Upload History</h3>
+                        <div class="card-header db-history-header">
+                            <div class="db-history-header-left">
+                                <i class="ph ph-clock-countdown"></i>
+                                <h3>Upload History</h3>
+                            </div>
+                            <span class="db-history-badge" id="uploadHistoryCount">—</span>
+                        </div>
                         <div class="table-responsive">
-                            <table class="data-table">
+                            <table class="data-table db-history-table">
                                 <thead>
                                     <tr>
-                                        <th>When</th>
-                                        <th>Excel</th>
-                                        <th>ZIP</th>
-                                        <th>By</th>
+                                        <th>Date & Time</th>
+                                        <th>Excel File</th>
+                                        <th>Images ZIP</th>
+                                        <th>Uploaded By</th>
+                                        <th>Records</th>
                                         <th>Status</th>
                                     </tr>
                                 </thead>
                                 <tbody id="databaseUploadsBody">
                                     <tr>
-                                        <td colspan="5" class="text-muted">No uploads yet.</td>
+                                        <td colspan="6" class="db-empty-row">
+                                            <i class="ph ph-clock-countdown"></i>
+                                            <span>No uploads yet</span>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
+
                 </div>
             </section>
+
 
             <!-- Users Section (Admin/SuperAdmin only) -->
             <section id="usersSection" class="content-section">
@@ -317,7 +407,8 @@
                                 </div>
                                 <div class="form-actions">
                                     <button type="submit" class="btn btn-primary">Create User</button>
-                                    <button type="button" class="btn btn-secondary" onclick="app.toggleAddUserForm()">Cancel</button>
+                                    <button type="button" class="btn btn-secondary"
+                                        onclick="app.toggleAddUserForm()">Cancel</button>
                                 </div>
                             </form>
                         </div>
@@ -350,10 +441,12 @@
                                         <td>
                                             {% if user[1] != current_user.username %}
                                             <div class="action-buttons">
-                                                <button class="btn-icon" onclick="app.resetPassword('{{ user[1] }}')" title="Reset Password">
+                                                <button class="btn-icon" onclick="app.resetPassword('{{ user[1] }}')"
+                                                    title="Reset Password">
                                                     <i class="ph ph-key"></i>
                                                 </button>
-                                                <button class="btn-icon btn-icon-danger" onclick="app.deleteUser('{{ user[1] }}')" title="Delete User">
+                                                <button class="btn-icon btn-icon-danger"
+                                                    onclick="app.deleteUser('{{ user[1] }}')" title="Delete User">
                                                     <i class="ph ph-trash"></i>
                                                 </button>
                                             </div>
@@ -371,48 +464,254 @@
             </section>
             {% endif %}
 
-            <!-- Big Data / Analytics Section (Admin/SuperAdmin only) -->
+            <!-- Big Data / Analytics Dashboard (Admin/SuperAdmin only) -->
             {% if current_user.role in ['SuperAdmin', 'Admin'] %}
             <section id="analyticsSection" class="content-section">
-                <div class="dashboard-container">
-                    <div class="card">
-                        <h3>Big Data Overview</h3>
-                        <p class="card-description">
-                            Live insights from the DuckDB data lake built from all uploaded knowledge bases.
-                        </p>
-                        <div class="status-grid">
-                            <div class="status-item">
-                                <div class="status-label">Total Ideas in Lake</div>
-                                <div class="status-value" id="bdTotalIdeas">-</div>
-                            </div>
-                            <div class="status-item">
-                                <div class="status-label">Departments</div>
-                                <div class="status-value" id="bdDeptCount">-</div>
+
+                <!-- Configure Panel Overlay -->
+                <div class="bd-configure-overlay" id="bdConfigOverlay" onclick="app.closeConfigPanel()"></div>
+                <div class="bd-configure-panel" id="bdConfigPanel">
+                    <div class="bd-configure-header">
+                        <h4><i class="ph ph-sliders"></i> Configure Dashboard</h4>
+                        <button class="icon-btn" onclick="app.closeConfigPanel()"><i class="ph ph-x"></i></button>
+                    </div>
+                    <p class="bd-configure-hint">Toggle widgets to show or hide them</p>
+                    <div class="bd-configure-list" id="bdWidgetToggles">
+                        <label class="bd-toggle-row"><input type="checkbox" class="bd-widget-toggle"
+                                data-widget="bdKpiStrip" checked> <span><i class="ph ph-chart-bar"></i> KPI Summary
+                                Strip</span></label>
+                        <label class="bd-toggle-row"><input type="checkbox" class="bd-widget-toggle"
+                                data-widget="bdStatusWidget" checked> <span><i class="ph ph-chart-donut"></i> Idea
+                                Source / Status</span></label>
+                        <label class="bd-toggle-row"><input type="checkbox" class="bd-widget-toggle"
+                                data-widget="bdDeptWidget" checked> <span><i class="ph ph-buildings"></i> Department
+                                Savings</span></label>
+                        <label class="bd-toggle-row"><input type="checkbox" class="bd-widget-toggle"
+                                data-widget="bdComponentWidget" checked> <span><i class="ph ph-wrench"></i> Component
+                                Group Savings</span></label>
+                        <label class="bd-toggle-row"><input type="checkbox" class="bd-widget-toggle"
+                                data-widget="bdScatterWidget" checked> <span><i class="ph ph-shuffle"></i> Weight vs
+                                Cost Scatter</span></label>
+                        <label class="bd-toggle-row"><input type="checkbox" class="bd-widget-toggle"
+                                data-widget="bdTimelineWidget" checked> <span><i class="ph ph-trend-up"></i> Load
+                                Timeline</span></label>
+                        <label class="bd-toggle-row"><input type="checkbox" class="bd-widget-toggle"
+                                data-widget="bdFeasibilityWidget" checked> <span><i class="ph ph-grid-four"></i>
+                                Feasibility Matrix</span></label>
+                        <label class="bd-toggle-row"><input type="checkbox" class="bd-widget-toggle"
+                                data-widget="bdLeaderboardWidget" checked> <span><i class="ph ph-list-numbers"></i> Top
+                                Ideas Leaderboard</span></label>
+                    </div>
+                </div>
+
+                <div class="bd-dashboard">
+
+                    <!-- Dashboard Header -->
+                    <div class="bd-dashboard-header">
+                        <div class="bd-dashboard-header-left">
+                            <div class="bd-header-icon"><i class="ph ph-chart-line-up"></i></div>
+                            <div>
+                                <h2 class="bd-dashboard-title">Big Data Analytics</h2>
+                                <p class="bd-dashboard-subtitle">Live insights from the VAVE AI ideas knowledge base ·
+                                    <span id="bdLastRefresh">Loading...</span></p>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>Ideas by Department</h3>
+                        <div class="bd-dashboard-header-right">
                             <button class="btn btn-secondary btn-sm" onclick="app.loadAnalytics()">
-                                <i class="ph ph-arrow-clockwise"></i>
-                                Refresh
+                                <i class="ph ph-arrow-clockwise"></i> Refresh
+                            </button>
+                            <button class="btn btn-primary btn-sm" onclick="app.openConfigPanel()">
+                                <i class="ph ph-sliders"></i> Configure
                             </button>
                         </div>
-                        <div id="bdDeptChart" class="chart-container empty-text">
-                            Loading...
+                    </div>
+
+                    <!-- KPI Strip -->
+                    <div class="bd-widget" id="bdKpiStrip">
+                        <div class="bd-kpi-strip">
+                            <div class="bd-kpi-card">
+                                <div class="bd-kpi-icon bd-kpi--primary"><i class="ph ph-lightbulb"></i></div>
+                                <div class="bd-kpi-body">
+                                    <div class="bd-kpi-value" id="bdKpiTotal">—</div>
+                                    <div class="bd-kpi-label">Total Ideas</div>
+                                </div>
+                            </div>
+                            <div class="bd-kpi-card">
+                                <div class="bd-kpi-icon bd-kpi--success"><i class="ph ph-currency-inr"></i></div>
+                                <div class="bd-kpi-body">
+                                    <div class="bd-kpi-value" id="bdKpiSaving">—</div>
+                                    <div class="bd-kpi-label">Total INR Saving</div>
+                                </div>
+                            </div>
+                            <div class="bd-kpi-card">
+                                <div class="bd-kpi-icon bd-kpi--warning"><i class="ph ph-scales"></i></div>
+                                <div class="bd-kpi-body">
+                                    <div class="bd-kpi-value" id="bdKpiWeight">—</div>
+                                    <div class="bd-kpi-label">Avg Weight Saving (kg)</div>
+                                </div>
+                            </div>
+                            <div class="bd-kpi-card">
+                                <div class="bd-kpi-icon bd-kpi--info"><i class="ph ph-buildings"></i></div>
+                                <div class="bd-kpi-body">
+                                    <div class="bd-kpi-value" id="bdKpiDepts">—</div>
+                                    <div class="bd-kpi-label">Departments</div>
+                                </div>
+                            </div>
+                            <div class="bd-kpi-card">
+                                <div class="bd-kpi-icon bd-kpi--capex"><i class="ph ph-bank"></i></div>
+                                <div class="bd-kpi-body">
+                                    <div class="bd-kpi-value" id="bdKpiCapex">—</div>
+                                    <div class="bd-kpi-label">Total Capex (Cr)</div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="card">
-                        <div class="card-header">
-                            <h3>Top Saving Ideas</h3>
+                    <!-- Row 1: Status Donut + Dept Bar -->
+                    <div class="bd-chart-row">
+                        <div class="bd-widget bd-widget--half" id="bdStatusWidget">
+                            <div class="card bd-chart-card">
+                                <div class="bd-chart-card-header">
+                                    <div class="bd-chart-title"><i class="ph ph-chart-donut"></i> Idea Source / Status
+                                        Breakdown</div>
+                                </div>
+                                <div class="bd-chart-body bd-donut-body">
+                                    <canvas id="bdStatusChart"></canvas>
+                                    <div class="bd-donut-legend" id="bdStatusLegend"></div>
+                                </div>
+                            </div>
                         </div>
-                        <div id="bdTopSavings" class="activity-list">
-                            <p class="empty-text">No data yet.</p>
+
+                        <div class="bd-widget bd-widget--half" id="bdDeptWidget">
+                            <div class="card bd-chart-card">
+                                <div class="bd-chart-card-header">
+                                    <div class="bd-chart-title"><i class="ph ph-buildings"></i> Savings by Department
+                                        (INR)</div>
+                                    <select class="bd-chart-select" id="bdDeptMetric" onchange="app.updateDeptChart()">
+                                        <option value="saving">Total Saving</option>
+                                        <option value="count">Idea Count</option>
+                                        <option value="avg">Avg Saving</option>
+                                    </select>
+                                </div>
+                                <div class="bd-chart-body">
+                                    <canvas id="bdDeptBarChart"></canvas>
+                                </div>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Component Groups Full Width -->
+                    <div class="bd-widget" id="bdComponentWidget">
+                        <div class="card bd-chart-card">
+                            <div class="bd-chart-card-header">
+                                <div class="bd-chart-title"><i class="ph ph-wrench"></i> Savings by Vehicle Component
+                                    Group</div>
+                                <div class="bd-chart-tabs" id="bdComponentTabs">
+                                    <button class="bd-tab bd-tab--active" data-metric="total_saving"
+                                        onclick="app.switchComponentMetric(this, 'total_saving')">INR Saving</button>
+                                    <button class="bd-tab" data-metric="idea_count"
+                                        onclick="app.switchComponentMetric(this, 'idea_count')">Idea Count</button>
+                                    <button class="bd-tab" data-metric="total_weight_saving"
+                                        onclick="app.switchComponentMetric(this, 'total_weight_saving')">Weight Saved
+                                        (kg)</button>
+                                </div>
+                            </div>
+                            <div class="bd-chart-body">
+                                <canvas id="bdComponentChart" height="120"></canvas>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2: Scatter + Timeline -->
+                    <div class="bd-chart-row">
+                        <div class="bd-widget bd-widget--half" id="bdScatterWidget">
+                            <div class="card bd-chart-card">
+                                <div class="bd-chart-card-header">
+                                    <div class="bd-chart-title"><i class="ph ph-shuffle"></i> Weight Saving vs Cost
+                                        Saving</div>
+                                    <select class="bd-chart-select" id="bdScatterColor"
+                                        onchange="app.updateScatterColor()">
+                                        <option value="dept">Color by Dept</option>
+                                        <option value="status">Color by Status</option>
+                                    </select>
+                                </div>
+                                <div class="bd-chart-body">
+                                    <canvas id="bdScatterChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bd-widget bd-widget--half" id="bdTimelineWidget">
+                            <div class="card bd-chart-card">
+                                <div class="bd-chart-card-header">
+                                    <div class="bd-chart-title"><i class="ph ph-trend-up"></i> Data Lake Load Timeline
+                                    </div>
+                                </div>
+                                <div class="bd-chart-body">
+                                    <canvas id="bdTimelineChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Feasibility Heatmap -->
+                    <div class="bd-widget" id="bdFeasibilityWidget">
+                        <div class="card bd-chart-card">
+                            <div class="bd-chart-card-header">
+                                <div class="bd-chart-title"><i class="ph ph-grid-four"></i> Feasibility Matrix (PE vs
+                                    Financial)</div>
+                            </div>
+                            <div class="bd-feasibility-grid" id="bdFeasibilityGrid">Loading...</div>
+                        </div>
+                    </div>
+
+                    <!-- Top Ideas Leaderboard -->
+                    <div class="bd-widget" id="bdLeaderboardWidget">
+                        <div class="card bd-chart-card">
+                            <div class="bd-chart-card-header">
+                                <div class="bd-chart-title"><i class="ph ph-list-numbers"></i> Top Ideas Leaderboard
+                                </div>
+                                <div class="bd-leaderboard-controls">
+                                    <input type="text" class="bd-search" id="bdLeaderSearch"
+                                        placeholder="Search ideas..." oninput="app.filterLeaderboard()">
+                                    <button class="btn btn-secondary btn-sm" onclick="app.loadFullTable()"><i
+                                            class="ph ph-arrow-clockwise"></i></button>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="data-table bd-leaderboard-table">
+                                    <thead>
+                                        <tr>
+                                            <th class="bd-sortable" data-sort="idea_id"
+                                                onclick="app.sortLeaderboard('idea_id')">Idea ID <i
+                                                    class="ph ph-caret-up-down"></i></th>
+                                            <th>Description</th>
+                                            <th class="bd-sortable" data-sort="dept"
+                                                onclick="app.sortLeaderboard('dept')">Dept <i
+                                                    class="ph ph-caret-up-down"></i></th>
+                                            <th>Status</th>
+                                            <th class="bd-sortable" data-sort="saving"
+                                                onclick="app.sortLeaderboard('saving')">Saving (INR) <i
+                                                    class="ph ph-caret-up-down"></i></th>
+                                            <th class="bd-sortable" data-sort="weight"
+                                                onclick="app.sortLeaderboard('weight')">Wt. Saved (kg) <i
+                                                    class="ph ph-caret-up-down"></i></th>
+                                            <th class="bd-sortable" data-sort="capex"
+                                                onclick="app.sortLeaderboard('capex')">CAPEX <i
+                                                    class="ph ph-caret-up-down"></i></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody id="bdLeaderboardBody">
+                                        <tr>
+                                            <td colspan="7" class="db-empty-row"><i
+                                                    class="ph ph-spinner"></i><span>Loading...</span></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
             {% endif %}

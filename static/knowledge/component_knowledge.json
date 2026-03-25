@@ -1,0 +1,94 @@
+{
+  "braking_front_brake_disc": {
+    "meta": {
+      "system": "Chassis",
+      "sub_system": "Braking",
+      "part_name": "Front Brake Disc",
+      "part_number": "2311-BA-A",
+      "vehicle": "MG Hector"
+    },
+    "current_spec": {
+      "material": "Grey Cast Iron G3000",
+      "process": "Sand Casting",
+      "surface_finish": "Geomet 360",
+      "weight_kg": 5.2,
+      "cost_inr": 1450,
+      "supplier": "Brembo",
+      "sourcing": "Local"
+    },
+    "benchmark_spec": {
+      "model": "Kia Seltos",
+      "material": "High Carbon Steel",
+      "process": "Casting",
+      "weight_kg": 4.8,
+      "cost_inr": 1300,
+      "feature_diff": "Larger Vents"
+    },
+    "compliance": {
+      "safety_critical": true,
+      "standard": "IS: 11852 / FMVSS 105",
+      "homologation_required": true,
+      "nvh_critical": true,
+      "durability_target": "500,000"
+    },
+    "constraints": {
+      "max_temp_c": 700,
+      "min_yield_mpa": 220,
+      "corrosion_hours": 480,
+      "tolerance_mm": "+/- 0.02",
+      "non_negotiables": "Hat height fixed",
+      "material_blockers": "No Aluminum allowed due to heat"
+    },
+    "vave_potential": {
+      "approved_alternatives": "High Carbon Alloy",
+      "save_weight_est": "0.4 kg",
+      "save_cost_est": "150 INR"
+    }
+  },
+  "front brake disc": {
+    "meta": {
+      "system": "Chassis",
+      "sub_system": "Braking",
+      "part_name": "Front Brake Disc",
+      "part_number": "2311-BA-A",
+      "vehicle": "MG Hector"
+    },
+    "current_spec": {
+      "material": "Grey Cast Iron G3000",
+      "process": "Sand Casting",
+      "surface_finish": "Geomet 360",
+      "weight_kg": 5.2,
+      "cost_inr": 1450,
+      "supplier": "Brembo",
+      "sourcing": "Local"
+    },
+    "benchmark_spec": {
+      "model": "Kia Seltos",
+      "material": "High Carbon Steel",
+      "process": "Casting",
+      "weight_kg": 4.8,
+      "cost_inr": 1300,
+      "feature_diff": "Larger Vents"
+    },
+    "compliance": {
+      "safety_critical": true,
+      "standard": "IS: 11852 / FMVSS 105",
+      "homologation_required": true,
+      "nvh_critical": true,
+      "durability_target": "500,000"
+    },
+    "constraints": {
+      "max_temp_c": 700,
+      "min_yield_mpa": 220,
+      "corrosion_hours": 480,
+      "tolerance_mm": "+/- 0.02",
+      "non_negotiables": "Hat height fixed",
+      "material_blockers": "No Aluminum allowed due to heat"
+    },
+    "vave_potential": {
+      "approved_alternatives": "High Carbon Alloy",
+      "save_weight_est": "0.4 kg",
+      "save_cost_est": "150 INR"
+    }
+  }
+}

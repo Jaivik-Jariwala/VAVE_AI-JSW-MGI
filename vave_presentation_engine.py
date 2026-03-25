@@ -191,6 +191,9 @@ class VAVEPresentation:
                 'current_image': idea.get('mg_vehicle_image') or idea.get('Current Scenario Image') or idea.get('current_scenario_image'),
                 'proposal_image': idea.get('proposal_image_filename') or idea.get('Proposal Scenario Image') or idea.get('proposal_scenario_image'),
                 'competitor_image': idea.get('competitor_image') or idea.get('Competitor Image') or "NaN", 
+                'action_strategy': idea.get('Action Strategy') or idea.get('action_strategy') or '-',
+                'current_material_spec': idea.get('Current Material/Spec') or idea.get('current_material_spec') or '-',
+                'proposed_material_spec': idea.get('Proposed Material/Spec') or idea.get('proposed_material_spec') or '-',
                 '_original': idea
             }
             normalized.append(normalized_idea)
@@ -458,7 +461,7 @@ class VAVEPresentation:
 
         fields = [
             ("Technical Engineering View", llm_data.get('engineering_logic'), 1.2),
-            ("Material & Dimension Swap", f"{regex_data.get('material')}\n{regex_data.get('dimension')}", 0.8),
+            ("Material Strategy", f"Type: {idea['action_strategy']}\nCurrent: {idea['current_material_spec']}\nProposed: {idea['proposed_material_spec']}", 0.8),
             ("Financial Impact", f"Est. Saving: INR {idea['saving_amount']}\nCAPEX: {idea.get('_original', {}).get('CAPEX','TBD')}", 0.6),
             ("Validation & Risks", full_val_txt, 1.8),
             ("Supply Chain", sc_text, 0.8)
