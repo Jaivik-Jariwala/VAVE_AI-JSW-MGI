@@ -67,7 +67,7 @@ def expand_idea_with_llm(simple_idea_dict):
     """
     
     try:
-        model = genai.GenerativeModel('gemini-1.5-pro-latest')
+        model = genai.GenerativeModel('gemini-3.1-flash-lite')
         response = model.generate_content(prompt)
         content = response.text.replace("```json", "").replace("```", "").strip()
         return json.loads(content)

@@ -183,7 +183,7 @@ if __name__ == "__main__":
 
     # Import app's pg_conn_func
     from app import get_db_connection
-    model = genai.GenerativeModel("gemini-2.5-flash")
+    model = genai.GenerativeModel("gemini-3.1-flash-lite")
 
     count = generate_all_training_data(
         pg_conn_func=get_db_connection,

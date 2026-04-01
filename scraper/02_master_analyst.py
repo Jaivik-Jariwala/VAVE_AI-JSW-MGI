@@ -11,7 +11,7 @@ DATASET_DIR = "MG_Hector_Full_Engineering_Dataset"
 OUTPUT_FILE = "MG_Hector_Master_Engineering_DB.json"
 
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-3.1-flash-lite')
 
 def get_engineering_context(part_name):
     """

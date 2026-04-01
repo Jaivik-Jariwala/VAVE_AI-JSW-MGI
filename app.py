@@ -61,12 +61,13 @@ nltk.download('stopwords', quiet=True)
 load_dotenv()
 
 # Set up logging
+import sys
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("logger.log"),
-        logging.StreamHandler()
+        logging.FileHandler("logger.log", encoding="utf-8"),
+        logging.StreamHandler(stream=open(sys.stdout.fileno(), mode='w', encoding='utf-8', closefd=False))
     ]
 )
 logger = logging.getLogger(__name__)
@@ -3976,8 +3977,8 @@ def trigger_eval_suite():
         data = request.get_json(silent=True) or {}
         run_label = data.get('run_label', 'manual_run')
         
-        # Initialize Gemini model for the judge
-        judge_model = genai.GenerativeModel("gemini-1.5-pro")
+        # Initialize Gemini model for the judge (using gemini-3.1-flash-lite for 500 RPD limit)
+        judge_model = genai.GenerativeModel("gemini-3.1-flash-lite")
         
         # We need a wrapper function for the evaluation to pull responses
         def get_eval_response(query: str) -> str:
@@ -4987,9 +4988,16 @@ def agentic_rag_chat(username: str, user_query: str, image_path=None) -> dict:
                 faiss_index=faiss_index,
                 sentence_model=embedding_model
             )
-            # Init Gemini Models for Orchestrator
-            model_pro = genai.GenerativeModel("gemini-1.5-pro")
-            model_flash = genai.GenerativeModel("gemini-1.5-flash")
+            # Ensure Gemini is configured with the API key from .env
+            google_api_key = os.getenv("GOOGLE_API_KEY", "")
+            if not google_api_key:
+                logger.error("GOOGLE_API_KEY not set in .env — Orchestrator cannot use Gemini.")
+                return generate_response(user_query, image_path)
+            genai.configure(api_key=google_api_key)
+            
+            # Init Gemini Models for Orchestrator (gemini-3.1-flash-lite has 500 RPD limit)
+            model_pro = genai.GenerativeModel("gemini-3.1-flash-lite")
+            model_flash = genai.GenerativeModel("gemini-3.1-flash-lite")
             
             globals()['vave_orchestrator'] = vo.VAVEOrchestrator(
                 faiss_index=faiss_index,
@@ -5014,47 +5022,73 @@ def agentic_rag_chat(username: str, user_query: str, image_path=None) -> dict:
     try:
         orch_result = globals()['vave_orchestrator'].process(user_query)
         response_text = orch_result.get("response_text", "")
-        table_data = orch_result.get("table_data", [])
+        raw_table_data = orch_result.get("table_data", [])
         
-        # Enforce images for all origins (re-run VLM if missing)
-        if table_data and vave_agent.vlm:
-            for idea in table_data:
-                if idea.get("Current Scenario Image") in ["N/A", "NaN", None, ""]:
-                    # Force re-retrieval
-                    idea_text = idea.get("Cost Reduction Idea", "")
-                    origin = idea.get("Origin", "Existing Database")
-                    images = vave_agent.vlm.get_images_for_idea(
-                        idea_text, origin, {"idea_text": idea_text}
-                    )
-                    idea.update({
-                        "Current Scenario Image": images.get('current_scenario_image', 'static/images/mg/hector_rear.jpg'),
-                        "Proposal Scenario Image": images.get('proposal_scenario_image', 'static/defaults/proposal_placeholder.jpg'),
-                        "Competitor Image": images.get('competitor_image', 'static/images/competitor/1.jpg'),
-                        "current_scenario_image": images.get('current_scenario_image', 'static/images/mg/hector_rear.jpg'),
-                        "proposal_scenario_image": images.get('proposal_scenario_image', 'static/defaults/proposal_placeholder.jpg'),
-                        "competitor_image": images.get('competitor_image', 'static/images/competitor/1.jpg')
-                    })
+        # Map raw DB field names → Frontend display field names
+        FIELD_MAP = {
+            "idea_id":               "Idea ID",
+            "cost_reduction_idea":   "Cost Reduction Idea",
+            "dept":                  "Department",
+            "mgi_carline":           "Carline",
+            "saving_value_inr":      "Saving (INR)",
+            "weight_saving":         "Weight Saving",
+            "status":                "Status",
+            "way_forward":           "Way Forward",
+            "homologation_required": "Homologation Required",
+            "cae_required":          "CAE Required",
+            "feasibility":           "Feasibility",
+            "current_material":      "Current Material/Spec",
+            "proposed_material":     "Proposed Material/Spec",
+            "origin":                "Origin",
+        }
+        
+        table_data = []
+        for row in raw_table_data:
+            mapped = {}
+            for db_key, display_key in FIELD_MAP.items():
+                val = row.get(db_key, row.get(display_key, "N/A"))
+                mapped[display_key] = val if val not in [None, "None", "nan", float("nan")] else "N/A"
+            # Preserve any keys already in display format
+            for k, v in row.items():
+                if k not in FIELD_MAP and k not in mapped.values():
+                    mapped[k] = v
+            # VLM images disabled — set defaults
+            mapped["Current Scenario Image"] = row.get("current_scenario_image", "N/A")
+            mapped["Proposal Scenario Image"] = row.get("proposal_scenario_image", "N/A") 
+            mapped["Competitor Image"] = row.get("competitor_image", "N/A")
+            table_data.append(mapped)
+        
+        # Build fallback response_text if synthesis failed
+        if not response_text or len(response_text.strip()) < 10:
+            idea_count = len(table_data)
+            dept_set = set(r.get("Department", "N/A") for r in table_data)
+            savings = [float(r.get("Saving (INR)") or 0) for r in table_data]
+            total_saving = sum(savings)
+            response_text = (
+                f"Found **{idea_count} VAVE cost-reduction ideas** relevant to your query.\n\n"
+                f"**Departments covered:** {', '.join(d for d in dept_set if d != 'N/A')}\n"
+                f"**Total potential saving:** ₹{total_saving:,.0f}\n\n"
+                "Review the table below for full details on each idea, including status, feasibility, and way forward."
+            )
         
         # 3. Convert image paths to URLs for frontend
         table_data = convert_image_paths_to_urls(table_data)
         
-        # 4. Files are now generated on-demand when download buttons are clicked
-        # This saves API service costs by not generating files automatically
-
-        # 5. Return to Frontend
+        # 4. Return to Frontend
         return {
             "success": True,
             "response_text": response_text,
             "table_data": table_data,
             "image_urls": [], 
-            "excel_url": "",  # Will be generated on-demand
-            "ppt_url": "",  # Will be generated on-demand
+            "excel_url": "",  # Generated on-demand
+            "ppt_url": "",    # Generated on-demand
         }
 
     except Exception as e:
         logger.error(f"Agent Logic Failure (complex prompt or runtime error): {e}", exc_info=True)
         # Robust Fallback: use full user_query so analysis/retrieval still runs in fine detail
         return generate_response(username, user_query, image_path=image_path) if user_query else generate_response(username, "", image_path=image_path)
+
 
 '''@app.route('/history')
 def history():

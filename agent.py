@@ -407,7 +407,7 @@ class VAVEAgent:
         # but let's stick to the specific model loop for safety, or better:
         # Check cache for ANY compatible model to save tokens? 
         # For now, let's try to check against the first preferred model to see if we have a hit.
-        primary_model = "gemini-2.5-flash" 
+        primary_model = "gemini-3.1-flash-lite" 
         cached = llm_cache.get_cached_response(prompt, system_prompt, primary_model)
         if cached:
             return cached
@@ -421,6 +421,7 @@ class VAVEAgent:
             system_prompt = system_prompt[:12000] + "\n\n[System context truncated.]"
 
         candidate_models = [
+            "gemini-3.1-flash-lite",
             "gemini-3-flash",
             "gemini-2.5-flash-lite",
             "gemini-2.5-flash"

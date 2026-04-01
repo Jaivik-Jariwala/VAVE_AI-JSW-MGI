@@ -67,7 +67,7 @@ class LLMEnrichmentEngine:
         if self.use_llm:
             try:
                 # Using flash model for speed + quality balance
-                self.model = genai.GenerativeModel('gemini-2.0-flash') 
+                self.model = genai.GenerativeModel('gemini-3.1-flash-lite') 
                 logger.info("LLM Enrichment Engine initialized with Gemini API")
             except Exception as e:
                 logger.warning(f"Failed to initialize Gemini model: {e}. Using mock data.")
