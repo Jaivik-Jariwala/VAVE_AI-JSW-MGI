@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- VAVE AI System Pipeline — Patent-Safe SVG. Edit freely in Inkscape/Figma/Illustrator. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1420 1120" width="1420" height="1120"
+     font-family="'Segoe UI', Helvetica, Arial, sans-serif" id="vave-diagram">
+<defs>
+  <filter id="sh"><feDropShadow dx="1.5" dy="1.5" stdDeviation="2.5" flood-color="#00000022"/></filter>
+  <marker id="arr"  markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#444"/></marker>
+  <marker id="arrB" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#3949AB"/></marker>
+  <marker id="arrR" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#C62828"/></marker>
+  <marker id="arrG" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#2E7D32"/></marker>
+</defs><g id="background">
+<rect width="1420" height="1120" fill="#FAFAFA"/>
+<circle cx="0"    cy="0"    r="100" fill="#E8EAF6" opacity="0.45"/>
+<circle cx="1420" cy="0"    r="100" fill="#E8EAF6" opacity="0.45"/>
+<circle cx="0"    cy="1120" r="100" fill="#E8F5E9" opacity="0.45"/>
+<circle cx="1420" cy="1120" r="100" fill="#E8F5E9" opacity="0.45"/>
+</g>
+<g id="title">
+<text x="710" y="34" text-anchor="middle" font-size="17" font-weight="bold" fill="#1A237E" >INTELLIGENT ENGINEERING ANALYSIS SYSTEM: END-TO-END PROCESS FLOW</text>
+<text x="710" y="52" text-anchor="middle" font-size="11.5" font-weight="normal" fill="#3949AB" >(USER QUERY → STRUCTURED REPORT OUTPUT  |  HARDWARE TRUST VERIFIED)</text>
+</g>
+<g id="hw-layer">
+<rect x="12" y="62" width="1396" height="128" rx="10" fill="#E8EAF6" stroke="#3949AB" stroke-width="2" filter="url(#sh)" />
+<text x="20" y="80" text-anchor="start" font-size="10" font-weight="bold" fill="#1A237E" >⚙  HARDWARE TRUST VERIFICATION LAYER  (System Startup Gate — Executes Before Any Query Processing)</text>
+<rect x="18" y="88" width="158" height="88" rx="8" fill="#fff" stroke="#3949AB" stroke-width="1.5" filter="url(#sh)" />
+<text x="97" y="107" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Device Identity</text>
+<text x="97" y="120" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Binding Check</text>
+<text x="97" y="135" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >NIC-Level Hardware</text>
+<text x="97" y="148" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Fingerprint Verified</text>
+<line x1="176" y1="132" x2="198" y2="132" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="200" y="88" width="158" height="88" rx="8" fill="#fff" stroke="#3949AB" stroke-width="1.5" filter="url(#sh)" />
+<text x="279" y="107" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Processing</text>
+<text x="279" y="120" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Capability Check</text>
+<text x="279" y="135" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Hardware Instruction Set</text>
+<text x="279" y="148" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Compliance Verified</text>
+<line x1="358" y1="132" x2="380" y2="132" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="382" y="88" width="170" height="88" rx="8" fill="#fff" stroke="#3949AB" stroke-width="1.5" filter="url(#sh)" />
+<text x="467" y="107" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Hardware-Anchored</text>
+<text x="467" y="120" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Knowledge Base Access</text>
+<text x="467" y="135" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Repository Unlocks Only</text>
+<text x="467" y="148" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >on Provisioned Device</text>
+<text x="575" y="127" text-anchor="middle" font-size="28" font-weight="bold" fill="#2E7D32" >✓</text>
+<text x="607" y="122" text-anchor="start" font-size="8.5" font-weight="bold" fill="#2E7D32" >SYSTEM AUTHORIZED</text>
+<line x1="672" y1="66" x2="672" y2="186" stroke="#9FA8DA" stroke-width="1.2" stroke-dasharray="5,3"/>
+<text x="678" y="81" text-anchor="start" font-size="9.5" font-weight="bold" fill="#1A237E" >Runtime Integrity:</text>
+<rect x="678" y="88" width="172" height="88" rx="8" fill="#fff" stroke="#3949AB" stroke-width="1.5" filter="url(#sh)" />
+<text x="764" y="107" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Cryptographic Audit</text>
+<text x="764" y="120" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Signature Engine</text>
+<text x="764" y="135" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Every AI Decision Signed</text>
+<text x="764" y="148" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >with Device-Derived Key</text>
+<line x1="850" y1="132" x2="872" y2="132" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="874" y="88" width="172" height="88" rx="8" fill="#fff" stroke="#3949AB" stroke-width="1.5" filter="url(#sh)" />
+<text x="960" y="107" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Tamper-Evident</text>
+<text x="960" y="120" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Decision Audit Log</text>
+<text x="960" y="135" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Immutable Record of All</text>
+<text x="960" y="148" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#1A237E" >Approval / Rejection Events</text>
+<rect x="1063" y="88" width="332" height="88" rx="7" fill="#FFF3E0" stroke="#FB8C00" stroke-width="1.5" />
+<text x="1229" y="105" text-anchor="middle" font-size="10" font-weight="bold" fill="#E65100" >⚠  SYSTEM BOOT GATE</text>
+<text x="1229" y="119" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#BF360C" >If Device Identity Check FAILS →</text>
+<text x="1229" y="132" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#BF360C" >Knowledge Base access DENIED</text>
+<text x="1229" y="145" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#BF360C" >and System HALTS immediately.</text>
+<text x="1229" y="158" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#BF360C" >Query processing does NOT begin.</text>
+</g>
+<g id="entry">
+<ellipse cx="62" cy="255" rx="56" ry="30" fill="#BBDEFB" stroke="#1565C0" stroke-width="2" filter="url(#sh)"/>
+<text x="62" y="249" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#0D47A1" >START:</text>
+<text x="62" y="262" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#0D47A1" >User Input</text>
+<text x="62" y="274" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#0D47A1" >(Browser UI)</text>
+<line x1="62" y1="285" x2="62" y2="305" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="10" y="307" width="104" height="72" rx="8" fill="#fff" stroke="#757575" stroke-width="1.5" filter="url(#sh)" />
+<text x="62" y="324" text-anchor="middle" font-size="9" font-weight="bold" fill="#333" >Sample Query:</text>
+<text x="62" y="338" text-anchor="middle" font-size="8" font-weight="normal" fill="#555" >"Reduce front rotor</text>
+<text x="62" y="350" text-anchor="middle" font-size="8" font-weight="normal" fill="#555" >cost and weight"</text>
+<line x1="62" y1="379" x2="62" y2="400" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="10" y="402" width="104" height="52" rx="8" fill="#fff" stroke="#757575" stroke-width="1.5" filter="url(#sh)" />
+<text x="62" y="420" text-anchor="middle" font-size="9" font-weight="bold" fill="#333" >Web Service Layer</text>
+<text x="62" y="434" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#777" >(Request Endpoint)</text>
+<line x1="114" y1="428" x2="198" y2="428" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+</g>
+<g id="orchestration">
+<rect x="200" y="206" width="990" height="400" rx="14" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2" filter="url(#sh)" />
+<text x="695" y="228" text-anchor="middle" font-size="13" font-weight="bold" fill="#1B5E20" >INTELLIGENT ORCHESTRATION ENGINE  (The Core Intelligence)</text>
+<rect x="214" y="234" width="210" height="185" rx="8" fill="#fff" stroke="#9E9E9E" stroke-width="1.5" filter="url(#sh)" />
+<text x="319" y="254" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#212121" >1. COGNITION:</text>
+<text x="319" y="267" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#212121" >Query Understanding</text>
+<rect x="225" y="276" width="188" height="48" rx="5" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1" />
+<text x="319" y="293" text-anchor="middle" font-size="9" font-weight="bold" fill="#333" >Extract Focus Component:</text>
+<text x="319" y="309" text-anchor="middle" font-size="9" font-weight="normal" fill="#555" >"Front Rotor"</text>
+<rect x="225" y="332" width="188" height="75" rx="5" fill="#F5F5F5" stroke="#BDBDBD" stroke-width="1" />
+<text x="319" y="348" text-anchor="middle" font-size="9" font-weight="bold" fill="#333" >Resolve Domain Context:</text>
+<text x="319" y="362" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#555" >Vehicle = SUV | 1650 kg</text>
+<text x="319" y="375" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#555" >Component = Braking System</text>
+<text x="319" y="388" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#555" >Constraint = Thermal Safety</text>
+<text x="319" y="401" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#555" >Threshold | FMVSS / ECE</text>
+<line x1="424" y1="355" x2="454" y2="355" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="460" y="228" width="200" height="82" rx="8" fill="#E65100" stroke="#BF360C" stroke-width="1.5" filter="url(#sh)" />
+<text x="560" y="246" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#fff" >Stream A: Knowledge Retrieval</text>
+<text x="560" y="260" text-anchor="middle" font-size="9" font-weight="normal" fill="#FFE0B2" >(Semantic Search of Proprietary</text>
+<text x="560" y="273" text-anchor="middle" font-size="9" font-weight="normal" fill="#FFE0B2" >Idea Repository)</text>
+<text x="560" y="288" text-anchor="middle" font-size="8" font-weight="normal" fill="#FFCC80" >→ Returns 5 Validated Records</text>
+<rect x="460" y="318" width="200" height="82" rx="8" fill="#4A148C" stroke="#311B92" stroke-width="1.5" filter="url(#sh)" />
+<text x="560" y="336" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#fff" >Stream B: Intelligent Idea Synthesis</text>
+<text x="560" y="350" text-anchor="middle" font-size="9" font-weight="normal" fill="#E1BEE7" >(Generative Reasoning &</text>
+<text x="560" y="363" text-anchor="middle" font-size="9" font-weight="normal" fill="#E1BEE7" >Scoring Engine)</text>
+<text x="560" y="378" text-anchor="middle" font-size="8" font-weight="normal" fill="#CE93D8" >→ Returns 6–8 Novel Proposals</text>
+<rect x="460" y="408" width="200" height="82" rx="8" fill="#B71C1C" stroke="#7F0000" stroke-width="1.5" filter="url(#sh)" />
+<text x="560" y="426" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#fff" >Stream C: Industry Intelligence Mining</text>
+<text x="560" y="440" text-anchor="middle" font-size="9" font-weight="normal" fill="#FFCDD2" >(External Research &</text>
+<text x="560" y="453" text-anchor="middle" font-size="9" font-weight="normal" fill="#FFCDD2" >Trend Aggregation)</text>
+<text x="560" y="468" text-anchor="middle" font-size="8" font-weight="normal" fill="#EF9A9A" >→ Returns 6 Research Proposals</text>
+<line x1="660" y1="269" x2="660" y2="449" stroke="#444" stroke-width="1.5"/>
+<line x1="660" y1="359" x2="695" y2="359" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<polygon id="validation-gate" points="760,281 842,359 760,437 695,359" fill="#F9A825" stroke="#F57F17" stroke-width="2" filter="url(#sh)"/>
+<text x="760" y="340" text-anchor="middle" font-size="9" font-weight="bold" fill="#333" >2. DETERMINISTIC</text>
+<text x="760" y="354" text-anchor="middle" font-size="9" font-weight="bold" fill="#333" >VALIDATION GATE</text>
+<text x="760" y="367" text-anchor="middle" font-size="9" font-weight="bold" fill="#333" >(Feasibility &amp; Safety</text>
+<text x="760" y="380" text-anchor="middle" font-size="9" font-weight="bold" fill="#333" >Score Evaluation)</text>
+<line x1="760" y1="281" x2="760" y2="234" stroke="#C62828" stroke-width="1.8" marker-end="url(#arrR)"/>
+<text x="766" y="264" text-anchor="start" font-size="9" font-weight="bold" fill="#C62828" >Reject</text>
+<rect x="732" y="184" width="56" height="48" rx="5" fill="#FFCDD2" stroke="#C62828" stroke-width="1.5" />
+<text x="760" y="194" text-anchor="middle" font-size="14" font-weight="normal" fill="#333" >🗑</text>
+<text x="760" y="211" text-anchor="middle" font-size="8" font-weight="bold" fill="#C62828" >DISCARDED</text>
+<line x1="842" y1="359" x2="880" y2="359" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="855" y="353" text-anchor="middle" font-size="9" font-weight="bold" fill="#2E7D32" >Pass</text>
+<rect x="882" y="299" width="292" height="122" rx="8" fill="#00695C" stroke="#004D40" stroke-width="1.5" filter="url(#sh)" />
+<text x="1028" y="317" text-anchor="middle" font-size="9" font-weight="normal" fill="#B2DFDB" >3. VISUAL INTELLIGENCE MODULE</text>
+<text x="1028" y="330" text-anchor="middle" font-size="9" font-weight="normal" fill="#B2DFDB" >(Semantic Image Assignment</text>
+<text x="1028" y="345" text-anchor="middle" font-size="9" font-weight="normal" fill="#B2DFDB" >&amp; Scenario Overlay Generation)</text>
+<text x="1028" y="361" text-anchor="middle" font-size="9" font-weight="normal" fill="#B2DFDB" >→ Semantic image matched per proposal</text>
+<text x="1028" y="377" text-anchor="middle" font-size="9" font-weight="normal" fill="#B2DFDB" >→ Before/after overlays generated</text>
+<text x="1028" y="393" text-anchor="middle" font-size="9" font-weight="normal" fill="#B2DFDB" >→ Visual prompts synthesised</text>
+<text x="1028" y="409" text-anchor="middle" font-size="9" font-weight="normal" fill="#B2DFDB" >from idea descriptions</text>
+<text x="1028" y="317" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#fff" >3. VISUAL INTELLIGENCE MODULE</text>
+</g>
+<g id="hw-link">
+<line x1="960" y1="176" x2="960" y2="220" stroke="#3949AB" stroke-width="1.3" stroke-dasharray="6,4"/>
+<line x1="960" y1="220" x2="800" y2="220" stroke="#3949AB" stroke-width="1.3" stroke-dasharray="6,4"/>
+<line x1="800" y1="220" x2="800" y2="281" stroke="#3949AB" stroke-width="1.3" stroke-dasharray="6,4" marker-end="url(#arrB)"/>
+<text x="878" y="215" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#3949AB" >Hardware Audit Active During Validation</text>
+</g>
+<g id="payload">
+<line x1="1028" y1="421" x2="1028" y2="630" stroke="#5C6BC0" stroke-width="1.5" stroke-dasharray="5,4" marker-end="url(#arrB)"/>
+<rect x="420" y="630" width="820" height="40" rx="20" fill="#EDE7F6" stroke="#5C6BC0" stroke-width="1.8" filter="url(#sh)" />
+<text x="830" y="655" text-anchor="middle" font-size="11" font-weight="bold" fill="#4527A0" >Validated Structured Data Payload — Ready for Output Generation</text>
+</g>
+<g id="outputs">
+<line x1="420" y1="670" x2="230" y2="715" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="230" y="710" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#1565C0" >Branch A: WEB INTERFACE OUTPUT</text>
+<rect x="120" y="718" width="220" height="52" rx="8" fill="#fff" stroke="#9E9E9E" stroke-width="1.5" filter="url(#sh)" />
+<text x="230" y="738" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#333" >Frontend Rendering Module</text>
+<text x="230" y="752" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#777" >(Dynamic Web Layer)</text>
+<line x1="230" y1="770" x2="230" y2="795" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="140" y="798" width="180" height="90" rx="5" fill="#E3F2FD" stroke="#90CAF9" stroke-width="1.2" />
+<rect x="140" y="798" width="180" height="16" rx="5" fill="#1565C0" stroke="#555" stroke-width="1.5" />
+<text x="230" y="810" text-anchor="middle" font-size="7.5" font-weight="normal" fill="#fff" >Col A       Col B       Score</text>
+<line x1="140" y1="822" x2="320" y2="822" stroke="#90CAF9" stroke-width="0.6"/>
+<text x="148" y="827" text-anchor="start" font-size="7.5" font-weight="normal" fill="#555" >Reduce rotor thickness…  82</text>
+<line x1="140" y1="839" x2="320" y2="839" stroke="#90CAF9" stroke-width="0.6"/>
+<text x="148" y="844" text-anchor="start" font-size="7.5" font-weight="normal" fill="#555" >Aluminium alloy swap…    76</text>
+<line x1="140" y1="856" x2="320" y2="856" stroke="#90CAF9" stroke-width="0.6"/>
+<text x="148" y="861" text-anchor="start" font-size="7.5" font-weight="normal" fill="#555" >Drill ventilation…      71</text>
+<text x="230" y="904" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#333" >ON-SCREEN CONTENT TABLE</text>
+<text x="230" y="918" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#777" >(Interactive View)</text>
+<line x1="710" y1="670" x2="710" y2="715" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="710" y="710" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#1B5E20" >Branch B: SPREADSHEET OUTPUT</text>
+<rect x="600" y="718" width="220" height="52" rx="8" fill="#fff" stroke="#9E9E9E" stroke-width="1.5" filter="url(#sh)" />
+<text x="710" y="738" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#333" >Report Compilation Engine</text>
+<text x="710" y="752" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#777" >(Structured Data Library)</text>
+<line x1="710" y1="770" x2="710" y2="795" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="665" y="798" width="90" height="90" rx="10" fill="#1D6F42" stroke="#145A32" stroke-width="1.5" filter="url(#sh)" />
+<text x="710" y="867" text-anchor="middle" font-size="64" font-weight="bold" fill="#fff" >X</text>
+<text x="710" y="904" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#333" >DOWNLOAD .XLSX FILE</text>
+<text x="710" y="918" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#777" >(Structured Data)</text>
+<line x1="1190" y1="670" x2="1190" y2="715" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<text x="1190" y="710" text-anchor="middle" font-size="10.5" font-weight="bold" fill="#4A148C" >Branch C: PRESENTATION OUTPUT</text>
+<rect x="1080" y="718" width="220" height="52" rx="8" fill="#fff" stroke="#9E9E9E" stroke-width="1.5" filter="url(#sh)" />
+<text x="1190" y="738" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#333" >Slide Assembly Engine</text>
+<text x="1190" y="752" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#777" >(Presentation Generation Library)</text>
+<line x1="1190" y1="770" x2="1190" y2="795" stroke="#444" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="1145" y="798" width="90" height="90" rx="10" fill="#D04423" stroke="#922B21" stroke-width="1.5" filter="url(#sh)" />
+<text x="1190" y="867" text-anchor="middle" font-size="64" font-weight="bold" fill="#fff" >P</text>
+<text x="1190" y="904" text-anchor="middle" font-size="9.5" font-weight="bold" fill="#333" >DOWNLOAD .PPTX FILE</text>
+<text x="1190" y="918" text-anchor="middle" font-size="8.5" font-weight="normal" fill="#777" >(Boardroom Deck)</text>
+<line x1="230" y1="922" x2="230" y2="942" stroke="#444" stroke-width="1.4"/>
+<line x1="710" y1="922" x2="710" y2="942" stroke="#444" stroke-width="1.4"/>
+<line x1="1190" y1="922" x2="1190" y2="942" stroke="#444" stroke-width="1.4"/>
+<line x1="230" y1="942" x2="1190" y2="942" stroke="#444" stroke-width="1.4"/>
+<line x1="710" y1="942" x2="710" y2="977" stroke="#444" stroke-width="1.4" marker-end="url(#arr)"/>
+<ellipse cx="710" cy="1002" rx="130" ry="34" fill="#BBDEFB" stroke="#1565C0" stroke-width="2" filter="url(#sh)"/>
+<text x="710" y="996" text-anchor="middle" font-size="12" font-weight="bold" fill="#0D47A1" >END:</text>
+<text x="710" y="1012" text-anchor="middle" font-size="9.5" font-weight="normal" fill="#0D47A1" >User Receives Structured Outputs</text>
+</g>
+</svg>

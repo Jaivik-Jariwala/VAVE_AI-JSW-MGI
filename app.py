@@ -49,6 +49,10 @@ from agent import VAVEAgent
 from vave_presentation_engine import generate_deep_dive_ppt
 from excel_generator_engine import generate_excel_from_table_in_memory
 
+import feedback_handler
+import eval_suite
+import vave_orchestrator as vo
+
 '''# Download NLTK resources
 nltk.download('punkt', quiet=True)
 nltk.download('stopwords', quiet=True)
@@ -3622,7 +3626,7 @@ def login():
                     logger.info(f"Password for '{username}' is CORRECT. Logging user in.")
                     
                     # Extract role from user_row, defaulting to 'User' if missing
-                    role = user_row.get('role', 'User') if 'role' in user_row.keys() else 'User'
+                    role = user_row['role'] if 'role' in user_row.keys() else 'User'
                     user = User(
                         id=user_row['id'], 
                         username=user_row['username'], 
@@ -3929,6 +3933,80 @@ def analytics_lake_status():
         return jsonify({"success": True, "data": stats})
     except Exception as e:
         logger.error(f"Lake status endpoint error: {e}")
+        return jsonify({"success": False, "error": str(e)}), 500
+
+@app.route('/feedback', methods=['POST'])
+@login_required
+def submit_feedback():
+    """
+    Feature 10: Feedback Loop endpoint.
+    Retrieves user feedback from frontend and stores it in PostgreSQL.
+    """
+    try:
+        data = request.get_json(silent=True) or {}
+        idea_id = data.get('idea_id')
+        feedback_type = data.get('feedback_type') # 'upvote' or 'downvote'
+        comments = data.get('comments', '')
+        
+        if not idea_id or not feedback_type:
+            return jsonify({"success": False, "error": "Missing idea_id or feedback_type"}), 400
+            
+        success, msg = feedback_handler.log_feedback(
+            pg_conn_func=get_db_connection,
+            username=current_user.username,
+            idea_id=idea_id,
+            feedback_type=feedback_type,
+            comments=comments
+        )
+        return jsonify({"success": success, "message": msg})
+    except Exception as e:
+        logger.error(f"Feedback endpoint error: {e}")
+        return jsonify({"success": False, "error": str(e)}), 500
+
+@app.route('/run_eval', methods=['POST'])
+@login_required
+def trigger_eval_suite():
+    """
+    Feature 3: Run LLM-as-Judge Evaluation Suite
+    """
+    if current_user.role not in ['SuperAdmin', 'Admin']:
+        return jsonify({"success": False, "error": "Permission denied"}), 403
+        
+    try:
+        data = request.get_json(silent=True) or {}
+        run_label = data.get('run_label', 'manual_run')
+        
+        # Initialize Gemini model for the judge
+        judge_model = genai.GenerativeModel("gemini-1.5-pro")
+        
+        # We need a wrapper function for the evaluation to pull responses
+        def get_eval_response(query: str) -> str:
+            # We call the main orchestrator/agent internally
+            response = agentic_rag_chat(current_user.username, query)
+            # agentic_rag_chat returns a dict with 'response_text' and 'table_data' normally
+            if isinstance(response, tuple):
+                response, _ = response # in case it returns HTTP status code (jsonify)
+                return response.get_json().get("response_text", "Error")
+            # If it returns dict directly (which it does via the function return, not endpoint directly)
+            
+            # Note: agentic_rag_chat actually returns a Flask response (jsonify) 
+            # if we hit an endpoint error, but normal return is a dict when called as a Python func?
+            # Actually, agentic_rag_chat in app.py returns dict for Legacy, but wait!
+            # Let's check agentic_rag_chat return type. It returns a dict.
+            if isinstance(response, dict):
+                return response.get("response_text", "")
+            return str(response)
+            
+        results = eval_suite.run_eval_suite(
+            get_response_func=get_eval_response,
+            gemini_judge_model=judge_model,
+            pg_conn_func=get_db_connection,
+            run_label=run_label
+        )
+        
+        return jsonify({"success": True, "data": results})
+    except Exception as e:
+        logger.error(f"Evaluation suite error: {e}")
         return jsonify({"success": False, "error": str(e)}), 500
 
 
@@ -4893,32 +4971,50 @@ def convert_image_paths_to_urls(table_data: list) -> list:
 
 def agentic_rag_chat(username: str, user_query: str, image_path=None) -> dict:
     """
-    Wrapper to call the VAVE Agent (Logic Engine).
+    Wrapper to call the VAVE Orchestrator (Multi-Agent ReAct Engine).
     """
-    global vave_agent
+    global vave_agent, vave_orchestrator
 
-    # 1. Initialize Agent (Lazy Loading)
-    if vave_agent is None:
+    # 1. Initialize Orchestrator (Lazy Loading)
+    if 'vave_orchestrator' not in globals() or globals()['vave_orchestrator'] is None:
         try:
             # We pass the necessary functions and paths to the agent
             vave_agent = VAVEAgent(
                 db_path=str(DB_PATH), 
                 vector_db_func=retrieve_context, 
                 pg_conn_func=get_db_connection,
-                db_conn=get_db_connection,  # Pass DB connection function for VLM Engine
-                faiss_index=faiss_index,  # Pass FAISS index for VLM Engine
-                sentence_model=embedding_model  # Pass sentence model for VLM Engine
+                db_conn=get_db_connection,
+                faiss_index=faiss_index,
+                sentence_model=embedding_model
             )
-            logger.info("VAVE Agent initialized successfully.")
+            # Init Gemini Models for Orchestrator
+            model_pro = genai.GenerativeModel("gemini-1.5-pro")
+            model_flash = genai.GenerativeModel("gemini-1.5-flash")
+            
+            globals()['vave_orchestrator'] = vo.VAVEOrchestrator(
+                faiss_index=faiss_index,
+                embedding_model=embedding_model,
+                idea_texts=idea_texts,
+                idea_rows=idea_rows,
+                pg_conn_func=get_db_connection,
+                gemini_pro_model=model_pro,
+                gemini_flash_model=model_flash,
+                vave_agent=vave_agent,
+                vlm_model=vlm_model,
+                vlm_processor=vlm_processor,
+                device=device
+            )
+            logger.info("VAVE Orchestrator initialized successfully.")
         except Exception as e:
-            logger.error(f"Failed to init Agent: {e}")
+            logger.error(f"Failed to init Orchestrator: {e}")
             # Fallback to standard Legacy Chat if Agent dies
-            return generate_response(username, user_query)
+            return generate_response(user_query, image_path) # generate_response takes user_query and image_path
 
     # 2. Run the Reasoning Engine (full user_query preserved for complex prompts)
     try:
-        response_text = vave_agent.run(user_query)
-        table_data = vave_agent.get_last_result_data()
+        orch_result = globals()['vave_orchestrator'].process(user_query)
+        response_text = orch_result.get("response_text", "")
+        table_data = orch_result.get("table_data", [])
         
         # Enforce images for all origins (re-run VLM if missing)
         if table_data and vave_agent.vlm:
